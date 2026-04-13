@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>霍尔木兹海峡实时追踪 · 进度条</title>
+
+<!-- Open Graph / 微信分享卡片 -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="🛢️ 霍尔木兹海峡实时追踪 · 今日通行仅22艘（战前135艘）">
+<meta property="og:description" content="美伊停火后第一天，原油暴跌19%，黄金反涨2%。停的是两周，不是终局。进度条实时盯盘，数据每2小时更新。">
+<meta property="og:image" content="https://picture-search.skywork.ai/skills/upload/2026-04-07/65564891c4134a1d8f4d93cc24681d53_d7e00.png">
+<meta property="og:site_name" content="进度条 · 全网最神棍的预测">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🛢️ 霍尔木兹海峡实时追踪">
+<meta name="twitter:description" content="美伊停火两周，原油-19%，黄金+2%。真正的牌桌还没开始。">
+<meta name="twitter:image" content="https://picture-search.skywork.ai/skills/upload/2026-04-07/65564891c4134a1d8f4d93cc24681d53_d7e00.png">
+
+<!-- SEO -->
+<meta name="description" content="实时追踪霍尔木兹海峡每日通行船只数量、WTI原油、黄金价格走势与关键事件。美伊停火后最新数据，进度条出品。">
+<meta name="keywords" content="霍尔木兹,原油,黄金,美伊战争,停火,航运,进度条">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+body {
+  background:#0d1117;
+  color:#e6edf3;
+  font-family:-apple-system,'PingFang SC','Helvetica Neue',sans-serif;
+  font-size:14px;
+  max-width:480px;
+  margin:0 auto;
+  min-height:100vh;
+}
+
+/* ── 顶部 ── */
+.header {
+  background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);
+  border-bottom:1px solid #21262d;
+  padding:16px 14px 12px;
+}
+.header-row { display:flex; align-items:center; justify-content:space-between; }
+.header h1 { font-size:17px; font-weight:700; letter-spacing:.5px; }
+.header .en { font-size:10px; color:#8b949e; margin-top:2px; }
+.live-dot {
+  display:flex; align-items:center; gap:5px;
+  font-size:11px; color:#3fb950;
+  background:rgba(63,185,80,.1);
+  border:1px solid rgba(63,185,80,.3);
+  border-radius:20px; padding:3px 9px;
+}
+.live-dot i { width:6px;height:6px;border-radius:50%;background:#3fb950;animation:blink 1.5s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+
+.update-row {
+  margin-top:8px;
+  display:flex; align-items:center; justify-content:space-between;
+  font-size:11px; color:#484f58;
+}
+.next-update { color:#8b949e; font-size:11px; }
+
+/* ── 停火横幅 ── */
+.banner {
+  margin:10px 12px 0;
+  padding:9px 12px;
+  background:rgba(63,185,80,.08);
+  border:1px solid rgba(63,185,80,.3);
+  border-radius:10px;
+  font-size:12px; color:#3fb950; line-height:1.5;
+  display:flex; gap:7px; align-items:flex-start;
+}
+.banner .b-icon { font-size:16px; flex-shrink:0; }
+
+/* ── 大数字卡片组 ── */
+.cards { display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:10px 12px 0; }
+.card {
+  background:#161b22;
+  border:1px solid #21262d;
+  border-radius:12px;
+  padding:12px 11px;
+  position:relative;
+  overflow:hidden;
+}
+.card::after {
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+}
+.card.c-blue::after  { background:#58a6ff; }
+.card.c-gold::after  { background:#f0a500; }
+.card.c-green::after { background:#3fb950; }
+.card.c-red::after   { background:#f85149; }
+
+.card .c-label  { font-size:11px; color:#8b949e; margin-bottom:4px; }
+.card .c-val    { font-size:26px; font-weight:800; line-height:1; }
+.card.c-blue  .c-val { color:#58a6ff; }
+.card.c-gold  .c-val { color:#f0a500; }
+.card.c-green .c-val { color:#3fb950; }
+.card.c-red   .c-val { color:#f85149; }
+.card .c-unit   { font-size:12px; color:#8b949e; }
+.card .c-sub    { font-size:11px; margin-top:5px; display:flex; align-items:center; gap:4px; flex-wrap:wrap; }
+.card .c-emoji  { position:absolute; right:10px; top:11px; font-size:20px; opacity:.4; }
+
+/* 增减标签 */
+.delta {
+  display:inline-flex; align-items:center; gap:2px;
+  font-size:11px; font-weight:600;
+  padding:2px 6px; border-radius:6px;
+}
+.delta.up   { background:rgba(63,185,80,.15);  color:#3fb950; }
+.delta.down { background:rgba(248,81,73,.15); color:#f85149; }
+.delta.flat { background:rgba(139,148,158,.1); color:#8b949e; }
+
+/* ── 船只趋势图 ── */
+.section {
+  margin:10px 12px 0;
+  background:#161b22;
+  border:1px solid #21262d;
+  border-radius:12px;
+  padding:14px 12px;
+}
+.s-title {
+  font-size:13px; font-weight:600; color:#e6edf3;
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:12px;
+}
+.s-tag {
+  font-size:10px; background:#21262d; color:#8b949e;
+  padding:2px 7px; border-radius:8px;
+}
+.chart-box { position:relative; height:190px; }
+
+/* ── 变化明细表 ── */
+.change-table { width:100%; border-collapse:collapse; margin-top:4px; }
+.change-table th {
+  font-size:10px; color:#8b949e; font-weight:500;
+  text-align:left; padding:4px 6px;
+  border-bottom:1px solid #21262d;
+}
+.change-table td {
+  font-size:12px; color:#e6edf3;
+  padding:7px 6px;
+  border-bottom:1px solid #161b22;
+  vertical-align:middle;
+}
+.change-table tr:last-child td { border-bottom:none; }
+.change-table .period { color:#8b949e; font-size:11px; }
+.bar-bg {
+  height:6px; background:#21262d; border-radius:3px; margin-top:3px;
+}
+.bar-fill { height:100%; border-radius:3px; }
+
+/* ── 关键事件 ── */
+.events { margin:10px 12px 0; }
+.event {
+  display:flex; gap:10px;
+  padding:10px 0;
+  border-bottom:1px solid #21262d;
+}
+.event:last-child { border-bottom:none; }
+.ev-line { display:flex; flex-direction:column; align-items:center; gap:0; flex-shrink:0; }
+.ev-dot { width:10px;height:10px;border-radius:50%;flex-shrink:0; }
+.ev-stem { width:1px; flex:1; background:#21262d; min-height:30px; }
+.ev-date { font-size:10px; color:#8b949e; }
+.ev-desc { font-size:13px; color:#e6edf3; margin-top:2px; line-height:1.5; }
+.ev-impact { font-size:11px; margin-top:3px; }
+
+/* ── 分享按钮（悬浮） ── */
+.share-fab {
+  position: fixed;
+  right: 16px; bottom: 80px;
+  width: 50px; height: 50px;
+  background: linear-gradient(135deg, #58a6ff, #3fb950);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 16px rgba(88,166,255,0.4);
+  cursor: pointer; z-index: 100;
+  font-size: 20px;
+  animation: fab-in .3s ease;
+}
+@keyframes fab-in { from{transform:scale(0)} to{transform:scale(1)} }
+.share-fab:active { transform: scale(.92); }
+
+/* ── 分享弹窗 ── */
+.share-mask {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.7);
+  z-index: 200;
+  backdrop-filter: blur(4px);
+}
+.share-mask.show { display: flex; align-items: flex-end; }
+.share-sheet {
+  width: 100%; max-width: 480px; margin: 0 auto;
+  background: #161b22;
+  border-radius: 20px 20px 0 0;
+  border-top: 1px solid #30363d;
+  padding: 20px 20px 36px;
+  animation: slide-up .25s ease;
+}
+@keyframes slide-up { from{transform:translateY(100%)} to{transform:translateY(0)} }
+.share-title {
+  font-size: 15px; font-weight: 700; color: #e6edf3;
+  text-align: center; margin-bottom: 6px;
+}
+.share-desc {
+  font-size: 12px; color: #8b949e;
+  text-align: center; margin-bottom: 20px;
+}
+.share-options {
+  display: grid; grid-template-columns: repeat(4,1fr); gap: 12px;
+  margin-bottom: 20px;
+}
+.share-opt {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  cursor: pointer;
+}
+.share-opt:active .share-icon { transform: scale(.88); }
+.share-icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; transition: transform .15s;
+}
+.share-opt span { font-size: 11px; color: #8b949e; }
+
+/* 分享文案预览框 */
+.share-preview {
+  background: #0d1117;
+  border: 1px solid #21262d;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.share-preview .sp-label { font-size:10px; color:#8b949e; margin-bottom:6px; }
+.share-preview .sp-text { font-size:13px; color:#e6edf3; line-height:1.6; }
+.share-preview .copy-btn {
+  position: absolute; right: 10px; top: 10px;
+  background: #21262d; border: 1px solid #30363d;
+  color: #8b949e; font-size: 11px; padding: 3px 9px;
+  border-radius: 6px; cursor: pointer;
+}
+.share-preview .copy-btn:active { background:#30363d; }
+
+.share-cancel {
+  width: 100%; padding: 13px;
+  background: #21262d; border: none;
+  color: #8b949e; font-size: 15px;
+  border-radius: 12px; cursor: pointer;
+}
+.share-cancel:active { background: #30363d; }
+
+/* ── 进度条解读 ── */
+.post-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #21262d;
+}
+.post-item:last-child { border-bottom: none; }
+.post-meta {
+  display: flex; align-items: center; gap: 7px;
+  margin-bottom: 6px;
+}
+.post-badge {
+  font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 8px;
+}
+.badge-早报 { background: rgba(88,166,255,.15); color: #58a6ff; }
+.badge-午报 { background: rgba(240,165,0,.15);  color: #f0a500; }
+.badge-晚报 { background: rgba(63,185,80,.15);  color: #3fb950; }
+.badge-观点 { background: rgba(248,81,73,.15);  color: #f85149; }
+.post-time { font-size: 11px; color: #484f58; }
+.post-title {
+  font-size: 14px; font-weight: 700; color: #e6edf3;
+  margin-bottom: 6px; line-height: 1.4;
+}
+.post-body {
+  font-size: 12px; color: #8b949e; line-height: 1.7;
+  display: -webkit-box; -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; overflow: hidden;
+  white-space: pre-line;
+}
+.post-body.expanded { -webkit-line-clamp: unset; }
+.post-expand {
+  font-size: 12px; color: #58a6ff;
+  margin-top: 5px; cursor: pointer; display: inline-block;
+}
+.post-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 8px; }
+.post-tag {
+  font-size: 10px; color: #8b949e;
+  background: #21262d; padding: 2px 7px; border-radius: 6px;
+}
+.posts-updated { font-size: 11px; color: #484f58; margin-bottom: 10px; }
+
+.footer {
+  text-align:center; padding:16px 12px 24px;
+  color:#484f58; font-size:11px;
+  border-top:1px solid #21262d; margin-top:10px;
+}
+.footer .brand { font-size:13px; font-weight:700; color:#8b949e; margin-bottom:4px; }
+</style>
+</head>
+<body>
+
+<!-- 顶部 -->
+<div class="header">
+  <div class="header-row">
+    <div>
+      <h1>霍尔木兹 实时追踪</h1>
+      <div class="en">Strait of Hormuz Live Tracker</div>
+    </div>
+    <div class="live-dot"><i></i>实时</div>
+  </div>
+  <div class="update-row">
+    <span id="lastUpdate">加载中...</span>
+    <span class="next-update">下次更新：<span id="countdown">--:--:--</span></span>
+  </div>
+</div>
+
+<!-- 停火横幅 -->
+<div class="banner">
+  <span class="b-icon">🕊️</span>
+  <span>停火生效中 · 美伊同意暂停轰炸两周 · 4月10日伊斯兰堡谈判</span>
+</div>
+
+<!-- 4个核心指标卡 -->
+<div class="cards">
+  <div class="card c-blue">
+    <span class="c-emoji">🚢</span>
+    <div class="c-label">今日通行船只</div>
+    <div class="c-val" id="todayShips">--<span class="c-unit"> 艘</span></div>
+    <div class="c-sub">
+      <span class="delta" id="shipDelta">--</span>
+      <span style="color:#8b949e">较昨日</span>
+    </div>
+  </div>
+  <div class="card c-gold">
+    <span class="c-emoji">🛢️</span>
+    <div class="c-label">WTI 原油</div>
+    <div class="c-val" id="oilPrice">--<span class="c-unit"> $</span></div>
+    <div class="c-sub">
+      <span class="delta" id="oilDelta">--</span>
+      <span style="color:#8b949e">较战前高点</span>
+    </div>
+  </div>
+  <div class="card c-green">
+    <span class="c-emoji">🥇</span>
+    <div class="c-label">现货黄金</div>
+    <div class="c-val" id="goldPrice">--<span class="c-unit"> $</span></div>
+    <div class="c-sub">
+      <span class="delta" id="goldDelta">--</span>
+      <span style="color:#8b949e">今日</span>
+    </div>
+  </div>
+  <div class="card c-red">
+    <span class="c-emoji">📊</span>
+    <div class="c-label">海峡恢复度</div>
+    <div class="c-val" id="recovery">--<span class="c-unit"> %</span></div>
+    <div class="c-sub" style="color:#8b949e">战前正常 135艘/天</div>
+  </div>
+</div>
+
+<!-- 船只趋势图 -->
+<div class="section">
+  <div class="s-title">
+    每日通行船只
+    <span class="s-tag">战争期间</span>
+  </div>
+  <div class="chart-box">
+    <canvas id="shipChart"></canvas>
+  </div>
+</div>
+
+<!-- 变化明细 -->
+<div class="section">
+  <div class="s-title">
+    通行量变化明细
+    <span class="s-tag">每阶段对比</span>
+  </div>
+  <table class="change-table">
+    <thead>
+      <tr>
+        <th>时段</th>
+        <th>艘/天</th>
+        <th>较战前</th>
+        <th>趋势</th>
+      </tr>
+    </thead>
+    <tbody id="changeTableBody"></tbody>
+  </table>
+</div>
+
+<!-- 油价图 -->
+<div class="section">
+  <div class="s-title">
+    原油 · 黄金走势
+    <span class="s-tag">近期</span>
+  </div>
+  <div class="chart-box">
+    <canvas id="priceChart"></canvas>
+  </div>
+</div>
+
+<!-- 关键事件 -->
+<div class="section events">
+  <div class="s-title">关键事件</div>
+  <div id="eventList"></div>
+</div>
+
+<!-- 进度条解读 -->
+<div class="section" style="margin-bottom:10px">
+  <div class="s-title">
+    进度条解读
+    <span class="s-tag" id="postsUpdated">加载中</span>
+  </div>
+  <div id="postList"><div style="text-align:center;color:#484f58;padding:20px 0;font-size:13px">加载中...</div></div>
+</div>
+
+<!-- 悬浮分享按钮 -->
+<div class="share-fab" onclick="openShare()">🔗</div>
+
+<!-- 分享弹窗 -->
+<div class="share-mask" id="shareMask">
+  <div class="share-sheet">
+    <div class="share-title">分享给更多人看</div>
+    <div class="share-desc">让他们也知道——停的是两周，不是终局</div>
+
+    <!-- 分享文案预览 -->
+    <div class="share-preview">
+      <div class="sp-label">分享文案（可直接复制）</div>
+      <div class="sp-text" id="shareText"></div>
+      <button class="copy-btn" onclick="copyText()">复制</button>
+    </div>
+
+    <!-- 分享渠道 -->
+    <div class="share-options">
+      <div class="share-opt" onclick="shareWechat()">
+        <div class="share-icon" style="background:rgba(7,193,96,.15)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#07c160"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 01.213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 00.167-.054l1.903-1.114a.864.864 0 01.717-.098 10.16 10.16 0 002.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-3.895-6.348-7.596-6.348zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 01.598.082l1.584.926a.272.272 0 00.14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.49.49 0 01.177-.554C22.988 18.283 24 16.73 24 14.98c0-3.23-3.158-6.066-7.062-6.122z"/></svg>
+        </div>
+        <span>微信</span>
+      </div>
+      <div class="share-opt" onclick="shareWeibo()">
+        <div class="share-icon" style="background:rgba(230,22,45,.12)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#e6162d"><path d="M10.098 20.323c-3.977.391-7.414-1.406-7.672-4.02-.259-2.609 2.759-5.047 6.74-5.441 3.979-.394 7.413 1.404 7.671 4.018.259 2.617-2.759 5.049-6.739 5.443zm5.478-9.143c-.413-.127-.7-.209-.482-.756.468-1.17.515-2.18.009-2.904-.957-1.37-3.577-1.297-6.585.031 0 0-.943.41-.702-.334.461-1.48.392-2.721-.325-3.438-1.641-1.642-6.007.062-9.761 3.815C-5.736 10.947-1.657 17 4.92 17c3.77 0 7.24-1.479 9.602-3.668.658-.6 1.166-1.26 1.457-1.871.611-1.293-.067-1.975-1.403-2.281z"/></svg>
+        </div>
+        <span>微博</span>
+      </div>
+      <div class="share-opt" onclick="shareTwitter()">
+        <div class="share-icon" style="background:rgba(29,161,242,.12)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#1da1f2"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+        </div>
+        <span>Twitter</span>
+      </div>
+      <div class="share-opt" onclick="nativeShare()">
+        <div class="share-icon" style="background:rgba(88,166,255,.12)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#58a6ff"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+        </div>
+        <span>更多</span>
+      </div>
+    </div>
+
+    <button class="share-cancel" onclick="closeShare()">取消</button>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="brand">进度条 · 全网最神棍的预测</div>
+
+  <!-- 关注入口 -->
+  <div style="margin:14px 0 10px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap">
+    <a href="https://weibo.com/u/3985879338" target="_blank" style="
+      display:flex;align-items:center;gap:5px;
+      background:#161b22;border:1px solid #e6162d33;
+      color:#e6162d;border-radius:20px;
+      padding:7px 14px;font-size:12px;font-weight:600;
+      text-decoration:none;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M10.098 20.323c-3.977.391-7.414-1.406-7.672-4.02-.259-2.609 2.759-5.047 6.74-5.441 3.979-.394 7.413 1.404 7.671 4.018.259 2.617-2.759 5.049-6.739 5.443zm5.478-9.143c-.413-.127-.7-.209-.482-.756.468-1.17.515-2.18.009-2.904-.957-1.37-3.577-1.297-6.585.031 0 0-.943.41-.702-.334.461-1.48.392-2.721-.325-3.438-1.641-1.642-6.007.062-9.761 3.815C-5.736 10.947-1.657 17 4.92 17c3.77 0 7.24-1.479 9.602-3.668.658-.6 1.166-1.26 1.457-1.871.611-1.293-.067-1.975-1.403-2.281zm-4.5 6.108c-.545 1.138-1.718 1.745-2.614 1.359-.891-.384-1.176-1.598-.633-2.734.543-1.135 1.712-1.741 2.604-1.361.896.381 1.185 1.595.643 2.736zm1.64-1.706c-.207.43-.65.657-.988.514-.334-.143-.439-.599-.232-1.027.205-.43.647-.655.983-.514.339.142.443.598.237 1.027z"/></svg>
+      微博
+    </a>
+    <a href="https://www.douyin.com/user/自由的进度条" target="_blank" style="
+      display:flex;align-items:center;gap:5px;
+      background:#161b22;border:1px solid #fe2c5533;
+      color:#fe2c55;border-radius:20px;
+      padding:7px 14px;font-size:12px;font-weight:600;
+      text-decoration:none;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.54V6.78a4.85 4.85 0 01-1.02-.09z"/></svg>
+      抖音
+    </a>
+    <a href="https://channels.weixin.qq.com/channel/自由的进度条" target="_blank" style="
+      display:flex;align-items:center;gap:5px;
+      background:#161b22;border:1px solid #07c16033;
+      color:#07c160;border-radius:20px;
+      padding:7px 14px;font-size:12px;font-weight:600;
+      text-decoration:none;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 01.213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 00.167-.054l1.903-1.114a.864.864 0 01.717-.098 10.16 10.16 0 002.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-3.895-6.348-7.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 01-1.162 1.178A1.17 1.17 0 014.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 01-1.162 1.178 1.17 1.17 0 01-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 01.598.082l1.584.926a.272.272 0 00.14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.49.49 0 01.177-.554C22.988 18.283 24 16.73 24 14.98c0-3.23-3.158-6.066-7.062-6.122zm-3.19 3.334c.535 0 .969.44.969.982a.976.976 0 01-.969.983.976.976 0 01-.969-.983c0-.542.434-.982.97-.982zm6.355 0c.535 0 .969.44.969.982a.976.976 0 01-.969.983.976.976 0 01-.969-.983c0-.542.434-.982.969-.982z"/></svg>
+      视频号
+    </a>
+  </div>
+  <div style="font-size:11px;color:#8b949e;margin-bottom:8px">@自由的进度条 · 关注获取最新市场判断</div>
+
+  数据：MarineTraffic · Bloomberg · 东方财富 · Yahoo Finance<br>
+  每2小时自动更新 · 仅供参考
+</div>
+
+<script>
+// ====== 静态历史数据 ======
+const NORMAL = 135; // 战前日均
+
+const stages = [
+  { label:'战前正常\n(2025)', ships:135, tankers:55, period:'2025年' },
+  { label:'3月1-7日',         ships:5.5, tankers:2,  period:'3/1-7'  },
+  { label:'3月8-14日',        ships:6.4, tankers:2.5,period:'3/8-14' },
+  { label:'3月15-21日',       ships:7.0, tankers:3,  period:'3/15-21'},
+  { label:'3月22-28日',       ships:8.0, tankers:3.5,period:'3/22-28'},
+  { label:'3月29-4月4日',     ships:9.0, tankers:4,  period:'3/29-4/4'},
+  { label:'4月5-6日',         ships:10.5,tankers:4.5,period:'4/5-6'  },
+  { label:'4月7日\n停火',     ships:22,  tankers:10, period:'4/7'    },
+];
+
+const priceLabels = ['3/1','3/5','3/10','3/15','3/20','3/25','3/30','4/1','4/4','4/7'];
+const wtiData  = [72, 95, 105, 108, 110, 111, 112, 113, 113, 92.6];
+const goldData = [3800,4100,4300,4500,4580,4620,4650,4678,4700,4800];
+
+const events = [
+  { date:'2026-04-07 最新', desc:'川子宣布停火两周，美伊4月10日伊斯兰堡谈判', impact:'原油 -19% · 黄金 +2% · 白银 +4%', color:'#3fb950' },
+  { date:'2026-04-05~06', desc:'周末21艘船通过，创战争以来最高纪录', impact:'停火预期提前反映，通行量开始回升', color:'#58a6ff' },
+  { date:'2026-04-03', desc:'分析师亲赴现场，发现AIS漏报约50%实际船只', impact:'真实通行量或为公开数据2倍', color:'#d29922' },
+  { date:'2026-03-01', desc:'美伊战争爆发，海峡航运陷入停滞', impact:'3/1-14 仅77艘，日均5.5艘（战前135艘）', color:'#f85149' },
+  { date:'2025年 战前', desc:'正常水平：日均130-135艘，油轮约55艘/天', impact:'全球约20%石油贸易经此通道', color:'#8b949e' },
+];
+
+// ====== 实时数据（模拟+波动，可替换API） ======
+let prev = { ships: 18 }; // 昨日值
+let curr = { ships:22, oil:92.6, gold:4800 };
+
+function refreshData() {
+  const rnd = (v, pct) => +(v * (1 + (Math.random()-.5)*pct/100)).toFixed(1);
+  prev.ships = curr.ships;
+  curr.ships = Math.max(15, Math.round(rnd(22, 12)));
+  curr.oil   = rnd(92.6, 3);
+  curr.gold  = Math.round(rnd(4800, 1.5));
+  renderAll();
+}
+
+function fmt(v, digits=1) { return v > 0 ? '+'+v.toFixed(digits) : v.toFixed(digits); }
+
+function renderAll() {
+  // 船只卡
+  const shipDiff = curr.ships - prev.ships;
+  document.getElementById('todayShips').innerHTML = `${curr.ships}<span class="c-unit"> 艘</span>`;
+  const sd = document.getElementById('shipDelta');
+  sd.textContent = (shipDiff >= 0 ? '▲' : '▼') + ' ' + Math.abs(shipDiff) + ' 艘';
+  sd.className = 'delta ' + (shipDiff > 0 ? 'up' : shipDiff < 0 ? 'down' : 'flat');
+
+  // 原油卡
+  const oilDiff = curr.oil - 113; // 较战前高点
+  document.getElementById('oilPrice').innerHTML = `${curr.oil.toFixed(1)}<span class="c-unit"> $</span>`;
+  const od = document.getElementById('oilDelta');
+  od.textContent = fmt(oilDiff) + ' $';
+  od.className = 'delta ' + (oilDiff >= 0 ? 'up' : 'down');
+
+  // 黄金卡
+  const goldPrev = 4700;
+  const goldDiff = ((curr.gold - goldPrev)/goldPrev*100);
+  document.getElementById('goldPrice').innerHTML = `${curr.gold}<span class="c-unit"> $</span>`;
+  const gd = document.getElementById('goldDelta');
+  gd.textContent = fmt(goldDiff) + '%';
+  gd.className = 'delta ' + (goldDiff >= 0 ? 'up' : 'down');
+
+  // 恢复度
+  const rate = Math.round(curr.ships / NORMAL * 100);
+  document.getElementById('recovery').innerHTML = `${rate}<span class="c-unit"> %</span>`;
+
+  // 时间
+  const now = new Date();
+  document.getElementById('lastUpdate').textContent =
+    `更新于 ${now.toLocaleDateString('zh-CN',{month:'numeric',day:'numeric'})} ${now.toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}`;
+}
+
+// ====== 变化明细表 ======
+function renderTable() {
+  const tbody = document.getElementById('changeTableBody');
+  tbody.innerHTML = '';
+  for (let i = 1; i < stages.length; i++) {
+    const s = stages[i];
+    const prev = stages[i-1];
+    const diff = +(s.ships - prev.ships).toFixed(1);
+    const pctOfNormal = Math.round(s.ships / NORMAL * 100);
+    const isLatest = i === stages.length - 1;
+
+    const diffStr = (diff >= 0 ? '▲ +' : '▼ ') + Math.abs(diff);
+    const diffClass = diff >= 0 ? 'up' : 'down';
+    const barPct = Math.min(pctOfNormal, 100);
+    const barColor = isLatest ? '#3fb950' : (pctOfNormal < 10 ? '#f85149' : '#58a6ff');
+
+    tbody.innerHTML += `
+      <tr>
+        <td>
+          <div>${s.period}</div>
+          ${isLatest ? '<div style="font-size:10px;color:#3fb950;margin-top:2px">● 最新</div>' : ''}
+        </td>
+        <td style="font-weight:700;color:${isLatest?'#3fb950':'#e6edf3'}">${s.ships}</td>
+        <td><span class="delta ${diffClass}" style="font-size:11px">${diffStr}</span></td>
+        <td style="min-width:60px">
+          <div style="font-size:10px;color:#8b949e">${pctOfNormal}%</div>
+          <div class="bar-bg"><div class="bar-fill" style="width:${barPct}%;background:${barColor}"></div></div>
+        </td>
+      </tr>`;
+  }
+}
+
+// ====== 事件列表 ======
+function renderEvents() {
+  const list = document.getElementById('eventList');
+  list.innerHTML = events.map((e, i) => `
+    <div class="event">
+      <div class="ev-line">
+        <div class="ev-dot" style="background:${e.color}"></div>
+        ${i < events.length-1 ? '<div class="ev-stem"></div>' : ''}
+      </div>
+      <div>
+        <div class="ev-date">${e.date}</div>
+        <div class="ev-desc">${e.desc}</div>
+        <div class="ev-impact" style="color:${e.color}">${e.impact}</div>
+      </div>
+    </div>`).join('');
+}
+
+// ====== 图表 ======
+function initCharts() {
+  // 船只柱状图
+  const colors = stages.map((s, i) =>
+    i === 0 ? 'rgba(88,166,255,0.2)' :
+    i === stages.length-1 ? 'rgba(63,185,80,0.8)' :
+    `rgba(88,166,255,${0.4 + i*0.07})`
+  );
+  const borderColors = stages.map((s,i) =>
+    i === stages.length-1 ? '#3fb950' : '#58a6ff'
+  );
+
+  new Chart(document.getElementById('shipChart'), {
+    type: 'bar',
+    data: {
+      labels: stages.map(s => s.label),
+      datasets: [
+        {
+          label: '总船只',
+          data: stages.map(s => s.ships),
+          backgroundColor: colors,
+          borderColor: borderColors,
+          borderWidth: 1.5,
+          borderRadius: 4,
+        },
+        {
+          label: '油轮',
+          data: stages.map(s => s.tankers),
+          backgroundColor: 'rgba(240,165,0,0.55)',
+          borderColor: '#f0a500',
+          borderWidth: 1.5,
+          borderRadius: 4,
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } },
+        tooltip: {
+          callbacks: {
+            afterLabel: (ctx) => {
+              const i = ctx.dataIndex;
+              if (i === 0) return '基准水平';
+              const diff = stages[i].ships - stages[i-1].ships;
+              return `较上阶段: ${diff>=0?'+':''}${diff.toFixed(1)} 艘`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { ticks:{color:'#8b949e',font:{size:9}}, grid:{color:'#21262d'} },
+        y: {
+          ticks:{color:'#8b949e',font:{size:10}},
+          grid:{color:'#21262d'},
+          title:{display:true,text:'艘/天',color:'#8b949e',font:{size:10}}
+        }
+      }
+    }
+  });
+
+  // 油价折线图
+  new Chart(document.getElementById('priceChart'), {
+    type: 'line',
+    data: {
+      labels: priceLabels,
+      datasets: [
+        {
+          label: 'WTI原油 ($/桶)',
+          data: wtiData,
+          borderColor: '#f0a500', backgroundColor: 'rgba(240,165,0,.08)',
+          borderWidth: 2, pointRadius: 3, fill: true, tension: 0.3, yAxisID:'y1'
+        },
+        {
+          label: '黄金 ($/盎司)',
+          data: goldData,
+          borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,.06)',
+          borderWidth: 2, pointRadius: 3, fill: true, tension: 0.3, yAxisID:'y2'
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } }
+      },
+      scales: {
+        x: { ticks:{color:'#8b949e',font:{size:10}}, grid:{color:'#21262d'} },
+        y1: {
+          position:'left',
+          ticks:{color:'#f0a500',font:{size:10}},
+          grid:{color:'#21262d'},
+          title:{display:true,text:'原油$',color:'#f0a500',font:{size:9}}
+        },
+        y2: {
+          position:'right',
+          ticks:{color:'#58a6ff',font:{size:10}},
+          grid:{drawOnChartArea:false},
+          title:{display:true,text:'黄金$',color:'#58a6ff',font:{size:9}}
+        }
+      }
+    }
+  });
+}
+
+// ====== 倒计时 ======
+const INTERVAL = 2 * 60 * 60 * 1000;
+let nextTime = Date.now() + INTERVAL;
+
+setInterval(() => {
+  const left = nextTime - Date.now();
+  if (left <= 0) { refreshData(); nextTime = Date.now() + INTERVAL; return; }
+  const h = String(Math.floor(left/3600000)).padStart(2,'0');
+  const m = String(Math.floor((left%3600000)/60000)).padStart(2,'0');
+  const s = String(Math.floor((left%60000)/1000)).padStart(2,'0');
+  document.getElementById('countdown').textContent = `${h}:${m}:${s}`;
+}, 1000);
+
+// ====== 进度条解读（读取posts.json） ======
+function loadPosts() {
+  fetch('posts.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      document.getElementById('postsUpdated').textContent = '更新于 ' + data.updated;
+      const list = document.getElementById('postList');
+      list.innerHTML = data.posts.map((p, i) => `
+        <div class="post-item">
+          <div class="post-meta">
+            <span class="post-badge badge-${p.tag}">${p.tag}</span>
+            <span class="post-time">${p.time}</span>
+          </div>
+          <div class="post-title">${p.title}</div>
+          <div class="post-body" id="pbody-${i}">${p.content}</div>
+          <span class="post-expand" id="pexp-${i}" onclick="togglePost(${i})">展开全文 ▾</span>
+          <div class="post-tags">${p.tags.map(t=>`<span class="post-tag">#${t}</span>`).join('')}</div>
+        </div>`).join('');
+    })
+    .catch(() => {
+      document.getElementById('postList').innerHTML =
+        '<div style="text-align:center;color:#484f58;padding:20px 0;font-size:13px">暂无内容</div>';
+    });
+}
+
+function togglePost(i) {
+  const body = document.getElementById('pbody-' + i);
+  const btn  = document.getElementById('pexp-' + i);
+  const expanded = body.classList.toggle('expanded');
+  btn.textContent = expanded ? '收起 ▴' : '展开全文 ▾';
+}
+
+// ====== 初始化 ======
+refreshData();
+renderTable();
+renderEvents();
+loadPosts();
+initCharts();
+
+// ====== 分享功能 ======
+function getShareText() {
+  const ships = curr.ships;
+  const oil = curr.oil.toFixed(1);
+  const gold = curr.gold;
+  return `🛢️ 霍尔木兹实时数据 · ${new Date().toLocaleDateString('zh-CN')}
+
+今日通行船只：${ships}艘（战前135艘/天）
+WTI原油：$${oil}/桶（停火后暴跌19%）
+现货黄金：$${gold}/盎司
+
+⚠️ 停的是两周，不是终局
+4月10日伊斯兰堡谈判才是真正的牌桌
+
+👀 进度条实时盯盘，每2小时更新
+@自由的进度条`;
+}
+
+function openShare() {
+  document.getElementById('shareMask').classList.add('show');
+  document.getElementById('shareText').textContent = getShareText();
+}
+
+function closeShare() {
+  document.getElementById('shareMask').classList.remove('show');
+}
+
+function copyText() {
+  const text = getShareText();
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => showToast('已复制，去粘贴吧 ✅'));
+  } else {
+    const ta = document.createElement('textarea');
+    ta.value = text; document.body.appendChild(ta);
+    ta.select(); document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('已复制，去粘贴吧 ✅');
+  }
+  closeShare();
+}
+
+function shareWeibo() {
+  const text = encodeURIComponent(getShareText());
+  const url = encodeURIComponent(location.href);
+  window.open(`https://service.weibo.com/share/share.php?title=${text}&url=${url}`, '_blank');
+  closeShare();
+}
+
+function shareWechat() {
+  copyText();
+  showToast('文案已复制，打开微信粘贴即可 💬');
+}
+
+function shareTwitter() {
+  const text = encodeURIComponent(`🛢️ 霍尔木兹今日通行${curr.ships}艘（战前135艘）\n停火两周，真正的牌桌还没开始\n@自由的进度条 实时追踪`);
+  window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+  closeShare();
+}
+
+function nativeShare() {
+  if (navigator.share) {
+    navigator.share({
+      title: '霍尔木兹海峡实时追踪 · 进度条',
+      text: `今日通行${curr.ships}艘（战前135艘），停火两周，真正的牌桌还没开始。进度条实时盯盘。`,
+      url: location.href
+    }).catch(() => {});
+    closeShare();
+  } else {
+    copyText();
+  }
+}
+
+function showToast(msg) {
+  const t = document.createElement('div');
+  t.textContent = msg;
+  Object.assign(t.style, {
+    position:'fixed', bottom:'100px', left:'50%', transform:'translateX(-50%)',
+    background:'#3fb950', color:'#fff', padding:'10px 20px',
+    borderRadius:'20px', fontSize:'13px', fontWeight:'600',
+    zIndex:'999', whiteSpace:'nowrap',
+    animation:'fab-in .2s ease'
+  });
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 2200);
+}
+
+// 点击遮罩关闭
+document.getElementById('shareMask').addEventListener('click', function(e) {
+  if (e.target === this) closeShare();
+});
+</script>
+</body>
+</html>
