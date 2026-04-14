@@ -9,7 +9,11 @@
   "goldPrice": 4790.1,
   "goldChg": "0.48",
   "goldNote": "↑",
+<<<<<<< Updated upstream
   "congestion": 3,
+=======
+  "congestion": 8,
+>>>>>>> Stashed changes
   "congestionNote": "美军封锁第2天，BBC核查仅4艘过境创战时新低，2艘UAE油轮折返，革命卫队布水雷警告，近800艘船困波斯湾",
   "barData": [
     {
