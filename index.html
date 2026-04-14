@@ -255,34 +255,32 @@ body {
 }
 
 /* ── 冲突程度仪表盘 ── */
-.conflict-levels { display:flex; gap:4px; margin:8px 0 10px; }
+.conflict-levels { display:flex; gap:3px; margin:6px 0 8px; }
 .conflict-level {
-  flex:1; padding:8px 4px 6px; border-radius:8px;
-  display:flex; flex-direction:column; align-items:center; gap:3px;
-  border:1px solid transparent; cursor:default; transition:all .3s;
-  opacity:.35;
+  flex:1; padding:6px 2px 5px; border-radius:6px;
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+  border:1px solid transparent; cursor:default;
+  opacity:.25; transition:all .3s;
 }
 .conflict-level.active { opacity:1; border-color:currentColor; }
-.conflict-level .cl-icon { font-size:18px; }
-.conflict-level .cl-name { font-size:9px; font-weight:600; text-align:center; line-height:1.2; }
-.conflict-level .cl-num  { font-size:8px; opacity:.7; }
+.conflict-level .cl-icon { font-size:14px; }
+.conflict-level .cl-name { font-size:8px; font-weight:600; text-align:center; line-height:1.2; }
 .cl-1 { color:#4a9eff; background:rgba(74,158,255,.08); }
 .cl-2 { color:#f0c040; background:rgba(240,192,64,.08); }
 .cl-3 { color:#ff8c42; background:rgba(255,140,66,.08); }
 .cl-4 { color:#f85149; background:rgba(248,81,73,.1); }
 .cl-5 { color:#ff3b5c; background:rgba(255,59,92,.12); }
-.conflict-bar-wrap { margin:0 0 6px; }
+.conflict-bar-wrap { margin:0 0 8px; }
 .conflict-bar-track {
-  height:8px; background:#161b22; border-radius:4px; overflow:hidden;
-  position:relative;
+  height:6px; background:#161b22; border-radius:3px; overflow:hidden;
 }
 .conflict-bar-fill {
-  height:100%; border-radius:4px;
+  height:100%; border-radius:3px;
   background:linear-gradient(90deg,#4a9eff 0%,#f0c040 30%,#ff8c42 55%,#f85149 80%,#ff3b5c 100%);
   transition:width 1s ease;
 }
 .conflict-desc {
-  font-size:11px; color:#8b949e; line-height:1.6; padding:6px 2px 0;
+  font-size:11px; color:#8b949e; line-height:1.6; padding:6px 0 0;
   border-top:1px solid #21262d;
 }
 .conflict-desc b { color:#c9d1d9; }
@@ -967,7 +965,6 @@ function renderConflictMeter(data) {
         <div class="conflict-level cl-${l.id} ${l.id === level ? 'active' : ''}">
           <div class="cl-icon">${l.icon}</div>
           <div class="cl-name">${l.name}</div>
-          <div class="cl-num">L${l.id}</div>
         </div>
       `).join('')}
     </div>
@@ -976,7 +973,7 @@ function renderConflictMeter(data) {
         <div class="conflict-bar-fill" id="conflictBarFill" style="width:0%"></div>
       </div>
     </div>
-    <div class="conflict-desc">${cur.desc}<br><b>当前：L${level} ${cur.name}</b> · 数据实时更新</div>
+    <div class="conflict-desc">${cur.desc}&nbsp;·&nbsp;<b>当前 L${level}·${cur.name}</b></div>
   `;
 
   // 动画进度条
