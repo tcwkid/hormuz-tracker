@@ -1062,8 +1062,11 @@ WTI原油：$${oil}（${oilChg}）
 暴涨背后是消化，追高就是接盘
 
 👀 进度条实时盯盘，数据每1小时更新
+🔗 https://hz.clawx.gold
 @自由的进度条`;
 }
+
+const SHARE_URL = 'https://hz.clawx.gold';
 
 function openShare() {
   document.getElementById('shareMask').classList.add('show');
@@ -1090,7 +1093,7 @@ function copyText() {
 
 function shareWeibo() {
   const text = encodeURIComponent(getShareText());
-  const url = encodeURIComponent(location.href);
+  const url = encodeURIComponent(SHARE_URL);
   window.open(`https://service.weibo.com/share/share.php?title=${text}&url=${url}`, '_blank');
   closeShare();
 }
@@ -1101,7 +1104,7 @@ function shareWechat() {
 }
 
 function shareTwitter() {
-  const text = encodeURIComponent(`🛢️ 霍尔木兹今日通行${curr.ships}艘（战前135艘）\n停火两周，真正的牌桌还没开始\n@自由的进度条 实时追踪`);
+  const text = encodeURIComponent(`🛢️ 霍尔木兹今日通行${curr.ships}艘（战前135艘）\n美军封锁生效，谈判破裂\n进度条实时追踪 ${SHARE_URL}`);
   window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
   closeShare();
 }
@@ -1110,8 +1113,8 @@ function nativeShare() {
   if (navigator.share) {
     navigator.share({
       title: '霍尔木兹海峡实时追踪 · 进度条',
-      text: `今日通行${curr.ships}艘（战前135艘），停火两周，真正的牌桌还没开始。进度条实时盯盘。`,
-      url: location.href
+      text: `今日通行${curr.ships}艘（战前135艘），美军封锁生效，进度条实时盯盘。`,
+      url: SHARE_URL
     }).catch(() => {});
     closeShare();
   } else {
