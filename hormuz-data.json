@@ -1,15 +1,15 @@
 {
   "lastUpdate": "2026-04-14 16:26",
   "flashNews": "🔴 美军封锁正式生效第2天，今日仅4艘过境创战时新低 | 川子称伊朗来电望谈，4/16或再开谈 | BBC核查：谈判破裂后共23艘过境，伊朗否认川子\"34艘\"说法 | WTI $96.77 ↓2.33%",
-  "shipCount": 5,
-  "shipChg": "-18",
+  "shipCount": 4,
+  "shipChg": "-1",
   "oilWti": 96.77,
   "oilWtiChg": "2.33",
   "oilWtiNote": "↓",
   "goldPrice": 4804.2,
   "goldChg": "0.77",
   "goldNote": "↑",
-  "congestion": 4,
+  "congestion": 3,
   "congestionNote": "美军封锁第2天，周一仅4艘过境，BBC核查谈判破裂后累计23艘，商船大幅绕道",
   "barData": [
     {
