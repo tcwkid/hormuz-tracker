@@ -634,9 +634,31 @@ body {
 
   <!-- 访问统计 -->
   <div style="margin:8px 0 4px;color:#555;font-size:12px;text-align:center;">
-    本站访问 <span id="busuanzi_value_site_pv" style="color:#4a9eff;font-weight:700;">--</span> 次 &nbsp;|&nbsp;
-    访客 <span id="busuanzi_value_site_uv" style="color:#4a9eff;font-weight:700;">--</span> 人
+    本站访问 <span id="busuanzi_pv_display" style="color:#4a9eff;font-weight:700;">--</span> 次 &nbsp;|&nbsp;
+    访客 <span id="busuanzi_uv_display" style="color:#4a9eff;font-weight:700;">--</span> 人
   </div>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script>
+  // 等不蒜子加载完后加上基数
+  (function() {
+    function applyBase() {
+      var pvEl = document.getElementById('busuanzi_value_site_pv');
+      var uvEl = document.getElementById('busuanzi_value_site_uv');
+      var pvDisplay = document.getElementById('busuanzi_pv_display');
+      var uvDisplay = document.getElementById('busuanzi_uv_display');
+      if (pvEl && pvEl.innerText && pvEl.innerText !== '' && pvEl.innerText !== '0') {
+        pvDisplay.innerText = parseInt(pvEl.innerText) + 6666;
+        uvDisplay.innerText = parseInt(uvEl.innerText) + 6666;
+      } else {
+        setTimeout(applyBase, 500);
+      }
+    }
+    setTimeout(applyBase, 1500);
+  })();
+  // 隐藏原始不蒜子元素
+  </script>
+  <span id="busuanzi_value_site_pv" style="display:none"></span>
+  <span id="busuanzi_value_site_uv" style="display:none"></span>
 
   <!-- 关注入口 -->
   <div style="margin:14px 0 10px;display:flex;justify-content:center;gap:10px;flex-wrap:wrap">
@@ -1116,6 +1138,5 @@ document.getElementById('shareMask').addEventListener('click', function(e) {
   if (e.target === this) closeShare();
 });
 </script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
