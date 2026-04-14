@@ -91,6 +91,7 @@ body {
 .card.c-green::after { background:#3fb950; }
 .card.c-red::after   { background:#f85149; }
 .card.c-lng::after   { background:#a371f7; }
+.card.c-conflict::after { background:#ff8c42; }
 
 .card .c-label  { font-size:11px; color:#8b949e; margin-bottom:4px; }
 .card .c-val    { font-size:26px; font-weight:800; line-height:1; }
@@ -99,6 +100,7 @@ body {
 .card.c-green .c-val { color:#3fb950; }
 .card.c-red   .c-val { color:#f85149; }
 .card.c-lng   .c-val { color:#a371f7; }
+.card.c-conflict .c-val { color:#ff8c42; }
 .card .c-unit   { font-size:12px; color:#8b949e; }
 .card .c-sub    { font-size:11px; margin-top:5px; display:flex; align-items:center; gap:4px; flex-wrap:wrap; }
 .card .c-emoji  { position:absolute; right:10px; top:11px; font-size:20px; opacity:.4; }
@@ -519,6 +521,17 @@ body {
     <div class="c-val" id="lngStatus" style="font-size:18px">--</div>
     <div class="c-sub" id="lngNote" style="color:#8b949e">卡塔尔/阿联酋LNG动态</div>
   </div>
+  <div class="card c-conflict">
+    <span class="c-emoji">⚔️</span>
+    <div class="c-label">冲突程度</div>
+    <div class="c-val" id="conflictLevelVal" style="font-size:15px;font-weight:700">封锁对峙</div>
+    <div class="c-sub">
+      <div style="margin:4px 0 2px;height:5px;background:#161b22;border-radius:3px;overflow:hidden">
+        <div id="conflictBarMini" style="height:100%;width:0%;background:linear-gradient(90deg,#4a9eff,#ff8c42 60%,#f85149);border-radius:3px;transition:width 1s ease"></div>
+      </div>
+      <span id="conflictLevelSub" style="color:#ff8c42">L3 / 5</span>
+    </div>
+  </div>
 </div>
 
 <!-- 霍尔木兹海峡示意图 -->
@@ -936,6 +949,14 @@ function renderConflictMeter(data) {
     tag.style.background = cur.color + '22';
     tag.style.color = cur.color;
   }
+
+  // 同步更新指标卡
+  const cardVal = document.getElementById('conflictLevelVal');
+  const cardSub = document.getElementById('conflictLevelSub');
+  const cardBar = document.getElementById('conflictBarMini');
+  if (cardVal) { cardVal.textContent = cur.name; cardVal.style.color = cur.color; }
+  if (cardSub) { cardSub.textContent = `L${level} / 5`; cardSub.style.color = cur.color; }
+  if (cardBar) setTimeout(() => { cardBar.style.width = cur.pct + '%'; }, 150);
 
   const container = document.getElementById('conflictMeter');
   if (!container) return;
