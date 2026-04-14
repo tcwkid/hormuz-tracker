@@ -8,7 +8,7 @@
 <!-- Open Graph / 微信分享卡片 -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="🛢️ 霍尔木兹海峡实时追踪 · 今日通行仅22艘（战前135艘）">
-<meta property="og:description" content="美伊停火后第一天，原油暴跌19%，黄金反涨2%。停的是两周，不是终局。进度条实时盯盘，数据每2小时更新。">
+<meta property="og:description" content="美伊停火后第一天，原油暴跌19%，黄金反涨2%。停的是两周，不是终局。进度条实时盯盘，数据每1小时更新。">
 <meta property="og:image" content="https://picture-search.skywork.ai/skills/upload/2026-04-07/65564891c4134a1d8f4d93cc24681d53_d7e00.png">
 <meta property="og:site_name" content="进度条 · 全网最神棍的预测">
 
@@ -90,6 +90,7 @@ body {
 .card.c-gold::after  { background:#f0a500; }
 .card.c-green::after { background:#3fb950; }
 .card.c-red::after   { background:#f85149; }
+.card.c-lng::after   { background:#a371f7; }
 
 .card .c-label  { font-size:11px; color:#8b949e; margin-bottom:4px; }
 .card .c-val    { font-size:26px; font-weight:800; line-height:1; }
@@ -97,6 +98,7 @@ body {
 .card.c-gold  .c-val { color:#f0a500; }
 .card.c-green .c-val { color:#3fb950; }
 .card.c-red   .c-val { color:#f85149; }
+.card.c-lng   .c-val { color:#a371f7; }
 .card .c-unit   { font-size:12px; color:#8b949e; }
 .card .c-sub    { font-size:11px; margin-top:5px; display:flex; align-items:center; gap:4px; flex-wrap:wrap; }
 .card .c-emoji  { position:absolute; right:10px; top:11px; font-size:20px; opacity:.4; }
@@ -117,6 +119,127 @@ body {
   background:#161b22;
   border:1px solid #21262d;
   border-radius:12px;
+}
+/* ====== 海峡示意图 ====== */
+.strait-wrap {
+  margin:10px 12px 0;
+  background:linear-gradient(135deg,#0a1628 0%,#0d2040 100%);
+  border:1px solid #1e3a5a;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 4px 20px rgba(0,80,160,0.2);
+}
+.strait-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 16px 8px;
+}
+.strait-title-txt {
+  color:#58a6ff;font-size:14px;font-weight:700;
+  display:flex;align-items:center;gap:6px;
+}
+.strait-title-txt::before { content:'🌊'; font-size:14px; }
+.strait-coord { color:#3a5070;font-size:11px; }
+.strait-map {
+  position:relative;
+  width:100%;
+  height:130px;
+  overflow:hidden;
+  background:linear-gradient(180deg,#071018 0%,#0a1e38 35%,#0d2a50 50%,#0a1e38 65%,#071018 100%);
+}
+/* 水波动画 */
+.wave {
+  position:absolute;
+  left:0;right:0;
+  height:40px;
+  opacity:0.15;
+  background:repeating-linear-gradient(90deg,transparent,transparent 40px,#4a9eff 40px,#4a9eff 42px);
+  animation:wave-move 4s linear infinite;
+}
+.wave1 { top:45px; animation-duration:6s; }
+.wave2 { top:55px; animation-duration:9s; animation-delay:-3s; opacity:0.08; }
+.wave3 { top:65px; animation-duration:7s; animation-delay:-1.5s; opacity:0.06; }
+@keyframes wave-move { 0%{transform:translateX(0)} 100%{transform:translateX(42px)} }
+/* 分道虚线 */
+.divider-line {
+  position:absolute;
+  top:50%;left:0;right:0;
+  border-top:1px dashed rgba(74,158,255,0.2);
+  transform:translateY(-50%);
+}
+/* 伊朗北岸 */
+.coast-north {
+  position:absolute;top:0;left:0;right:0;height:30px;
+  background:linear-gradient(180deg,#1a3020 0%,#142818 100%);
+  border-bottom:2px solid rgba(60,120,60,0.6);
+  border-radius:0 0 24px 16px;
+}
+.coast-north::after {
+  content:'';position:absolute;bottom:-8px;left:0;right:0;height:8px;
+  background:linear-gradient(180deg,rgba(20,80,20,0.3),transparent);
+}
+/* 阿曼南岸 */
+.coast-south {
+  position:absolute;bottom:0;left:0;right:0;height:28px;
+  background:linear-gradient(0deg,#2a1f0a 0%,#1e1608 100%);
+  border-top:2px solid rgba(120,100,30,0.6);
+  border-radius:16px 24px 0 0;
+}
+/* 方向箭头 */
+.dir-in  {
+  position:absolute;top:50%;left:8px;
+  transform:translateY(-50%) translateY(-10px);
+  color:rgba(74,158,255,0.4);font-size:10px;letter-spacing:1px;
+}
+.dir-out {
+  position:absolute;top:50%;right:8px;
+  transform:translateY(-50%) translateY(10px);
+  color:rgba(74,158,255,0.4);font-size:10px;letter-spacing:1px;
+}
+/* 国旗标签 */
+.map-label-iran {
+  position:absolute;top:6px;left:10px;
+  color:rgba(100,180,100,0.9);font-size:11px;z-index:10;
+  text-shadow:0 1px 4px #000;
+}
+.map-label-oman {
+  position:absolute;bottom:5px;left:10px;
+  color:rgba(180,160,80,0.9);font-size:11px;z-index:10;
+  text-shadow:0 1px 4px #000;
+}
+/* 通行徽章 */
+.ship-badge {
+  position:absolute;top:8px;right:10px;
+  background:rgba(250,173,20,0.12);
+  border:1px solid rgba(250,173,20,0.5);
+  border-radius:12px;padding:3px 10px;z-index:20;
+  backdrop-filter:blur(4px);
+}
+.ship-badge span { color:#faad14;font-size:11px;font-weight:700; }
+/* 船只 */
+.ship {
+  position:absolute;z-index:15;
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,0.8));
+  will-change:left;
+}
+/* 入境（右→左），字体稍大 */
+.s1 { top:36px; font-size:18px; animation:sail-in 14s linear infinite; }
+.s2 { top:44px; font-size:15px; animation:sail-in 20s linear infinite; animation-delay:-7s; }
+.s3 { top:30px; font-size:14px; animation:sail-in 25s linear infinite; animation-delay:-12s; }
+/* 出境（左→右） */
+.s4 { top:72px; font-size:18px; animation:sail-out 17s linear infinite; animation-delay:-4s; }
+.s5 { top:82px; font-size:15px; animation:sail-out 22s linear infinite; animation-delay:-10s; }
+.s6 { top:66px; font-size:14px; animation:sail-out 28s linear infinite; animation-delay:-18s; }
+@keyframes sail-in  { 0%{left:108%} 100%{left:-8%} }
+@keyframes sail-out { 0%{left:-8%} 100%{left:108%} }
+/* 底部状态栏 */
+.strait-footer {
+  text-align:center;font-size:11px;
+  padding:7px 0 9px;
+  border-top:1px solid rgba(30,58,90,0.6);
+  letter-spacing:0.3px;
+}
   padding:14px 12px;
 }
 .s-title {
@@ -355,10 +478,53 @@ body {
     <span class="c-emoji">📊</span>
     <div class="c-label">海峡恢复度</div>
     <div class="c-val" id="recovery">--<span class="c-unit"> %</span></div>
-    <div class="c-sub" style="color:#8b949e">战前正常 135艘/天</div>
+    <div class="c-sub" id="recoveryNote" style="color:#8b949e">战前正常 135艘/天</div>
+  </div>
+  <div class="card c-lng">
+    <span class="c-emoji">🚢</span>
+    <div class="c-label">LNG船通行</div>
+    <div class="c-val" id="lngStatus" style="font-size:18px">--</div>
+    <div class="c-sub" id="lngNote" style="color:#8b949e">卡塔尔/阿联酋LNG动态</div>
   </div>
 </div>
 
+<!-- 霍尔木兹海峡示意图 -->
+<div class="section" style="padding:0">
+  <div class="strait-wrap">
+    <div class="strait-header">
+      <span class="strait-title-txt">霍尔木兹海峡</span>
+      <span class="strait-coord">北纬26.5° / 东经56.5°</span>
+    </div>
+    <div class="strait-map">
+      <!-- 海岸线 -->
+      <div class="coast-north"></div>
+      <div class="coast-south"></div>
+      <!-- 水波纹 -->
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <!-- 分道虚线 -->
+      <div class="divider-line"></div>
+      <!-- 方向提示 -->
+      <span class="dir-in">← 入境</span>
+      <span class="dir-out">出境 →</span>
+      <!-- 国旗标签 -->
+      <span class="map-label-iran">🇮🇷 伊朗</span>
+      <span class="map-label-oman">🇴🇲 阿曼</span>
+      <!-- 今日艘数徽章 -->
+      <div class="ship-badge"><span id="straitShipCount">今日 -- 艘</span></div>
+      <!-- 入境船（右→左） -->
+      <span class="ship s1">🚢</span>
+      <span class="ship s2">⛴️</span>
+      <span class="ship s3">🚤</span>
+      <!-- 出境船（左→右） -->
+      <span class="ship s4">🛢️</span>
+      <span class="ship s5">🚢</span>
+      <span class="ship s6">⛽</span>
+    </div>
+    <div class="strait-footer" id="straitStatus">封锁状态：--</div>
+  </div>
+</div>
 <!-- 船只趋势图 -->
 <div class="section">
   <div class="s-title">
@@ -499,245 +665,317 @@ body {
   <div style="font-size:11px;color:#8b949e;margin-bottom:8px">@自由的进度条 · 关注获取最新市场判断</div>
 
   数据：MarineTraffic · Bloomberg · 东方财富 · Yahoo Finance<br>
-  每2小时自动更新 · 仅供参考
+  每1小时自动更新 · 仅供参考
 </div>
 
 <script>
-// ====== 静态历史数据 ======
-const NORMAL = 135; // 战前日均
+// ====== 全局数据 ======
+const NORMAL = 135;
+let curr = { ships:15, oil:101.92, gold:4739, oilChg:5.54, goldChg:-1.01, shipChg:0 };
+let gistData = null;
 
-const stages = [
-  { label:'战前正常\n(2025)', ships:135, tankers:55, period:'2025年' },
-  { label:'3月1-7日',         ships:5.5, tankers:2,  period:'3/1-7'  },
-  { label:'3月8-14日',        ships:6.4, tankers:2.5,period:'3/8-14' },
-  { label:'3月15-21日',       ships:7.0, tankers:3,  period:'3/15-21'},
-  { label:'3月22-28日',       ships:8.0, tankers:3.5,period:'3/22-28'},
-  { label:'3月29-4月4日',     ships:9.0, tankers:4,  period:'3/29-4/4'},
-  { label:'4月5-6日',         ships:10.5,tankers:4.5,period:'4/5-6'  },
-  { label:'4月7日\n停火',     ships:22,  tankers:10, period:'4/7'    },
-];
+// ====== 从CF Worker加载数据（国内可访问） ======
+const DATA_URL = 'https://hormuz-proxy.tcwkid.workers.dev/data';
 
-const priceLabels = ['3/1','3/5','3/10','3/15','3/20','3/25','3/30','4/1','4/4','4/7'];
-const wtiData  = [72, 95, 105, 108, 110, 111, 112, 113, 113, 92.6];
-const goldData = [3800,4100,4300,4500,4580,4620,4650,4678,4700,4800];
+function loadGistData() {
+  fetch(DATA_URL + '?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      gistData = data;
+      // 更新curr
+      curr.ships   = data.shipCount || 15;
+      curr.oil     = data.oilWti || 101.92;
+      curr.gold    = data.goldPrice || 4739;
+      curr.oilChg  = parseFloat(data.oilWtiChg) || 0;
+      curr.goldChg = parseFloat(data.goldChg) || 0;
+      curr.shipChg = parseInt(data.shipChg) || 0;
 
-const events = [
-  { date:'2026-04-07 最新', desc:'川子宣布停火两周，美伊4月10日伊斯兰堡谈判', impact:'原油 -19% · 黄金 +2% · 白银 +4%', color:'#3fb950' },
-  { date:'2026-04-05~06', desc:'周末21艘船通过，创战争以来最高纪录', impact:'停火预期提前反映，通行量开始回升', color:'#58a6ff' },
-  { date:'2026-04-03', desc:'分析师亲赴现场，发现AIS漏报约50%实际船只', impact:'真实通行量或为公开数据2倍', color:'#d29922' },
-  { date:'2026-03-01', desc:'美伊战争爆发，海峡航运陷入停滞', impact:'3/1-14 仅77艘，日均5.5艘（战前135艘）', color:'#f85149' },
-  { date:'2025年 战前', desc:'正常水平：日均130-135艘，油轮约55艘/天', impact:'全球约20%石油贸易经此通道', color:'#8b949e' },
-];
+      renderAll(data);
+      renderTable(data);
+      renderEvents(data);
+      initCharts(data);
 
-// ====== 实时数据（模拟+波动，可替换API） ======
-let prev = { ships: 18 }; // 昨日值
-let curr = { ships:22, oil:92.6, gold:4800 };
-
-function refreshData() {
-  const rnd = (v, pct) => +(v * (1 + (Math.random()-.5)*pct/100)).toFixed(1);
-  prev.ships = curr.ships;
-  curr.ships = Math.max(15, Math.round(rnd(22, 12)));
-  curr.oil   = rnd(92.6, 3);
-  curr.gold  = Math.round(rnd(4800, 1.5));
-  renderAll();
+      // 更新快讯横幅
+      if (data.flashNews) {
+        document.querySelector('.banner span:last-child').textContent = data.flashNews;
+      }
+    })
+    .catch(err => {
+      console.warn('数据加载失败，使用默认值', err);
+      renderAll(null);
+      renderTableDefault();
+      renderEventsDefault();
+      initChartsDefault();
+    });
 }
 
 function fmt(v, digits=1) { return v > 0 ? '+'+v.toFixed(digits) : v.toFixed(digits); }
 
-function renderAll() {
+function renderAll(data) {
   // 船只卡
-  const shipDiff = curr.ships - prev.ships;
+  const shipDiff = curr.shipChg;
   document.getElementById('todayShips').innerHTML = `${curr.ships}<span class="c-unit"> 艘</span>`;
   const sd = document.getElementById('shipDelta');
   sd.textContent = (shipDiff >= 0 ? '▲' : '▼') + ' ' + Math.abs(shipDiff) + ' 艘';
   sd.className = 'delta ' + (shipDiff > 0 ? 'up' : shipDiff < 0 ? 'down' : 'flat');
 
   // 原油卡
-  const oilDiff = curr.oil - 113; // 较战前高点
-  document.getElementById('oilPrice').innerHTML = `${curr.oil.toFixed(1)}<span class="c-unit"> $</span>`;
+  const oilChg = curr.oilChg;
+  document.getElementById('oilPrice').innerHTML = `${curr.oil.toFixed(2)}<span class="c-unit"> $</span>`;
   const od = document.getElementById('oilDelta');
-  od.textContent = fmt(oilDiff) + ' $';
-  od.className = 'delta ' + (oilDiff >= 0 ? 'up' : 'down');
+  od.textContent = (oilChg >= 0 ? '+' : '') + oilChg.toFixed(2) + '%';
+  od.className = 'delta ' + (oilChg >= 0 ? 'up' : 'down');
 
   // 黄金卡
-  const goldPrev = 4700;
-  const goldDiff = ((curr.gold - goldPrev)/goldPrev*100);
-  document.getElementById('goldPrice').innerHTML = `${curr.gold}<span class="c-unit"> $</span>`;
+  const goldChg = curr.goldChg;
+  document.getElementById('goldPrice').innerHTML = `${curr.gold.toFixed(1)}<span class="c-unit"> $</span>`;
   const gd = document.getElementById('goldDelta');
-  gd.textContent = fmt(goldDiff) + '%';
-  gd.className = 'delta ' + (goldDiff >= 0 ? 'up' : 'down');
+  gd.textContent = (goldChg >= 0 ? '+' : '') + goldChg.toFixed(2) + '%';
+  gd.className = 'delta ' + (goldChg >= 0 ? 'up' : 'down');
 
-  // 恢复度
-  const rate = Math.round(curr.ships / NORMAL * 100);
-  document.getElementById('recovery').innerHTML = `${rate}<span class="c-unit"> %</span>`;
+  // 恢复度：优先用实时shipCount计算，congestion字段作备用
+  const recoveryPct = curr.ships ? Math.round(curr.ships / NORMAL * 100) : (data.congestion || 0);
+  document.getElementById('recovery').innerHTML = `${recoveryPct}<span class="c-unit"> %</span>`;
+  if (data.congestionNote) {
+    const noteEl = document.getElementById('recoveryNote');
+    if (noteEl) { noteEl.textContent = data.congestionNote; noteEl.style.color = recoveryPct < 10 ? '#f85149' : '#8b949e'; }
+  }
+
+  // 海峡示意图
+  const straitBadge = document.getElementById('straitShipCount');
+  if (straitBadge) straitBadge.textContent = `今日 ${curr.ships || '--'} 艘`;
+  const straitFooter = document.getElementById('straitStatus');
+  if (straitFooter) {
+    const isBlocked = recoveryPct < 10;
+    straitFooter.textContent = isBlocked
+      ? `🔴 封锁中 · 仅 ${curr.ships} 艘通过 · 恢复度 ${recoveryPct}%`
+      : `🟡 受限通行 · 今日 ${curr.ships} 艘 · 战前正常 ${NORMAL} 艘`;
+    straitFooter.style.color = isBlocked ? '#f85149' : '#d29922';
+  }
+
+  // LNG状态
+  const lngStatusEl = document.getElementById('lngStatus');
+  const lngNoteEl   = document.getElementById('lngNote');
+  if (lngStatusEl && data.lngStatus) {
+    const passed = data.lngStatus.includes('✅') || data.lngStatus.includes('通过');
+    lngStatusEl.textContent = data.lngStatus;
+    lngStatusEl.style.color = passed ? '#3fb950' : '#f85149';
+    lngStatusEl.style.fontSize = '15px';
+  }
+  if (lngNoteEl && data.lngNote) {
+    lngNoteEl.textContent = data.lngNote;
+  }
 
   // 时间
-  const now = new Date();
-  document.getElementById('lastUpdate').textContent =
-    `更新于 ${now.toLocaleDateString('zh-CN',{month:'numeric',day:'numeric'})} ${now.toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})}`;
+  const updateTime = (data && data.lastUpdate) ? data.lastUpdate : new Date().toLocaleString('zh-CN');
+  document.getElementById('lastUpdate').textContent = `更新于 ${updateTime}`;
 }
 
 // ====== 变化明细表 ======
-function renderTable() {
+function renderTable(data) {
   const tbody = document.getElementById('changeTableBody');
   tbody.innerHTML = '';
-  for (let i = 1; i < stages.length; i++) {
-    const s = stages[i];
-    const prev = stages[i-1];
-    const diff = +(s.ships - prev.ships).toFixed(1);
-    const pctOfNormal = Math.round(s.ships / NORMAL * 100);
-    const isLatest = i === stages.length - 1;
-
+  if (!data || !data.tableRows || !data.tableRows.length) { renderTableDefault(); return; }
+  const rows = data.tableRows;
+  rows.forEach((s, i) => {
+    const isLatest = i === rows.length - 1;
+    // 兼容两种字段名：ships/avg 或 count
+    const shipVal = s.ships || s.avg || s.count || '--';
+    const shipNum = parseFloat(shipVal) || 0;
+    const pctOfNormal = Math.round(shipNum / NORMAL * 100);
+    // 兼容 chg 或 warChg
+    const rawChg = s.chg || s.warChg || 0;
+    const diff = parseFloat(rawChg) || 0;
     const diffStr = (diff >= 0 ? '▲ +' : '▼ ') + Math.abs(diff);
     const diffClass = diff >= 0 ? 'up' : 'down';
     const barPct = Math.min(pctOfNormal, 100);
     const barColor = isLatest ? '#3fb950' : (pctOfNormal < 10 ? '#f85149' : '#58a6ff');
-
+    // 兼容 period/label/week
+    const label = s.period || s.label || s.week || '';
     tbody.innerHTML += `
       <tr>
         <td>
-          <div>${s.period}</div>
+          <div>${label}</div>
           ${isLatest ? '<div style="font-size:10px;color:#3fb950;margin-top:2px">● 最新</div>' : ''}
         </td>
-        <td style="font-weight:700;color:${isLatest?'#3fb950':'#e6edf3'}">${s.ships}</td>
+        <td style="font-weight:700;color:${isLatest?'#3fb950':'#e6edf3'}">${shipVal}</td>
         <td><span class="delta ${diffClass}" style="font-size:11px">${diffStr}</span></td>
         <td style="min-width:60px">
           <div style="font-size:10px;color:#8b949e">${pctOfNormal}%</div>
           <div class="bar-bg"><div class="bar-fill" style="width:${barPct}%;background:${barColor}"></div></div>
         </td>
       </tr>`;
-  }
+  });
+}
+
+function renderTableDefault() {
+  const stages = [
+    { label:'战前正常', ships:135, period:'2025年', chg:0 },
+    { label:'3月1-14日', ships:5.5, period:'3/1-14', chg:-129.5 },
+    { label:'3月15-28日', ships:7.5, period:'3/15-28', chg:2 },
+    { label:'3月29-4/6', ships:9.5, period:'3/29-4/6', chg:2 },
+    { label:'最新', ships:15, period:'4/7+', chg:5.5 },
+  ];
+  renderTable({ tableRows: stages });
 }
 
 // ====== 事件列表 ======
-function renderEvents() {
+function renderEvents(data) {
   const list = document.getElementById('eventList');
-  list.innerHTML = events.map((e, i) => `
+  const events = (data && data.events && data.events.length) ? data.events : getDefaultEvents();
+  // 颜色映射
+  const typeColor = { positive:'#3fb950', negative:'#f85149', warning:'#d29922', neutral:'#8b949e' };
+  list.innerHTML = events.map((e, i) => {
+    const color = e.color || typeColor[e.type] || '#58a6ff';
+    // 兼容 desc/impact 或 title/desc
+    const mainDesc = e.desc || e.title || '';
+    const subDesc  = e.impact || (e.desc && e.title ? e.desc : '') || '';
+    return `
     <div class="event">
       <div class="ev-line">
-        <div class="ev-dot" style="background:${e.color}"></div>
+        <div class="ev-dot" style="background:${color}"></div>
         ${i < events.length-1 ? '<div class="ev-stem"></div>' : ''}
       </div>
       <div>
-        <div class="ev-date">${e.date}</div>
-        <div class="ev-desc">${e.desc}</div>
-        <div class="ev-impact" style="color:${e.color}">${e.impact}</div>
+        <div class="ev-date">${e.date||''}</div>
+        <div class="ev-desc">${mainDesc}</div>
+        ${subDesc ? `<div class="ev-impact" style="color:${color}">${subDesc}</div>` : ''}
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
+}
+
+function renderEventsDefault() {
+  renderEvents(null);
+}
+
+function getDefaultEvents() {
+  return [
+    { date:'2026-04-13', desc:'美军宣布封锁伊朗所有港口，万斯率团撤离伊斯兰堡，谈判破裂', impact:'原油 +8% · 黄金 -1%', color:'#f85149' },
+    { date:'2026-04-10', desc:'美伊伊斯兰堡谈判，双方分歧明显，无协议', impact:'停火延续但前景不明', color:'#d29922' },
+    { date:'2026-04-07', desc:'川子宣布停火两周，美伊4月10日伊斯兰堡谈判', impact:'原油 -19% · 黄金 +2%', color:'#3fb950' },
+    { date:'2026-03-01', desc:'美伊战争爆发，海峡航运陷入停滞', impact:'日均通行仅5.5艘（战前135艘）', color:'#f85149' },
+  ];
 }
 
 // ====== 图表 ======
-function initCharts() {
-  // 船只柱状图
-  const colors = stages.map((s, i) =>
-    i === 0 ? 'rgba(88,166,255,0.2)' :
-    i === stages.length-1 ? 'rgba(63,185,80,0.8)' :
-    `rgba(88,166,255,${0.4 + i*0.07})`
-  );
-  const borderColors = stages.map((s,i) =>
-    i === stages.length-1 ? '#3fb950' : '#58a6ff'
-  );
+function initCharts(data) {
+  // 船只柱状图——用barData
+  const barData = (data && data.barData && data.barData.length) ? data.barData : [];
+  const barLabels = barData.map(d => d.date);
+  const barTotal  = barData.map(d => d.totalH || 0);
+  const barOil    = barData.map(d => d.oilH || 0);
 
-  new Chart(document.getElementById('shipChart'), {
-    type: 'bar',
-    data: {
-      labels: stages.map(s => s.label),
-      datasets: [
-        {
-          label: '总船只',
-          data: stages.map(s => s.ships),
-          backgroundColor: colors,
-          borderColor: borderColors,
-          borderWidth: 1.5,
-          borderRadius: 4,
-        },
-        {
-          label: '油轮',
-          data: stages.map(s => s.tankers),
-          backgroundColor: 'rgba(240,165,0,0.55)',
-          borderColor: '#f0a500',
-          borderWidth: 1.5,
-          borderRadius: 4,
-        }
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } },
-        tooltip: {
-          callbacks: {
-            afterLabel: (ctx) => {
-              const i = ctx.dataIndex;
-              if (i === 0) return '基准水平';
-              const diff = stages[i].ships - stages[i-1].ships;
-              return `较上阶段: ${diff>=0?'+':''}${diff.toFixed(1)} 艘`;
-            }
+  if (barData.length > 0) {
+    new Chart(document.getElementById('shipChart'), {
+      type: 'bar',
+      data: {
+        labels: barLabels,
+        datasets: [
+          {
+            label: '总船只',
+            data: barTotal,
+            backgroundColor: barTotal.map((v,i) =>
+              i === barTotal.length-1 ? 'rgba(63,185,80,0.8)' : 'rgba(88,166,255,0.5)'),
+            borderColor: barTotal.map((v,i) =>
+              i === barTotal.length-1 ? '#3fb950' : '#58a6ff'),
+            borderWidth: 1.5, borderRadius: 4,
+          },
+          {
+            label: '油轮',
+            data: barOil,
+            backgroundColor: 'rgba(240,165,0,0.55)',
+            borderColor: '#f0a500',
+            borderWidth: 1.5, borderRadius: 4,
           }
-        }
+        ]
       },
-      scales: {
-        x: { ticks:{color:'#8b949e',font:{size:9}}, grid:{color:'#21262d'} },
-        y: {
-          ticks:{color:'#8b949e',font:{size:10}},
-          grid:{color:'#21262d'},
-          title:{display:true,text:'艘/天',color:'#8b949e',font:{size:10}}
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } } },
+        scales: {
+          x: { ticks:{color:'#8b949e',font:{size:9}}, grid:{color:'#21262d'} },
+          y: { ticks:{color:'#8b949e',font:{size:10}}, grid:{color:'#21262d'},
+               title:{display:true,text:'艘/天',color:'#8b949e',font:{size:10}} }
         }
       }
-    }
-  });
+    });
+  }
 
-  // 油价折线图
+  // 价格折线图——优先用priceHistory，其次用内置历史+实时价格拼接
+  const priceHistory = (data && data.priceHistory) ? data.priceHistory : null;
+  let wtiArr, goldArr, priceLabels2;
+
+  if (priceHistory && priceHistory.length) {
+    priceLabels2 = priceHistory.map(d => d.date);
+    wtiArr  = priceHistory.map(d => d.wti  || null);
+    goldArr = priceHistory.map(d => d.gold || null);
+  } else {
+    // 内置历史价格（战争爆发→停火→谈判破裂）+ 最新实时价格
+    const builtinPrices = [
+      { date:'3/1',  wti: 72.3,  gold: 3820 },
+      { date:'3/5',  wti: 88.5,  gold: 3980 },
+      { date:'3/10', wti: 98.2,  gold: 4150 },
+      { date:'3/15', wti:105.4,  gold: 4320 },
+      { date:'3/20', wti:109.8,  gold: 4480 },
+      { date:'3/25', wti:111.2,  gold: 4580 },
+      { date:'3/30', wti:112.5,  gold: 4650 },
+      { date:'4/4',  wti:113.1,  gold: 4700 },
+      { date:'4/7',  wti: 92.6,  gold: 4800 },  // 停火暴跌
+      { date:'4/10', wti: 93.4,  gold: 4780 },  // 谈判
+      { date:'4/13', wti:105.2,  gold: 4710 },  // 谈判破裂暴涨
+    ];
+    // 追加最新实时价格
+    const latest = data ? {
+      date: (data.lastUpdate||'').slice(5,10).replace('-','/') || '今日',
+      wti:  data.oilWti    || null,
+      gold: data.goldPrice || null
+    } : null;
+    const allPrices = latest ? [...builtinPrices, latest] : builtinPrices;
+
+    priceLabels2 = allPrices.map(d => d.date);
+    wtiArr  = allPrices.map(d => d.wti);
+    goldArr = allPrices.map(d => d.gold);
+  }
+
   new Chart(document.getElementById('priceChart'), {
     type: 'line',
     data: {
-      labels: priceLabels,
+      labels: priceLabels2,
       datasets: [
-        {
-          label: 'WTI原油 ($/桶)',
-          data: wtiData,
-          borderColor: '#f0a500', backgroundColor: 'rgba(240,165,0,.08)',
-          borderWidth: 2, pointRadius: 3, fill: true, tension: 0.3, yAxisID:'y1'
-        },
-        {
-          label: '黄金 ($/盎司)',
-          data: goldData,
-          borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,.06)',
-          borderWidth: 2, pointRadius: 3, fill: true, tension: 0.3, yAxisID:'y2'
-        }
+        { label:'WTI原油 ($/桶)', data:wtiArr,
+          borderColor:'#f0a500', backgroundColor:'rgba(240,165,0,.08)',
+          borderWidth:2, pointRadius:3, fill:true, tension:0.3, yAxisID:'y1',
+          spanGaps: true },
+        { label:'黄金 ($/盎司)', data:goldArr,
+          borderColor:'#58a6ff', backgroundColor:'rgba(88,166,255,.06)',
+          borderWidth:2, pointRadius:3, fill:true, tension:0.3, yAxisID:'y2',
+          spanGaps: true }
       ]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } }
-      },
+      plugins: { legend: { labels: { color:'#8b949e', font:{size:11}, boxWidth:10 } } },
       scales: {
         x: { ticks:{color:'#8b949e',font:{size:10}}, grid:{color:'#21262d'} },
-        y1: {
-          position:'left',
-          ticks:{color:'#f0a500',font:{size:10}},
-          grid:{color:'#21262d'},
-          title:{display:true,text:'原油$',color:'#f0a500',font:{size:9}}
-        },
-        y2: {
-          position:'right',
-          ticks:{color:'#58a6ff',font:{size:10}},
-          grid:{drawOnChartArea:false},
-          title:{display:true,text:'黄金$',color:'#58a6ff',font:{size:9}}
-        }
+        y1: { position:'left', ticks:{color:'#f0a500',font:{size:10}}, grid:{color:'#21262d'},
+              title:{display:true,text:'原油$',color:'#f0a500',font:{size:9}} },
+        y2: { position:'right', ticks:{color:'#58a6ff',font:{size:10}}, grid:{drawOnChartArea:false},
+              title:{display:true,text:'黄金$',color:'#58a6ff',font:{size:9}} }
       }
     }
   });
 }
 
+function initChartsDefault() { initCharts(null); }
+
 // ====== 倒计时 ======
-const INTERVAL = 2 * 60 * 60 * 1000;
+const INTERVAL = 1 * 60 * 60 * 1000;
 let nextTime = Date.now() + INTERVAL;
 
 setInterval(() => {
   const left = nextTime - Date.now();
-  if (left <= 0) { refreshData(); nextTime = Date.now() + INTERVAL; return; }
+  if (left <= 0) { loadGistData(); nextTime = Date.now() + INTERVAL; return; }
   const h = String(Math.floor(left/3600000)).padStart(2,'0');
   const m = String(Math.floor((left%3600000)/60000)).padStart(2,'0');
   const s = String(Math.floor((left%60000)/1000)).padStart(2,'0');
@@ -746,7 +984,7 @@ setInterval(() => {
 
 // ====== 进度条解读（读取posts.json） ======
 function loadPosts() {
-  fetch('posts.json?t=' + Date.now())
+  fetch('https://hormuz-proxy.tcwkid.workers.dev/posts.json?t=' + Date.now())
     .then(r => r.json())
     .then(data => {
       document.getElementById('postsUpdated').textContent = '更新于 ' + data.updated;
@@ -777,27 +1015,25 @@ function togglePost(i) {
 }
 
 // ====== 初始化 ======
-refreshData();
-renderTable();
-renderEvents();
+loadGistData();
 loadPosts();
-initCharts();
 
 // ====== 分享功能 ======
 function getShareText() {
   const ships = curr.ships;
-  const oil = curr.oil.toFixed(1);
-  const gold = curr.gold;
+  const oil = curr.oil.toFixed(2);
+  const gold = curr.gold.toFixed(1);
+  const oilChg = (curr.oilChg >= 0 ? '+' : '') + curr.oilChg.toFixed(2) + '%';
   return `🛢️ 霍尔木兹实时数据 · ${new Date().toLocaleDateString('zh-CN')}
 
 今日通行船只：${ships}艘（战前135艘/天）
-WTI原油：$${oil}/桶（停火后暴跌19%）
+WTI原油：$${oil}（${oilChg}）
 现货黄金：$${gold}/盎司
 
-⚠️ 停的是两周，不是终局
-4月10日伊斯兰堡谈判才是真正的牌桌
+⚠️ 美军封锁伊朗港口，谈判破裂
+暴涨背后是消化，追高就是接盘
 
-👀 进度条实时盯盘，每2小时更新
+👀 进度条实时盯盘，数据每1小时更新
 @自由的进度条`;
 }
 
