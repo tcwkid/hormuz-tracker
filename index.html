@@ -605,17 +605,17 @@ body {
         </div>
         <span>微信</span>
       </div>
+      <div class="share-opt" onclick="shareVideoAccount()">
+        <div class="share-icon" style="background:rgba(7,193,96,.10)">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#07c160"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+        </div>
+        <span>视频号</span>
+      </div>
       <div class="share-opt" onclick="shareWeibo()">
         <div class="share-icon" style="background:rgba(230,22,45,.12)">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="#e6162d"><path d="M10.098 20.323c-3.977.391-7.414-1.406-7.672-4.02-.259-2.609 2.759-5.047 6.74-5.441 3.979-.394 7.413 1.404 7.671 4.018.259 2.617-2.759 5.049-6.739 5.443zm5.478-9.143c-.413-.127-.7-.209-.482-.756.468-1.17.515-2.18.009-2.904-.957-1.37-3.577-1.297-6.585.031 0 0-.943.41-.702-.334.461-1.48.392-2.721-.325-3.438-1.641-1.642-6.007.062-9.761 3.815C-5.736 10.947-1.657 17 4.92 17c3.77 0 7.24-1.479 9.602-3.668.658-.6 1.166-1.26 1.457-1.871.611-1.293-.067-1.975-1.403-2.281z"/></svg>
         </div>
         <span>微博</span>
-      </div>
-      <div class="share-opt" onclick="shareTwitter()">
-        <div class="share-icon" style="background:rgba(29,161,242,.12)">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="#1da1f2"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
-        </div>
-        <span>Twitter</span>
       </div>
       <div class="share-opt" onclick="nativeShare()">
         <div class="share-icon" style="background:rgba(88,166,255,.12)">
@@ -1101,6 +1101,18 @@ function shareWeibo() {
 function shareWechat() {
   copyText();
   showToast('文案已复制，打开微信粘贴即可 💬');
+}
+
+function shareVideoAccount() {
+  const text = getShareText();
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
+  closeShare();
+  showToast('文案已复制，去视频号发动态粘贴 🎬');
 }
 
 function shareTwitter() {
