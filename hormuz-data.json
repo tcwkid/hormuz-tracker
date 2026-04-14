@@ -1,15 +1,15 @@
 {
-  "lastUpdate": "2026-04-14 21:38",
+  "lastUpdate": "2026-04-14 22:38",
   "flashNews": "🔴 封锁第2天仅4艘过境创新低 | 万斯：球在伊朗一边！ | 彭博：伊朗考虑暂停航运控制保谈判 | 川子：伊方来电，4/16或再开二轮谈 | WTI $95.5 ↓3.6%",
-  "shipCount": 4,
-  "shipChg": "-19",
-  "oilWti": 95.5,
-  "oilWtiChg": "3.61",
+  "shipCount": 19,
+  "shipChg": "+15",
+  "oilWti": 93.48,
+  "oilWtiChg": "5.65",
   "oilWtiNote": "↓",
-  "goldPrice": 4806.9,
-  "goldChg": "0.83",
+  "goldPrice": 4834.1,
+  "goldChg": "1.4",
   "goldNote": "↑",
-  "congestion": 3,
+  "congestion": 14,
   "congestionNote": "美军封锁第2天，海峡通行量骤降，2艘UAE油轮折返，中国船\"RICH STARRY\"早8:09驶出，伊朗考虑暂停航运免破坏谈判",
   "barData": [
     {
@@ -110,8 +110,8 @@
     },
     {
       "date": "4/11",
-      "totalH": 9,
-      "oilH": 3,
+      "totalH": 11,
+      "oilH": 5,
       "latest": false
     },
     {
@@ -271,8 +271,8 @@
   "shipChgNews": "+2",
   "lngStatus": "❌ 封锁中",
   "lngNote": "美军封锁第2天，LNG船全线受限。财新追踪：封锁后仅中国籍散货船走北线通过，LNG船无法过境，英法将于4/17主持海峡安全视频会议",
-  "oilWtiChgRaw": -3.61,
-  "goldChgRaw": 0.83,
+  "oilWtiChgRaw": -5.65,
+  "goldChgRaw": 1.4,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
