@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-14 10:26",
-  "flashNews": "🔴 美军封锁4/14 14:00 GMT正式生效，今日实际仅5艘过境 | 伊朗否认川子34艘通过说法，通行仍受严重限制 | 美军舰封堵伊朗全部港口，LNG全线停运",
-  "shipCount": 5,
-  "shipChg": "-18",
-  "oilWti": 96.93,
-  "oilWtiChg": "2.17",
+  "lastUpdate": "2026-04-14 20:38",
+  "flashNews": "🔴 美军封锁第2天：今日仅4艘过境创战时新低，油轮折返放弃通关 | 伊朗媒体驳川子\"34艘\"说法不实 | 革命卫队布水雷，美军扫雷舰进驻 | WTI $96 ↓3.1%，黄金$4790 ↑0.5%",
+  "shipCount": 4,
+  "shipChg": "-19",
+  "oilWti": 95.99,
+  "oilWtiChg": "3.12",
   "oilWtiNote": "↓",
-  "goldPrice": 4792.0,
-  "goldChg": "0.52",
+  "goldPrice": 4790.1,
+  "goldChg": "0.48",
   "goldNote": "↑",
-  "congestion": 4,
-  "congestionNote": "美军封锁生效，4/14仅5艘通过，接近战时最低",
+  "congestion": 3,
+  "congestionNote": "美军封锁第2天，BBC核查仅4艘过境创战时新低，2艘UAE油轮折返，革命卫队布水雷警告，近800艘船困波斯湾",
   "barData": [
     {
       "date": "3/26",
@@ -128,8 +128,8 @@
     },
     {
       "date": "4/14",
-      "totalH": 5,
-      "oilH": 4,
+      "totalH": 4,
+      "oilH": 3,
       "latest": true
     }
   ],
@@ -208,18 +208,18 @@
     },
     {
       "week": "● 4/14",
-      "count": 5,
+      "count": 4,
       "warDir": "down",
-      "warChg": "-18",
-      "pct": "3.7%",
+      "warChg": "-19",
+      "pct": "3.0%",
       "trend": "down"
     }
   ],
   "events": [
     {
       "date": "4/14",
-      "title": "🔴 美军宣布封锁伊朗全部港口",
-      "desc": "美军封锁令14:00 GMT生效，封锁伊朗所有港口。封锁前4艘油轮抢先通过，封锁后仅1艘集装箱船过境。川子称将\"炸毁\"任何攻击美舰伊朗船只。",
+      "title": "🔴 仅4艘过境创新低，伊朗否认川子\"34艘\"说法",
+      "desc": "BBC追踪今日仅4艘船过境（均走北线伊朗领海内航道），较昨日23艘骤降83%。伊朗媒体驳斥特朗普34艘说法。2艘UAE油轮折返，近800艘船困波斯湾。川子称伊朗已有接触，4/16或再开谈。",
       "type": "negative",
       "tag": "封锁",
       "tagColor": "red"
@@ -269,10 +269,10 @@
   "insightTime": "",
   "shipCountNews": 11,
   "shipChgNews": "+2",
-  "lngStatus": "❌ 封锁中，全面停运",
-  "lngNote": "美军封锁生效，卡塔尔/阿联酋LNG船全部停航观望",
-  "oilWtiChgRaw": -2.17,
-  "goldChgRaw": 0.52,
+  "lngStatus": "❌ 封锁中",
+  "lngNote": "美军封锁第2天，LNG船全线停航。伊朗革命卫队公布北线（伊朗领海内）为唯一通行航道，水雷布设警告中道禁行，日本商船三井LNG船于4/3曾短暂通过后再度受阻",
+  "oilWtiChgRaw": -3.12,
+  "goldChgRaw": 0.48,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
