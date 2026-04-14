@@ -1,0 +1,279 @@
+{
+  "lastUpdate": "2026-04-14 10:26",
+  "flashNews": "🔴 美军封锁4/14 14:00 GMT正式生效，今日实际仅5艘过境 | 伊朗否认川子34艘通过说法，通行仍受严重限制 | 美军舰封堵伊朗全部港口，LNG全线停运",
+  "shipCount": 5,
+  "shipChg": "-18",
+  "oilWti": 96.93,
+  "oilWtiChg": "2.17",
+  "oilWtiNote": "↓",
+  "goldPrice": 4792.0,
+  "goldChg": "0.52",
+  "goldNote": "↑",
+  "congestion": 4,
+  "congestionNote": "美军封锁生效，4/14仅5艘通过，接近战时最低",
+  "barData": [
+    {
+      "date": "3/26",
+      "totalH": 5,
+      "oilH": 0,
+      "latest": false
+    },
+    {
+      "date": "3/27",
+      "totalH": 3,
+      "oilH": 0,
+      "latest": false
+    },
+    {
+      "date": "3/28",
+      "totalH": 4,
+      "oilH": 0,
+      "latest": false
+    },
+    {
+      "date": "3/29",
+      "totalH": 5,
+      "oilH": 2,
+      "latest": false
+    },
+    {
+      "date": "3/30",
+      "totalH": 17,
+      "oilH": 12,
+      "latest": false
+    },
+    {
+      "date": "3/31",
+      "totalH": 6,
+      "oilH": 2,
+      "latest": false
+    },
+    {
+      "date": "4/1",
+      "totalH": 6,
+      "oilH": 0,
+      "latest": false
+    },
+    {
+      "date": "4/2",
+      "totalH": 6,
+      "oilH": 2,
+      "latest": false
+    },
+    {
+      "date": "4/3",
+      "totalH": 5,
+      "oilH": 4,
+      "latest": false
+    },
+    {
+      "date": "4/4",
+      "totalH": 10,
+      "oilH": 2,
+      "latest": false
+    },
+    {
+      "date": "4/5",
+      "totalH": 9,
+      "oilH": 7,
+      "latest": false
+    },
+    {
+      "date": "4/6",
+      "totalH": 11,
+      "oilH": 4,
+      "latest": false
+    },
+    {
+      "date": "4/7",
+      "totalH": 12,
+      "oilH": 5,
+      "latest": false
+    },
+    {
+      "date": "4/8",
+      "totalH": 13,
+      "oilH": 6,
+      "latest": false
+    },
+    {
+      "date": "4/9",
+      "totalH": 14,
+      "oilH": 6,
+      "latest": false
+    },
+    {
+      "date": "4/10",
+      "totalH": 7,
+      "oilH": 2,
+      "latest": false
+    },
+    {
+      "date": "4/11",
+      "totalH": 9,
+      "oilH": 3,
+      "latest": false
+    },
+    {
+      "date": "4/12",
+      "totalH": 21,
+      "oilH": 8,
+      "latest": false
+    },
+    {
+      "date": "4/13",
+      "totalH": 23,
+      "oilH": 9,
+      "latest": false
+    },
+    {
+      "date": "4/14",
+      "totalH": 5,
+      "oilH": 4,
+      "latest": true
+    }
+  ],
+  "tableRows": [
+    {
+      "week": "4/5",
+      "count": 11,
+      "warDir": "down",
+      "warChg": "-2",
+      "pct": "8.1%",
+      "trend": "down"
+    },
+    {
+      "week": "4/6",
+      "count": 14,
+      "warDir": "up",
+      "warChg": "+3",
+      "pct": "10.4%",
+      "trend": "up"
+    },
+    {
+      "week": "4/7",
+      "count": 15,
+      "warDir": "up",
+      "warChg": "+1",
+      "pct": "11.1%",
+      "trend": "up"
+    },
+    {
+      "week": "4/8",
+      "count": 16,
+      "warDir": "up",
+      "warChg": "+1",
+      "pct": "11.9%",
+      "trend": "up"
+    },
+    {
+      "week": "4/9",
+      "count": 17,
+      "warDir": "up",
+      "warChg": "+1",
+      "pct": "12.6%",
+      "trend": "up"
+    },
+    {
+      "week": "4/10",
+      "count": 7,
+      "warDir": "down",
+      "warChg": "-10",
+      "pct": "5.2%",
+      "trend": "down"
+    },
+    {
+      "week": "4/11",
+      "count": 9,
+      "warDir": "up",
+      "warChg": "+2",
+      "pct": "6.7%",
+      "trend": "up"
+    },
+    {
+      "week": "4/12",
+      "count": 21,
+      "warDir": "up",
+      "warChg": "+12",
+      "pct": "15.6%",
+      "trend": "up"
+    },
+    {
+      "week": "4/13",
+      "count": 23,
+      "warDir": "up",
+      "warChg": "+2",
+      "pct": "17.0%",
+      "trend": "up"
+    },
+    {
+      "week": "● 4/14",
+      "count": 5,
+      "warDir": "down",
+      "warChg": "-18",
+      "pct": "3.7%",
+      "trend": "down"
+    }
+  ],
+  "events": [
+    {
+      "date": "4/14",
+      "title": "🔴 美军宣布封锁伊朗全部港口",
+      "desc": "美军封锁令14:00 GMT生效，封锁伊朗所有港口。封锁前4艘油轮抢先通过，封锁后仅1艘集装箱船过境。川子称将\"炸毁\"任何攻击美舰伊朗船只。",
+      "type": "negative",
+      "tag": "封锁",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/13",
+      "title": "美伊谈判破裂，万斯撤离伊斯兰堡",
+      "desc": "伊斯兰堡三轮谈判21小时无协议，万斯率团撤离。BBC追踪当日23艘过境，封锁预期升温，原油+5%，黄金-0.5%。",
+      "type": "negative",
+      "tag": "谈判",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/12",
+      "title": "川子发文称34艘通过，伊朗否认",
+      "desc": "Windward权威数据为21艘，创战争以来单日最高。伊朗塔斯尼姆通讯社称川子数据系政治表述，实际仍受严重限制。",
+      "type": "warning",
+      "tag": "数据",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/11",
+      "title": "美军舰强行通过霍尔木兹，伊朗未阻拦",
+      "desc": "数艘美国海军舰船未与伊朗协调直接通过，战事爆发以来首次，伊朗默认接受。",
+      "type": "positive",
+      "tag": "军事",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/10",
+      "title": "伊斯兰堡谈判第二轮，双方分歧明显",
+      "desc": "万斯率美国代表团抵达，谈判持续但未见突破，市场情绪转谨慎。",
+      "type": "warning",
+      "tag": "谈判",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/7",
+      "title": "川子宣布停火两周",
+      "desc": "停火消息落地，WTI单日暴跌19%，黄金跌1%。但海峡通行并未立即恢复，船东观望保险细则。",
+      "type": "positive",
+      "tag": "停火",
+      "tagColor": "green"
+    }
+  ],
+  "insightText": "",
+  "insightTime": "",
+  "shipCountNews": 11,
+  "shipChgNews": "+2",
+  "lngStatus": "❌ 封锁中，全面停运",
+  "lngNote": "美军封锁生效，卡塔尔/阿联酋LNG船全部停航观望",
+  "oilWtiChgRaw": -2.17,
+  "goldChgRaw": 0.52,
+  "goldIsRealtime": false,
+  "oilIsRealtime": false,
+  "isWeekend": false
+}
