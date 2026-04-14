@@ -675,7 +675,7 @@ let curr = { ships:15, oil:101.92, gold:4739, oilChg:5.54, goldChg:-1.01, shipCh
 let gistData = null;
 
 // ====== 从CF Worker加载数据（国内可访问） ======
-const DATA_URL = 'https://hormuz-proxy.tcwkid.workers.dev/data';
+const DATA_URL = 'hormuz-data.json';
 
 function loadGistData() {
   fetch(DATA_URL + '?t=' + Date.now())
@@ -984,7 +984,7 @@ setInterval(() => {
 
 // ====== 进度条解读（读取posts.json） ======
 function loadPosts() {
-  fetch('https://hormuz-proxy.tcwkid.workers.dev/posts.json?t=' + Date.now())
+  fetch('posts.json?t=' + Date.now())
     .then(r => r.json())
     .then(data => {
       document.getElementById('postsUpdated').textContent = '更新于 ' + data.updated;
