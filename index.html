@@ -251,6 +251,39 @@ body {
   font-size:10px; background:#21262d; color:#8b949e;
   padding:2px 7px; border-radius:8px;
 }
+
+/* ── 冲突程度仪表盘 ── */
+.conflict-levels { display:flex; gap:4px; margin:8px 0 10px; }
+.conflict-level {
+  flex:1; padding:8px 4px 6px; border-radius:8px;
+  display:flex; flex-direction:column; align-items:center; gap:3px;
+  border:1px solid transparent; cursor:default; transition:all .3s;
+  opacity:.35;
+}
+.conflict-level.active { opacity:1; border-color:currentColor; }
+.conflict-level .cl-icon { font-size:18px; }
+.conflict-level .cl-name { font-size:9px; font-weight:600; text-align:center; line-height:1.2; }
+.conflict-level .cl-num  { font-size:8px; opacity:.7; }
+.cl-1 { color:#4a9eff; background:rgba(74,158,255,.08); }
+.cl-2 { color:#f0c040; background:rgba(240,192,64,.08); }
+.cl-3 { color:#ff8c42; background:rgba(255,140,66,.08); }
+.cl-4 { color:#f85149; background:rgba(248,81,73,.1); }
+.cl-5 { color:#ff3b5c; background:rgba(255,59,92,.12); }
+.conflict-bar-wrap { margin:0 0 6px; }
+.conflict-bar-track {
+  height:8px; background:#161b22; border-radius:4px; overflow:hidden;
+  position:relative;
+}
+.conflict-bar-fill {
+  height:100%; border-radius:4px;
+  background:linear-gradient(90deg,#4a9eff 0%,#f0c040 30%,#ff8c42 55%,#f85149 80%,#ff3b5c 100%);
+  transition:width 1s ease;
+}
+.conflict-desc {
+  font-size:11px; color:#8b949e; line-height:1.6; padding:6px 2px 0;
+  border-top:1px solid #21262d;
+}
+.conflict-desc b { color:#c9d1d9; }
 .chart-box { position:relative; height:190px; }
 
 /* ── 变化明细表 ── */
@@ -566,6 +599,12 @@ body {
   </div>
 </div>
 
+<!-- 冲突程度 -->
+<div class="section" id="conflict-section">
+  <div class="s-title">冲突程度 <span class="s-tag" id="conflictLevelTag">封锁对峙</span></div>
+  <div id="conflictMeter" style="padding:4px 0 8px"></div>
+</div>
+
 <!-- 关键事件 -->
 <div class="section events">
   <div class="s-title">关键事件</div>
@@ -721,6 +760,7 @@ function loadGistData() {
       renderAll(data);
       renderTable(data);
       renderEvents(data);
+      renderConflictMeter(data);
       initCharts(data);
 
       // 更新快讯横幅
@@ -875,6 +915,54 @@ function renderEvents(data) {
 
 function renderEventsDefault() {
   renderEvents(null);
+}
+
+function renderConflictMeter(data) {
+  const LEVELS = [
+    { id:1, icon:'🕊️', name:'外交接触', desc:'双方通过外交渠道磋商，无军事行动', color:'#4a9eff', pct:15 },
+    { id:2, icon:'⚠️', name:'军事威胁', desc:'军队集结、航母部署，谈判破裂风险上升', color:'#f0c040', pct:35 },
+    { id:3, icon:'🔒', name:'封锁对峙', desc:'美军封锁伊朗港口，霍尔木兹通行骤降，谈判陷僵局', color:'#ff8c42', pct:62 },
+    { id:4, icon:'💥', name:'军事打击', desc:'双方爆发直接武装冲突，导弹/无人机互袭', color:'#f85149', pct:82 },
+    { id:5, icon:'☢️', name:'全面战争', desc:'大规模战争爆发，霍尔木兹完全封闭', color:'#ff3b5c', pct:100 },
+  ];
+
+  // 从data读取冲突等级，默认3级（封锁对峙）
+  const level = (data && data.conflictLevel) ? parseInt(data.conflictLevel) : 3;
+  const cur = LEVELS.find(l => l.id === level) || LEVELS[2];
+
+  const tag = document.getElementById('conflictLevelTag');
+  if (tag) {
+    tag.textContent = cur.name;
+    tag.style.background = cur.color + '22';
+    tag.style.color = cur.color;
+  }
+
+  const container = document.getElementById('conflictMeter');
+  if (!container) return;
+
+  container.innerHTML = `
+    <div class="conflict-levels">
+      ${LEVELS.map(l => `
+        <div class="conflict-level cl-${l.id} ${l.id === level ? 'active' : ''}">
+          <div class="cl-icon">${l.icon}</div>
+          <div class="cl-name">${l.name}</div>
+          <div class="cl-num">L${l.id}</div>
+        </div>
+      `).join('')}
+    </div>
+    <div class="conflict-bar-wrap">
+      <div class="conflict-bar-track">
+        <div class="conflict-bar-fill" id="conflictBarFill" style="width:0%"></div>
+      </div>
+    </div>
+    <div class="conflict-desc">${cur.desc}<br><b>当前：L${level} ${cur.name}</b> · 数据实时更新</div>
+  `;
+
+  // 动画进度条
+  setTimeout(() => {
+    const fill = document.getElementById('conflictBarFill');
+    if (fill) fill.style.width = cur.pct + '%';
+  }, 100);
 }
 
 function getDefaultEvents() {
