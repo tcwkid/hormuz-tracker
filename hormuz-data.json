@@ -1,15 +1,15 @@
 {
   "lastUpdate": "2026-04-14 21:38",
-  "flashNews": "🔴 封锁第2天：伊朗考虑暂停航运保谈判 | 财新：中国货船\"RICH STARRY\"早8:09强行通过 | WTI破100→回落至5.7 ↓3.4% | 英法4/17召开海峡安全会议 | 川子：伊方已接触，下轮谈判细节商议中",
-  "shipCount": 9,
-  "shipChg": "-1",
+  "flashNews": "🔴 封锁第2天仅4艘过境创新低 | 万斯：球在伊朗一边！ | 彭博：伊朗考虑暂停航运控制保谈判 | 川子：伊方来电，4/16或再开二轮谈 | WTI $95.5 ↓3.6%",
+  "shipCount": 4,
+  "shipChg": "-19",
   "oilWti": 95.5,
   "oilWtiChg": "3.61",
   "oilWtiNote": "↓",
   "goldPrice": 4806.9,
   "goldChg": "0.83",
   "goldNote": "↑",
-  "congestion": 7,
+  "congestion": 3,
   "congestionNote": "美军封锁第2天，海峡通行量骤降，2艘UAE油轮折返，中国船\"RICH STARRY\"早8:09驶出，伊朗考虑暂停航运免破坏谈判",
   "barData": [
     {
