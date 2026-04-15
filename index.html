@@ -753,7 +753,7 @@ body {
 <script>
 // ====== 全局数据 ======
 const NORMAL = 135;
-let curr = { ships:15, oil:101.92, gold:4739, oilChg:5.54, goldChg:-1.01, shipChg:0 };
+let curr = { ships:0, oil:101.92, gold:4739, oilChg:5.54, goldChg:-1.01, shipChg:0 };
 let gistData = null;
 
 // ====== 从CF Worker加载数据（国内可访问） ======
@@ -765,7 +765,7 @@ function loadGistData() {
     .then(data => {
       gistData = data;
       // 更新curr
-      curr.ships   = data.shipCount || 15;
+      curr.ships   = data.shipCount != null ? data.shipCount : 0;
       curr.oil     = data.oilWti || 101.92;
       curr.gold    = data.goldPrice || 4739;
       curr.oilChg  = parseFloat(data.oilWtiChg) || 0;
