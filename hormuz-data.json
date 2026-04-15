@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-15 09:38",
+  "lastUpdate": "2026-04-15 10:12",
   "flashNews": "4/15早：美伊下轮谈判最早今日举行，伊朗考虑主动暂停航运限制 | 过去24h超20艘商船通过，封锁第3天部分恢复 | LNG仍封锁中，多艘船关闭AIS规避 | WTI $90.15 ↓ 黄金$4874 ↑",
   "shipCount": 0,
-  "shipChg": "-23",
-  "oilWti": 90.15,
-  "oilWtiChg": "1.24",
+  "shipChg": "-4",
+  "oilWti": 90.67,
+  "oilWtiChg": "0.67",
   "oilWtiNote": "↓",
-  "goldPrice": 4874.3,
-  "goldChg": "0.5",
+  "goldPrice": 4870.1,
+  "goldChg": "0.41",
   "goldNote": "↑",
   "congestion": 0,
   "congestionNote": "美军封锁生效，首24h零艘伊朗港口船只通过封锁线，6艘商船遵令折返",
@@ -134,8 +134,8 @@
     },
     {
       "date": "4/15",
-      "totalH": 20,
-      "oilH": 5,
+      "totalH": 0,
+      "oilH": 0,
       "latest": true
     }
   ],
@@ -222,11 +222,11 @@
     },
     {
       "week": "● 4/15",
-      "count": 20,
-      "warDir": "up",
-      "warChg": "+16",
-      "pct": "14.8%",
-      "trend": "up"
+      "count": 0,
+      "warDir": "down",
+      "warChg": "-4",
+      "pct": "0%",
+      "trend": "down"
     }
   ],
   "events": [
@@ -293,8 +293,8 @@
   "shipChgNews": "+16",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第3天，LNG船仍未见通过。美军封锁令针对进出伊朗港口船只，卡塔尔LNG运营商目前采取绕行或延迟方案。川子称战事接近结束、48h内美伊将谈判，若谈判成功LNG通道或恢复",
-  "oilWtiChgRaw": -1.24,
-  "goldChgRaw": 0.5,
+  "oilWtiChgRaw": -0.67,
+  "goldChgRaw": 0.41,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
