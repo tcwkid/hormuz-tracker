@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-16 04:38",
-  "flashNews": "4/16 03:38：封锁第3天｜CNBC：本周仅9艘油轮穿越，周二通行量较战前跌90%｜VLCC\"RHN\"周三进入海峡（中资库拉索旗）｜CENTCOM：48h封锁fully implemented，9商船被劝返｜IEA：恢复霍尔木兹通行是缓解供应压力最关键变量｜停火延期\"原则性同意\"｜WTI $91.18↓0.10｜黄金$4834",
+  "lastUpdate": "2026-04-16 05:38",
+  "flashNews": "4/16 04:38：封锁第3天｜CBS：中资VLCC Alicia夜间穿越海峡+2艘伊朗旗集装箱船驶出波斯湾，公然挑战封锁｜NYT：十余艘非伊朗关联船只周一二通过｜CENTCOM：封锁fully implemented但执行线在阿曼湾｜新华社：美伊仍在接触，第二轮谈判地点日内瓦/伊斯兰堡待定｜WTI $91.2↓0.09｜黄金$4817",
   "shipCount": 8,
   "shipChg": "-12",
-  "oilWti": 91.2,
-  "oilWtiChg": "0.09",
-  "oilWtiNote": "↓",
-  "goldPrice": 4817.3,
-  "goldChg": "0.68",
+  "oilWti": 91.39,
+  "oilWtiChg": "0.12",
+  "oilWtiNote": "↑",
+  "goldPrice": 4813.9,
+  "goldChg": "0.75",
   "goldNote": "↓",
   "congestion": 18,
-  "congestionNote": "封锁第3天：CNBC确认本周仅9艘油轮穿越，周二通行量较战前(2/27)暴跌90%。VLCC\"RHN\"(中资库拉索旗)周三进入海峡。CENTCOM声明48h封锁fully implemented，9艘商船被劝返。Rich Starry穿越后U-turn回Qeshm。Kpler称通行量为trickle。IEA称恢复海峡通行是缓解全球供应压力的\"最关键变量\"。通行量不足战前6%。",
+  "congestionNote": "封锁第3天：CBS确认中资VLCC Alicia夜间穿越海峡（曾运伊朗原油被制裁），2艘伊朗旗集装箱船驶出波斯湾。NYT：十余艘非伊朗关联船只周一二通过。CENTCOM称封锁fully implemented但执行线在阿曼湾侧——即船只可穿越海峡但难以远行。至少2船关闭AIS近伊朗水域。封锁\"有漏洞\"但整体通行量仍远低于战前。",
   "barData": [
     {
       "date": "3/26",
@@ -238,6 +238,14 @@
   "events": [
     {
       "date": "4/16",
+      "title": "🔴 中资VLCC+伊朗旗船公然穿越海峡，封锁出现\"执行漏洞\"",
+      "desc": "CBS：中资VLCC Alicia（曾因运伊朗原油被制裁）夜间穿越霍尔木兹，AIS全程开启\"毫不掩饰\"。2艘伊朗旗集装箱船同时驶出波斯湾。美官员承认封锁执行线在阿曼湾——船可穿越海峡但被拦截在远端。至少2船关闭AIS。伊朗法尔斯社宣传\"封锁已被突破\"。",
+      "type": "danger",
+      "tag": "封锁漏洞",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/16",
       "title": "🟡 伊朗评估是否参加下轮谈判，巴军总参穆尼尔斡旋后等回音",
       "desc": "伊朗塔斯尼姆通讯社：伊朗与巴基斯坦军方总参穆尼尔会晤后将\"进行必要评估再决定是否开展下轮谈判\"。AP/NBC称第二轮或今日(4/16)重启。三大分歧未变：核问题、霍尔木兹控制权、2700亿美元战争赔偿。停火4/22到期为终极红线。",
       "type": "warning",
@@ -275,14 +283,6 @@
       "type": "positive",
       "tag": "停火延期",
       "tagColor": "green"
-    },
-    {
-      "date": "4/15",
-      "title": "🔴 英首相强硬拒绝参战：\"不会屈服于川子压力\"",
-      "desc": "英首相斯塔默在议会PMQ公开表态：\"我们不会被拖入这场战争，我不会改变主意，不会屈服。\" 川子随后暗示可能影响英美贸易协议。英法4/17巴黎霍尔木兹安全峰会确认举行。",
-      "type": "warning",
-      "tag": "英美分歧",
-      "tagColor": "amber"
     }
   ],
   "insightText": "",
@@ -290,9 +290,9 @@
   "shipCountNews": 8,
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第3天，LNG通行持续中断。4/6伊朗拦截2艘卡塔尔LNG船后无新LNG通过记录。19艘LNG船仍滞留区域。IEA称恢复霍尔木兹通行为缓解能源供应压力最关键变量。IRGC威胁扩大封锁至红海+阿曼海。4/17英法巴黎峰会或讨论LNG通道方案。",
-  "oilWtiChgRaw": -0.09,
-  "goldChgRaw": -0.68,
+  "lngNote": "封锁第3天，LNG通行持续中断。4/6伊朗拦截2艘卡塔尔LNG船后无新LNG通过记录。19艘LNG船仍滞留区域。虽有油轮穿越但LNG船体积大、目标明显，仍无船东敢尝试。IRGC威胁扩大封锁至红海+阿曼海。4/17英法巴黎峰会核心议题之一即LNG通道方案。",
+  "oilWtiChgRaw": 0.12,
+  "goldChgRaw": -0.75,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
