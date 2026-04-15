@@ -756,40 +756,52 @@ const NORMAL = 135;
 let curr = { ships:0, oil:101.92, gold:4739, oilChg:5.54, goldChg:-1.01, shipChg:0 };
 let gistData = null;
 
-// ====== 从CF Worker加载数据（国内可访问） ======
-const DATA_URL = 'https://hormuz-proxy.tcwkid.workers.dev/data';
+// ====== 数据源（多源容灾） ======
+const DATA_URLS = [
+  'https://hormuz-proxy.tcwkid.workers.dev/data',
+  'https://gist.githubusercontent.com/tcwkid/3c7ac2f49b0cb343394dec4ae5b810e8/raw/hormuz-data.json',
+  'https://tcwkid.github.io/hormuz-tracker/hormuz-data.json'
+];
+
+function applyData(data) {
+  gistData = data;
+  curr.ships   = data.shipCount != null ? data.shipCount : 0;
+  curr.oil     = data.oilWti || 101.92;
+  curr.gold    = data.goldPrice || 4739;
+  curr.oilChg  = parseFloat(data.oilWtiChg) || 0;
+  curr.goldChg = parseFloat(data.goldChg) || 0;
+  curr.shipChg = parseInt(data.shipChg) || 0;
+
+  renderAll(data);
+  renderTable(data);
+  renderEvents(data);
+  renderConflictMeter(data);
+  initCharts(data);
+
+  if (data.flashNews) {
+    document.querySelector('.banner span:last-child').textContent = data.flashNews;
+  }
+}
 
 function loadGistData() {
-  fetch(DATA_URL + '?t=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
-      gistData = data;
-      // 更新curr
-      curr.ships   = data.shipCount != null ? data.shipCount : 0;
-      curr.oil     = data.oilWti || 101.92;
-      curr.gold    = data.goldPrice || 4739;
-      curr.oilChg  = parseFloat(data.oilWtiChg) || 0;
-      curr.goldChg = parseFloat(data.goldChg) || 0;
-      curr.shipChg = parseInt(data.shipChg) || 0;
-
-      renderAll(data);
-      renderTable(data);
-      renderEvents(data);
-      renderConflictMeter(data);
-      initCharts(data);
-
-      // 更新快讯横幅
-      if (data.flashNews) {
-        document.querySelector('.banner span:last-child').textContent = data.flashNews;
-      }
-    })
-    .catch(err => {
-      console.warn('数据加载失败，使用默认值', err);
+  // 依次尝试多个数据源
+  let idx = 0;
+  function tryNext() {
+    if (idx >= DATA_URLS.length) {
+      console.warn('所有数据源加载失败，使用默认值');
       renderAll(null);
       renderTableDefault();
       renderEventsDefault();
       initChartsDefault();
-    });
+      return;
+    }
+    const url = DATA_URLS[idx++];
+    fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now())
+      .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(data => { applyData(data); })
+      .catch(err => { console.warn('数据源失败:', url, err); tryNext(); });
+  }
+  tryNext();
 }
 
 function fmt(v, digits=1) { return v > 0 ? '+'+v.toFixed(digits) : v.toFixed(digits); }
