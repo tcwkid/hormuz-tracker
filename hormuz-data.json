@@ -1,16 +1,16 @@
 {
   "lastUpdate": "2026-04-15 09:38",
   "flashNews": "4/15早：美伊下轮谈判最早今日举行，伊朗考虑主动暂停航运限制 | 过去24h超20艘商船通过，封锁第3天部分恢复 | LNG仍封锁中，多艘船关闭AIS规避 | WTI $90.15 ↓ 黄金$4874 ↑",
-  "shipCount": 20,
-  "shipChg": "+16",
+  "shipCount": 0,
+  "shipChg": "-23",
   "oilWti": 90.15,
   "oilWtiChg": "1.24",
   "oilWtiNote": "↓",
   "goldPrice": 4874.3,
   "goldChg": "0.5",
   "goldNote": "↑",
-  "congestion": 45,
-  "congestionNote": "封锁第3天（4/15），过去24h超20艘商船通过海峡，较昨日4艘大幅回升。货船、集装箱船、油轮均有通行，部分船只关闭AIS以降低风险。美军封锁仅针对进出伊朗港口船只，非伊朗港口方向不受阻。川子称战事「接近结束」，48小时内或重返谈判桌",
+  "congestion": 0,
+  "congestionNote": "美军封锁生效，首24h零艘伊朗港口船只通过封锁线，6艘商船遵令折返",
   "barData": [
     {
       "date": "3/26",
