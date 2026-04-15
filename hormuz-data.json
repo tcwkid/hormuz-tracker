@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-15 08:38",
-  "flashNews": "白宫确认美伊或4/16在巴重启谈判，万斯称球在伊朗脚下 | 伊朗考虑暂停航运控制免破坏谈判，21日休战期满前存协议窗口 | 封锁第3天：LNG 0艘，仅4艘商船过境 | WTI $91.4 ↑ 黄金$4862 ↑",
-  "shipCount": 4,
-  "shipChg": "+15",
+  "lastUpdate": "2026-04-15 08:39",
+  "flashNews": "川子：战事「接近结束」，48h内美伊将在巴重启谈判 | 过去24h超20艘商船通过海峡，货船油轮集装箱船均有 | 封锁第3天：部分通行恢复，LNG仍封锁 | WTI $90.4 ↓ 黄金$4855 ↑",
+  "shipCount": 0,
+  "shipChg": "-23",
   "oilWti": 90.43,
   "oilWtiChg": "0.93",
   "oilWtiNote": "↓",
   "goldPrice": 4854.9,
   "goldChg": "0.1",
   "goldNote": "↑",
-  "congestion": 14,
-  "congestionNote": "美军封锁第2天，海峡通行量骤降，2艘UAE油轮折返，中国船\"RICH STARRY\"早8:09驶出，伊朗考虑暂停航运免破坏谈判",
+  "congestion": 0,
+  "congestionNote": "美军封锁生效，首24h零艘伊朗港口船只通过封锁线，6艘商船遵令折返",
   "barData": [
     {
       "date": "3/26",
@@ -134,8 +134,8 @@
     },
     {
       "date": "4/15",
-      "totalH": 4,
-      "oilH": 2,
+      "totalH": 20,
+      "oilH": 5,
       "latest": true
     }
   ],
@@ -222,14 +222,22 @@
     },
     {
       "week": "● 4/15",
-      "count": 4,
-      "warDir": "flat",
-      "warChg": "0",
-      "pct": "3.0%",
-      "trend": "flat"
+      "count": 20,
+      "warDir": "up",
+      "warChg": "+16",
+      "pct": "14.8%",
+      "trend": "up"
     }
   ],
   "events": [
+    {
+      "date": "4/15",
+      "title": "🟢 部分通行恢复：24h超20艘通过，川子称战事「接近结束」",
+      "desc": "4月14日，两名美国官员确认过去24小时内超过20艘商船驶过霍尔木兹海峡，包括货船、集装箱船及油轮，部分关闭AIS降低风险。特朗普14日表示伊朗战事已\"接近结束\"，并暗示48小时内美伊将在巴基斯坦重启谈判。封锁仍针对进出伊朗港口船只，非伊朗目的地不受阻。",
+      "type": "positive",
+      "tag": "通行恢复",
+      "tagColor": "green"
+    },
     {
       "date": "4/15",
       "title": "🟡 川子：48小时内美伊将在巴重启谈判，伊朗考虑暂停航运限制",
@@ -277,22 +285,14 @@
       "type": "negative",
       "tag": "封锁升级",
       "tagColor": "red"
-    },
-    {
-      "date": "4/13",
-      "title": "美伊谈判破裂，万斯撤离伊斯兰堡",
-      "desc": "伊斯兰堡三轮谈判21小时无协议，万斯率团撤离。BBC追踪当日23艘过境，封锁预期升温，原油+5%，黄金-0.5%。",
-      "type": "negative",
-      "tag": "谈判",
-      "tagColor": "red"
     }
   ],
   "insightText": "",
   "insightTime": "",
-  "shipCountNews": 11,
-  "shipChgNews": "+2",
+  "shipCountNews": 20,
+  "shipChgNews": "+16",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "美军封锁第3天持续封锁中。LNG船0艘通过，马士基/赫伯罗特继续绕行好望角。特朗普称未来两天内美伊将在巴基斯坦谈判，最早4/16举行；伊朗考虑暂停航运控制免破坏谈判，21日\"两周休战\"期满前存协议窗口",
+  "lngNote": "封锁第3天，LNG船仍未见通过。美军封锁令针对进出伊朗港口船只，卡塔尔LNG运营商目前采取绕行或延迟方案。川子称战事接近结束、48h内美伊将谈判，若谈判成功LNG通道或恢复",
   "oilWtiChgRaw": -0.93,
   "goldChgRaw": 0.1,
   "goldIsRealtime": false,
