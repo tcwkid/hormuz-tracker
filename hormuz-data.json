@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-15 17:38",
-  "flashNews": "4/15 16:38：封锁第3天｜24h超20艘商船通过但6艘被拦截掉头｜中国油轮RICH STARRY穿越后在阿曼湾掉头折返｜川子暗示48h内重返谈判桌｜法英4/17召集非交战国会议｜WTI $90.96↓0.35%｜19艘LNG船仍滞留",
+  "lastUpdate": "2026-04-15 18:38",
+  "flashNews": "4/15 17:39：封锁第3天｜VLCC超级油轮二闯海峡｜白宫确认新一轮美伊和谈\"正在讨论中\"｜WTI 1.12↓0.18%｜黄金831↑｜19艘LNG船仍滞留",
   "shipCount": 20,
   "shipChg": "+16",
-  "oilWti": 92.66,
-  "oilWtiChg": "1.51",
+  "oilWti": 93.07,
+  "oilWtiChg": "1.96",
   "oilWtiNote": "↑",
-  "goldPrice": 4820.7,
-  "goldChg": "0.61",
+  "goldPrice": 4814.8,
+  "goldChg": "0.73",
   "goldNote": "↓",
   "congestion": 15,
-  "congestionNote": "封锁第3天：美军全面实施封锁，6艘船被拦截掉头。RICH STARRY穿越后在阿曼湾掉头折返——封锁压力下中国船也扛不住。美财长贝森特谴责中国囤油。川子暗示48h内重启谈判，21日休战到期倒计时",
+  "congestionNote": "封锁第3天：美军确认封锁已\"全面实施\"，6艘船被拦截掉头。超级油轮VLCC今日第二次尝试强闯海峡前往伊拉克。RICH STARRY穿越后折返。白宫确认新一轮美伊和谈\"正在讨论中\"，最早4/16",
   "barData": [
     {
       "date": "3/26",
@@ -232,6 +232,14 @@
   "events": [
     {
       "date": "4/15",
+      "title": "🔴 超级油轮VLCC第二次尝试强闯霍尔木兹海峡",
+      "desc": "OilPrice 4/15报道：一艘前往伊拉克装载原油的超级油轮(VLCC)今日进行第二次穿越霍尔木兹海峡进入波斯湾的尝试。此前首次尝试被美军拦截。此举或成为检验美军封锁力度的标志性事件——封锁目标是伊朗港口，而非非伊朗目的地船只。",
+      "type": "danger",
+      "tag": "封锁对抗",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/15",
       "title": "🔴 美军宣布封锁\"已全面实施\"，6艘船被迫掉头",
       "desc": "CNBC 4/15报道：美军宣布霍尔木兹海峡封锁已\"全面实施\"(fully implemented)，同时为伊朗留出外交退路。Reuters确认6艘试图通过的船只被美军拦截后掉头。封锁针对所有进出伊朗港口船只，非伊朗目的地理论上不受阻但船东普遍避险。",
       "type": "danger",
@@ -269,14 +277,6 @@
       "type": "warning",
       "tag": "谈判新动向",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/15",
-      "title": "🟡 温沃德：多艘掉头关闭AIS，3艘被制裁油轮仍强行通过",
-      "desc": "AJ 4/14报道：至少3艘船包括2艘美国制裁油轮在封锁首日仍强行进入波斯湾。温沃德观察到多艘船舶掉头驶离、关闭AIS、降低航速，通航受双重控制动态叠加影响。19艘LNG船仍滞留区域。",
-      "type": "warning",
-      "tag": "海事情报",
-      "tagColor": "amber"
     }
   ],
   "insightText": "",
@@ -284,9 +284,9 @@
   "shipCountNews": 20,
   "shipChgNews": "+16",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第3天，19艘LNG船仍滞留区域。CNN/MarineTraffic确认400+油轮、34艘LPG船、19艘LNG船滞留。卡塔尔LNG运营商继续绕行好望角。4/16美伊谈判若重启，LNG通道或成核心议题",
-  "oilWtiChgRaw": 1.51,
-  "goldChgRaw": -0.61,
+  "lngNote": "封锁第3天，19艘LNG船仍滞留区域。Kpler确认停火后仅2艘油气船通过海峡。卡塔尔LNG继续绕行好望角。4/17法英非交战国会议或讨论LNG通道议题",
+  "oilWtiChgRaw": 1.96,
+  "goldChgRaw": -0.73,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
