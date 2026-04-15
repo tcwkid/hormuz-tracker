@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-16 02:38",
-  "flashNews": "4/16 01:39：封锁第3天｜NBC：美伊面对面谈判本周内或重启｜川子Fox专访称战争\"非常接近结束\"｜巴军总参抵德黑兰斡旋｜IRGC威胁封锁红海+阿曼海+波斯湾｜Kpler：24h仅7-8艘AIS船过峡｜WTI $91.73↑0.5%｜黄金$4823↓0.6%",
+  "lastUpdate": "2026-04-16 03:38",
+  "flashNews": "4/16 02:39：封锁第3天｜CENTCOM：48h封锁fully implemented，9艘商船被劝返｜伊朗评估是否参加下轮谈判｜2艘伊朗油轮穿越未被拦（Fars）｜Rich Starry穿越后U-turn回伊朗｜Kpler：仅涓流(trickle)通行｜美伊停火延期\"原则性同意\"｜WTI $91.32↑0.04%｜黄金$4817↓0.7%",
   "shipCount": 8,
   "shipChg": "-12",
-  "oilWti": 91.32,
-  "oilWtiChg": "0.04",
-  "oilWtiNote": "↑",
-  "goldPrice": 4816.6,
-  "goldChg": "0.69",
+  "oilWti": 90.83,
+  "oilWtiChg": "0.49",
+  "oilWtiNote": "↓",
+  "goldPrice": 4825.7,
+  "goldChg": "0.5",
   "goldNote": "↓",
   "congestion": 18,
-  "congestionNote": "封锁第3天：CENTCOM称封锁\"已完全实施\"(fully implemented)。Argus/Kpler确认过去24h仅7艘AIS船过峡（均非伊朗港口挂靠船）。IRGC扩大威胁范围至红海+阿曼海。通行量不足战前6%（8艘vs战前130+艘/天）。Rich Starry(中国制裁油轮)携25万桶甲醇穿越未被拦。战险保费48h一审。",
+  "congestionNote": "封锁第3天：CENTCOM确认48h封锁fully implemented，9艘商船被劝返、无一突破。Rich Starry穿越后U-turn回伊朗Qeshm岛。伊朗Golbon号突破海峡后在巴基斯坦附近停驶、折返Chabahar。Kashan号在阿曼湾急转掉头。3艘被制裁油轮借伊朗\"通行费\"通道西行入湾（挂靠伊拉克）。Kpler称通行量为trickle（涓流）。通行量不足战前6%。",
   "barData": [
     {
       "date": "3/26",
@@ -238,6 +238,22 @@
   "events": [
     {
       "date": "4/16",
+      "title": "🟡 伊朗评估是否参加下轮谈判，巴军总参穆尼尔斡旋后等回音",
+      "desc": "伊朗塔斯尼姆通讯社：伊朗与巴基斯坦军方总参穆尼尔会晤后将\"进行必要评估再决定是否开展下轮谈判\"。AP/NBC称第二轮或今日(4/16)重启。三大分歧未变：核问题、霍尔木兹控制权、2700亿美元战争赔偿。停火4/22到期为终极红线。",
+      "type": "warning",
+      "tag": "谈判悬念",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/16",
+      "title": "🔴 CENTCOM：48h封锁fully implemented，9艘商船劝返无一突破",
+      "desc": "CENTCOM声明：封锁全面实施，逾万名美军部署。48h内9艘商船被劝返回伊朗港口。Rich Starry穿越后U-turn回Qeshm岛；Golbon号突破海峡后在巴基斯坦附近停驶折返Chabahar；Kashan号阿曼湾急转掉头。封锁执行力度显著升级。",
+      "type": "danger",
+      "tag": "封锁升级",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/16",
       "title": "🔴 IRGC扩大威胁：不撤封锁就封锁红海+阿曼海+波斯湾全部航道",
       "desc": "IRGC最高作战指挥部司令阿卜杜拉希：美国继续封锁就是\"违反停火前奏\"，伊朗将阻止波斯湾、阿曼海、红海所有进出口。同时CENTCOM称封锁\"已完全实施\"，完全切断伊朗海运贸易。冲突外溢至三大水道，全球航运风险骤升。",
       "type": "danger",
@@ -254,11 +270,11 @@
     },
     {
       "date": "4/15",
-      "title": "🟡 巴基斯坦军方总参谋长飞赴德黑兰斡旋第二轮谈判",
-      "desc": "NBC确认巴基斯坦军方总参谋长今日抵达德黑兰，为美伊第二轮谈判穿针引线。伊朗外交部称将接待巴方代表团。双方在第一轮谈判后仍保持沟通。",
-      "type": "warning",
-      "tag": "斡旋升级",
-      "tagColor": "amber"
+      "title": "🟢 停火延期\"原则性同意\"，三大分歧仍待解",
+      "desc": "AP报道调停方称美伊已\"原则性同意\"延长4/22到期停火。三大分歧：核问题、霍尔木兹控制权、战争赔偿。巴基斯坦财长称\"我们不会放弃\"。4/21到期为终极红线。",
+      "type": "positive",
+      "tag": "停火延期",
+      "tagColor": "green"
     },
     {
       "date": "4/15",
@@ -267,22 +283,6 @@
       "type": "warning",
       "tag": "英美分歧",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/15",
-      "title": "🔴 伊朗威胁报复性封锁红海，冲突外溢风险急升",
-      "desc": "伊朗军方威胁：美国不撤封锁就封锁波斯湾、阿曼海、红海。同时2艘伊朗油轮成功穿越海峡（Fars通讯社），1艘被制裁VLCC全程AIS开启通过、美军未拦截。封锁执行力度受质疑。",
-      "type": "danger",
-      "tag": "冲突外溢",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/15",
-      "title": "🟢 停火延期\"原则性同意\"，三大分歧仍待解",
-      "desc": "AP报道调停方称美伊已\"原则性同意\"延长4/22到期停火。三大分歧：核问题、霍尔木兹控制权、战争赔偿。巴基斯坦财长称\"我们不会放弃\"。4/21到期为终极红线。",
-      "type": "positive",
-      "tag": "停火延期",
-      "tagColor": "green"
     }
   ],
   "insightText": "",
@@ -290,9 +290,9 @@
   "shipCountNews": 8,
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第3天，LNG通行持续中断。19艘LNG船仍滞留区域。卡塔尔Ras Laffan战损关闭未修复。IRGC威胁扩大封锁至红海，LNG运输风险外溢。Argus确认仅非伊朗挂靠船可通过，LNG专用通道未开放。4/17英法巴黎峰会或讨论LNG通道方案。",
-  "oilWtiChgRaw": 0.04,
-  "goldChgRaw": -0.69,
+  "lngNote": "封锁第3天，LNG通行持续中断。4/6伊朗拦截2艘卡塔尔LNG船后无新LNG通过记录。19艘LNG船仍滞留区域。卡塔尔Ras Laffan战损未修复。IRGC威胁扩大封锁至红海+阿曼海，LNG运输风险外溢。4/17英法巴黎峰会或讨论LNG通道方案。",
+  "oilWtiChgRaw": -0.49,
+  "goldChgRaw": -0.5,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
