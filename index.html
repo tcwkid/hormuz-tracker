@@ -472,10 +472,10 @@ body {
   </div>
 </div>
 
-<!-- 停火横幅 -->
+<!-- 快讯横幅（从JSON flashNews动态渲染） -->
 <div class="banner">
-  <span class="b-icon">🕊️</span>
-  <span>停火生效中 · 美伊同意暂停轰炸两周 · 4月10日伊斯兰堡谈判</span>
+  <span class="b-icon">🔥</span>
+  <span id="flashNewsBanner">加载中...</span>
 </div>
 
 <!-- 4个核心指标卡 -->
@@ -778,7 +778,8 @@ function applyData(data) {
   renderConflictMeter(data);
 
   if (data.flashNews) {
-    document.querySelector('.banner span:last-child').textContent = data.flashNews;
+    const fb = document.getElementById('flashNewsBanner');
+    if (fb) fb.textContent = data.flashNews;
   }
 
   // lastUpdate
