@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-16 07:38",
-  "flashNews": "4/16 06:38：封锁第3天｜Windward：4/14共19船穿越(5入14出)出港激增｜TASS：4/14达16船为3月来最高｜观察者网：4/15超20艘商船过峡｜伊朗启用替代港口绕开封锁｜IRGC威胁扩封红海+阿曼海｜AJ：开战以来279船过峡22船被袭，停火后仅45船｜WTI $91.08↓0.23%｜黄金$4821.8↓0.04%",
+  "lastUpdate": "2026-04-16 08:38",
+  "flashNews": "4/16 07:38：🔥川子Truth Social宣布\"永久开放\"霍尔木兹，称习近平very happy+中国承诺不向伊朗供武｜封锁第4天｜CENTCOM：10船劝返ZERO突破，USS Spruance拦截伊朗货船｜首艘VLCC Agios Fanourios I西向穿越赴伊拉克巴士拉｜NBC：美伊本周内或重启面谈｜伊朗外交部：封锁非法且无效｜S&P500+纳指创历史新高无视战争｜WTI $90.87↓0.46%｜黄金$4835.8↑0.25%",
   "shipCount": 8,
   "shipChg": "-12",
-  "oilWti": 90.87,
-  "oilWtiChg": "0.46",
+  "oilWti": 90.56,
+  "oilWtiChg": "0.8",
   "oilWtiNote": "↓",
-  "goldPrice": 4835.8,
-  "goldChg": "0.25",
+  "goldPrice": 4847.2,
+  "goldChg": "0.49",
   "goldNote": "↑",
   "congestion": 18,
-  "congestionNote": "封锁第3天：Windward报告4/14共19船穿越(5入14出)出港量激增。TASS：4/14达16船为3月局势紧张以来最高。观察者网：4/15超20艘商船过峡含货船、集装箱船及油轮。伊朗宣布启用南部以外替代港口绕开封锁。CENTCOM：封锁fully implemented，48h内9商船被劝返。通行量仍仅战前(130+/日)的6-15%。",
+  "congestionNote": "封锁第4天：CENTCOM累计10船劝返ZERO突破，USS Spruance拦截伊朗货船。首艘VLCC Agios Fanourios I(马耳他旗)西向穿越赴伊拉克巴士拉。川子宣布\"永久开放\"海峡称中国很高兴。伊朗外交部：Iran cannot be besieged。通行量仍仅战前(135/日)的6%。美军部署万人+十余艘军舰+数十架飞机。",
   "barData": [
     {
       "date": "3/26",
@@ -238,27 +238,35 @@
   "events": [
     {
       "date": "4/16",
-      "title": "🔴 中资VLCC+伊朗旗船公然穿越海峡，封锁出现\"执行漏洞\"",
-      "desc": "CBS：中资VLCC Alicia（曾因运伊朗原油被制裁）夜间穿越霍尔木兹，AIS全程开启\"毫不掩饰\"。2艘伊朗旗集装箱船同时驶出波斯湾。美官员承认封锁执行线在阿曼湾——船可穿越海峡但被拦截在远端。至少2船关闭AIS。伊朗法尔斯社宣传\"封锁已被突破\"。",
+      "title": "🔥 川子宣布\"永久开放\"霍尔木兹，称中国承诺不向伊朗供武",
+      "desc": "川子Truth Social：\"China is very happy that I am permanently opening the Strait of Hormuz\"，称习近平同意不向伊朗供应武器，两国\"working smartly and very well\"。Newsweek解读为封锁策略转向——从\"封死伊朗\"到\"确保通航自由\"。但CENTCOM同日仍在拦截伊朗船只，实际执行与宣言存在时间差。市场反应：S&P500+纳指创新高。",
+      "type": "positive",
+      "tag": "永久开放",
+      "tagColor": "green"
+    },
+    {
+      "date": "4/16",
+      "title": "🔴 CENTCOM升级：10船劝返ZERO突破，USS Spruance拦截伊朗货船",
+      "desc": "CENTCOM最新：累计10艘商船被劝返，ZERO突破封锁。USS Spruance(DDG-111)成功拦截一艘从Bandar Abbas出港试图沿伊朗海岸线逃逸的伊朗旗货船并令其掉头。伊朗外交部发言人Baghaei：\"Iran cannot be besieged\"，称封锁\"不会成功\"。",
       "type": "danger",
-      "tag": "封锁漏洞",
+      "tag": "拦截升级",
       "tagColor": "red"
     },
     {
       "date": "4/16",
-      "title": "🟡 伊朗评估是否参加下轮谈判，巴军总参穆尼尔斡旋后等回音",
-      "desc": "伊朗塔斯尼姆通讯社：伊朗与巴基斯坦军方总参穆尼尔会晤后将\"进行必要评估再决定是否开展下轮谈判\"。AP/NBC称第二轮或今日(4/16)重启。三大分歧未变：核问题、霍尔木兹控制权、2700亿美元战争赔偿。停火4/22到期为终极红线。",
+      "title": "🟡 首艘VLCC西向穿越海峡赴伊拉克，封锁\"选择性执行\"",
+      "desc": "Newsweek：马耳他旗VLCC Agios Fanourios I在阿曼湾锚泊近2天后4/14夜间起锚，4/15凌晨穿越海峡进入波斯湾，13.6节航速赴伊拉克巴士拉(预计4/16抵达)。这是封锁以来首艘西向穿越的原油轮。CENTCOM重申：非伊朗港口船只自由通行。",
       "type": "warning",
-      "tag": "谈判悬念",
+      "tag": "选择执行",
       "tagColor": "amber"
     },
     {
       "date": "4/16",
-      "title": "🔴 CENTCOM：48h封锁fully implemented，9艘商船劝返无一突破",
-      "desc": "CENTCOM声明：封锁全面实施，逾万名美军部署。48h内9艘商船被劝返回伊朗港口。Rich Starry穿越后U-turn回Qeshm岛；Golbon号突破海峡后在巴基斯坦附近停驶折返Chabahar；Kashan号阿曼湾急转掉头。封锁执行力度显著升级。",
-      "type": "danger",
-      "tag": "封锁升级",
-      "tagColor": "red"
+      "title": "🟡 NBC：美伊本周内或重启面谈，停火4/22到期倒计时",
+      "desc": "NBC：知情人士透露美伊本周内可能重启面对面谈判。川子称\"接下来两天会有惊人进展\"。三大分歧未变：核问题、霍尔木兹控制权、战争赔偿。停火4/22到期为硬性红线。巴基斯坦继续斡旋。",
+      "type": "warning",
+      "tag": "谈判窗口",
+      "tagColor": "amber"
     },
     {
       "date": "4/16",
@@ -267,14 +275,6 @@
       "type": "danger",
       "tag": "三线封锁",
       "tagColor": "red"
-    },
-    {
-      "date": "4/15",
-      "title": "🔴 川子暗示4/27前达成协议，称伊朗\"被打得很惨\"",
-      "desc": "Sky News专访川子：被问4/27英王访美前能否达成协议，川子称\"非常有可能\"(very possible)，\"他们被打得很惨\"。同日称\"接下来两天会有惊人进展\"(amazing two days ahead)，暗示4/17前出结果。",
-      "type": "warning",
-      "tag": "川子表态",
-      "tagColor": "amber"
     },
     {
       "date": "4/15",
@@ -290,9 +290,9 @@
   "shipCountNews": 8,
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第3天，LNG通行持续中断。CNN：19艘LNG船滞留区域。4/6伊朗拦截2艘卡塔尔LNG船后无新LNG通过记录。卡塔尔LNG出口厂3月遭伊朗无人机袭后停产至今。IRGC威胁扩大封锁至红海+阿曼海+波斯湾全部航道。4/17英法巴黎峰会核心议题含LNG通道方案。",
-  "oilWtiChgRaw": -0.46,
-  "goldChgRaw": 0.25,
+  "lngNote": "封锁第4天，LNG通行持续中断。CNN：19艘LNG船滞留区域。卡塔尔LNG出口厂3月遭袭后停产至今。IRGC威胁扩大封锁至红海+阿曼海。川子宣布\"永久开放\"海峡但CENTCOM仍在执行封锁，LNG实际恢复需等正式解封令。4/17英法巴黎峰会核心议题含LNG通道方案。",
+  "oilWtiChgRaw": -0.8,
+  "goldChgRaw": 0.49,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false
