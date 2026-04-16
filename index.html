@@ -776,11 +776,18 @@ function applyData(data) {
   renderTable(data);
   renderEvents(data);
   renderConflictMeter(data);
-  initCharts(data);
 
   if (data.flashNews) {
     document.querySelector('.banner span:last-child').textContent = data.flashNews;
   }
+
+  // lastUpdate
+  if (data.lastUpdate) {
+    const el = document.querySelector('[id="lastUpdate"]') || document.querySelector('.header .h-sub');
+    if (el) el.textContent = '更新于 ' + data.lastUpdate;
+  }
+
+  try { initCharts(data); } catch(e) { console.warn('initCharts:', e.message); }
 }
 
 function loadGistData() {
@@ -1016,6 +1023,12 @@ function getDefaultEvents() {
 
 // ====== 图表 ======
 function initCharts(data) {
+  // 销毁旧chart防止重复初始化
+  ['shipChart','oilChart','goldChart'].forEach(id => {
+    const existing = Chart.getChart(id);
+    if (existing) existing.destroy();
+  });
+
   // 船只柱状图——用barData
   const barData = (data && data.barData && data.barData.length) ? data.barData : [];
   const barLabels = barData.map(d => d.date);
