@@ -812,11 +812,7 @@ function loadGistData() {
   let idx = 0;
   function tryNext() {
     if (idx >= DATA_URLS.length) {
-      console.warn('所有数据源加载失败，使用默认值');
-      renderAll(null);
-      renderTableDefault();
-      renderEventsDefault();
-      initChartsDefault();
+      console.warn('所有数据源加载失败，保留内嵌数据');
       return;
     }
     const url = DATA_URLS[idx++];
