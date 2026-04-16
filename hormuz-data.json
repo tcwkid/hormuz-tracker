@@ -10,7 +10,7 @@
   "goldChg": "0.5",
   "goldNote": "↑",
   "congestion": 18,
-  "congestionNote": "封锁第4天：Fars称2伊朗油轮突破封锁(待证实) vs CENTCOM称10船劝返ZERO突破。USS Spruance拦截伊朗货船。本周累计9艘油轮穿越(CNBC)，较战前降90%+。法英周五巴黎峰会。IRGC威胁扩大封锁至红海+阿曼海三线。通行量仅战前6%。停火倒计时6天。",
+  "congestionNote": "封锁第4天｜通行量仅战前6%｜CENTCOM累计劝返10船｜停火倒计时6天",
   "barData": [
     {
       "date": "3/26",
@@ -290,7 +290,7 @@
   "shipCountNews": 8,
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第4天，LNG通行持续中断。CNN：19艘LNG船滞留区域。Al Jazeera：3/1-4/15仅388艘商品船通过海峡(含255艘油气船)。卡塔尔LNG出口厂3月遭袭后停产至今。IRGC威胁扩大封锁至红海+阿曼海。LNG实际恢复需等封锁正式解除。",
+  "lngNote": "封锁第4天｜LNG完全中断｜19艘LNG船滞留｜卡塔尔停产中",
   "oilWtiChgRaw": 0.46,
   "goldChgRaw": 0.5,
   "goldIsRealtime": false,
