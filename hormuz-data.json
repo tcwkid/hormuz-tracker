@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-04-16 19:38",
-  "flashNews": "🔴 4/16 19:38更新｜Reuters独家：伊朗提议开放阿曼侧海峡让船安全通过｜川子称战争\"very close to over\"｜卫报：美军启动霍尔木兹扫雷行动｜伊朗制裁油轮走新航线闯关（拉克-格什姆岛间）｜国防部长Hegseth今晚记者会｜WTI $88.65↑0.59%｜黄金$4837↑0.28%",
+  "lastUpdate": "2026-04-16 20:38",
+  "flashNews": "🔴 4/16 20:38更新｜白宫：对美伊协议前景\"感觉良好\"，第二轮谈判或下周巴基斯坦举行(CNN 1h前)｜AXSMarine：反封锁后通行回个位数，湾内949商船307艘关AIS(暗船率32%)｜中国VLCC\"RHN\"穿峡(200万桶级)，本周9+油轮通过但仍较战前降90%｜沙特施压美停封锁(WSJ)｜WTI $88.66↑0.60%｜黄金$4837↑0.27%",
   "shipCount": 8,
   "shipChg": "-12",
-  "oilWti": 88.65,
-  "oilWtiChg": "0.59",
+  "oilWti": 88.66,
+  "oilWtiChg": "0.6",
   "oilWtiNote": "↑",
-  "goldPrice": 4837.1,
-  "goldChg": "0.28",
+  "goldPrice": 4836.8,
+  "goldChg": "0.27",
   "goldNote": "↑",
   "congestion": 18,
-  "congestionNote": "封锁第4天｜伊朗提议开放阿曼侧海峡(Reuters)｜美军启动扫雷行动(Guardian)｜制裁油轮新航线闯关(Bloomberg)｜川子称战争very close to over｜CENTCOM封锁48h零突破｜停火4/22到期倒计时6天",
+  "congestionNote": "封锁第4天｜白宫称协议前景乐观(CNN)｜AXSMarine：反封锁后通行回个位数，暗船率32%(战前17%)｜沙特施压美停封锁(WSJ)｜停火4/22到期倒计时6天",
   "barData": [
     {
       "date": "3/26",
@@ -262,10 +262,10 @@
     },
     {
       "date": "4/16",
-      "title": "🟡 白宫：对协议前景\"感觉良好\"，美以要求移除伊朗浓缩铀",
-      "desc": "CNN：白宫称对美伊达成协议\"前景乐观\"，可能启动第二轮谈判。以色列防长Katz 4/14声明：美以已决定必须移除伊朗浓缩铀。ACLED分析：封锁可能推动外交突破也可能升级暴力。双方考虑延长停火两周以争取更多谈判时间。",
+      "title": "🟡 白宫最新：对协议\"感觉良好\"，第二轮谈判或下周巴基斯坦重启",
+      "desc": "CNN 4/16 19:30：白宫称对美伊达成协议\"前景乐观\"。两名巴基斯坦高官透露美伊可能下周重返巴基斯坦进行第二轮和平谈判。川子称伊朗今晨已来电。AXSMarine数据：反封锁后日通行从峰值17艘骤降至个位数，湾内949商船307艘关闭AIS(暗船率32%)。沙特作为美国关键盟友正施压华盛顿停止封锁(WSJ)。",
       "type": "warning",
-      "tag": "谈判乐观",
+      "tag": "谈判推进",
       "tagColor": "amber"
     },
     {
@@ -290,13 +290,13 @@
   "shipCountNews": 8,
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
-  "lngNote": "封锁第4天｜LNG完全中断｜19艘LNG船滞留｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": 0.59,
-  "goldChgRaw": 0.28,
+  "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
+  "oilWtiChgRaw": 0.6,
+  "goldChgRaw": 0.27,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 88.65,
-  "wtiChange": "+0.59%",
-  "goldChange": "+0.28%"
+  "wtiPrice": 88.66,
+  "wtiChange": "+0.60%",
+  "goldChange": "+0.27%"
 }
