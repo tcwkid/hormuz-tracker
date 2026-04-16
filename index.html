@@ -758,7 +758,7 @@ let gistData = {"lastUpdate": "2026-04-16 09:39", "flashNews": "4/16 09:38：封
 
 // ====== 数据源（多源容灾） ======
 const DATA_URLS = [
-  'https://hormuz-proxy.tcwkid.workers.dev/data',
+  './hormuz-data.json',
   'https://raw.githubusercontent.com/tcwkid/hormuz-tracker/main/hormuz-data.json',
   'https://gist.githubusercontent.com/tcwkid/3c7ac2f49b0cb343394dec4ae5b810e8/raw/hormuz-data.json'
 ];
@@ -808,7 +808,7 @@ function loadGistData() {
       return;
     }
     const url = DATA_URLS[idx++];
-    fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now())
+    fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now(), { cache: 'no-store' })
       .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
       .then(data => { applyData(data); })
       .catch(err => { console.warn('数据源失败:', url, err); tryNext(); });
