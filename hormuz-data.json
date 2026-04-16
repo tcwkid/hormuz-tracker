@@ -1,14 +1,14 @@
 {
-  "lastUpdate": "2026-04-16 23:39",
+  "lastUpdate": "2026-04-17 00:39",
   "flashNews": "🔴 4/16 22:51更新｜\"经济狂怒\"启动：美财政部对伊朗最大化经济施压，贝森特称\"金融等价于轰炸\"｜AP：美伊原则同意延长停火｜13艘伊朗船被迫折返，封锁持续第4天",
   "shipCount": 8,
   "shipChg": "-12",
-  "oilWti": 90.66,
-  "oilWtiChg": "2.87",
+  "oilWti": 90.46,
+  "oilWtiChg": "2.64",
   "oilWtiNote": "↑",
-  "goldPrice": 4825.5,
-  "goldChg": "0.04",
-  "goldNote": "↑",
+  "goldPrice": 4820.9,
+  "goldChg": "0.06",
+  "goldNote": "↓",
   "congestion": 18,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
   "barData": [
@@ -291,12 +291,12 @@
   "shipChgNews": "-12",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": 2.87,
-  "goldChgRaw": 0.04,
+  "oilWtiChgRaw": 2.64,
+  "goldChgRaw": -0.06,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 90.66,
-  "wtiChange": "+2.87%",
-  "goldChange": "+0.04%"
+  "wtiPrice": 90.46,
+  "wtiChange": "+2.64%",
+  "goldChange": "-0.06%"
 }
