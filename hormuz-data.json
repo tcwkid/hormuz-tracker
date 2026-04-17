@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 13:26",
-  "flashNews": "🔴 4/17 12:30｜法英40国护航会商｜第二艘制裁VLCC入湾｜伊提阿曼侧安全通行",
+  "lastUpdate": "2026-04-17 13:28",
+  "flashNews": "🔴 4/17 13:35｜法英40国议护航｜第二艘制裁VLCC入湾｜伊提阿曼侧通行",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.59,
-  "oilWtiChg": "1.73",
+  "oilWti": 89.63,
+  "oilWtiChg": "1.69",
   "oilWtiNote": "↓",
-  "goldPrice": 4824.3,
-  "goldChg": "0.33",
+  "goldPrice": 4823.1,
+  "goldChg": "0.31",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,51 +252,51 @@
   "events": [
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法英召集约40国会商霍尔木兹护航任务",
-      "desc": "Reuters 4/17：法英在巴黎牵头约40国会议，讨论冲突后霍尔木兹航行安全与护航任务框架，欧洲推动形成多国执行方案。",
+      "title": "🔴 Reuters：法英牵头约40国会商霍尔木兹护航",
+      "desc": "Reuters 4/17：法英在巴黎牵头约40国会议，讨论霍尔木兹航行安全与护航执行框架。",
       "type": "danger",
       "tag": "40国护航",
       "tagColor": "red"
     },
     {
       "date": "4/16",
-      "title": "🔴 Reuters：第二艘受制裁VLCC穿越霍尔木兹入湾",
-      "desc": "Reuters 4/16：第二艘遭美制裁VLCC进入波斯湾，封锁与制裁博弈继续升级，灰色运输通道风险抬升。",
+      "title": "🔴 Reuters：第二艘受制裁VLCC穿越海峡入湾",
+      "desc": "Reuters 4/16：第二艘遭美制裁VLCC进入波斯湾，显示海运与制裁博弈继续升级。",
       "type": "danger",
-      "tag": "闯关升级",
+      "tag": "制裁闯关",
       "tagColor": "red"
+    },
+    {
+      "date": "4/16",
+      "title": "🟡 Reuters：卡塔尔或延长LNG不可抗力",
+      "desc": "Reuters 4/16（经Edison表述）：卡塔尔可能将天然气不可抗力延至6月中后，欧洲补库压力上升。",
+      "type": "warning",
+      "tag": "LNG收紧",
+      "tagColor": "amber"
     },
     {
       "date": "4/15",
-      "title": "🟡 Reuters独家：伊朗提议开放阿曼侧安全通行",
-      "desc": "Reuters 4/15：伊朗在谈判提案中称可允许船只经阿曼侧安全通过，显示谈判窗口仍在，但落地与执行仍存不确定。",
+      "title": "🟡 Reuters独家：伊朗提议阿曼侧安全通行",
+      "desc": "Reuters 4/15：伊朗提出允许船只经阿曼侧安全通过，谈判窗口仍在但执行未落地。",
       "type": "warning",
-      "tag": "谈判窗口",
+      "tag": "通行提案",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/14",
+      "title": "🟡 Reuters：制裁油轮仍可穿越霍尔木兹",
+      "desc": "Reuters 4/14：被制裁油轮仍出现穿越案例，海上执法与现实通航存在错位。",
+      "type": "warning",
+      "tag": "通航错位",
       "tagColor": "amber"
     },
     {
       "date": "4/17",
-      "title": "🟡 巴黎40国会商霍尔木兹护航框架（法英牵头）",
-      "desc": "Reuters与英国政府口径：法英在巴黎组织约40国会议，讨论冲突后霍尔木兹航行安全机制；阶段性方案暂不纳入美伊直接参与，但强调需协调，欧洲介入进入执行讨论层。",
-      "type": "warning",
-      "tag": "欧洲介入",
-      "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟡 Reuters：美称谈判窗口未关，同时加码海运施压",
-      "desc": "Reuters 4/15-4/16：美国一边表示对达成协议保持乐观，一边升级对伊朗海运与石油买家压力（含次级制裁警告）。伊方提出阿曼侧安全通行方案，但海峡实际通行仍受限，市场继续盯第二轮谈判是否落地。",
+      "title": "🟡 Reuters：美称谈判窗口未关并加码海运施压",
+      "desc": "Reuters 4/15-4/16：美国称仍有谈判空间，同时继续升级对伊海运与买家压力。",
       "type": "warning",
       "tag": "谈判+施压",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 海峡全面封死：14船折返800船滞留，Hegseth称封到底",
-      "desc": "NYPost 4/17：封锁72小时14艘伊朗关联油轮折返，海峡通行降至零。Lloyd's List：800艘船滞留波斯湾，2万船员困航。仅4艘船在封锁后进入（非驶出）海湾。Hegseth在NYT采访中称封锁将持续\"as long as it takes\"，同时威胁准备打击伊朗能源基础设施。伊朗外交部称核谈判\"无具体日期\"，外交窗口收窄。",
-      "type": "danger",
-      "tag": "全面封死",
-      "tagColor": "red"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.73,
-  "goldChgRaw": 0.33,
+  "oilWtiChgRaw": -1.69,
+  "goldChgRaw": 0.31,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.59,
-  "wtiChange": "-1.73%",
-  "goldChange": "+0.33%"
+  "wtiPrice": 89.63,
+  "wtiChange": "-1.69%",
+  "goldChange": "+0.31%"
 }
