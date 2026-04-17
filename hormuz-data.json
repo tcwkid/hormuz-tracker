@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 05:56",
-  "flashNews": "🔴 4/18 05:45｜伊称商船开放｜美称封锁继续｜4/22窗口未改\n🔴 4/18 05:45｜WTI跌近8%｜Brent同步走弱｜波动放大\n🔴 4/18 05:45｜AXS:LNG低活跃｜湾内58船滞留｜运价偏高",
+  "lastUpdate": "2026-04-18 05:58",
+  "flashNews": "🔴 4/18 06:00｜伊称海峡开放｜美称封锁继续｜口径对冲\n🔴 4/18 06:00｜白宫否认延停｜4/22窗口不变｜周末或会谈\n🔴 4/18 06:00｜WTI跌近8%｜LNG低活跃｜波动放大",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,50 +258,50 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：伊称开放，美方称封锁继续",
-      "desc": "Reuters 4/17-4/18：伊方称霍尔木兹对商船开放；美方称对伊封锁措施仍在执行。",
+      "title": "🔴 Reuters：过峡仍需IRGC许可",
+      "desc": "Reuters 4/17：伊官员称海峡开放，但过峡船只仍需IRGC检查与许可。",
+      "type": "warning",
+      "tag": "通行条件",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 Reuters：伊称开放，美称封锁继续",
+      "desc": "Reuters 4/17：伊方称商船可通行；美方称对伊封锁措施仍继续执行。",
       "type": "warning",
       "tag": "口径博弈",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：白宫否认主动延停，4/22窗口不变",
-      "desc": "Reuters 4/15：白宫否认主动请求延长停火；当前到期窗口仍指向4/22。",
+      "title": "🔴 Reuters：白宫否认主动延停",
+      "desc": "Reuters视频 4/16：白宫否认曾主动请求延长停火，到期窗口仍在4/22附近。",
       "type": "warning",
       "tag": "停火窗口",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：WTI回落，单日跌幅扩大",
-      "desc": "Reuters 4/17：受“海峡开放”口径影响，WTI与Brent同步下挫，日内波动放大。",
+      "title": "🔴 Reuters：WTI回落，波动放大",
+      "desc": "Reuters 4/17：受“海峡开放”口径影响，WTI与Brent同步下挫、日内振幅扩大。",
       "type": "warning",
       "tag": "油价急跌",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 AXSMarine：LNG跨峡活动仍非常有限",
-      "desc": "AXSMarine追踪：湾内约58艘气体运输船滞留，跨峡LNG活动仍处低位。",
+      "title": "🔴 AXSMarine：LNG活动仍非常有限",
+      "desc": "AXSMarine追踪：湾内约58艘气体运输船滞留，LNG跨峡活动仍处低位。",
       "type": "warning",
       "tag": "LNG低活跃",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 BBC/AP：伊称开放，美方称封锁继续",
-      "desc": "BBC与AP 4/18：伊方称霍尔木兹对商船开放；美方表态对伊封锁仍将维持。",
+      "title": "🔴 BBC：开放声明与航运现实背离",
+      "desc": "BBC Live 4/18：伊方称海峡开放，但实船跟踪仍显示通行偏弱。",
       "type": "warning",
-      "tag": "口径博弈",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：油价重挫，WTI单日跌超11%",
-      "desc": "Reuters 4/17：伊方称霍尔木兹对商船开放后，WTI与Brent出现两位数回落。",
-      "type": "warning",
-      "tag": "油价急跌",
+      "tag": "航运偏弱",
       "tagColor": "red"
     }
   ],
