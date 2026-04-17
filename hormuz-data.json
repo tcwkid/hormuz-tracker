@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 04:26",
+  "lastUpdate": "2026-04-18 04:28",
   "flashNews": "🔴 4/18｜伊称海峡开放｜美称封锁续行｜双口径并存\n🔴 4/18｜白宫否认延停｜4/22到期未改｜周末或再谈\n🔴 4/18｜WTI跌近9%｜盘中一度超14%｜LNG低活跃",
   "shipCount": 15,
   "shipChg": "0",
-  "oilWti": 83.11,
-  "oilWtiChg": "8.84",
+  "oilWti": 83.14,
+  "oilWtiChg": "8.81",
   "oilWtiNote": "↓",
-  "goldPrice": 4849.19,
-  "goldChg": "0.35",
+  "goldPrice": 4846.6,
+  "goldChg": "0.52",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -274,10 +274,18 @@
     },
     {
       "date": "4/18",
-      "title": "🔴 CNBC：WTI盘中一度跌超14%",
-      "desc": "CNBC 4/17：海峡开放预期驱动，WTI盘中跌幅一度扩大至14%以上。",
+      "title": "🔴 AXSMarine：LNG活动仍非常有限",
+      "desc": "AXSMarine最新跟踪：海湾内气体运输船高位滞留，LNG跨峡活动仍低位。",
       "type": "warning",
-      "tag": "油价急跌",
+      "tag": "LNG低活跃",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 Reuters：封锁将维持至达成协议",
+      "desc": "Reuters 4/17：特朗普称对伊海上封锁将维持“full force”直至达成协议。",
+      "type": "warning",
+      "tag": "封锁延续",
       "tagColor": "red"
     },
     {
@@ -286,14 +294,6 @@
       "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹仍需IRGC安全放行。",
       "type": "warning",
       "tag": "IRGC许可",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 AXSMarine：LNG活动仍非常有限",
-      "desc": "AXSMarine最新跟踪：海湾内气体运输船高位滞留，LNG跨峡活动仍低位。",
-      "type": "warning",
-      "tag": "LNG低活跃",
       "tagColor": "red"
     },
     {
@@ -311,12 +311,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -8.84,
-  "goldChgRaw": -0.35,
+  "oilWtiChgRaw": -8.81,
+  "goldChgRaw": -0.52,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
-  "wtiPrice": 83.11,
-  "wtiChange": "-8.84%",
-  "goldChange": "-0.35%"
+  "wtiPrice": 83.14,
+  "wtiChange": "-8.81%",
+  "goldChange": "-0.52%"
 }
