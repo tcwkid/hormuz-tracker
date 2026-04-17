@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-04-17 15:56",
-  "flashNews": "🔴 4/17 15:45｜40国护航会商｜通航脆弱｜排雷预案\n🔴 4/17 15:45｜AP称停火可延｜美伊周末谈｜4/22节点\n🔴 4/17 15:45｜卡塔尔LNG延FM｜欧亚补库压｜气运偏紧",
+  "lastUpdate": "2026-04-17 15:58",
+  "flashNews": "🔴 4/17 16:00｜40国会商护航｜周末会谈窗｜续停火博弈\n🔴 4/17 16:00｜巴军方赴德黑兰｜斡旋延停火｜4/22倒计时\n🔴 4/17 16:00｜卡塔尔LNG延FM｜美LNG补缺口｜气运仍紧",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 90.04,
-  "oilWtiChg": "1.24",
+  "oilWti": 90.02,
+  "oilWtiChg": "1.26",
   "oilWtiNote": "↓",
-  "goldPrice": 4803.4,
+  "goldPrice": 4803.5,
   "goldChg": "0.1",
   "goldNote": "↓",
   "congestion": 11,
@@ -252,18 +252,18 @@
   "events": [
     {
       "date": "4/17",
-      "title": "🟠 Reuters：约40国会商霍尔木兹战后护航框架",
-      "desc": "Reuters 4/17：法英牵头约40国讨论冲突结束后的霍尔木兹航行安全任务与护航协调。",
+      "title": "🟠 AP：巴基斯坦军方赴德黑兰斡旋续停火",
+      "desc": "AP 4/17：巴基斯坦军方高层赴德黑兰会晤，推动延长停火并为周末会谈铺路。",
       "type": "warning",
-      "tag": "战后护航框架",
+      "tag": "续停火斡旋",
       "tagColor": "amber"
     },
     {
       "date": "4/17",
-      "title": "🟡 AP：美伊原则同意延长停火",
-      "desc": "AP 4/17：美伊被指已原则同意延长停火，为周末会谈争取时间，4/22仍是关键节点。",
+      "title": "🟠 Reuters：约40国会商霍尔木兹战后护航",
+      "desc": "Reuters 4/17：法英牵头约40国讨论冲突结束后的霍尔木兹航行安全任务与护航协调。",
       "type": "warning",
-      "tag": "原则续停火",
+      "tag": "战后护航框架",
       "tagColor": "amber"
     },
     {
@@ -276,23 +276,23 @@
     },
     {
       "date": "4/17",
-      "title": "🟠 CNBC：LSEG称霍尔木兹航道一度仅见2船通行",
+      "title": "🟡 AP：美伊被指原则同意延长停火",
+      "desc": "AP 4/17：多方消息称美伊原则上同意延长停火，关键节点仍在4/22前后。",
+      "type": "warning",
+      "tag": "原则续停火",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/16",
+      "title": "🟠 CNBC：LSEG称关键航道一度仅见2船",
       "desc": "CNBC 4/16引述LSEG：关键航道一度仅观测到2艘船通过，通航恢复仍脆弱。",
       "type": "warning",
       "tag": "通航脆弱",
       "tagColor": "amber"
     },
     {
-      "date": "4/16",
-      "title": "🔴 Reuters：第二艘受制裁VLCC穿越海峡入湾",
-      "desc": "Reuters 4/16：第二艘遭美制裁VLCC进入波斯湾，显示海运与制裁博弈继续升级。",
-      "type": "danger",
-      "tag": "制裁闯关",
-      "tagColor": "red"
-    },
-    {
       "date": "4/15",
-      "title": "🟠 Reuters：卡塔尔LNG或延长不可抗力",
+      "title": "🟠 Reuters：卡塔尔LNG不可抗力或延长",
       "desc": "Reuters 4/15：Edison称卡塔尔天然气不可抗力或延至6月中旬后，LNG缺口或由美国部分填补。",
       "type": "warning",
       "tag": "LNG延长FM",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.24,
+  "oilWtiChgRaw": -1.26,
   "goldChgRaw": -0.1,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 90.04,
-  "wtiChange": "-1.24%",
+  "wtiPrice": 90.02,
+  "wtiChange": "-1.26%",
   "goldChange": "-0.10%"
 }
