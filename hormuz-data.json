@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-04-17 08:38",
-  "flashNews": "🔴 4/17 07:40｜14船折返海峡全面封死｜800船2万人滞留湾内｜Hegseth：封到底",
-  "shipCount": 8,
-  "shipChg": "-12",
+  "lastUpdate": "2026-04-17 08:55",
+  "flashNews": "🔴 4/17 08:55｜Windward口径：4/15通行15艘（8进7出）｜14船折返封锁仍在｜停火4/22倒计时",
+  "shipCount": 15,
+  "shipChg": "-5",
   "oilWti": 89.78,
   "oilWtiChg": "1.52",
   "oilWtiNote": "↓",
@@ -142,6 +142,12 @@
       "date": "4/16",
       "totalH": 8,
       "oilH": 3,
+      "latest": false
+    },
+    {
+      "date": "4/17",
+      "totalH": 15,
+      "oilH": 6,
       "latest": true
     }
   ],
@@ -227,12 +233,20 @@
       "trend": "up"
     },
     {
-      "week": "● 4/16",
+      "week": "4/16",
       "count": 8,
       "warDir": "down",
       "warChg": "-12",
       "pct": "5.9%",
       "trend": "down"
+    },
+    {
+      "week": "● 4/17",
+      "count": 15,
+      "warDir": "up",
+      "warChg": "+7",
+      "pct": "11.1%",
+      "trend": "up"
     }
   ],
   "events": [
@@ -287,8 +301,8 @@
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
   "insightTime": "4/16 18:00 · 进度条",
-  "shipCountNews": 8,
-  "shipChgNews": "-12",
+  "shipCountNews": 15,
+  "shipChgNews": "-5",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
   "oilWtiChgRaw": -1.52,
