@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 05:12",
-  "flashNews": "🔴 4/18 05:00｜伊称航道开｜WTI急跌｜风险未退\n🔴 4/18 05:00｜停火续谈推｜4/22未改｜博弈继续\n🔴 4/18 05:00｜LNG通行低｜船东绕航｜运费偏高",
+  "lastUpdate": "2026-04-18 05:13",
+  "flashNews": "🔴 4/18 05:20｜伊称商船开放｜WTI跌超11%｜停火续谈\n🔴 4/18 05:20｜过峡需IRGC协调｜通行仍低位｜风险未退\n🔴 4/18 05:20｜AXS：LNG受限｜湾内船舶滞留｜运费偏高",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,6 +258,30 @@
   "events": [
     {
       "date": "4/18",
+      "title": "🔴 Reuters：油价重挫，WTI单日跌超11%",
+      "desc": "Reuters 4/17：伊方称霍尔木兹对商船开放后，WTI与Brent出现两位数回落。",
+      "type": "warning",
+      "tag": "油价急跌",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 MarineLink：过峡船只需提前协调",
+      "desc": "MarineLink 4/17：航经霍尔木兹船只需与伊方相关机制提前协调。",
+      "type": "warning",
+      "tag": "通行管制",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 AXSMarine：LNG跨峡活动仍受限",
+      "desc": "AXSMarine追踪显示，湾内LNG船舶滞留较多，跨峡通行仍在低位。",
+      "type": "warning",
+      "tag": "LNG低活跃",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 多家媒体：伊称霍尔木兹对商船开放",
       "desc": "Fox/Guardian/Al Jazeera 4/17-4/18：伊方称霍尔木兹对商业船舶保持开放。",
       "type": "warning",
@@ -278,30 +302,6 @@
       "desc": "NHPR/CNN相关报道：各方仍在推动停火续谈，4/22关键时点未变。",
       "type": "warning",
       "tag": "4/22倒计时",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Anadolu：24小时通行14艘",
-      "desc": "Anadolu 4/18 09:00GMT：霍尔木兹24小时共14艘过峡（东向5/西向9）。",
-      "type": "warning",
-      "tag": "通行低位",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 AXSMarine：LNG活动仍非常有限",
-      "desc": "AXSMarine最新：湾内气体运输船滞留，LNG跨峡活动维持低位。",
-      "type": "warning",
-      "tag": "LNG低活跃",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：过峡仍需IRGC许可",
-      "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹仍需IRGC安全放行。",
-      "type": "warning",
-      "tag": "IRGC许可",
       "tagColor": "red"
     }
   ],
