@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 23:42",
-  "flashNews": "🔴 4/17 23:30｜川子称周末会面｜停火或续期｜油价回落\n🔴 4/17 23:30｜经济狂怒升级｜次级制裁预警｜伊油运受压\n🔴 4/17 23:30｜法英召40国｜护航+扫雷预案｜航道待修复",
+  "lastUpdate": "2026-04-17 23:43",
+  "flashNews": "🔴 4/17 23:45｜周末会谈窗｜停火待续｜油价下杀\n🔴 4/17 23:45｜法英召40国｜护航扫雷案｜通航待修\n🔴 4/17 23:45｜封锁继续｜LNG低活跃｜船流未复",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 81.46,
-  "oilWtiChg": "10.65",
+  "oilWti": 81.58,
+  "oilWtiChg": "10.52",
   "oilWtiNote": "↓",
-  "goldPrice": 4894.1,
-  "goldChg": "1.78",
+  "goldPrice": 4893.0,
+  "goldChg": "1.76",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,6 +252,14 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🔴 Reuters：法英会商聚焦对伊制裁协同",
+      "desc": "Reuters 4/14：法英牵头霍尔木兹任务会议，议程含对伊潜在金融制裁及与海湾国家协同护航。",
+      "type": "warning",
+      "tag": "制裁+护航议程",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/17",
       "title": "🔴 Reuters：川子称周末或与伊方会面",
       "desc": "Reuters 4/17：特朗普称战争应尽快结束，双方可能在周末会面，为停火延长留窗口。",
       "type": "warning",
@@ -289,14 +297,6 @@
       "type": "warning",
       "tag": "制裁升级",
       "tagColor": "red"
-    },
-    {
-      "date": "4/15",
-      "title": "🔴 Reuters：伊提议阿曼侧航道安全放行",
-      "desc": "Reuters 4/15：消息人士称伊朗提出允许船舶经霍尔木兹阿曼侧安全离场的方案，作为降温谈判筹码。",
-      "type": "warning",
-      "tag": "阿曼侧放行提议",
-      "tagColor": "red"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -10.65,
-  "goldChgRaw": 1.78,
+  "oilWtiChgRaw": -10.52,
+  "goldChgRaw": 1.76,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 81.46,
-  "wtiChange": "-10.65%",
-  "goldChange": "+1.78%"
+  "wtiPrice": 81.58,
+  "wtiChange": "-10.52%",
+  "goldChange": "+1.76%"
 }
