@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 04:12",
-  "flashNews": "🔴 4/18 04:00｜伊称海峡开放｜美称封锁继续｜航运观望\n🔴 4/18 04:00｜白宫否认延停｜4/22停火到期｜周末或再谈\n🔴 4/18 04:00｜WTI盘中急挫｜一度跌超10%｜黄金偏强",
+  "lastUpdate": "2026-04-18 04:13",
+  "flashNews": "🔴 4/18｜伊称海峡开放｜美称封锁续行｜双口径并存\n🔴 4/18｜白宫否认延停｜4/22到期未改｜周末或再谈\n🔴 4/18｜WTI跌近9%｜盘中一度超14%｜LNG低活跃",
   "shipCount": 15,
   "shipChg": "0",
-  "oilWti": 83.01,
-  "oilWtiChg": "8.95",
+  "oilWti": 83.05,
+  "oilWtiChg": "8.91",
   "oilWtiNote": "↓",
-  "goldPrice": 4846.6,
-  "goldChg": "0.56",
+  "goldPrice": 4845.9,
+  "goldChg": "0.55",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -258,48 +258,48 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 CNBC：WTI盘中一度跌超14%",
-      "desc": "CNBC 4/17：伊方称开放海峡后，WTI盘中跌幅一度扩大至14%以上。",
-      "type": "warning",
-      "tag": "油价急跌",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：伊称开放，美称封锁持续",
-      "desc": "Reuters 4/17：伊朗称海峡开放；特朗普称对伊船封锁未撤。",
+      "title": "🔴 Reuters：伊称海峡开放，美称封锁续行",
+      "desc": "Reuters 4/17：伊方称霍尔木兹商业航道开放；特朗普称对伊船封锁继续。",
       "type": "warning",
       "tag": "开放/封锁并存",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：白宫否认主动延停",
-      "desc": "Reuters 4/15：白宫否认曾正式请求延长停火。",
+      "title": "🔴 Reuters：白宫否认主动请求延停",
+      "desc": "Reuters 4/15：白宫称从未正式请求延长停火，4/22窗口未改。",
       "type": "warning",
       "tag": "4/22倒计时",
       "tagColor": "red"
     },
     {
       "date": "4/18",
+      "title": "🔴 CNBC：WTI盘中一度跌超14%",
+      "desc": "CNBC 4/17：海峡开放预期驱动，WTI盘中跌幅一度扩大至14%以上。",
+      "type": "warning",
+      "tag": "油价急跌",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 Reuters：过峡仍需IRGC许可",
-      "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹需IRGC安全放行。",
+      "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹仍需IRGC安全放行。",
       "type": "warning",
       "tag": "IRGC许可",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 多家媒体：油价一度跌超10%",
-      "desc": "海峡重开预期触发油价急跌，WTI盘中跌幅一度超10%。",
+      "title": "🔴 AXSMarine：LNG活动仍非常有限",
+      "desc": "AXSMarine最新跟踪：海湾内气体运输船高位滞留，LNG跨峡活动仍低位。",
       "type": "warning",
-      "tag": "油价急跌",
+      "tag": "LNG低活跃",
       "tagColor": "red"
     },
     {
       "date": "4/17",
       "title": "🔴 会谈窗口：周末或再会谈",
-      "desc": "路透线索显示，美伊周末存在再接触窗口。",
+      "desc": "Reuters线索：美伊周末存在再接触窗口，但未形成正式安排。",
       "type": "warning",
       "tag": "会谈窗口",
       "tagColor": "red"
@@ -311,12 +311,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -8.95,
-  "goldChgRaw": -0.56,
+  "oilWtiChgRaw": -8.91,
+  "goldChgRaw": -0.55,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
-  "wtiPrice": 83.01,
-  "wtiChange": "-8.95%",
-  "goldChange": "-0.56%"
+  "wtiPrice": 83.05,
+  "wtiChange": "-8.91%",
+  "goldChange": "-0.55%"
 }
