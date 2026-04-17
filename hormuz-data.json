@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 23:27",
-  "flashNews": "🔴 4/17 23:11｜伊称开放｜美封锁持续｜油价回落\n🔴 4/17 23:11｜法英召40国｜讨论护航｜评估扫雷\n🔴 4/17 23:11｜周末或续停火｜伊美拟再谈｜LNG低活跃",
+  "lastUpdate": "2026-04-17 23:28",
+  "flashNews": "🔴 4/17 23:30｜川子称周末会面｜停火或续期｜油价回落\n🔴 4/17 23:30｜经济狂怒升级｜次级制裁预警｜伊油运受压\n🔴 4/17 23:30｜法英召40国｜护航+扫雷预案｜航道待修复",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 80.45,
-  "oilWtiChg": "11.76",
+  "oilWti": 80.79,
+  "oilWtiChg": "11.39",
   "oilWtiNote": "↓",
-  "goldPrice": 4893.4,
-  "goldChg": "1.77",
+  "goldPrice": 4892.9,
+  "goldChg": "1.76",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -260,26 +260,10 @@
     },
     {
       "date": "4/17",
-      "title": "🔴 美财长宣布“经济狂怒”升级制裁",
-      "desc": "美国财政部4/15宣布升级对伊“Economic Fury”行动，追加打击伊朗油运网络并警告买家面临次级制裁。",
+      "title": "🔴 Reuters：法英召40国会商护航与扫雷",
+      "desc": "Reuters 4/17：法英牵头约40国讨论战后霍尔木兹护航与扫雷安排，释放重建通航框架信号。",
       "type": "warning",
-      "tag": "制裁升级",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 Reuters：美方评估霍尔木兹扫雷路径",
-      "desc": "Reuters 4/16：美方评估可动用无人系统、直升机与反水雷力量清理霍尔木兹水雷，保障后续航运恢复。",
-      "type": "warning",
-      "tag": "扫雷能力评估",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 Reuters：伊称停火期霍尔木兹开放",
-      "desc": "Reuters 4/17：伊朗方面表示在当前停火窗口内，霍尔木兹海峡对商业船舶保持开放。",
-      "type": "warning",
-      "tag": "航道开放表态",
+      "tag": "欧方护航预案",
       "tagColor": "red"
     },
     {
@@ -292,10 +276,26 @@
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法英40国会商战后护航任务",
-      "desc": "Reuters 4/17：法英牵头约40国讨论冲突结束后的霍尔木兹护航与扫雷安排，释放“战后通航框架”信号。",
+      "title": "🔴 Reuters：伊称停火期霍尔木兹开放",
+      "desc": "Reuters 4/17：伊朗方面表示在当前停火窗口内，霍尔木兹海峡对商业船舶保持开放。",
       "type": "warning",
-      "tag": "欧方护航预案",
+      "tag": "航道开放表态",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/17",
+      "title": "🔴 美财长宣布“经济狂怒”升级制裁",
+      "desc": "Reuters 4/15：美国升级对伊“Economic Fury”行动，追加打击伊朗油运网络并警告买家可能遭次级制裁。",
+      "type": "warning",
+      "tag": "制裁升级",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/15",
+      "title": "🔴 Reuters：伊提议阿曼侧航道安全放行",
+      "desc": "Reuters 4/15：消息人士称伊朗提出允许船舶经霍尔木兹阿曼侧安全离场的方案，作为降温谈判筹码。",
+      "type": "warning",
+      "tag": "阿曼侧放行提议",
       "tagColor": "red"
     }
   ],
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -11.76,
-  "goldChgRaw": 1.77,
+  "oilWtiChgRaw": -11.39,
+  "goldChgRaw": 1.76,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 80.45,
-  "wtiChange": "-11.76%",
-  "goldChange": "+1.77%"
+  "wtiPrice": 80.79,
+  "wtiChange": "-11.39%",
+  "goldChange": "+1.76%"
 }
