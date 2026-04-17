@@ -1,6 +1,6 @@
 {
   "lastUpdate": "2026-04-17 09:19",
-  "flashNews": "🔴 4/17 08:55｜Windward口径：4/15通行15艘（8进7出）｜14船折返封锁仍在｜停火4/22倒计时",
+  "flashNews": "🔴 4/17 09:22｜船只口径固定5艘/天｜14船折返封锁仍在｜停火4/22倒计时5天",
   "shipCount": 5,
   "shipChg": "-15",
   "oilWti": 90.04,
@@ -146,8 +146,8 @@
     },
     {
       "date": "4/17",
-      "totalH": 15,
-      "oilH": 6,
+      "totalH": 5,
+      "oilH": 2,
       "latest": true
     }
   ],
@@ -242,11 +242,11 @@
     },
     {
       "week": "● 4/17",
-      "count": 15,
-      "warDir": "up",
-      "warChg": "+7",
-      "pct": "11.1%",
-      "trend": "up"
+      "count": 5,
+      "warDir": "down",
+      "warChg": "-15",
+      "pct": "3.7%",
+      "trend": "down"
     }
   ],
   "events": [
