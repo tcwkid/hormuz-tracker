@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 15:41",
-  "flashNews": "🔴 4/17｜40国护航会商｜通航脆弱｜排雷\n🔴 4/17｜美伊周末会谈窗｜停火延长｜4/22节点\n🔴 4/17｜卡塔尔LNG延不可抗力｜补库承压｜气运弱",
+  "lastUpdate": "2026-04-17 15:43",
+  "flashNews": "🔴 4/17 15:45｜40国护航会商｜通航脆弱｜排雷预案\n🔴 4/17 15:45｜AP称停火可延｜美伊周末谈｜4/22节点\n🔴 4/17 15:45｜卡塔尔LNG延FM｜欧亚补库压｜气运偏紧",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.83,
-  "oilWtiChg": "1.47",
+  "oilWti": 89.98,
+  "oilWtiChg": "1.31",
   "oilWtiNote": "↓",
-  "goldPrice": 4813.5,
-  "goldChg": "0.11",
+  "goldPrice": 4814.0,
+  "goldChg": "0.12",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -251,44 +251,36 @@
   ],
   "events": [
     {
-      "date": "4/15",
-      "title": "🟠 Reuters：伊朗提议阿曼侧安全放行",
-      "desc": "Reuters 4/15独家：伊朗提议允许船舶经阿曼一侧安全离开霍尔木兹，缓解航运风险。",
+      "date": "4/17",
+      "title": "🟠 Reuters：约40国会商霍尔木兹战后护航框架",
+      "desc": "Reuters 4/17：法英牵头约40国讨论冲突结束后的霍尔木兹航行安全任务与护航协调。",
       "type": "warning",
-      "tag": "阿曼侧放行",
+      "tag": "战后护航框架",
       "tagColor": "amber"
     },
     {
       "date": "4/17",
       "title": "🟡 AP：美伊原则同意延长停火",
-      "desc": "AP 4/17：区域官员称美伊已原则同意延长停火，为周末重启谈判争取时间。",
+      "desc": "AP 4/17：美伊被指已原则同意延长停火，为周末会谈争取时间，4/22仍是关键节点。",
       "type": "warning",
       "tag": "原则续停火",
       "tagColor": "amber"
     },
     {
       "date": "4/17",
-      "title": "🟠 CNBC：LSEG称霍尔木兹航道一度仅见2船通行",
-      "desc": "CNBC 4/16引述LSEG：关键航道一度仅观测到2艘船通过，反映封锁后通航仍高度脆弱。",
-      "type": "warning",
-      "tag": "通航脆弱",
-      "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟡 Reuters：川子称美伊周末或重启会谈",
-      "desc": "Reuters 4/17：特朗普称伊以冲突应尽快结束，并称美伊双方可能在周末重返谈判。",
+      "title": "🟠 Reuters：川子称美伊周末或重启会谈",
+      "desc": "Reuters 4/17：特朗普称冲突应尽快结束，并表示美伊可能在周末重返谈判桌。",
       "type": "warning",
       "tag": "周末会谈窗",
       "tagColor": "amber"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法英牵头约40国会商霍尔木兹护航",
-      "desc": "Reuters 4/17：法英在巴黎牵头约40国会议，讨论霍尔木兹航行安全与护航执行框架。",
-      "type": "danger",
-      "tag": "40国护航",
-      "tagColor": "red"
+      "title": "🟠 CNBC：LSEG称霍尔木兹航道一度仅见2船通行",
+      "desc": "CNBC 4/16引述LSEG：关键航道一度仅观测到2艘船通过，通航恢复仍脆弱。",
+      "type": "warning",
+      "tag": "通航脆弱",
+      "tagColor": "amber"
     },
     {
       "date": "4/16",
@@ -297,6 +289,14 @@
       "type": "danger",
       "tag": "制裁闯关",
       "tagColor": "red"
+    },
+    {
+      "date": "4/15",
+      "title": "🟠 Reuters：卡塔尔LNG或延长不可抗力",
+      "desc": "Reuters 4/15：Edison称卡塔尔天然气不可抗力或延至6月中旬后，LNG缺口或由美国部分填补。",
+      "type": "warning",
+      "tag": "LNG延长FM",
+      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.47,
-  "goldChgRaw": 0.11,
+  "oilWtiChgRaw": -1.31,
+  "goldChgRaw": 0.12,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.83,
-  "wtiChange": "-1.47%",
-  "goldChange": "+0.11%"
+  "wtiPrice": 89.98,
+  "wtiChange": "-1.31%",
+  "goldChange": "+0.12%"
 }
