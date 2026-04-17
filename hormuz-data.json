@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 06:11",
-  "flashNews": "🔴 4/18 06:00｜伊称海峡开放｜美称封锁继续｜口径对冲\n🔴 4/18 06:00｜白宫否认延停｜4/22窗口不变｜周末或会谈\n🔴 4/18 06:00｜WTI跌近8%｜LNG低活跃｜波动放大",
+  "lastUpdate": "2026-04-18 06:13",
+  "flashNews": "🔴 4/18｜伊提阿曼放行｜需IRGC许可｜通行偏弱\n🔴 4/18｜白宫否认延停｜4/22窗口不变｜周末或会谈\n🔴 4/18｜WTI跌近8%｜黄金暗盘回落｜LNG低活跃",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,6 +258,14 @@
   "events": [
     {
       "date": "4/18",
+      "title": "🔴 Reuters：伊提阿曼侧放行方案",
+      "desc": "Reuters 4/15：伊朗提议允许船只经阿曼侧安全离开，但未改变过峡审批条件。",
+      "type": "warning",
+      "tag": "通行方案",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 Reuters：过峡仍需IRGC许可",
       "desc": "Reuters 4/17：伊官员称海峡开放，但过峡船只仍需IRGC检查与许可。",
       "type": "warning",
@@ -294,14 +302,6 @@
       "desc": "AXSMarine追踪：湾内约58艘气体运输船滞留，LNG跨峡活动仍处低位。",
       "type": "warning",
       "tag": "LNG低活跃",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 BBC：开放声明与航运现实背离",
-      "desc": "BBC Live 4/18：伊方称海峡开放，但实船跟踪仍显示通行偏弱。",
-      "type": "warning",
-      "tag": "航运偏弱",
       "tagColor": "red"
     }
   ],
