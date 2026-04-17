@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 05:28",
+  "lastUpdate": "2026-04-18 05:41",
   "flashNews": "🔴 4/18 05:26｜伊称商船开放｜美称封锁维持｜停火续谈\n🔴 4/18 05:26｜WTI单日跌超9%｜Brent重挫｜避险降温\n🔴 4/18 05:26｜LNG跨峡仍低位｜湾内船舶滞留｜运价偏高",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
   "oilWtiChg": "7.86",
   "oilWtiNote": "↓",
-  "goldPrice": 4833.95,
-  "goldChg": "0.32",
+  "goldPrice": 4834.19,
+  "goldChg": "0.31",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -312,11 +312,11 @@
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
   "oilWtiChgRaw": -7.86,
-  "goldChgRaw": -0.32,
+  "goldChgRaw": -0.31,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
   "wtiPrice": 84.0,
   "wtiChange": "-7.86%",
-  "goldChange": "-0.32%"
+  "goldChange": "-0.31%"
 }
