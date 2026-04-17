@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 02:42",
-  "flashNews": "🔴 4/18 02:30｜称开放｜IRGC审船｜封锁未撤\n🔴 4/18 02:30｜会谈窗口｜WTI82.6｜金4864\n🔴 4/18 02:30｜LNG低活跃｜航司观望｜复航慢",
+  "lastUpdate": "2026-04-18 02:43",
+  "flashNews": "🔴 4/18 02:45｜伊称开放｜IRGC审船｜封锁未撤\n🔴 4/18 02:45｜白宫否延停｜周末或会谈｜油价续跌\n🔴 4/18 02:45｜LNG低活跃｜船司等细则｜通行偏慢",
   "shipCount": 15,
   "shipChg": "0",
-  "oilWti": 82.9,
-  "oilWtiChg": "9.07",
+  "oilWti": 82.88,
+  "oilWtiChg": "9.09",
   "oilWtiNote": "↓",
   "goldPrice": 4862.16,
-  "goldChg": "0.5",
+  "goldChg": "0.51",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -258,40 +258,40 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：过峡船需IRGC审批",
-      "desc": "Reuters 4/17：伊方称通行恢复，但需IRGC安全审核。",
+      "title": "🔴 Reuters：伊朗称海峡开放但需审船",
+      "desc": "Reuters 4/17：伊方称停火期商船可通行，但需IRGC安全审核。",
       "type": "warning",
       "tag": "IRGC审核",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 伊朗称霍尔木兹对商船开放",
-      "desc": "多家媒体4/17：伊方宣布停火期内商业通航开放。",
+      "title": "🔴 Reuters：船司欢迎开放但仍观望",
+      "desc": "Reuters 4/17：航运公司要求明确细则后再恢复常态通行。",
       "type": "warning",
-      "tag": "通航开放",
+      "tag": "船司观望",
       "tagColor": "red"
     },
     {
       "date": "4/18",
       "title": "🔴 Reuters：白宫否认主动请求延停",
-      "desc": "Reuters 4/17：白宫称未请求延停，但周末仍有会谈窗口。",
+      "desc": "Reuters 4/15：白宫称未请求延长停火，但保留新一轮会谈窗口。",
       "type": "warning",
       "tag": "会谈窗口",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：会谈预期升温压低油价",
-      "desc": "Reuters 4/17：市场押注后续会谈，WTI继续下探。",
+      "title": "🔴 Reuters：油价下挫重塑降息预期",
+      "desc": "Reuters 4/17：霍尔木兹重开叠加油价下行，市场重估美联储路径。",
       "type": "warning",
       "tag": "油价回落",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 AXSMarine：霍尔木兹LNG仍低活跃",
-      "desc": "AXSMarine最新：海峡LNG跨峡活动依旧非常有限。",
+      "title": "🔴 AXSMarine：LNG跨峡活动仍很有限",
+      "desc": "AXSMarine最新：湾内气体船高位滞留，LNG跨峡恢复缓慢。",
       "type": "warning",
       "tag": "LNG低活跃",
       "tagColor": "red"
@@ -299,7 +299,7 @@
     {
       "date": "4/18",
       "title": "🔴 Politico：对伊海上封锁仍执行",
-      "desc": "Politico 4/17：美方欢迎商船恢复，但对伊封锁措施未撤。",
+      "desc": "Politico 4/17：美方欢迎商船恢复，但针对伊朗封锁措施未撤。",
       "type": "warning",
       "tag": "封锁未撤",
       "tagColor": "red"
@@ -311,12 +311,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -9.07,
-  "goldChgRaw": -0.5,
+  "oilWtiChgRaw": -9.09,
+  "goldChgRaw": -0.51,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
-  "wtiPrice": 82.9,
-  "wtiChange": "-9.07%",
-  "goldChange": "-0.50%"
+  "wtiPrice": 82.88,
+  "wtiChange": "-9.09%",
+  "goldChange": "-0.51%"
 }
