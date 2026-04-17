@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 01:41",
-  "flashNews": "🔴 4/18 01:30｜白宫否认延停｜周末会谈窗口｜封锁继续\n🔴 4/18 01:30｜航司等安全澄清｜通航恢复偏慢｜风险仍高\n🔴 4/18 01:30｜LNG低活跃持续｜卡塔尔停产中｜溢价未退",
+  "lastUpdate": "2026-04-18 01:43",
+  "flashNews": "🔴 4/18 01:50｜伊称海峡开放｜美封锁未撤｜口径对冲\n🔴 4/18 01:50｜BBC：油价跳水｜布油跌近一成｜避险降温\n🔴 4/18 01:50｜航司继续观望｜通航恢复偏慢｜LNG低活跃",
   "shipCount": 15,
   "shipChg": "0",
-  "oilWti": 82.64,
-  "oilWtiChg": "9.36",
+  "oilWti": 82.7,
+  "oilWtiChg": "9.29",
   "oilWtiNote": "↓",
-  "goldPrice": 4857.67,
-  "goldChg": "0.48",
+  "goldPrice": 4856.73,
+  "goldChg": "0.52",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -258,50 +258,50 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：白宫否认主动请求延长停火",
-      "desc": "Reuters 4/15：白宫称未主动请求延长停火，但表示周末可能出现新一轮接触窗口。",
+      "title": "🔴 BBC：伊方开放表态后国际油价急跌",
+      "desc": "BBC 4/17：伊朗称停火期霍尔木兹对商船开放后，布油一度下挫近一成。",
       "type": "warning",
-      "tag": "周末会谈窗口",
+      "tag": "油价急跌",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：航司称需明确安全细则后再提速通航",
-      "desc": "Reuters 4/8-4/9：多家航运企业仍观望，要求通行规则与安全保障更清晰后再恢复常态。",
+      "title": "🔴 CNN/CBS：伊朗称霍尔木兹对商船“完全开放”",
+      "desc": "CNN/CBS 4/17滚动：伊方宣布海峡对商业船只开放，作为停火期安排的一部分。",
       "type": "warning",
-      "tag": "航司继续观望",
+      "tag": "伊方开放口径",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 AXSMarine：霍尔木兹LNG活动仍“非常有限”",
-      "desc": "AXSMarine最新追踪显示海峡LNG活动维持低位，气体运输虽在湾内聚集但过峡仍受限。",
+      "title": "🔴 Politico：特朗普称对伊海上封锁仍在执行",
+      "desc": "Politico 4/17：特朗普欢迎商船恢复，但强调美国对伊海上封锁“仍全面生效”。",
+      "type": "warning",
+      "tag": "封锁未撤",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 PBS/AP：伊方开放与美方封锁并行",
+      "desc": "PBS引述AP 4/17：伊朗称开放航道，同时美方维持封锁，市场进入“口径分裂期”。",
+      "type": "warning",
+      "tag": "口径分裂",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 Reuters：航司需安全细则后再提速通航",
+      "desc": "Reuters 4/8-4/9：多家航运企业表示将等待更明确安全规则后再恢复常态运力。",
+      "type": "warning",
+      "tag": "航司观望",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 AXSMarine：霍尔木兹LNG活动仍非常有限",
+      "desc": "AXSMarine最新追踪显示湾内船只聚集，但LNG过峡活跃度仍显著低于常态。",
       "type": "warning",
       "tag": "LNG低活跃",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：土耳其呼吁美伊开展建设性对话",
-      "desc": "Reuters 4/16：土耳其称将继续支持美伊谈判，呼吁双方以建设性方式推动停火与降级。",
-      "type": "warning",
-      "tag": "外部斡旋加码",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：伊朗称停火期霍尔木兹全面开放",
-      "desc": "Reuters 4/17：伊外长称商业船可在停火期通行霍尔木兹，强调通道对所有商船开放。",
-      "type": "warning",
-      "tag": "伊方开放表态",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：特朗普称对伊封锁将持续至达成交易",
-      "desc": "Reuters 4/17：美方称针对伊朗海上封锁仍“in full force”，与伊方开放口径并行。",
-      "type": "warning",
-      "tag": "封锁仍在执行",
       "tagColor": "red"
     }
   ],
@@ -311,12 +311,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -9.36,
-  "goldChgRaw": -0.48,
+  "oilWtiChgRaw": -9.29,
+  "goldChgRaw": -0.52,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
-  "wtiPrice": 82.64,
-  "wtiChange": "-9.36%",
-  "goldChange": "-0.48%"
+  "wtiPrice": 82.7,
+  "wtiChange": "-9.29%",
+  "goldChange": "-0.52%"
 }
