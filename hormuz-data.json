@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 20:26",
-  "flashNews": "🔴 4/17 20:15｜法英40国峰会｜推进护航排雷｜欧方将协同行动\n🔴 4/17 20:15｜懂王称战事将止｜美伊或周末会谈｜4/22仍是硬节点\n🔴 4/17 20:15｜封锁仍压通航｜WTI跌破88｜LNG继续受限",
+  "lastUpdate": "2026-04-17 20:28",
+  "flashNews": "🔴 4/17 20:30｜懂王放话将停战｜周末或重启会谈｜4/22节点未改\n🔴 4/17 20:30｜法英40国峰会｜欧方称可排雷护航｜对伊制裁在谈\n🔴 4/17 20:30｜湾内58艘气体船｜LNG活动仍受限｜航道恢复待定",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 87.58,
-  "oilWtiChg": "3.94",
+  "oilWti": 87.64,
+  "oilWtiChg": "3.87",
   "oilWtiNote": "↓",
-  "goldPrice": 4826.4,
-  "goldChg": "0.38",
+  "goldPrice": 4826.9,
+  "goldChg": "0.39",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,48 +252,48 @@
   "events": [
     {
       "date": "4/17",
-      "title": "🔴 Reuters：懂王称战事或“很快结束”",
-      "desc": "Reuters 4/17：特朗普称伊朗希望达成协议，战事可能“很快结束”，并称双方或于周末接触会谈。",
+      "title": "🔴 Reuters：懂王称战事或很快结束",
+      "desc": "Reuters 4/17：特朗普称与伊朗谈判可能周末重启，并称战事应会很快结束。",
       "type": "warning",
       "tag": "周末会谈窗口",
       "tagColor": "red"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法英会商聚焦制裁与对美协同",
-      "desc": "Reuters 4/14：巴黎40国霍尔木兹会议将讨论若伊朗持续封锁的金融制裁，并协调与美国协同行动框架。",
+      "title": "🔴 Reuters：法英40国会商霍尔木兹行动",
+      "desc": "Reuters 4/14：巴黎会议讨论若伊朗持续封锁的制裁工具，并协调与美国协同行动框架。",
       "type": "warning",
-      "tag": "制裁+协同美方",
+      "tag": "制裁+协同",
       "tagColor": "red"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法防长称欧洲具备霍尔木兹排雷能力",
-      "desc": "Reuters 4/17：法防长称欧洲国家具备在霍尔木兹实施排雷与航道安全保障能力，法英正牵头约40国协调后续护航框架。",
+      "title": "🔴 Reuters：法防长称欧洲具排雷护航能力",
+      "desc": "Reuters 4/17：法防长表示欧洲国家具备在霍尔木兹实施排雷与护航支持能力。",
       "type": "warning",
-      "tag": "欧洲排雷能力确认",
+      "tag": "排雷护航准备",
       "tagColor": "red"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：美军两舰穿越海峡设排雷条件",
-      "desc": "Reuters 4/11：美军称两艘军舰穿越霍尔木兹，为后续排雷与航道恢复行动铺设条件。",
+      "title": "🔴 AXSMarine：湾内58艘气体运输船",
+      "desc": "AXSMarine：霍尔木兹及湾内可见58艘气体运输船，LNG活动仍非常有限。",
       "type": "warning",
-      "tag": "排雷行动前置",
+      "tag": "LNG受限",
       "tagColor": "red"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：白宫否认曾请求延长停火",
-      "desc": "Reuters 4/15：白宫否认向伊方请求延长停火，4/22到期节点压力仍在。",
+      "title": "🔴 Reuters：白宫否认请求延长停火",
+      "desc": "Reuters 4/15：白宫否认曾请求延长停火，4/22到期节点压力仍在。",
       "type": "warning",
-      "tag": "停火窗口收紧",
+      "tag": "4/22硬节点",
       "tagColor": "red"
     },
     {
       "date": "4/17",
-      "title": "🔴 Reuters：受制裁巨型油轮仍入海湾",
-      "desc": "Reuters 4/14：航运追踪显示在封锁背景下，受美制裁油轮仍经霍尔木兹进入海湾，执行层面博弈升级。",
+      "title": "🔴 Reuters：受制裁油轮仍进入海湾",
+      "desc": "Reuters 4/14：在封锁背景下，受美制裁油轮仍经霍尔木兹进入海湾，执行博弈升级。",
       "type": "warning",
       "tag": "封锁执行博弈",
       "tagColor": "red"
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -3.94,
-  "goldChgRaw": 0.38,
+  "oilWtiChgRaw": -3.87,
+  "goldChgRaw": 0.39,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 87.58,
-  "wtiChange": "-3.94%",
-  "goldChange": "+0.38%"
+  "wtiPrice": 87.64,
+  "wtiChange": "-3.87%",
+  "goldChange": "+0.39%"
 }
