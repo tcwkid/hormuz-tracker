@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 18:12",
-  "flashNews": "🔴 4/17 18:00｜封锁第4天14船折返｜WTI回落至87.9\n🔴 4/17 18:00｜巴方赴德黑兰斡旋｜二轮会谈日期未定\n🔴 4/17 18:00｜卡塔尔LNG或延长不可抗力｜气运偏紧",
+  "lastUpdate": "2026-04-17 18:13",
+  "flashNews": "🔴 4/17｜阿曼侧放行提议｜二轮待定｜14船折返\n🔴 4/17｜油价回落｜金价坚挺｜航运受限\n🔴 4/17｜卡塔尔延FM｜美LNG补缺｜气运偏紧",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 87.67,
-  "oilWtiChg": "3.84",
+  "oilWti": 87.71,
+  "oilWtiChg": "3.8",
   "oilWtiNote": "↓",
-  "goldPrice": 4811.8,
-  "goldChg": "0.07",
+  "goldPrice": 4812.0,
+  "goldChg": "0.08",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,6 +252,14 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🟠 Reuters：伊朗提议阿曼侧安全放行",
+      "desc": "Reuters 4/15：伊朗提出可让船只经阿曼侧相对安全离开霍尔木兹，执行细节仍未落地。",
+      "type": "warning",
+      "tag": "阿曼侧放行提议",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/17",
       "title": "🔴 CNBC：封锁第4天14船折返",
       "desc": "CNBC 4/16：美方封锁进入第4天，已有14艘船被迫折返，霍尔木兹通行仍受压制。",
       "type": "warning",
@@ -289,14 +297,6 @@
       "type": "warning",
       "tag": "二轮时间待定",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟠 Reuters：卡塔尔或延长LNG不可抗力",
-      "desc": "Reuters 4/15：意大利Edison称卡塔尔不可抗力或延长至6月中旬后，美LNG或部分填补缺口。",
-      "type": "warning",
-      "tag": "LNG缺口延续",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -3.84,
-  "goldChgRaw": 0.07,
+  "oilWtiChgRaw": -3.8,
+  "goldChgRaw": 0.08,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 87.67,
-  "wtiChange": "-3.84%",
-  "goldChange": "+0.07%"
+  "wtiPrice": 87.71,
+  "wtiChange": "-3.80%",
+  "goldChange": "+0.08%"
 }
