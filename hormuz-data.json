@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 06:26",
-  "flashNews": "🔴 4/18｜伊提阿曼放行｜需IRGC许可｜通行偏弱\n🔴 4/18｜白宫否认延停｜4/22窗口不变｜周末或会谈\n🔴 4/18｜WTI跌近8%｜黄金暗盘回落｜LNG低活跃",
+  "lastUpdate": "2026-04-18 06:28",
+  "flashNews": "🔴4/18｜伊称开放｜美称封锁｜船流偏弱\n🔴4/18｜WTI跌7.86%｜黄金回落｜避险分化\n🔴4/18｜LNG低活跃｜卡塔尔停产｜58船滞留",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,6 +258,14 @@
   "events": [
     {
       "date": "4/18",
+      "title": "🔴 AP：伊称全面开放，美称封锁仍在",
+      "desc": "AP/PBS 4/17-4/18：伊朗称霍尔木兹对商船“完全开放”，美方称对伊封锁措施未撤。",
+      "type": "warning",
+      "tag": "口径分裂",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 Reuters：伊提阿曼侧放行方案",
       "desc": "Reuters 4/15：伊朗提议允许船只经阿曼侧安全离开，但未改变过峡审批条件。",
       "type": "warning",
@@ -294,14 +302,6 @@
       "desc": "Reuters 4/17：受“海峡开放”口径影响，WTI与Brent同步下挫、日内振幅扩大。",
       "type": "warning",
       "tag": "油价急跌",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 AXSMarine：LNG活动仍非常有限",
-      "desc": "AXSMarine追踪：湾内约58艘气体运输船滞留，LNG跨峡活动仍处低位。",
-      "type": "warning",
-      "tag": "LNG低活跃",
       "tagColor": "red"
     }
   ],
