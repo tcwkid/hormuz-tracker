@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 07:42",
-  "flashNews": "🔴 4/18 07:30｜封锁续行｜欧盟备油｜油价回落\n🔴 4/18 07:30｜周末赴巴谈判｜周一窗口｜停火临近\n🔴 4/18 07:30｜伊称海峡开放｜实船仍弱｜LNG承压",
+  "lastUpdate": "2026-04-18 07:43",
+  "flashNews": "🔴 4/18 07:50｜封锁维持｜油价走弱｜谈判窗口开\n🔴 4/18 07:50｜伊称海峡开放｜军船仍禁行｜实船偏弱\n🔴 4/18 07:50｜欧盟准备释储｜LNG低活跃｜4/22倒计时",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,7 +258,39 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：欧盟称若霍尔木兹受阻将协调释储",
+      "title": "🔴 Reuters：对伊封锁将维持至达成协议",
+      "desc": "Reuters 4/18：特朗普称霍尔木兹可通行，但对伊海上封锁继续执行。",
+      "type": "warning",
+      "tag": "封锁延续",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 CNN：下一轮美伊会谈或于周一在巴举行",
+      "desc": "CNN Live 4/18：伊方消息称周一会谈窗口打开，美方暂未正式确认。",
+      "type": "warning",
+      "tag": "会谈窗口",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 法英要求霍尔木兹长期航行自由",
+      "desc": "VOA 4/18：法英在伊方称开放海峡后，呼吁恢复并确保长期航行自由。",
+      "type": "warning",
+      "tag": "航行自由",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 伊朗新规：军用船只仍禁行霍尔木兹",
+      "desc": "CCTV 4/18：伊朗革命卫队公布新规，民船限指定航线，军船仍禁行。",
+      "type": "warning",
+      "tag": "通行新规",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 Reuters：欧盟称若受阻将协调释储",
       "desc": "Reuters 4/17：欧盟准备在霍尔木兹扰动持续时协调释放航煤库存。",
       "type": "warning",
       "tag": "欧盟释储",
@@ -266,42 +298,10 @@
     },
     {
       "date": "4/18",
-      "title": "🔴 CNN：美伊代表预计周末抵巴，周一谈判",
-      "desc": "CNN Live 4/18：消息称美伊代表团预计周末赴巴基斯坦，并于周一举行新一轮谈判。",
-      "type": "warning",
-      "tag": "会谈窗口",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 CNN/BBC：伊称海峡开放，但通行仍弱",
-      "desc": "CNN/BBC 4/18：伊方称霍尔木兹“完全开放”，实时追踪显示船流仍偏低。",
+      "title": "🔴 Reuters：伊称海峡开放，通行恢复有限",
+      "desc": "Reuters 4/17：伊方称开放海峡，但实时船流与LNG活动仍低位。",
       "type": "warning",
       "tag": "通行偏弱",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：特朗普称封锁将持续直至达成协议",
-      "desc": "Reuters 4/18：特朗普称对伊海上封锁维持，直至协议落地。",
-      "type": "warning",
-      "tag": "封锁延续",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 BBC：伊称开放海峡，但实时船流仍偏弱",
-      "desc": "BBC Live 4/18：伊方称霍尔木兹开放，追踪数据显示通行仍低位。",
-      "type": "warning",
-      "tag": "通行偏弱",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 CNN：下一轮美伊会谈窗口指向周末/周一",
-      "desc": "CNN Live 4/18：消息称巴基斯坦仍在斡旋下一轮美伊会谈。",
-      "type": "warning",
-      "tag": "会谈窗口",
       "tagColor": "red"
     }
   ],
