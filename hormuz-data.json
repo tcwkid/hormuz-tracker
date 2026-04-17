@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 17:27",
-  "flashNews": "🔴 4/17 17:12｜法英护航会｜欧洲排雷｜40国协调\n🔴 4/17 17:12｜川子放风周末谈｜停火续期博弈｜4/22节点\n🔴 4/17 17:12｜卡塔尔延不可抗力｜美LNG补缺｜气运偏紧",
+  "lastUpdate": "2026-04-17 17:28",
+  "flashNews": "🔴 4/17 17:35｜美伊转临时协议｜二轮未定｜4/22倒计时\n🔴 4/17 17:35｜巴籍油轮出湾｜霍尔木兹有通行｜航运仍脆弱\n🔴 4/17 17:35｜卡塔尔延不可抗力｜美LNG补缺｜气运偏紧",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.02,
-  "oilWtiChg": "2.36",
+  "oilWti": 89.14,
+  "oilWtiChg": "2.23",
   "oilWtiNote": "↓",
-  "goldPrice": 4815.5,
-  "goldChg": "0.15",
+  "goldPrice": 4814.6,
+  "goldChg": "0.13",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,6 +252,22 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🔴 Reuters：美伊转向临时协议路线",
+      "desc": "Reuters 4/16：美伊谈判从全面和平降级为临时备忘录路径，分歧仍在但对话窗口未关。",
+      "type": "warning",
+      "tag": "临时协议博弈",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/17",
+      "title": "🟠 Reuters：巴方称第二轮美伊会谈日期未定",
+      "desc": "Reuters 4/16：巴基斯坦表示第二轮美伊谈判尚无具体日期，周末会谈预期仍在摇摆。",
+      "type": "warning",
+      "tag": "二轮时间待定",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/17",
       "title": "🔴 Reuters：川子称若达协议或赴伊斯兰堡",
       "desc": "Reuters 4/16：特朗普称若美伊达成并签署协议，自己可能前往伊斯兰堡，谈判政治信号升级。",
       "type": "warning",
@@ -281,22 +297,6 @@
       "type": "warning",
       "tag": "排雷能力表态",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟠 Reuters：巴籍油轮载阿联酋原油经霍尔木兹出湾",
-      "desc": "Reuters 4/17：航运数据显示一艘巴基斯坦旗油轮装载阿联酋原油经霍尔木兹驶离海湾，通道仍有通行案例。",
-      "type": "warning",
-      "tag": "通行样本出现",
-      "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟠 Reuters：法英召集约40国磋商战后护航",
-      "desc": "Reuters 4/17：法国与英国牵头约40国会议，讨论冲突结束后霍尔木兹航道安全与护航协调机制。",
-      "type": "warning",
-      "tag": "战后护航框架",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -2.36,
-  "goldChgRaw": 0.15,
+  "oilWtiChgRaw": -2.23,
+  "goldChgRaw": 0.13,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.02,
-  "wtiChange": "-2.36%",
-  "goldChange": "+0.15%"
+  "wtiPrice": 89.14,
+  "wtiChange": "-2.23%",
+  "goldChange": "+0.13%"
 }
