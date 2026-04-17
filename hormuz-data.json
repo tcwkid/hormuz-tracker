@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 07:12",
-  "flashNews": "🔴4/18 06:58｜伊称开放｜美封锁续行｜船流偏弱\n🔴4/18 06:58｜二轮会谈酝酿｜停火4/22到期｜博弈升温\n🔴4/18 06:58｜卡塔尔FM或延长｜LNG活动低｜供给仍偏紧",
+  "lastUpdate": "2026-04-18 07:13",
+  "flashNews": "🔴 4/18 07:18｜封锁续行｜称协议将近｜油价跳水\n🔴 4/18 07:18｜伊称海峡开放｜实船流仍弱｜通行未复\n🔴 4/18 07:18｜周末会谈窗口｜巴方斡旋加速｜4/22硬点",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,6 +258,30 @@
   "events": [
     {
       "date": "4/18",
+      "title": "🔴 Reuters：特朗普称封锁将持续直至达成协议",
+      "desc": "Reuters 4/18：特朗普称对伊海上封锁维持，直至协议落地。",
+      "type": "warning",
+      "tag": "封锁延续",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 BBC：伊称开放海峡，但实时船流仍偏弱",
+      "desc": "BBC Live 4/18：伊方称霍尔木兹开放，追踪数据显示通行仍低位。",
+      "type": "warning",
+      "tag": "通行偏弱",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 CNN：下一轮美伊会谈窗口指向周末/周一",
+      "desc": "CNN Live 4/18：消息称巴基斯坦仍在斡旋下一轮美伊会谈。",
+      "type": "warning",
+      "tag": "会谈窗口",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 Reuters：特朗普称封锁维持至达成协议",
       "desc": "Reuters 4/17：特朗普称对伊海上封锁将继续执行，直至全面协议落地。",
       "type": "warning",
@@ -278,30 +302,6 @@
       "desc": "CNN Live 4/17：消息称下一轮美伊谈判或在巴基斯坦举行，官方仍待确认。",
       "type": "warning",
       "tag": "会谈窗口",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：卡塔尔LNG不可抗力或延长",
-      "desc": "Reuters 4/15：Edison称卡塔尔天然气不可抗力可能延至6月中后。",
-      "type": "warning",
-      "tag": "LNG风险",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 NBC：停火后仍未达成完整和平协议",
-      "desc": "NBC Live 4/18：美伊尚未达成完整和平协议，封锁与航运风险未解除。",
-      "type": "warning",
-      "tag": "协议未落地",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Al Jazeera：停火期内霍尔木兹维持开放表述",
-      "desc": "Al Jazeera 4/17：伊方称在停火期内海峡将保持开放，但区域博弈仍在持续。",
-      "type": "warning",
-      "tag": "口径博弈",
       "tagColor": "red"
     }
   ],
