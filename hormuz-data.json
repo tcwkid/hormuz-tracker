@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 23:57",
-  "flashNews": "🔴 4/17 23:45｜周末会谈窗｜停火待续｜油价下杀\n🔴 4/17 23:45｜法英召40国｜护航扫雷案｜通航待修\n🔴 4/17 23:45｜封锁继续｜LNG低活跃｜船流未复",
+  "lastUpdate": "2026-04-17 23:59",
+  "flashNews": "🔴 4/17 23:58｜海峡称开放｜封锁仍全力｜周末或会谈\n🔴 4/17 23:58｜法英召40国｜护航+扫雷｜重建通航框架\n🔴 4/17 23:58｜WTI失守82｜黄金走强｜LNG仍低活跃",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 81.37,
-  "oilWtiChg": "10.75",
+  "oilWti": 81.58,
+  "oilWtiChg": "10.52",
   "oilWtiNote": "↓",
-  "goldPrice": 4881.5,
-  "goldChg": "1.52",
+  "goldPrice": 4883.3,
+  "goldChg": "1.56",
   "goldNote": "↑",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,10 +252,10 @@
   "events": [
     {
       "date": "4/17",
-      "title": "🔴 Reuters：法英会商聚焦对伊制裁协同",
-      "desc": "Reuters 4/14：法英牵头霍尔木兹任务会议，议程含对伊潜在金融制裁及与海湾国家协同护航。",
+      "title": "🔴 NBC：伊称海峡“完全开放”",
+      "desc": "NBC 4/17直播：伊朗称霍尔木兹“完全开放”，同时美方称对伊封锁仍将“全力维持”。",
       "type": "warning",
-      "tag": "制裁+护航议程",
+      "tag": "开放口径vs封锁执行",
       "tagColor": "red"
     },
     {
@@ -292,10 +292,10 @@
     },
     {
       "date": "4/17",
-      "title": "🔴 美财长宣布“经济狂怒”升级制裁",
-      "desc": "Reuters 4/15：美国升级对伊“Economic Fury”行动，追加打击伊朗油运网络并警告买家可能遭次级制裁。",
+      "title": "🔴 Reuters：法英会商聚焦对伊制裁协同",
+      "desc": "Reuters 4/14：法英牵头霍尔木兹任务会议，议程含对伊潜在金融制裁及与海湾国家协同护航。",
       "type": "warning",
-      "tag": "制裁升级",
+      "tag": "制裁+护航议程",
       "tagColor": "red"
     }
   ],
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -10.75,
-  "goldChgRaw": 1.52,
+  "oilWtiChgRaw": -10.52,
+  "goldChgRaw": 1.56,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 81.37,
-  "wtiChange": "-10.75%",
-  "goldChange": "+1.52%"
+  "wtiPrice": 81.58,
+  "wtiChange": "-10.52%",
+  "goldChange": "+1.56%"
 }
