@@ -1,13 +1,13 @@
 {
   "lastUpdate": "2026-04-17 09:28",
-  "flashNews": "🔴 4/17 09:28｜船只15艘/天（口径已统一）｜14船折返封锁仍在｜停火4/22倒计时5天",
+  "flashNews": "🔴 4/17 09:35｜美称谈判仍推进｜伊提阿曼侧通行｜海峡仍近封锁",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 90.19,
-  "oilWtiChg": "1.07",
+  "oilWti": 90.16,
+  "oilWtiChg": "1.11",
   "oilWtiNote": "↓",
-  "goldPrice": 4803.8,
-  "goldChg": "0.09",
+  "goldPrice": 4803.3,
+  "goldChg": "0.1",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -252,6 +252,14 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🟡 Reuters：美称谈判窗口未关，同时加码海运施压",
+      "desc": "Reuters 4/15-4/16：美国一边表示对达成协议保持乐观，一边升级对伊朗海运与石油买家压力（含次级制裁警告）。伊方提出阿曼侧安全通行方案，但海峡实际通行仍受限，市场继续盯第二轮谈判是否落地。",
+      "type": "warning",
+      "tag": "谈判+施压",
+      "tagColor": "amber"
+    },
+    {
+      "date": "4/17",
       "title": "🔴 海峡全面封死：14船折返800船滞留，Hegseth称封到底",
       "desc": "NYPost 4/17：封锁72小时14艘伊朗关联油轮折返，海峡通行降至零。Lloyd's List：800艘船滞留波斯湾，2万船员困航。仅4艘船在封锁后进入（非驶出）海湾。Hegseth在NYT采访中称封锁将持续\"as long as it takes\"，同时威胁准备打击伊朗能源基础设施。伊朗外交部称核谈判\"无具体日期\"，外交窗口收窄。",
       "type": "danger",
@@ -289,14 +297,6 @@
       "type": "danger",
       "tag": "闯关封锁",
       "tagColor": "red"
-    },
-    {
-      "date": "4/16",
-      "title": "🟡 白宫最新：对协议\"感觉良好\"，第二轮谈判或下周巴基斯坦重启",
-      "desc": "CNN 4/16 19:30：白宫称对美伊达成协议\"前景乐观\"。两名巴基斯坦高官透露美伊可能下周重返巴基斯坦进行第二轮和平谈判。川子称伊朗今晨已来电。AXSMarine数据：反封锁后日通行从峰值17艘骤降至个位数，湾内949商船307艘关闭AIS(暗船率32%)。沙特作为美国关键盟友正施压华盛顿停止封锁(WSJ)。",
-      "type": "warning",
-      "tag": "谈判推进",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.07,
-  "goldChgRaw": -0.09,
+  "oilWtiChgRaw": -1.11,
+  "goldChgRaw": -0.1,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 90.19,
-  "wtiChange": "-1.07%",
-  "goldChange": "-0.09%"
+  "wtiPrice": 90.16,
+  "wtiChange": "-1.11%",
+  "goldChange": "-0.10%"
 }
