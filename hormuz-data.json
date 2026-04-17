@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-04-17 12:26",
-  "flashNews": "🔴 4/17 11:35｜法英40国护航会商｜美次级制裁再施压｜第二艘制裁VLCC入湾",
+  "lastUpdate": "2026-04-17 12:27",
+  "flashNews": "🔴 4/17 12:30｜法英40国护航会商｜第二艘制裁VLCC入湾｜伊提阿曼侧安全通行",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.78,
-  "oilWtiChg": "1.52",
+  "oilWti": 89.82,
+  "oilWtiChg": "1.48",
   "oilWtiNote": "↓",
-  "goldPrice": 4815.2,
+  "goldPrice": 4815.1,
   "goldChg": "0.14",
   "goldNote": "↑",
   "congestion": 11,
@@ -252,11 +252,27 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🔴 Reuters：法英召集约40国会商霍尔木兹护航任务",
+      "desc": "Reuters 4/17：法英在巴黎牵头约40国会议，讨论冲突后霍尔木兹航行安全与护航任务框架，欧洲推动形成多国执行方案。",
+      "type": "danger",
+      "tag": "40国护航",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/16",
       "title": "🔴 Reuters：第二艘受制裁VLCC穿越霍尔木兹入湾",
-      "desc": "Reuters 4/16：第二艘遭美制裁VLCC经霍尔木兹进入波斯湾，显示封锁下仍有高风险闯关流量；航运与制裁博弈继续升级。",
+      "desc": "Reuters 4/16：第二艘遭美制裁VLCC进入波斯湾，封锁与制裁博弈继续升级，灰色运输通道风险抬升。",
       "type": "danger",
       "tag": "闯关升级",
       "tagColor": "red"
+    },
+    {
+      "date": "4/15",
+      "title": "🟡 Reuters独家：伊朗提议开放阿曼侧安全通行",
+      "desc": "Reuters 4/15：伊朗在谈判提案中称可允许船只经阿曼侧安全通过，显示谈判窗口仍在，但落地与执行仍存不确定。",
+      "type": "warning",
+      "tag": "谈判窗口",
+      "tagColor": "amber"
     },
     {
       "date": "4/17",
@@ -281,22 +297,6 @@
       "type": "danger",
       "tag": "全面封死",
       "tagColor": "red"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 美扩大封锁+制裁豁免4/19到期不续，伊朗船走新航线闯关",
-      "desc": "NYPost：美宣布\"激进扩大\"封锁，Hegseth称\"locked and loaded随时打能源设施\"。Reuters/Bloomberg：30天制裁豁免4/19到期不续，断绝伊朗原油最后合法出口。Bloomberg：至少2艘VLCC走拉克-格什姆岛新航线进入波斯湾。PBS：封锁正在生效，伊朗关联船只全面停滞或折返。TIME警告：封锁或给中国台海行动提供法律先例。",
-      "type": "danger",
-      "tag": "扩大封锁",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/16",
-      "title": "🟡 Reuters独家：伊朗提议开放阿曼侧海峡安全通行",
-      "desc": "Reuters 4/16：伊朗在谈判中提议允许船只从阿曼侧霍尔木兹海峡安全通过，不受攻击。但分析称这更像姿态而非突破——数百艘船和2万船员仍滞留。海峡承担全球20%石油和LNG运输。伊朗要求前提：达成协议防止冲突再起。",
-      "type": "warning",
-      "tag": "伊朗让步",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.52,
+  "oilWtiChgRaw": -1.48,
   "goldChgRaw": 0.14,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.78,
-  "wtiChange": "-1.52%",
+  "wtiPrice": 89.82,
+  "wtiChange": "-1.48%",
   "goldChange": "+0.14%"
 }
