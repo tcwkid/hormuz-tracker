@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-04-18 00:27",
-  "flashNews": "🔴 4/18 00:20｜伊称海峡开放｜美封锁继续｜会谈窗口开启\n🔴 4/18 00:20｜LSEG:仅2船通行｜19船被劝返｜通航仍低位\n🔴 4/18 00:20｜法英召40国会商｜护航+扫雷｜重建航道框架",
+  "lastUpdate": "2026-04-18 00:29",
+  "flashNews": "🔴 4/18｜封锁维持｜IRGC协调放行｜航司观望\n🔴 4/18｜LSEG仅2船｜通航低位｜恢复待确认\n🔴 4/18｜美警告雷险｜法英议护航｜4/22临界",
   "shipCount": 15,
   "shipChg": "0",
-  "oilWti": 81.11,
-  "oilWtiChg": "11.03",
+  "oilWti": 80.97,
+  "oilWtiChg": "11.19",
   "oilWtiNote": "↓",
-  "goldPrice": 4869.97,
+  "goldPrice": 4870.68,
   "goldChg": "0.47",
   "goldNote": "↓",
   "congestion": 11,
@@ -258,42 +258,34 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 CNBC：LSEG称仅2艘船通行",
-      "desc": "CNBC 4/17：LSEG数据显示霍尔木兹当日仅2艘船通行，流量仍接近停滞。",
+      "title": "🔴 Reuters：船司称霍尔木兹仍需澄清后再过境",
+      "desc": "Reuters 4/17：多家航运公司表示虽伊朗称海峡开放，但仍等待执行细则与安全澄清后再决定过境。",
       "type": "warning",
-      "tag": "通航仍近停摆",
+      "tag": "航司继续观望",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Argus：伊称开放但美封锁未撤",
-      "desc": "Argus 4/17：伊方称停火期海峡开放；同时CENTCOM称已要求19艘涉伊船返航，封锁持续执行。",
+      "title": "🔴 Reuters：伊方称过境需IRGC协调与资产解冻",
+      "desc": "Reuters 4/17：伊官员称船只可过霍尔木兹，但需与IRGC协调并推动资产解冻等条件。",
       "type": "warning",
-      "tag": "开放口径vs执行封锁",
+      "tag": "通行附带条件",
       "tagColor": "red"
     },
     {
-      "date": "4/17",
-      "title": "🔴 NBC：伊称海峡“完全开放”",
-      "desc": "NBC 4/17直播：伊朗称霍尔木兹“完全开放”，同时美方称对伊封锁仍将“全力维持”。",
+      "date": "4/18",
+      "title": "🔴 Reuters：美海军称部分海域水雷威胁不明",
+      "desc": "Reuters 4/17：美国海军通告称霍尔木兹部分水域水雷威胁尚未完全识别，航运风险仍高。",
       "type": "warning",
-      "tag": "开放口径vs封锁执行",
+      "tag": "雷险未解除",
       "tagColor": "red"
     },
     {
-      "date": "4/17",
-      "title": "🔴 Reuters：川子称周末或与伊方会面",
-      "desc": "Reuters 4/17：特朗普称战争应尽快结束，双方可能在周末会面，为停火延长留窗口。",
+      "date": "4/18",
+      "title": "🔴 CNBC：LSEG显示仅2艘船通行",
+      "desc": "CNBC 4/16：LSEG追踪显示仅2艘船通过霍尔木兹，通行量仍接近停滞。",
       "type": "warning",
-      "tag": "周末会谈窗口",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 Reuters：法英召40国会商护航与扫雷",
-      "desc": "Reuters 4/17：法英牵头约40国讨论战后霍尔木兹护航与扫雷安排，释放重建通航框架信号。",
-      "type": "warning",
-      "tag": "欧方护航预案",
+      "tag": "通航仍低位",
       "tagColor": "red"
     },
     {
@@ -303,6 +295,14 @@
       "type": "warning",
       "tag": "封锁延续",
       "tagColor": "red"
+    },
+    {
+      "date": "4/17",
+      "title": "🔴 Reuters：法英召40国会商护航与扫雷",
+      "desc": "Reuters 4/17：法英牵头约40国讨论战后霍尔木兹护航与扫雷安排，释放重建通航框架信号。",
+      "type": "warning",
+      "tag": "欧方护航预案",
+      "tagColor": "red"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -311,12 +311,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -11.03,
+  "oilWtiChgRaw": -11.19,
   "goldChgRaw": -0.47,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
-  "wtiPrice": 81.11,
-  "wtiChange": "-11.03%",
+  "wtiPrice": 80.97,
+  "wtiChange": "-11.19%",
   "goldChange": "-0.47%"
 }
