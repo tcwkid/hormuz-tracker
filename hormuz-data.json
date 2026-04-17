@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-18 03:56",
-  "flashNews": "🔴 4/18 03:45｜伊称开放｜美称封锁继续｜油价跌超10%\n🔴 4/18 03:45｜过峡需IRGC批｜船司仍观望｜复航偏慢\n🔴 4/18 03:45｜白宫否认延停｜停火4/22到期｜周末或再谈",
+  "lastUpdate": "2026-04-18 03:58",
+  "flashNews": "🔴 4/18 04:00｜伊称海峡开放｜美称封锁继续｜航运观望\n🔴 4/18 04:00｜白宫否认延停｜4/22停火到期｜周末或再谈\n🔴 4/18 04:00｜WTI盘中急挫｜一度跌超10%｜黄金偏强",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 83.03,
   "oilWtiChg": "8.93",
   "oilWtiNote": "↓",
-  "goldPrice": 4854.84,
-  "goldChg": "0.52",
+  "goldPrice": 4854.6,
+  "goldChg": "0.51",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -258,10 +258,10 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：过峡仍需IRGC许可",
-      "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹需IRGC安全放行。",
+      "title": "🔴 CNBC：WTI盘中一度跌超14%",
+      "desc": "CNBC 4/17：伊方称开放海峡后，WTI盘中跌幅一度扩大至14%以上。",
       "type": "warning",
-      "tag": "IRGC许可",
+      "tag": "油价急跌",
       "tagColor": "red"
     },
     {
@@ -282,6 +282,14 @@
     },
     {
       "date": "4/18",
+      "title": "🔴 Reuters：过峡仍需IRGC许可",
+      "desc": "Reuters 4/17：伊官员称船只通过霍尔木兹需IRGC安全放行。",
+      "type": "warning",
+      "tag": "IRGC许可",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 多家媒体：油价一度跌超10%",
       "desc": "海峡重开预期触发油价急跌，WTI盘中跌幅一度超10%。",
       "type": "warning",
@@ -295,14 +303,6 @@
       "type": "warning",
       "tag": "会谈窗口",
       "tagColor": "red"
-    },
-    {
-      "date": "4/17",
-      "title": "🔴 船司观望：恢复通行偏慢",
-      "desc": "船运公司称欢迎开放信号，但仍等待更明确细则。",
-      "type": "warning",
-      "tag": "复航偏慢",
-      "tagColor": "red"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -312,11 +312,11 @@
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
   "oilWtiChgRaw": -8.93,
-  "goldChgRaw": -0.52,
+  "goldChgRaw": -0.51,
   "goldIsRealtime": true,
   "oilIsRealtime": false,
   "isWeekend": true,
   "wtiPrice": 83.03,
   "wtiChange": "-8.93%",
-  "goldChange": "-0.52%"
+  "goldChange": "-0.51%"
 }
