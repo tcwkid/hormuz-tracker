@@ -22,7 +22,7 @@
 <meta name="description" content="实时追踪霍尔木兹海峡每日通行船只数量、WTI原油、黄金价格走势与关键事件。美伊停火后最新数据，进度条出品。">
 <meta name="keywords" content="霍尔木兹,原油,黄金,美伊战争,停火,航运,进度条">
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 body {
@@ -1186,8 +1186,10 @@ function togglePost(i) {
 }
 
 // ====== 初始化 ======
-loadGistData();
-loadPosts();
+window.addEventListener('load', () => {
+  loadGistData();
+  loadPosts();
+});
 
 // ====== 分享功能 ======
 function getShareText() {
