@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-17 15:27",
-  "flashNews": "🔴 4/17｜法英40国会商｜护航推进｜排雷优先\n🔴 4/17｜AP：美伊原则续停火｜周末或重启会谈｜4/22是悬崖\n🔴 4/17｜LSEG：通航低位｜仅见2船通过｜LNG仍受限",
+  "lastUpdate": "2026-04-17 15:29",
+  "flashNews": "🔴 4/17｜40国护航会商｜通航脆弱｜排雷\n🔴 4/17｜美伊周末会谈窗｜停火延长｜4/22节点\n🔴 4/17｜卡塔尔LNG延不可抗力｜补库承压｜气运弱",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.99,
-  "oilWtiChg": "1.29",
+  "oilWti": 90.02,
+  "oilWtiChg": "1.26",
   "oilWtiNote": "↓",
-  "goldPrice": 4806.4,
-  "goldChg": "0.04",
+  "goldPrice": 4807.0,
+  "goldChg": "0.03",
   "goldNote": "↓",
   "congestion": 11,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
@@ -251,6 +251,14 @@
   ],
   "events": [
     {
+      "date": "4/15",
+      "title": "🟠 Reuters：伊朗提议阿曼侧安全放行",
+      "desc": "Reuters 4/15独家：伊朗提议允许船舶经阿曼一侧安全离开霍尔木兹，缓解航运风险。",
+      "type": "warning",
+      "tag": "阿曼侧放行",
+      "tagColor": "amber"
+    },
+    {
       "date": "4/17",
       "title": "🟡 AP：美伊原则同意延长停火",
       "desc": "AP 4/17：区域官员称美伊已原则同意延长停火，为周末重启谈判争取时间。",
@@ -289,14 +297,6 @@
       "type": "danger",
       "tag": "制裁闯关",
       "tagColor": "red"
-    },
-    {
-      "date": "4/16",
-      "title": "🟡 Reuters：卡塔尔或延长LNG不可抗力",
-      "desc": "Reuters 4/16（经Edison表述）：卡塔尔可能将天然气不可抗力延至6月中后，欧洲补库压力上升。",
-      "type": "warning",
-      "tag": "LNG收紧",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -1.29,
-  "goldChgRaw": -0.04,
+  "oilWtiChgRaw": -1.26,
+  "goldChgRaw": -0.03,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.99,
-  "wtiChange": "-1.29%",
-  "goldChange": "-0.04%"
+  "wtiPrice": 90.02,
+  "wtiChange": "-1.26%",
+  "goldChange": "-0.03%"
 }
