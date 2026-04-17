@@ -1,10 +1,10 @@
 {
-  "lastUpdate": "2026-04-17 16:56",
-  "flashNews": "🔴 4/17 16:52｜法英召40国护航｜排雷机制讨论｜航道安全先行\n🔴 4/17 16:52｜川子放风周末会谈｜停火续期拉锯｜4/22是硬点\n🔴 4/17 16:52｜卡塔尔延LNG不可抗力｜美LNG补缺口｜气运仍偏紧",
+  "lastUpdate": "2026-04-17 17:00",
+  "flashNews": "🔴 4/17 17:06｜法英议护航｜排雷推进｜航安优先\n🔴 4/17 17:06｜川子放风周末谈｜停火续期博弈｜4/22硬点\n🔴 4/17 17:06｜卡塔尔延不可抗力｜美LNG补口｜气运偏紧",
   "shipCount": 15,
   "shipChg": "+7",
-  "oilWti": 89.26,
-  "oilWtiChg": "2.09",
+  "oilWti": 89.27,
+  "oilWtiChg": "2.08",
   "oilWtiNote": "↓",
   "goldPrice": 4816.0,
   "goldChg": "0.16",
@@ -252,6 +252,14 @@
   "events": [
     {
       "date": "4/17",
+      "title": "🔴 Reuters：油价回落，市场押注周末会谈",
+      "desc": "Reuters 4/17：WTI走弱，市场押注美伊周末会谈与停火续期；霍尔木兹仍是供给核心变量。",
+      "type": "warning",
+      "tag": "周末会谈预期",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/17",
       "title": "🟠 Reuters：法防长称欧洲具霍尔木兹排雷能力",
       "desc": "Reuters 4/17：法国防长称欧洲国家具备在霍尔木兹执行排雷与航道保障能力，护航机制讨论升温。",
       "type": "warning",
@@ -289,14 +297,6 @@
       "type": "warning",
       "tag": "周末会谈窗",
       "tagColor": "amber"
-    },
-    {
-      "date": "4/17",
-      "title": "🟡 AP：美伊被指原则同意延长停火",
-      "desc": "AP 4/17：多方消息称美伊原则上同意延长停火，4/22节点仍是市场核心风险点。",
-      "type": "warning",
-      "tag": "原则续停火",
-      "tagColor": "amber"
     }
   ],
   "insightText": "川子嘴上说\"永久开放\"霍尔木兹，手上CENTCOM还在拦船——典型的\"先掐脖子再递名片\"。\n\n核心矛盾没变：停火4/22到期，倒计时6天。巴基斯坦在德黑兰死磕第二轮谈判，但伊朗IRGC放狠话\"你们的船会被导弹击沉\"——嘴上不让步，桌下留了门。\n\nWTI跌破90是市场提前给\"谈成\"定价，但Bloomberg确认双重封锁油运缺口超4亿桶，这个数字一天不清零，油价就是坐在火药桶上。\n\n三个时间点盯死：\n① 4/17 法英巴黎峰会（欧洲介入定调）\n② 4/18前 第二轮谈判是否坐下来\n③ 4/22 停火硬悬崖\n\n不乱动，就是最好的操作。",
@@ -305,12 +305,12 @@
   "shipChgNews": "+7",
   "lngStatus": "❌ 封锁中",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
-  "oilWtiChgRaw": -2.09,
+  "oilWtiChgRaw": -2.08,
   "goldChgRaw": 0.16,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 89.26,
-  "wtiChange": "-2.09%",
+  "wtiPrice": 89.27,
+  "wtiChange": "-2.08%",
   "goldChange": "+0.16%"
 }
