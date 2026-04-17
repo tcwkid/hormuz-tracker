@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 06:41",
-  "flashNews": "🔴4/18｜伊称开放｜美称封锁｜船流偏弱\n🔴4/18｜WTI跌7.86%｜黄金回落｜避险分化\n🔴4/18｜LNG低活跃｜卡塔尔停产｜58船滞留",
+  "lastUpdate": "2026-04-18 06:43",
+  "flashNews": "🔴4/18 06:46｜伊称开放｜美封锁续行｜船流偏弱\n🔴4/18 06:46｜停火4/22到期｜二轮会谈待定｜博弈升温\n🔴4/18 06:46｜LNG活动低｜卡塔尔停产｜湾内58船待行",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,6 +258,22 @@
   "events": [
     {
       "date": "4/18",
+      "title": "🔴 Reuters：特朗普称封锁将维持",
+      "desc": "Reuters 4/17：特朗普称在达成协议前，对伊海上封锁“full force”继续执行。",
+      "type": "warning",
+      "tag": "封锁延续",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
+      "title": "🔴 AP：巴方在德黑兰推动二轮谈判",
+      "desc": "AP 4/15：巴基斯坦代表团赴德黑兰斡旋，争取美伊在4/22停火到期前推进下一轮会谈。",
+      "type": "warning",
+      "tag": "停火斡旋",
+      "tagColor": "red"
+    },
+    {
+      "date": "4/18",
       "title": "🔴 AP：伊称全面开放，美称封锁仍在",
       "desc": "AP/PBS 4/17-4/18：伊朗称霍尔木兹对商船“完全开放”，美方称对伊封锁措施未撤。",
       "type": "warning",
@@ -286,22 +302,6 @@
       "desc": "Reuters 4/17：伊方称商船可通行；美方称对伊封锁措施仍继续执行。",
       "type": "warning",
       "tag": "口径博弈",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：白宫否认主动延停",
-      "desc": "Reuters视频 4/16：白宫否认曾主动请求延长停火，到期窗口仍在4/22附近。",
-      "type": "warning",
-      "tag": "停火窗口",
-      "tagColor": "red"
-    },
-    {
-      "date": "4/18",
-      "title": "🔴 Reuters：WTI回落，波动放大",
-      "desc": "Reuters 4/17：受“海峡开放”口径影响，WTI与Brent同步下挫、日内振幅扩大。",
-      "type": "warning",
-      "tag": "油价急跌",
       "tagColor": "red"
     }
   ],
