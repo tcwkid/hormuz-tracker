@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-18 06:57",
-  "flashNews": "🔴4/18 06:46｜伊称开放｜美封锁续行｜船流偏弱\n🔴4/18 06:46｜停火4/22到期｜二轮会谈待定｜博弈升温\n🔴4/18 06:46｜LNG活动低｜卡塔尔停产｜湾内58船待行",
+  "lastUpdate": "2026-04-18 06:58",
+  "flashNews": "🔴4/18 06:58｜伊称开放｜美封锁续行｜船流偏弱\n🔴4/18 06:58｜二轮会谈酝酿｜停火4/22到期｜博弈升温\n🔴4/18 06:58｜卡塔尔FM或延长｜LNG活动低｜供给仍偏紧",
   "shipCount": 15,
   "shipChg": "0",
   "oilWti": 84.0,
@@ -258,48 +258,48 @@
   "events": [
     {
       "date": "4/18",
-      "title": "🔴 Reuters：特朗普称封锁将维持",
-      "desc": "Reuters 4/17：特朗普称在达成协议前，对伊海上封锁“full force”继续执行。",
+      "title": "🔴 Reuters：特朗普称封锁维持至达成协议",
+      "desc": "Reuters 4/17：特朗普称对伊海上封锁将继续执行，直至全面协议落地。",
       "type": "warning",
       "tag": "封锁延续",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 AP：巴方在德黑兰推动二轮谈判",
-      "desc": "AP 4/15：巴基斯坦代表团赴德黑兰斡旋，争取美伊在4/22停火到期前推进下一轮会谈。",
+      "title": "🔴 BBC：伊称开放但实际过峡船流偏弱",
+      "desc": "BBC Live 4/18：伊方称霍尔木兹对商船开放，但追踪数据显示通行量仍低。",
       "type": "warning",
-      "tag": "停火斡旋",
+      "tag": "通行偏弱",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 AP：伊称全面开放，美称封锁仍在",
-      "desc": "AP/PBS 4/17-4/18：伊朗称霍尔木兹对商船“完全开放”，美方称对伊封锁措施未撤。",
+      "title": "🔴 CNN：下一轮美伊会谈传将于周日举行",
+      "desc": "CNN Live 4/17：消息称下一轮美伊谈判或在巴基斯坦举行，官方仍待确认。",
       "type": "warning",
-      "tag": "口径分裂",
+      "tag": "会谈窗口",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：伊提阿曼侧放行方案",
-      "desc": "Reuters 4/15：伊朗提议允许船只经阿曼侧安全离开，但未改变过峡审批条件。",
+      "title": "🔴 Reuters：卡塔尔LNG不可抗力或延长",
+      "desc": "Reuters 4/15：Edison称卡塔尔天然气不可抗力可能延至6月中后。",
       "type": "warning",
-      "tag": "通行方案",
+      "tag": "LNG风险",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：过峡仍需IRGC许可",
-      "desc": "Reuters 4/17：伊官员称海峡开放，但过峡船只仍需IRGC检查与许可。",
+      "title": "🔴 NBC：停火后仍未达成完整和平协议",
+      "desc": "NBC Live 4/18：美伊尚未达成完整和平协议，封锁与航运风险未解除。",
       "type": "warning",
-      "tag": "通行条件",
+      "tag": "协议未落地",
       "tagColor": "red"
     },
     {
       "date": "4/18",
-      "title": "🔴 Reuters：伊称开放，美称封锁继续",
-      "desc": "Reuters 4/17：伊方称商船可通行；美方称对伊封锁措施仍继续执行。",
+      "title": "🔴 Al Jazeera：停火期内霍尔木兹维持开放表述",
+      "desc": "Al Jazeera 4/17：伊方称在停火期内海峡将保持开放，但区域博弈仍在持续。",
       "type": "warning",
       "tag": "口径博弈",
       "tagColor": "red"
