@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-19 09:36",
+  "lastUpdate": "2026-04-19 09:40",
   "flashNews": "🔴 4/19 09:27｜IRGC宣布海峡封锁至美撤港口封锁｜伊朗关闭海峡24h内180°逆转\n🟡 4/19｜Reuters：美伊谈判有进展但仍存分歧｜伊议长：距最终协议仍有差距\n🔵 4/19｜川子：今天结束前会有消息｜4/21巴基斯坦第二轮谈判窗口仍在",
   "shipCount": 5,
   "shipChg": "-3",
@@ -255,12 +255,28 @@
       "trend": "down"
     },
     {
-      "week": "● 4/17",
+      "week": "4/17",
       "count": 15,
       "warDir": "up",
       "warChg": "+7",
       "pct": "11.1%",
       "trend": "up"
+    },
+    {
+      "week": "4/18",
+      "count": 8,
+      "warDir": "down",
+      "warChg": "-7",
+      "pct": "5.9%",
+      "trend": "down"
+    },
+    {
+      "week": "● 4/19",
+      "count": 5,
+      "warDir": "down",
+      "warChg": "-3",
+      "pct": "3.7%",
+      "trend": "down"
     }
   ],
   "events": [
