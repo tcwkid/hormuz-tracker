@@ -1,14 +1,14 @@
 {
-  "lastUpdate": "2026-04-19 23:26",
+  "lastUpdate": "2026-04-20 00:26",
   "flashNews": "🔴 4/19 21:00｜川子：伊朗今日必须答复，不谈就炸 🟡 4/19｜美伊3页备忘录在谈｜美解冻200亿换伊放弃铀库存 🔵 4/21巴基斯坦二轮谈判在望｜4/22停火硬截止3天",
   "shipCount": 5,
-  "shipChg": "-3",
+  "shipChg": "0",
   "oilWti": 82.59,
   "oilWtiChg": "9.41",
   "oilWtiNote": "↓",
-  "goldPrice": 4834.0,
-  "goldChg": "0.93",
-  "goldNote": "↓",
+  "goldPrice": 4879.6,
+  "goldChg": "1.48",
+  "goldNote": "↑",
   "congestion": 4,
   "congestionNote": "封锁第4天｜Hegseth：\"locked and loaded\"随时打能源设施｜13艘伊朗船折返｜巴代表团赴德黑兰推第二轮谈判｜停火4/22到期倒计时6天",
   "barData": [
@@ -161,8 +161,14 @@
       "date": "4/19",
       "totalH": 15,
       "oilH": 2,
-      "latest": true,
+      "latest": false,
       "count": 5
+    },
+    {
+      "date": "4/20",
+      "totalH": 15,
+      "oilH": 2,
+      "latest": true
     }
   ],
   "tableRows": [
@@ -324,12 +330,12 @@
   "lngStatus": "🚨 全面封锁",
   "lngNote": "封锁第4天｜AXSMarine确认：58艘气体运输船在湾内，LNG活动\"非常有限\"｜卡塔尔停产中｜伊朗提议开放阿曼侧但未落实",
   "oilWtiChgRaw": -9.41,
-  "goldChgRaw": -0.93,
-  "goldIsRealtime": true,
+  "goldChgRaw": 1.48,
+  "goldIsRealtime": false,
   "oilIsRealtime": false,
-  "isWeekend": true,
+  "isWeekend": false,
   "wtiPrice": 82.59,
   "wtiChange": "-9.41%",
-  "goldChange": "-0.93%",
+  "goldChange": "+1.48%",
   "goldDir": "up"
 }
