@@ -287,10 +287,10 @@
     },
     {
       "week": "● 4/20",
-      "count": 5,
+      "count": 3,
       "warDir": "down",
-      "warChg": "0",
-      "pct": "3.7%",
+      "warChg": "-2",
+      "pct": "2.2%",
       "trend": "down"
     }
   ],
