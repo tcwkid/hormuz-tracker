@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-20 09:21",
+  "lastUpdate": "2026-04-20 09:23",
   "flashNews": "🔴 4/20｜IRGC划拉腊克走廊新航线，未许可不得通行 🟡 4/20｜美军扣押首艘伊朗货轮，开枪击中引擎室 🔵 4/22停火2天倒计时｜CNN：停火延期方案在路上",
   "shipCount": 5,
   "shipChg": "-3",
@@ -278,10 +278,18 @@
       "trend": "down"
     },
     {
-      "week": "● 4/19",
+      "week": "4/19",
       "count": 5,
       "warDir": "down",
       "warChg": "-3",
+      "pct": "3.7%",
+      "trend": "down"
+    },
+    {
+      "week": "● 4/20",
+      "count": 5,
+      "warDir": "down",
+      "warChg": "0",
       "pct": "3.7%",
       "trend": "down"
     }
