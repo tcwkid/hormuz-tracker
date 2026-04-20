@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-04-20 23:26",
+  "lastUpdate": "2026-04-20 23:32",
   "flashNews": "🔴 4/20 18:00｜WTI暴拉5%至87｜美军扣押伊朗货轮Touska｜封锁升级 🟡 4/20｜伊拒第二轮谈判，称美违诺在先｜4/22倒计时2天 🔵 4/20｜IRGC拉腊克走廊划定，未经许可禁行",
-  "shipCount": 5,
-  "shipChg": "0",
+  "shipCount": 3,
+  "shipChg": "-2",
   "oilWti": 87.33,
   "oilWtiChg": "5.74",
   "oilWtiNote": "↑",
@@ -166,10 +166,10 @@
     },
     {
       "date": "4/20",
-      "totalH": 5,
+      "totalH": 3,
       "oilH": 0,
       "latest": true,
-      "count": 5
+      "count": 3
     }
   ],
   "tableRows": [
@@ -287,10 +287,10 @@
     },
     {
       "week": "● 4/20",
-      "count": 5,
+      "count": 3,
       "warDir": "down",
-      "warChg": "0",
-      "pct": "3.7%",
+      "warChg": "-2",
+      "pct": "2.2%",
       "trend": "down"
     }
   ],
