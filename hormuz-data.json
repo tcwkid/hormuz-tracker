@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-24 06:20",
+  "lastUpdate": "2026-04-24 07:20",
   "flashNews": [
-    "🔴 4/24｜36-72h窗口无突破｜WTI飙$96↑3.7%",
-    "🟡 伊朗：封锁是谈判主要障碍｜强硬表态",
-    "🟢 亚盘油强金弱｜封锁第12天｜$93+概率59%"
+    "🔴 4/24｜川子'不仓促'｜伊朗通行费已入账",
+    "🟡 美伊谈判僵局｜双方互相封锁升级",
+    "🟢 WTI $96.63↑3.9%｜金$4748↑｜封锁第12天"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 96.37,
-  "oilWtiChg": "+3.66%",
+  "oilWti": 96.63,
+  "oilWtiChg": "+3.94%",
   "oilWtiNote": "up",
-  "goldPrice": 4701.0,
-  "goldChg": "-0.82%",
-  "goldNote": "down",
+  "goldPrice": 4748.0,
+  "goldChg": "+0.50%",
+  "goldNote": "up",
   "congestion": 4,
-  "congestionNote": "川子36-72h窗口无突破｜油涨至$96｜灰色地带持续",
+  "congestionNote": "川子'不想仓促'｜伊朗首笔通行费入账｜谈判僵局",
   "barData": [
     {
       "date": "3/29",
@@ -303,10 +303,10 @@
   ],
   "events": [
     {
-      "time": "04-24 06:00",
-      "title": "📈 WTI $96↑3.7%｜36-72h和谈窗口无突破",
-      "desc": "特朗普36-72h和谈窗口已进行约22小时，亚盘原油不降反升至$96.37，市场交易'窗口无进展=封锁延续'逻辑。伊朗总统明确表态封锁是谈判主要障碍。预测市场：4/24 WTI $93+概率59%。Kpler：4/23仅2艘穿越。",
-      "type": "market"
+      "time": "04-24 07:00",
+      "title": "💰 伊朗首笔通行费入账央行｜川子'不想仓促行事'",
+      "desc": "伊朗议会副议长证实，首笔霍尔木兹海峡通行费已汇入央行账户，通行费收益正式落地。特朗普最新表态'不想仓促行事'，称伊朗领导层处于动荡。美伊和平谈判陷入僵局，双方互相封锁升级。WTI涨至$96.63，黄金回升至$4748。",
+      "type": "diplomatic"
     },
     {
       "time": "04-23 06:00",
@@ -344,19 +344,19 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第12天｜完全停滞｜仅4艘/天",
+  "lngNote": "封锁第12天｜仅4艘/天｜伊朗通行费已入账",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 96.37,
-  "wtiChange": "+3.66%",
-  "goldChange": "-0.82%",
+  "wtiPrice": 96.63,
+  "wtiChange": "+3.94%",
+  "goldChange": "+0.50%",
   "goldDir": "up",
-  "wti": 96.37,
+  "wti": 96.63,
   "wtiChg": -1.25,
-  "gold": 4701.0,
+  "gold": 4748.0,
   "lastUpdated": "2026-04-23T23:37:18+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
