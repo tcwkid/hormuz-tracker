@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-24 02:20",
+  "lastUpdate": "2026-04-24 03:20",
   "flashNews": [
-    "🔴 4/24｜川子36-72h和谈窗口｜今日关键节点",
-    "🟡 伊朗恢复全域严控｜逼退印度船｜灰色地带",
-    "🟢 WTI $93.5｜封锁第12天｜预测市场$91+概率66%"
+    "🔴 4/24｜36-72h和谈窗口进行中｜今日关键",
+    "🟡 伊朗全域严控｜逼退印度船｜灰色地带",
+    "🟢 WTI $94.32↑1.5%｜Kpler仅2艘穿越"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 93.49,
-  "oilWtiChg": "+0.57%",
+  "oilWti": 94.32,
+  "oilWtiChg": "+1.46%",
   "oilWtiNote": "up",
   "goldPrice": 4701.0,
   "goldChg": "-0.82%",
   "goldNote": "down",
   "congestion": 4,
-  "congestionNote": "川子：36-72h和谈窗口进行中｜伊朗全域严控｜灰色地带",
+  "congestionNote": "川子36-72h和谈窗口进行中｜伊朗全域严控｜核心分歧未解",
   "barData": [
     {
       "date": "3/29",
@@ -303,10 +303,10 @@
   ],
   "events": [
     {
-      "time": "04-24 02:00",
-      "title": "🌀 霍尔木兹变'灰色地带'｜伊朗逼退印度船｜和谈窗口倒计时",
-      "desc": "伊朗军方恢复海峡全域严格管控，连印度商船也被逼退；'英雄二'号、'海迪'号被美军拦截停在恰赫巴哈尔港；霍尔木兹正式成为'灰色地带'。特朗普36-72h和谈窗口已过约12小时，4/24是关键节点。预测市场：4/24 WTI $91+概率66%。",
-      "type": "maritime"
+      "time": "04-24 03:00",
+      "title": "⏳ 川子36-72h和谈窗口进行15h｜今日是关键节点",
+      "desc": "特朗普昨晚称36-72小时内或与伊朗和平谈判，已过约15小时。美伊核心分歧：美要永久开放海峡+解除伊朗管控，伊坚持主权+要先解封锁。Kpler数据：4/23仍有2艘干散货穿越，但主流航运完全停滞。预测市场4/24 WTI $91+概率66%。",
+      "type": "diplomatic"
     },
     {
       "time": "04-23 06:00",
@@ -344,17 +344,17 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第12天｜马士基确认完全停滞｜仅4艘/天",
+  "lngNote": "封锁第12天｜完全停滞｜Kpler：4/23仅2艘干散货穿越",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 93.49,
-  "wtiChange": "+0.57%",
+  "wtiPrice": 94.32,
+  "wtiChange": "+1.46%",
   "goldChange": "-0.82%",
   "goldDir": "up",
-  "wti": 93.49,
+  "wti": 94.32,
   "wtiChg": -1.25,
   "gold": 4701.0,
   "lastUpdated": "2026-04-23T23:37:18+08:00",
