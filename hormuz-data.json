@@ -1,16 +1,20 @@
 {
-  "lastUpdate": "2026-04-23 22:25",
-  "flashNews": "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船",
-  "shipCount": 3,
-  "shipChg": "0",
-  "oilWti": 93.82,
-  "oilWtiChg": "+0.93%",
+  "lastUpdate": "2026-04-23 23:21",
+  "flashNews": [
+    "🔴 4/23｜川子：36-72h或和谈｜美股深夜拉升",
+    "🟡 特朗普下令击沉违令船｜伊朗称封锁解除可谈",
+    "🟢 WTI $94↑1.2%｜马士基证海峡完全停滞"
+  ],
+  "shipCount": 4,
+  "shipChg": "-25",
+  "oilWti": 94.03,
+  "oilWtiChg": "+1.19%",
   "oilWtiNote": "up",
-  "goldPrice": 4742.2,
-  "goldChg": "0.23%",
+  "goldPrice": 4701.0,
+  "goldChg": "-0.82%",
   "goldNote": "down",
-  "congestion": 3,
-  "congestionNote": "IRGC扎押两船｜UKMTO警告活动极高｜美停火延长但扎船持续｜排雷险6个月",
+  "congestion": 4,
+  "congestionNote": "川子：36-72h或谈判｜伊朗软化｜马士基停滞｜IRGC扣2船",
   "barData": [
     {
       "date": "3/29",
@@ -165,6 +169,13 @@
       "oilH": 2,
       "totalH": 5,
       "count": 5,
+      "latest": false
+    },
+    {
+      "date": "4/23",
+      "totalH": 3,
+      "oilH": 2,
+      "count": 3,
       "latest": true
     }
   ],
@@ -282,12 +293,20 @@
       "pct": "2.2%"
     },
     {
-      "week": "# 4/22",
+      "week": "4/22",
       "count": 5,
       "warChg": "+2",
       "warDir": "up",
       "trend": "up",
       "pct": "3.7%"
+    },
+    {
+      "week": "● 4/23",
+      "count": 3,
+      "warDir": "down",
+      "warChg": "-2",
+      "pct": "2.2%",
+      "trend": "down"
     }
   ],
   "events": [
@@ -332,21 +351,21 @@
   "insightTime": "4/23 08:00 · 进度条",
   "shipCountNews": 5,
   "shipChgNews": "+2",
-  "lngStatus": "⚠️ 事实封锁",
-  "lngNote": "封锁第5天｜IRGC扎押 MSC Francesca+Epaminondas｜UKMTO警告活动水平极高｜排雷恐陦6个月",
+  "lngStatus": "⛔ 实质封锁",
+  "lngNote": "封锁第11天｜马士基确认完全停滞｜仅4艘/天",
   "oilWtiChgRaw": 0.93,
   "goldChgRaw": -0.23,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 93.82,
-  "wtiChange": "+0.93%",
-  "goldChange": "-0.23%",
+  "wtiPrice": 94.03,
+  "wtiChange": "+1.19%",
+  "goldChange": "-0.82%",
   "goldDir": "down",
-  "wti": 93.82,
+  "wti": 94.03,
   "wtiChg": -1.25,
-  "gold": 4742.2,
-  "lastUpdated": "2026-04-23T22:25:18+08:00",
+  "gold": 4701.0,
+  "lastUpdated": "2026-04-23T22:26:09+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
   ]
