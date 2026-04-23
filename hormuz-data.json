@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-23 19:21",
+  "lastUpdate": "2026-04-23 20:20",
   "flashNews": [
     "🔴 4/23｜IRGC扣押2船｜二轮谈判破裂",
     "🟡 伊朗通行费法案｜意大利派4舰",
@@ -14,7 +14,7 @@
   "goldChg": "-0.56%",
   "goldNote": "down",
   "congestion": 4,
-  "congestionNote": "IRGC扣押MSC Francesca+Epaminondas｜伊朗通行费法案｜美封锁继续",
+  "congestionNote": "IRGC扣押MSC Francesca+Epaminondas｜伊朗通行费法案｜美封锁持续",
   "barData": [
     {
       "date": "3/29",
@@ -357,5 +357,10 @@
   "wti": 94.49,
   "wtiChg": -1.25,
   "gold": 4726.4,
-  "lastUpdated": "2026-04-23T06:00:00+08:00"
+  "lastUpdated": "2026-04-23T06:00:00+08:00",
+  "flashNewsArr": [
+    "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁",
+    "🟡 伊议长：封锁不解除霍峡难全面开放",
+    "🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
+  ]
 }
