@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-25 03:20",
+  "lastUpdate": "2026-04-25 04:20",
   "flashNews": [
-    "🔴 4/25｜美代表赴伊斯兰堡｜伊朗淡化和谈",
-    "🟡 双方都在场但立场分歧｜WTI跌$93.6",
-    "🟢 布油$103｜金$4700｜A股开盘待观察"
+    "🔴 4/25｜美防长：34艘船霍尔木兹被折返",
+    "🟡 封锁扩展至全球范围｜伊斯兰堡谈判前的较量",
+    "🟢 WTI反弹$95.3｜布油$104｜金$4702"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 93.63,
-  "oilWtiChg": "-2.31%",
+  "oilWti": 95.29,
+  "oilWtiChg": "-0.58%",
   "oilWtiNote": "down",
-  "goldPrice": 4700.0,
-  "goldChg": "-0.99%",
+  "goldPrice": 4702.0,
+  "goldChg": "-0.95%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "美代表赴巴｜伊朗淡化谈判预期｜WTI跌至$93.6",
+  "congestionNote": "官方披露34艘折返｜封锁全球扩展｜WTI从低位反弹",
   "barData": [
     {
       "date": "3/29",
@@ -310,10 +310,10 @@
   ],
   "events": [
     {
-      "time": "04-25 09:20",
-      "title": "🟡 美代表赴伊斯兰堡｜伊朗淡化和谈预期｜WTI跌$93",
-      "desc": "美国派代表赴巴基斯坦，伊朗外长已抵达伊斯兰堡，但伊朗方面主动淡化和谈预期，称仅讨论'重启谈判的先决条件'。双方都在场但立场分歧明显。WTI跌至$93.63（-2.31%），谈判预期压制风险溢价；布油维持$103，金价$4700。",
-      "type": "diplomacy"
+      "time": "04-25 10:20",
+      "title": "🔴 美官方披露34艘船折返｜封锁扩展至全球范围",
+      "desc": "美防长赫格塞思披露：迄今已有34艘船只在霍尔木兹海峡被勒令折返，美国封锁行动已扩展至全球范围（含封锁生效前驶离伊朗港口的船只）。WTI从早间低点$93.63反弹至$95.29，布伦特$104.28；伊斯兰堡谈判前的较量持续，伊朗最高领袖强调'团结'驳斥特朗普'分裂'说。",
+      "type": "military"
     },
     {
       "time": "04-24 13:20",
@@ -351,19 +351,19 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第13天｜美代表赴伊斯兰堡｜伊朗淡化预期",
+  "lngNote": "封锁第13天｜34艘船已折返｜WTI反弹$95.3",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 93.63,
-  "wtiChange": "-2.31%",
-  "goldChange": "-0.99%",
+  "wtiPrice": 95.29,
+  "wtiChange": "-0.58%",
+  "goldChange": "-0.95%",
   "goldDir": "up",
-  "wti": 93.63,
+  "wti": 95.29,
   "wtiChg": -1.25,
-  "gold": 4700.0,
+  "gold": 4702.0,
   "lastUpdated": "2026-04-24T13:54:28+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
