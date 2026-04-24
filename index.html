@@ -1160,17 +1160,23 @@ function loadPosts() {
     .then(data => {
       document.getElementById('postsUpdated').textContent = '更新于 ' + data.updated;
       const list = document.getElementById('postList');
-      list.innerHTML = data.posts.map((p, i) => `
-        <div class="post-item">
+      const TYPE_LABEL = {morning:'早报', afternoon:'午报', evening:'晚报', deep:'深度'};
+      list.innerHTML = data.posts.map((p, i) => {
+        const label = p.tag || TYPE_LABEL[p.type] || p.type || '解读';
+        const tagClass = p.type || 'morning';
+        const tagsArr  = p.tags || [];
+        const tagsHtml = tagsArr.length ? tagsArr.map(t=>`<span class="post-tag">#${t}</span>`).join('') : '';
+        return `<div class="post-item">
           <div class="post-meta">
-            <span class="post-badge badge-${p.tag}">${p.tag}</span>
-            <span class="post-time">${p.time}</span>
+            <span class="post-badge badge-${tagClass}">${label}</span>
+            <span class="post-time">${p.date || ''} ${p.time || ''}</span>
           </div>
           <div class="post-title">${p.title}</div>
-          <div class="post-body" id="pbody-${i}">${p.content}</div>
+          <div class="post-body" id="pbody-${i}">${p.content.replace(/\n/g,'<br>')}</div>
           <span class="post-expand" id="pexp-${i}" onclick="togglePost(${i})">展开全文 ▾</span>
-          <div class="post-tags">${p.tags.map(t=>`<span class="post-tag">#${t}</span>`).join('')}</div>
-        </div>`).join('');
+          ${tagsHtml ? `<div class="post-tags">${tagsHtml}</div>` : ''}
+        </div>`;
+      }).join('');
     })
     .catch(() => {
       document.getElementById('postList').innerHTML =
