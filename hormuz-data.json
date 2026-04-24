@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-25 01:20",
+  "lastUpdate": "2026-04-25 02:20",
   "flashNews": [
-    "🔴 4/25｜双航母封锁｜川子讽伊朗'不知谁当家'",
-    "🟡 WTI日内区间$93.7-$97.8｜凌晨企稳$95.9",
-    "🟢 谈判僵局确认｜英特尔+20%收｜金$4699"
+    "🔴 4/25早｜伊朗外长抵伊斯兰堡｜局势谨慎乐观",
+    "🟡 美伊二轮谈判预计举行｜巴方调停启动",
+    "🟢 WTI 95↓布油$103｜金$4700｜双航母在位"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 95.85,
-  "oilWtiChg": "+0.00%",
-  "oilWtiNote": "flat",
-  "goldPrice": 4699.0,
-  "goldChg": "-0.53%",
+  "oilWti": 95.0,
+  "oilWtiChg": "-0.89%",
+  "oilWtiNote": "down",
+  "goldPrice": 4700.0,
+  "goldChg": "-0.99%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "双航母封锁｜WTI日内区间93.69-97.83｜凌晨企稳",
+  "congestionNote": "伊朗外长抵达伊斯兰堡｜巴方调停正式启动｜谈判窗口微开",
   "barData": [
     {
       "date": "3/29",
@@ -310,10 +310,10 @@
   ],
   "events": [
     {
-      "time": "04-25 01:20",
-      "title": "🔴 双航母封锁｜川子嘲讽伊朗内乱｜WTI深夜跳水",
-      "desc": "美防长宣布第二艘航母参与封锁伊朗；特朗普被问谈判进展时嘲讽'伊朗连自己谁在领导都搞不清楚'，直指革命卫队vs温和派内部分裂是谈判破裂根源。WTI从$96急跌至$94.80；英特尔+20%美股收盘，纳指终结13连涨。封锁进入第13天。",
-      "type": "military"
+      "time": "04-25 08:20",
+      "title": "🟡 伊朗外长抵伊斯兰堡｜美伊二轮谈判预计举行",
+      "desc": "伊朗外长阿拉格齐已抵达巴基斯坦首都伊斯兰堡，中东局势谨慎乐观；消息人士称美伊第二轮谈判预计将举行。特朗普公开表示美国在对峙中占据上风，希望达成'永久有效'协议。WTI $95，布伦特重返$103；黄金$4700。封锁第13天。",
+      "type": "diplomacy"
     },
     {
       "time": "04-24 13:20",
@@ -351,19 +351,19 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第13天｜双航母格局维持｜油价企稳",
+  "lngNote": "封锁第13天｜外长抵伊斯兰堡｜谨慎乐观",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 95.85,
-  "wtiChange": "+0.00%",
-  "goldChange": "-0.53%",
+  "wtiPrice": 95.0,
+  "wtiChange": "-0.89%",
+  "goldChange": "-0.99%",
   "goldDir": "up",
-  "wti": 95.85,
+  "wti": 95.0,
   "wtiChg": -1.25,
-  "gold": 4699.0,
+  "gold": 4700.0,
   "lastUpdated": "2026-04-24T13:54:28+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
