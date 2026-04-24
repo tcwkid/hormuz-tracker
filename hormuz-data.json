@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-24 22:20",
+  "lastUpdate": "2026-04-24 23:20",
   "flashNews": [
-    "🔴 4/24晚｜伊朗拒绝伊斯兰堡谈判｜僵局再确认",
-    "🟡 伊朗通讯社辟谣｜外长行程系外交斡旋非谈判",
-    "🟢 WTI 96+｜金$4747｜英特尔+20%纳指涨"
+    "🔴 4/24深夜｜第二艘航母加入封锁伊朗",
+    "🟡 美伊谈判'极有可能突破'｜油价大跳水",
+    "🟢 WTI 94.8↓｜金$4682｜英特尔+20%收"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 95.96,
-  "oilWtiChg": "+3.34%",
-  "oilWtiNote": "up",
-  "goldPrice": 4747.0,
-  "goldChg": "-0.12%",
+  "oilWti": 94.8,
+  "oilWtiChg": "-1.10%",
+  "oilWtiNote": "down",
+  "goldPrice": 4682.0,
+  "goldChg": "-1.30%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "伊朗通讯社辟谣｜拒绝第二轮谈判｜外长仅为外交斡旋",
+  "congestionNote": "第二航母参与封锁｜谈判'极有可能突破'｜油价震荡",
   "barData": [
     {
       "date": "3/29",
@@ -182,7 +182,7 @@
       "date": "4/24",
       "totalH": 4,
       "oilH": 1,
-      "latest": true,
+      "latest": false,
       "count": 4
     }
   ],
@@ -310,10 +310,10 @@
   ],
   "events": [
     {
-      "time": "04-24 23:20",
-      "title": "🔴 伊朗拒绝伊斯兰堡谈判｜通讯社辟谣｜僵局再确认",
-      "desc": "伊朗伊斯兰共和国通讯社发布声明：有关伊斯兰堡美伊第二轮谈判的消息'不准确'，伊朗已拒绝参与。外长阿拉格齐三城行程（伊斯兰堡、马斯喀特、莫斯科）系外交斡旋而非正式谈判。谈判窗口再次关闭；WTI $95.96，黄金$4747；英特尔+20%美股科技线独立走强。",
-      "type": "diplomacy"
+      "time": "04-25 00:20",
+      "title": "🔴 第二艘美国航母加入封锁｜油价深夜跳水",
+      "desc": "美国防长宣布第二艘航母将参与封锁伊朗；美伊同时传出谈判'极有可能突破'的消息，国际原油深夜大跳水，WTI从$96跌至$94.80；布油维持$106区间。黄金$4682。美股英特尔+20%收盘，纳指终结13连涨。伊朗拒绝伊斯兰堡正式谈判但外长启动三城斡旋。",
+      "type": "military"
     },
     {
       "time": "04-23 06:00",
@@ -351,19 +351,19 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第12天｜伊朗拒绝伊斯兰堡谈判｜僵局再确认",
+  "lngNote": "封锁第12/13天｜第二航母加入封锁｜油价深夜跳水",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 95.96,
-  "wtiChange": "+3.34%",
-  "goldChange": "-0.12%",
+  "wtiPrice": 94.8,
+  "wtiChange": "-1.10%",
+  "goldChange": "-1.30%",
   "goldDir": "up",
-  "wti": 95.96,
+  "wti": 94.8,
   "wtiChg": -1.25,
-  "gold": 4747.0,
+  "gold": 4682.0,
   "lastUpdated": "2026-04-24T13:54:28+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
