@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-25 02:20",
+  "lastUpdate": "2026-04-25 03:20",
   "flashNews": [
-    "🔴 4/25早｜伊朗外长抵伊斯兰堡｜局势谨慎乐观",
-    "🟡 美伊二轮谈判预计举行｜巴方调停启动",
-    "🟢 WTI 95↓布油$103｜金$4700｜双航母在位"
+    "🔴 4/25｜美代表赴伊斯兰堡｜伊朗淡化和谈",
+    "🟡 双方都在场但立场分歧｜WTI跌$93.6",
+    "🟢 布油$103｜金$4700｜A股开盘待观察"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 95.0,
-  "oilWtiChg": "-0.89%",
+  "oilWti": 93.63,
+  "oilWtiChg": "-2.31%",
   "oilWtiNote": "down",
   "goldPrice": 4700.0,
   "goldChg": "-0.99%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "伊朗外长抵达伊斯兰堡｜巴方调停正式启动｜谈判窗口微开",
+  "congestionNote": "美代表赴巴｜伊朗淡化谈判预期｜WTI跌至$93.6",
   "barData": [
     {
       "date": "3/29",
@@ -310,9 +310,9 @@
   ],
   "events": [
     {
-      "time": "04-25 08:20",
-      "title": "🟡 伊朗外长抵伊斯兰堡｜美伊二轮谈判预计举行",
-      "desc": "伊朗外长阿拉格齐已抵达巴基斯坦首都伊斯兰堡，中东局势谨慎乐观；消息人士称美伊第二轮谈判预计将举行。特朗普公开表示美国在对峙中占据上风，希望达成'永久有效'协议。WTI $95，布伦特重返$103；黄金$4700。封锁第13天。",
+      "time": "04-25 09:20",
+      "title": "🟡 美代表赴伊斯兰堡｜伊朗淡化和谈预期｜WTI跌$93",
+      "desc": "美国派代表赴巴基斯坦，伊朗外长已抵达伊斯兰堡，但伊朗方面主动淡化和谈预期，称仅讨论'重启谈判的先决条件'。双方都在场但立场分歧明显。WTI跌至$93.63（-2.31%），谈判预期压制风险溢价；布油维持$103，金价$4700。",
       "type": "diplomacy"
     },
     {
@@ -351,17 +351,17 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第13天｜外长抵伊斯兰堡｜谨慎乐观",
+  "lngNote": "封锁第13天｜美代表赴伊斯兰堡｜伊朗淡化预期",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 95.0,
-  "wtiChange": "-0.89%",
+  "wtiPrice": 93.63,
+  "wtiChange": "-2.31%",
   "goldChange": "-0.99%",
   "goldDir": "up",
-  "wti": 95.0,
+  "wti": 93.63,
   "wtiChg": -1.25,
   "gold": 4700.0,
   "lastUpdated": "2026-04-24T13:54:28+08:00",
