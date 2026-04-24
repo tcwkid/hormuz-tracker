@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-24 11:20",
+  "lastUpdate": "2026-04-24 12:20",
   "flashNews": [
-    "🔴 4/24｜伊朗本周霍尔木兹新布水雷",
-    "🟡 美伊谈判僵局｜川子授权击沉布雷船",
-    "🟢 WTI 96+↑3.4%｜布什核航母赴中东"
+    "🔴 4/24｜伊朗谈判代表辞职｜谈判彻底破裂",
+    "🟡 伊朗霍尔木兹新布水雷｜川子授权击沉",
+    "🟢 WTI 96+｜金反弹$4687｜布什航母赴中东"
   ],
   "shipCount": 4,
   "shipChg": "-25",
   "oilWti": 96.1,
   "oilWtiChg": "+3.38%",
   "oilWtiNote": "up",
-  "goldPrice": 4677.0,
-  "goldChg": "-1.50%",
+  "goldPrice": 4687.0,
+  "goldChg": "-1.30%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "伊朗新布水雷｜谈判僵局｜布什核航母赴中东",
+  "congestionNote": "伊朗谈判代表辞职｜新布水雷｜谈判彻底破裂",
   "barData": [
     {
       "date": "3/29",
@@ -310,10 +310,10 @@
   ],
   "events": [
     {
-      "time": "04-24 11:20",
-      "title": "🔴 伊朗本周霍尔木兹新布水雷｜美伊谈判僵局",
-      "desc": "Axios援引美国官员：伊朗革命卫队海军本周在霍尔木兹海峡水域布设更多水雷。特朗普授权美海军对布雷船只开火；美伊第二轮谈判日期仍未定；'布什'号核航母驶向中东；WTI维持$96+。",
-      "type": "military"
+      "time": "04-24 12:20",
+      "title": "🔴 伊朗谈判代表辞职｜霍尔木兹新布水雷",
+      "desc": "伊朗谈判代表宣布辞职，美伊谈判彻底破裂。伊朗革命卫队本周在霍尔木兹海峡新布水雷（Axios援引美官员）；特朗普授权美海军击沉布雷船只；'布什'号核航母驶向中东；WTI维持$96+，金价反弹至$4687。",
+      "type": "diplomacy"
     },
     {
       "time": "04-23 06:00",
@@ -351,7 +351,7 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第12天｜伊朗新布水雷｜WTI 96+",
+  "lngNote": "封锁第12天｜伊朗谈判代表辞职｜WTI 96+",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
@@ -359,11 +359,11 @@
   "isWeekend": false,
   "wtiPrice": 96.1,
   "wtiChange": "+3.38%",
-  "goldChange": "-1.50%",
+  "goldChange": "-1.30%",
   "goldDir": "up",
   "wti": 96.1,
   "wtiChg": -1.25,
-  "gold": 4677.0,
+  "gold": 4687.0,
   "lastUpdated": "2026-04-23T23:37:18+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
