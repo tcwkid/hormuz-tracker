@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-24 09:20",
+  "lastUpdate": "2026-04-24 09:22",
   "flashNews": [
-    "🔴 4/24｜WTI破$100→回落$97↑5%",
-    "🟡 伊朗曝进攻威慑清单｜涵盖发电厂油气设施",
-    "🟢 布伦特一度$105｜金$4677↓｜美元指数98.9"
+    "🔴 4/24｜WTI 96+↑3.4%｜4/23结算$95.85",
+    "🟡 美伊嘴仗升级｜川子：不急于结束战争",
+    "🟢 布什号核航母赴中东｜黎以停火延长3周"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 97.65,
-  "oilWtiChg": "+5.00%",
+  "oilWti": 96.1,
+  "oilWtiChg": "+3.38%",
   "oilWtiNote": "up",
   "goldPrice": 4677.0,
   "goldChg": "-1.50%",
   "goldNote": "down",
   "congestion": 5,
-  "congestionNote": "伊朗曝威慑清单｜谈判破裂｜WTI破百后回落$97",
+  "congestionNote": "美伊嘴仗升级｜布什号核航母驶向中东｜谈判无期",
   "barData": [
     {
       "date": "3/29",
@@ -310,10 +310,10 @@
   ],
   "events": [
     {
-      "time": "04-24 09:00",
-      "title": "🔥 WTI破$100布伦特$105｜伊朗曝进攻威慑清单",
-      "desc": "WTI涨5%破$100，布伦特一度$105，为4/13封锁以来首次重返三位数。伊朗曝光'进攻性威慑'目标清单，涵盖发电厂、油气设施。伊朗否认4/24谈判，称特朗普'又说谎了'；以色列称已准备重启与伊朗战争；美元指数涨至98.92，金价下挫至$4677。",
-      "type": "market"
+      "time": "04-24 10:00",
+      "title": "🔥 美伊谈判僵局｜布什核航母赴中东｜WTI回落96",
+      "desc": "特朗普称'不急于结束对伊战争'；第二轮谈判日期未定；美海军对布雷伊朗船只授权开火，拦截登临一艘油轮；'布什'号核航母驶向中东；WTI 4/23结算$95.85，亚太盘$96+；黎以停火延长三周。",
+      "type": "geopolitics"
     },
     {
       "time": "04-23 06:00",
@@ -351,17 +351,17 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第12天｜完全停滞｜伊朗曝进攻性威慑清单",
+  "lngNote": "封锁第12天｜WTI破百回落｜谈判僵局",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 97.65,
-  "wtiChange": "+5.00%",
+  "wtiPrice": 96.1,
+  "wtiChange": "+3.38%",
   "goldChange": "-1.50%",
   "goldDir": "up",
-  "wti": 97.65,
+  "wti": 96.1,
   "wtiChg": -1.25,
   "gold": 4677.0,
   "lastUpdated": "2026-04-23T23:37:18+08:00",
