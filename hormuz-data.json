@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-04-25 06:20",
+  "lastUpdate": "2026-04-25 07:20",
   "flashNews": [
-    "🟢 4/25｜维特科夫+库什纳今日已启程伊斯兰堡",
-    "🟡 美伊直接谈判进行中｜伊朗仍悲观出席",
-    "🔴 WTI 94.2↓｜谈判压制风险溢价"
+    "🟢 4/25｜美伊伊斯兰堡直接谈判进行中",
+    "🟡 WTI日内92.8-97.9宽幅｜当前$94.7",
+    "🔴 谈判结果未出｜金跌破$4700｜等待"
   ],
   "shipCount": 4,
   "shipChg": "-25",
-  "oilWti": 94.2,
-  "oilWtiChg": "-1.72%",
+  "oilWti": 94.65,
+  "oilWtiChg": "-1.25%",
   "oilWtiNote": "down",
-  "goldPrice": 4700.0,
-  "goldChg": "-0.99%",
+  "goldPrice": 4695.0,
+  "goldChg": "-1.09%",
   "goldNote": "down",
   "congestion": 4,
-  "congestionNote": "维特科夫库什纳已启程｜今日直接谈判正在进行",
+  "congestionNote": "美伊直接谈判进行中｜结果未出｜市场等待",
   "barData": [
     {
       "date": "3/29",
@@ -310,9 +310,9 @@
   ],
   "events": [
     {
-      "time": "04-25 12:20",
-      "title": "🟢 维特科夫+库什纳今日启程｜美伊直接谈判进行中",
-      "desc": "白宫发言人莱维特确认：特朗普特使维特科夫和库什纳已于4月25日上午启程前往巴基斯坦，与伊朗外长阿拉格齐进行直接谈判，在巴方斡旋下举行。这是封锁以来首次美伊高级别直接接触。伊朗方对谈判前景悲观但仍出席；WTI $94.20，谈判预期持续压制油价。",
+      "time": "04-25 13:20",
+      "title": "🟢 美伊伊斯兰堡直接谈判进行中｜结果待揭晓",
+      "desc": "维特科夫+库什纳已抵达巴基斯坦，与伊朗外长阿拉格齐直接谈判正在进行中（巴方斡旋）。谈判结果尚未公布，市场在等待。WTI日内区间92.80-97.85，当前$94.65；黄金跌破$4700；沪金T+D轻微反弹。封锁第13天。",
       "type": "diplomacy"
     },
     {
@@ -351,19 +351,19 @@
   "shipCountNews": 5,
   "shipChgNews": "+2",
   "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁第13天｜美代表今日已启程｜直接谈判进行中",
+  "lngNote": "封锁第13天｜伊斯兰堡谈判进行中｜结果待揭晓",
   "oilWtiChgRaw": 0.63,
   "goldChgRaw": 0.02,
   "goldIsRealtime": false,
   "oilIsRealtime": false,
   "isWeekend": false,
-  "wtiPrice": 94.2,
-  "wtiChange": "-1.72%",
-  "goldChange": "-0.99%",
+  "wtiPrice": 94.65,
+  "wtiChange": "-1.25%",
+  "goldChange": "-1.09%",
   "goldDir": "up",
-  "wti": 94.2,
+  "wti": 94.65,
   "wtiChg": -1.25,
-  "gold": 4700.0,
+  "gold": 4695.0,
   "lastUpdated": "2026-04-24T13:54:28+08:00",
   "flashNewsArr": [
     "🔴 4/23｜特朗普无限期延停火伊朗要求撤封锁  🟡 伊议长：封锁不解除霍峡难全面开放  🟢 WTI $89.28｜金 $4776｜IRGC已扎2船"
