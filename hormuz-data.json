@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-26 08:20",
+  "lastUpdate": "2026-04-26 09:20",
   "flashNews": [
-    "🔴 4/26｜谈判取消油价大涨｜27日续谈待确认",
-    "🔴 伊朗要求全盘接受条件｜宣称完全掌控海峡",
-    "🟡 特朗普支持率跳水｜共和党紧急切割"
+    "🔴 4/26｜谈判三大死结｜海峡+核+赔偿",
+    "🔴 特朗普：筹码在手不必谈｜27日续谈存悬念",
+    "🟡 WTI $96+｜谈判不确定性支撑高油价"
   ],
   "shipCount": 4,
   "shipChg": 0,
-  "oilWti": 96.2,
+  "oilWti": 96.62,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4755,
@@ -388,7 +388,7 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-25 15:30",
-  "oilChg": "+1.90%",
+  "oilChg": "+0.80%",
   "updatedAt": "2026-04-26 08:00",
   "level": "L3"
 }
