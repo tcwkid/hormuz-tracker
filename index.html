@@ -779,7 +779,7 @@ function applyData(data) {
 
   if (data.flashNews) {
     const fb = document.getElementById('flashNewsBanner');
-    if (fb) fb.textContent = data.flashNews;
+    if (fb) fb.textContent = Array.isArray(data.flashNews) ? data.flashNews.join('  ') : (data.flashNews || '');
   }
 
   // lastUpdate
