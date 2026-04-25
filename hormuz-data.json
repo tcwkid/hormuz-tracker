@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-26 10:20",
+  "lastUpdate": "2026-04-26 11:20",
   "flashNews": [
-    "🔴 4/26｜以军建议美国恢复对伊军事打击",
-    "🔴 伊外长被边缘化｜革命卫队掌控谈判",
-    "🟡 WTI $96+｜军事升级风险推高油价"
+    "🟡 4/26｜伊官员称未来几天将续谈",
+    "🔴 伊朗要求特朗普减少公开声明",
+    "🟡 WTI $94.88 -1%｜谈判预期缓和回落"
   ],
   "shipCount": 4,
   "shipChg": 0,
-  "oilWti": 96.62,
+  "oilWti": 94.88,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4758,
@@ -388,7 +388,7 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-25 15:30",
-  "oilChg": "+0.80%",
+  "oilChg": "-1.01%",
   "updatedAt": "2026-04-26 08:00",
   "level": "L3"
 }
