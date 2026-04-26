@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-26 17:20",
+  "lastUpdate": "2026-04-26 18:20",
   "flashNews": [
-    "🔴 最高领袖令：海峡不得恢复战前状态",
-    "🔴 4/25仅3船通过｜封锁创新低",
-    "🟡 巴基斯坦：新一轮谈判将很快开始"
+    "🔴 伊朗革命卫队视频：快艇截停货船",
+    "🟡 土耳其：协议达成后可参与排雷",
+    "🔴 谈判回原点｜海峡战前状态不可恢复"
   ],
   "shipCount": 3,
   "shipChg": -1,
-  "oilWti": 94.88,
+  "oilWti": 96.5,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4760,
-  "goldChg": "+0.21%",
+  "goldPrice": 4762,
+  "goldChg": "+0.25%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "川子嘲讽伊朗不知谁在领导｜内部分裂成谈判障碍",
@@ -388,7 +388,7 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-25 15:30",
-  "oilChg": "-1.01%",
+  "oilChg": "+1.69%",
   "updatedAt": "2026-04-26 08:00",
   "level": "L3"
 }
