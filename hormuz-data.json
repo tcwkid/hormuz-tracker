@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-27 11:20",
+  "lastUpdate": "2026-04-27 12:20",
   "flashNews": [
     "🔴 4/27仅2油轮过峡｜创历史新低",
     "🟡 伊外长抵巴基斯坦｜谈判或重启",
@@ -7,7 +7,7 @@
   ],
   "shipCount": 2,
   "shipChg": -1,
-  "oilWti": 97.5,
+  "oilWti": 97.8,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4710,
@@ -303,7 +303,7 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+3.28%",
+  "oilChg": "+3.60%",
   "updatedAt": "2026-04-26 15:19",
   "level": "L3"
 }
