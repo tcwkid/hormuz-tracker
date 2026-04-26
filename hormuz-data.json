@@ -1,309 +1,309 @@
 {
-  "lastUpdate": "2026-04-27 13:20",
-  "flashNews": [
-    "🔴 德国派扫雷舰赴地中海备战霍峡",
-    "🔴 4/27仅2油轮过峡｜创历史新低",
-    "🟡 川子英相通话：需恢复霍峡航运"
+  "lastUpdate":"2026-04-27T06:20:00Z",
+  "flashNews":[
+    "\ud83d\udd34 \u5fb7\u56fd\u6d3e\u626b\u96f7\u8230\u8d74\u5730\u4e2d\u6d77\u5907\u6218\u970d\u5ce1",
+    "\ud83d\udd34 4/27\u4ec52\u6cb9\u8f6e\u8fc7\u5ce1\uff5c\u521b\u5386\u53f2\u65b0\u4f4e",
+    "\ud83d\udfe1 \u5ddd\u5b50\u82f1\u76f8\u901a\u8bdd\uff1a\u9700\u6062\u590d\u970d\u5ce1\u822a\u8fd0"
   ],
-  "shipCount": 2,
-  "shipChg": -1,
-  "oilWti": 97.5,
-  "oilWtiChg": "-1.51%",
-  "oilWtiNote": "down",
-  "goldPrice": 4708,
-  "goldChg": "-0.59%",
-  "goldNote": "up",
-  "congestion": 5,
-  "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
-  "barData": [
+  "shipCount":2,
+  "shipChg":"-1",
+  "oilWti":96.29,
+  "oilWtiChg":"-1.51%",
+  "oilWtiNote":"down",
+  "goldPrice":4700,
+  "goldChg":"-0.17%",
+  "goldNote":"up",
+  "congestion":5,
+  "congestionNote":"\u4f0a\u6717\u6700\u9ad8\u9886\u8896\u4e0b\u4ee4\uff1a\u6d77\u5ce1\u4e0d\u5f97\u6062\u590d\u6218\u524d\u72b6\u6001",
+  "barData":[
     {
-      "date": "4/14",
-      "totalH": 4,
-      "oilH": 2,
-      "latest": false
+      "date":"4/14",
+      "totalH":4,
+      "oilH":2,
+      "latest":false
     },
     {
-      "date": "4/15",
-      "totalH": 20,
-      "oilH": 5,
-      "latest": false
+      "date":"4/15",
+      "totalH":20,
+      "oilH":5,
+      "latest":false
     },
     {
-      "date": "4/16",
-      "totalH": 8,
-      "oilH": 3,
-      "latest": false
+      "date":"4/16",
+      "totalH":8,
+      "oilH":3,
+      "latest":false
     },
     {
-      "date": "4/17",
-      "totalH": 15,
-      "oilH": 2,
-      "latest": false
+      "date":"4/17",
+      "totalH":15,
+      "oilH":2,
+      "latest":false
     },
     {
-      "date": "4/18",
-      "totalH": 8,
-      "oilH": 2,
-      "latest": false,
-      "count": 8
+      "date":"4/18",
+      "totalH":8,
+      "oilH":2,
+      "latest":false,
+      "count":8
     },
     {
-      "date": "4/19",
-      "totalH": 5,
-      "oilH": 2,
-      "latest": false,
-      "count": 5
+      "date":"4/19",
+      "totalH":5,
+      "oilH":2,
+      "latest":false,
+      "count":5
     },
     {
-      "date": "4/20",
-      "totalH": 3,
-      "oilH": 0,
-      "latest": false,
-      "count": 3
+      "date":"4/20",
+      "totalH":3,
+      "oilH":0,
+      "latest":false,
+      "count":3
     },
     {
-      "date": "4/21",
-      "oilH": 0,
-      "totalH": 3,
-      "count": 3,
-      "latest": false
+      "date":"4/21",
+      "oilH":0,
+      "totalH":3,
+      "count":3,
+      "latest":false
     },
     {
-      "date": "4/22",
-      "oilH": 2,
-      "totalH": 5,
-      "count": 5,
-      "latest": false
+      "date":"4/22",
+      "oilH":2,
+      "totalH":5,
+      "count":5,
+      "latest":false
     },
     {
-      "date": "4/23",
-      "totalH": 3,
-      "oilH": 2,
-      "count": 3,
-      "latest": false
+      "date":"4/23",
+      "totalH":3,
+      "oilH":2,
+      "count":3,
+      "latest":false
     },
     {
-      "date": "4/24",
-      "totalH": 4,
-      "oilH": 1,
-      "latest": false,
-      "count": 4
+      "date":"4/24",
+      "totalH":4,
+      "oilH":1,
+      "latest":false,
+      "count":4
     },
     {
-      "date": "4/25",
-      "totalH": 5,
-      "oilH": 4,
-      "count": 5,
-      "latest": false
+      "date":"4/25",
+      "totalH":5,
+      "oilH":4,
+      "count":5,
+      "latest":false
     },
     {
-      "date": "4/26",
-      "totalH": 3,
-      "oilH": 2,
-      "count": 3,
-      "latest": false
+      "date":"4/26",
+      "totalH":3,
+      "oilH":2,
+      "count":3,
+      "latest":false
     },
     {
-      "date": "4/27",
-      "count": 2,
-      "latest": true
+      "date":"4/27",
+      "count":2,
+      "latest":true
     }
   ],
-  "tableRows": [
+  "tableRows":[
     {
-      "week": "4/12",
-      "count": 21,
-      "warDir": "up",
-      "warChg": "+10",
-      "pct": "15.6%",
-      "trend": "up"
+      "week":"4/12",
+      "count":21,
+      "warDir":"up",
+      "warChg":"+10",
+      "pct":"15.6%",
+      "trend":"up"
     },
     {
-      "week": "4/13",
-      "count": 23,
-      "warDir": "up",
-      "warChg": "+2",
-      "pct": "17.0%",
-      "trend": "up"
+      "week":"4/13",
+      "count":23,
+      "warDir":"up",
+      "warChg":"+2",
+      "pct":"17.0%",
+      "trend":"up"
     },
     {
-      "week": "4/14",
-      "count": 4,
-      "warDir": "down",
-      "warChg": "-19",
-      "pct": "3.0%",
-      "trend": "down"
+      "week":"4/14",
+      "count":4,
+      "warDir":"down",
+      "warChg":"-19",
+      "pct":"3.0%",
+      "trend":"down"
     },
     {
-      "week": "4/15",
-      "count": 20,
-      "warDir": "up",
-      "warChg": "+16",
-      "pct": "14.8%",
-      "trend": "up"
+      "week":"4/15",
+      "count":20,
+      "warDir":"up",
+      "warChg":"+16",
+      "pct":"14.8%",
+      "trend":"up"
     },
     {
-      "week": "4/16",
-      "count": 8,
-      "warDir": "down",
-      "warChg": "-12",
-      "pct": "5.9%",
-      "trend": "down"
+      "week":"4/16",
+      "count":8,
+      "warDir":"down",
+      "warChg":"-12",
+      "pct":"5.9%",
+      "trend":"down"
     },
     {
-      "week": "4/17",
-      "count": 15,
-      "warDir": "up",
-      "warChg": "+7",
-      "pct": "11.1%",
-      "trend": "up"
+      "week":"4/17",
+      "count":15,
+      "warDir":"up",
+      "warChg":"+7",
+      "pct":"11.1%",
+      "trend":"up"
     },
     {
-      "week": "4/18",
-      "count": 8,
-      "warDir": "down",
-      "warChg": "-7",
-      "pct": "5.9%",
-      "trend": "down"
+      "week":"4/18",
+      "count":8,
+      "warDir":"down",
+      "warChg":"-7",
+      "pct":"5.9%",
+      "trend":"down"
     },
     {
-      "week": "4/19",
-      "count": 5,
-      "warDir": "down",
-      "warChg": "-3",
-      "pct": "3.7%",
-      "trend": "down"
+      "week":"4/19",
+      "count":5,
+      "warDir":"down",
+      "warChg":"-3",
+      "pct":"3.7%",
+      "trend":"down"
     },
     {
-      "week": "4/20",
-      "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "week":"4/20",
+      "count":3,
+      "warDir":"down",
+      "warChg":"-2",
+      "pct":"2.2%",
+      "trend":"down"
     },
     {
-      "week": "4/21",
-      "count": 3,
-      "warDir": "flat",
-      "warChg": "0",
-      "pct": "2.2%",
-      "trend": "flat"
+      "week":"4/21",
+      "count":3,
+      "warDir":"flat",
+      "warChg":"0",
+      "pct":"2.2%",
+      "trend":"flat"
     },
     {
-      "week": "4/22",
-      "count": 5,
-      "warDir": "up",
-      "warChg": "+2",
-      "pct": "3.7%",
-      "trend": "up"
+      "week":"4/22",
+      "count":5,
+      "warDir":"up",
+      "warChg":"+2",
+      "pct":"3.7%",
+      "trend":"up"
     },
     {
-      "week": "4/23",
-      "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "week":"4/23",
+      "count":3,
+      "warDir":"down",
+      "warChg":"-2",
+      "pct":"2.2%",
+      "trend":"down"
     },
     {
-      "week": "4/24",
-      "count": 4,
-      "warDir": "up",
-      "warChg": "+1",
-      "pct": "3.0%",
-      "trend": "up"
+      "week":"4/24",
+      "count":4,
+      "warDir":"up",
+      "warChg":"+1",
+      "pct":"3.0%",
+      "trend":"up"
     },
     {
-      "week": "4/25",
-      "count": 5,
-      "warDir": "up",
-      "warChg": "+1",
-      "pct": "3.7%",
-      "trend": "up"
+      "week":"4/25",
+      "count":5,
+      "warDir":"up",
+      "warChg":"+1",
+      "pct":"3.7%",
+      "trend":"up"
     },
     {
-      "week": "● 4/26",
-      "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "week":"\u25cf 4/26",
+      "count":3,
+      "warDir":"down",
+      "warChg":"-2",
+      "pct":"2.2%",
+      "trend":"down"
     }
   ],
-  "events": [
+  "events":[
     {
-      "date": "4/27",
-      "title": "德国派扫雷舰赴地中海备战霍尔木兹",
-      "detail": "德国国防部长皮斯托里乌斯称，德国海军将派一艘扫雷舰赴地中海，为后续可能进入霍尔木兹海峡做准备。这是西方盟国首次宣布实质性军事预备行动。",
-      "type": "military",
-      "critical": false,
-      "latest": true
+      "date":"4/27",
+      "title":"\u5fb7\u56fd\u6d3e\u626b\u96f7\u8230\u8d74\u5730\u4e2d\u6d77\u5907\u6218\u970d\u5c14\u6728\u5179",
+      "detail":"\u5fb7\u56fd\u56fd\u9632\u90e8\u957f\u76ae\u65af\u6258\u91cc\u4e4c\u65af\u79f0\uff0c\u5fb7\u56fd\u6d77\u519b\u5c06\u6d3e\u4e00\u8258\u626b\u96f7\u8230\u8d74\u5730\u4e2d\u6d77\uff0c\u4e3a\u540e\u7eed\u53ef\u80fd\u8fdb\u5165\u970d\u5c14\u6728\u5179\u6d77\u5ce1\u505a\u51c6\u5907\u3002\u8fd9\u662f\u897f\u65b9\u76df\u56fd\u9996\u6b21\u5ba3\u5e03\u5b9e\u8d28\u6027\u519b\u4e8b\u9884\u5907\u884c\u52a8\u3002",
+      "type":"military",
+      "critical":false,
+      "latest":true
     },
     {
-      "date": "4/27",
-      "title": "布伦特再破$100｜WTI逼近$99",
-      "detail": "4月27日午盘，布伦特原油日内大涨4美元报$102.86，WTI同步上行逼近$99。黄金跌逾1%报$4687.87，油涨金跌=供给冲击定价，非系统性避险。",
-      "type": "market",
-      "critical": true,
-      "latest": false
+      "date":"4/27",
+      "title":"\u5e03\u4f26\u7279\u518d\u7834$100\uff5cWTI\u903c\u8fd1$99",
+      "detail":"4\u670827\u65e5\u5348\u76d8\uff0c\u5e03\u4f26\u7279\u539f\u6cb9\u65e5\u5185\u5927\u6da84\u7f8e\u5143\u62a5$102.86\uff0cWTI\u540c\u6b65\u4e0a\u884c\u903c\u8fd1$99\u3002\u9ec4\u91d1\u8dcc\u903e1%\u62a5$4687.87\uff0c\u6cb9\u6da8\u91d1\u8dcc=\u4f9b\u7ed9\u51b2\u51fb\u5b9a\u4ef7\uff0c\u975e\u7cfb\u7edf\u6027\u907f\u9669\u3002",
+      "type":"market",
+      "critical":true,
+      "latest":false
     },
     {
-      "date": "4/27",
-      "title": "海峡通行量创新低：25日仅2艘油轮通过",
-      "detail": "美国援引船舶追踪数据，4月25日当天仅2艘油轮和1艘游艇通过霍尔木兹海峡，为封锁以来最低纪录。商业船只通行量已接近零。",
-      "type": "blockade",
-      "critical": true,
-      "latest": false
+      "date":"4/27",
+      "title":"\u6d77\u5ce1\u901a\u884c\u91cf\u521b\u65b0\u4f4e\uff1a25\u65e5\u4ec52\u8258\u6cb9\u8f6e\u901a\u8fc7",
+      "detail":"\u7f8e\u56fd\u63f4\u5f15\u8239\u8236\u8ffd\u8e2a\u6570\u636e\uff0c4\u670825\u65e5\u5f53\u5929\u4ec52\u8258\u6cb9\u8f6e\u548c1\u8258\u6e38\u8247\u901a\u8fc7\u970d\u5c14\u6728\u5179\u6d77\u5ce1\uff0c\u4e3a\u5c01\u9501\u4ee5\u6765\u6700\u4f4e\u7eaa\u5f55\u3002\u5546\u4e1a\u8239\u53ea\u901a\u884c\u91cf\u5df2\u63a5\u8fd1\u96f6\u3002",
+      "type":"blockade",
+      "critical":true,
+      "latest":false
     },
     {
-      "date": "4/27",
-      "title": "白宫：美伊谈判有望取得建设性成果",
-      "detail": "白宫新闻秘书表示，美伊谈判有望取得建设性成果。消息人士称第二轮谈判定于4月27日举行。此前伊朗官员也称美伊可能在未来几天举行第二轮谈判。",
-      "type": "negotiation",
-      "critical": false,
-      "latest": false
+      "date":"4/27",
+      "title":"\u767d\u5bab\uff1a\u7f8e\u4f0a\u8c08\u5224\u6709\u671b\u53d6\u5f97\u5efa\u8bbe\u6027\u6210\u679c",
+      "detail":"\u767d\u5bab\u65b0\u95fb\u79d8\u4e66\u8868\u793a\uff0c\u7f8e\u4f0a\u8c08\u5224\u6709\u671b\u53d6\u5f97\u5efa\u8bbe\u6027\u6210\u679c\u3002\u6d88\u606f\u4eba\u58eb\u79f0\u7b2c\u4e8c\u8f6e\u8c08\u5224\u5b9a\u4e8e4\u670827\u65e5\u4e3e\u884c\u3002\u6b64\u524d\u4f0a\u6717\u5b98\u5458\u4e5f\u79f0\u7f8e\u4f0a\u53ef\u80fd\u5728\u672a\u6765\u51e0\u5929\u4e3e\u884c\u7b2c\u4e8c\u8f6e\u8c08\u5224\u3002",
+      "type":"negotiation",
+      "critical":false,
+      "latest":false
     },
     {
-      "date": "4/27",
-      "title": "伊朗宣布：过霍尔木兹须缴通行费",
-      "detail": "伊朗伊斯兰议会国家安全和外交政策委员会主席阿齐兹表示，所有希望通过霍尔木兹海峡的船只必须缴费，收费已存入中央银行账户。这标志着伊朗对海峡管控从封锁升级为正式收费制。",
-      "type": "escalation",
-      "critical": true,
-      "latest": false
+      "date":"4/27",
+      "title":"\u4f0a\u6717\u5ba3\u5e03\uff1a\u8fc7\u970d\u5c14\u6728\u5179\u987b\u7f34\u901a\u884c\u8d39",
+      "detail":"\u4f0a\u6717\u4f0a\u65af\u5170\u8bae\u4f1a\u56fd\u5bb6\u5b89\u5168\u548c\u5916\u4ea4\u653f\u7b56\u59d4\u5458\u4f1a\u4e3b\u5e2d\u963f\u9f50\u5179\u8868\u793a\uff0c\u6240\u6709\u5e0c\u671b\u901a\u8fc7\u970d\u5c14\u6728\u5179\u6d77\u5ce1\u7684\u8239\u53ea\u5fc5\u987b\u7f34\u8d39\uff0c\u6536\u8d39\u5df2\u5b58\u5165\u4e2d\u592e\u94f6\u884c\u8d26\u6237\u3002\u8fd9\u6807\u5fd7\u7740\u4f0a\u6717\u5bf9\u6d77\u5ce1\u7ba1\u63a7\u4ece\u5c01\u9501\u5347\u7ea7\u4e3a\u6b63\u5f0f\u6536\u8d39\u5236\u3002",
+      "type":"escalation",
+      "critical":true,
+      "latest":false
     },
     {
-      "date": "4/27",
-      "title": "WTI突破$100！早盘涨4%报$102.54",
-      "detail": "4月27日亚盘，WTI原油期货日内涨幅扩大至4%，报102.54美元/桶，再度突破百元大关。市场对美伊谈判前景不明及封锁持续反应强烈。",
-      "type": "market",
-      "critical": true,
-      "latest": false
+      "date":"4/27",
+      "title":"WTI\u7a81\u7834$100\uff01\u65e9\u76d8\u6da84%\u62a5$102.54",
+      "detail":"4\u670827\u65e5\u4e9a\u76d8\uff0cWTI\u539f\u6cb9\u671f\u8d27\u65e5\u5185\u6da8\u5e45\u6269\u5927\u81f34%\uff0c\u62a5102.54\u7f8e\u5143/\u6876\uff0c\u518d\u5ea6\u7a81\u7834\u767e\u5143\u5927\u5173\u3002\u5e02\u573a\u5bf9\u7f8e\u4f0a\u8c08\u5224\u524d\u666f\u4e0d\u660e\u53ca\u5c01\u9501\u6301\u7eed\u53cd\u5e94\u5f3a\u70c8\u3002",
+      "type":"market",
+      "critical":true,
+      "latest":false
     }
   ],
-  "insightText": "油价今天是个段子手——早上冲上$102装大哥，下午就溜回$97当普通人。\n\nA古昨日收盘算是憋屈的横盘。沪指在4050-4100之间磨啊磨，创业板高位震荡，北向资金下午悄悄缩量，游资在科创50和商业航天之间来回串场。整体定性：没有大跌，但也没人敢full in love——因为地缘这根绳子还绑着所有人，谁先动谁先死。港股恒生科技惯常渣男状态，白天涨0.3%，收盘前扔回去0.2%，典型\"给你看一眼，不给你摸\"。\n\n地缘今晚是重头戏。WTI凌晨飙到$102.54，布伦特一度破$106，市场在定价\"美伊谈判今日或举行\"的预期。然后呢？什么都没发生——伊朗外长还在阿曼，川子还在等电话，市场自己先把自己吓了一跳。油价随即从$102砸回$97，这叫预期差绞肉机，不是真突破，是流动性玩家用消息割散户。黄金$4765高位横盘，避险情绪在，但没有新催化剂，金子现在是\"前女友\"——就在那，但不会主动找你。\n\n明日A古开盘，今天凌晨有一个关键变量要盯：美伊二轮谈判是否今日（4/27）实质启动。如果在亚盘前有官方确认，油价可能再次砸坑，A股能源股高开低走、新能源反弹；如果继续哑火，沪指维持震荡，创业板4100点区域上方是多空博弈核心。操作上：仓位别超七成，等信号，别猜方向。WTI若跌回$92以下，那才是\"下杀取量\"信号，届时可以分批来吧宝贝儿；守在$96+，就当地缘溢价还在消化，耐心等。\n\n时间戳预判：4/27北京时间12:00前若无谈判官宣，今日WTI收盘大概率$94-98箱体内消化，纳指继续震荡偏多（科技财报季支撑）。\n\n点赞是美意，赞赏是鼓励。",
-  "insightTime": "4/27 03:00 · 进度条",
-  "shipCountNews": 3,
-  "shipChgNews": "-2",
-  "lngStatus": "⛔ 实质封锁",
-  "lngNote": "封锁进入第14天｜双航母｜谈判二度流产",
-  "oilWtiChgRaw": -1.51,
-  "goldChgRaw": 0.36,
-  "goldIsRealtime": false,
-  "oilIsRealtime": false,
-  "isWeekend": false,
-  "wtiPrice": 94.4,
-  "wtiChange": "-1.51%",
-  "goldChange": "+0.36%",
-  "goldDir": "up",
-  "wti": 94.4,
-  "wtiChg": 1.69,
-  "gold": 4740.9,
-  "lastUpdated": "2026-04-26T15:19:38+08:00",
-  "shipCountYesterday": 5,
-  "shipTrend": "down",
-  "updated": "2026-04-26 13:44",
-  "oilChg": "+3.28%",
-  "updatedAt": "2026-04-26 15:19",
-  "level": "L3"
+  "insightText":"\u6cb9\u4ef7\u4eca\u5929\u662f\u4e2a\u6bb5\u5b50\u624b\u2014\u2014\u65e9\u4e0a\u51b2\u4e0a$102\u88c5\u5927\u54e5\uff0c\u4e0b\u5348\u5c31\u6e9c\u56de$97\u5f53\u666e\u901a\u4eba\u3002\n\nA\u53e4\u6628\u65e5\u6536\u76d8\u7b97\u662f\u618b\u5c48\u7684\u6a2a\u76d8\u3002\u6caa\u6307\u57284050-4100\u4e4b\u95f4\u78e8\u554a\u78e8\uff0c\u521b\u4e1a\u677f\u9ad8\u4f4d\u9707\u8361\uff0c\u5317\u5411\u8d44\u91d1\u4e0b\u5348\u6084\u6084\u7f29\u91cf\uff0c\u6e38\u8d44\u5728\u79d1\u521b50\u548c\u5546\u4e1a\u822a\u5929\u4e4b\u95f4\u6765\u56de\u4e32\u573a\u3002\u6574\u4f53\u5b9a\u6027\uff1a\u6ca1\u6709\u5927\u8dcc\uff0c\u4f46\u4e5f\u6ca1\u4eba\u6562full in love\u2014\u2014\u56e0\u4e3a\u5730\u7f18\u8fd9\u6839\u7ef3\u5b50\u8fd8\u7ed1\u7740\u6240\u6709\u4eba\uff0c\u8c01\u5148\u52a8\u8c01\u5148\u6b7b\u3002\u6e2f\u80a1\u6052\u751f\u79d1\u6280\u60ef\u5e38\u6e23\u7537\u72b6\u6001\uff0c\u767d\u5929\u6da80.3%\uff0c\u6536\u76d8\u524d\u6254\u56de\u53bb0.2%\uff0c\u5178\u578b\"\u7ed9\u4f60\u770b\u4e00\u773c\uff0c\u4e0d\u7ed9\u4f60\u6478\"\u3002\n\n\u5730\u7f18\u4eca\u665a\u662f\u91cd\u5934\u620f\u3002WTI\u51cc\u6668\u98d9\u5230$102.54\uff0c\u5e03\u4f26\u7279\u4e00\u5ea6\u7834$106\uff0c\u5e02\u573a\u5728\u5b9a\u4ef7\"\u7f8e\u4f0a\u8c08\u5224\u4eca\u65e5\u6216\u4e3e\u884c\"\u7684\u9884\u671f\u3002\u7136\u540e\u5462\uff1f\u4ec0\u4e48\u90fd\u6ca1\u53d1\u751f\u2014\u2014\u4f0a\u6717\u5916\u957f\u8fd8\u5728\u963f\u66fc\uff0c\u5ddd\u5b50\u8fd8\u5728\u7b49\u7535\u8bdd\uff0c\u5e02\u573a\u81ea\u5df1\u5148\u628a\u81ea\u5df1\u5413\u4e86\u4e00\u8df3\u3002\u6cb9\u4ef7\u968f\u5373\u4ece$102\u7838\u56de$97\uff0c\u8fd9\u53eb\u9884\u671f\u5dee\u7ede\u8089\u673a\uff0c\u4e0d\u662f\u771f\u7a81\u7834\uff0c\u662f\u6d41\u52a8\u6027\u73a9\u5bb6\u7528\u6d88\u606f\u5272\u6563\u6237\u3002\u9ec4\u91d1$4765\u9ad8\u4f4d\u6a2a\u76d8\uff0c\u907f\u9669\u60c5\u7eea\u5728\uff0c\u4f46\u6ca1\u6709\u65b0\u50ac\u5316\u5242\uff0c\u91d1\u5b50\u73b0\u5728\u662f\"\u524d\u5973\u53cb\"\u2014\u2014\u5c31\u5728\u90a3\uff0c\u4f46\u4e0d\u4f1a\u4e3b\u52a8\u627e\u4f60\u3002\n\n\u660e\u65e5A\u53e4\u5f00\u76d8\uff0c\u4eca\u5929\u51cc\u6668\u6709\u4e00\u4e2a\u5173\u952e\u53d8\u91cf\u8981\u76ef\uff1a\u7f8e\u4f0a\u4e8c\u8f6e\u8c08\u5224\u662f\u5426\u4eca\u65e5\uff084/27\uff09\u5b9e\u8d28\u542f\u52a8\u3002\u5982\u679c\u5728\u4e9a\u76d8\u524d\u6709\u5b98\u65b9\u786e\u8ba4\uff0c\u6cb9\u4ef7\u53ef\u80fd\u518d\u6b21\u7838\u5751\uff0cA\u80a1\u80fd\u6e90\u80a1\u9ad8\u5f00\u4f4e\u8d70\u3001\u65b0\u80fd\u6e90\u53cd\u5f39\uff1b\u5982\u679c\u7ee7\u7eed\u54d1\u706b\uff0c\u6caa\u6307\u7ef4\u6301\u9707\u8361\uff0c\u521b\u4e1a\u677f4100\u70b9\u533a\u57df\u4e0a\u65b9\u662f\u591a\u7a7a\u535a\u5f08\u6838\u5fc3\u3002\u64cd\u4f5c\u4e0a\uff1a\u4ed3\u4f4d\u522b\u8d85\u4e03\u6210\uff0c\u7b49\u4fe1\u53f7\uff0c\u522b\u731c\u65b9\u5411\u3002WTI\u82e5\u8dcc\u56de$92\u4ee5\u4e0b\uff0c\u90a3\u624d\u662f\"\u4e0b\u6740\u53d6\u91cf\"\u4fe1\u53f7\uff0c\u5c4a\u65f6\u53ef\u4ee5\u5206\u6279\u6765\u5427\u5b9d\u8d1d\u513f\uff1b\u5b88\u5728$96+\uff0c\u5c31\u5f53\u5730\u7f18\u6ea2\u4ef7\u8fd8\u5728\u6d88\u5316\uff0c\u8010\u5fc3\u7b49\u3002\n\n\u65f6\u95f4\u6233\u9884\u5224\uff1a4/27\u5317\u4eac\u65f6\u95f412:00\u524d\u82e5\u65e0\u8c08\u5224\u5b98\u5ba3\uff0c\u4eca\u65e5WTI\u6536\u76d8\u5927\u6982\u7387$94-98\u7bb1\u4f53\u5185\u6d88\u5316\uff0c\u7eb3\u6307\u7ee7\u7eed\u9707\u8361\u504f\u591a\uff08\u79d1\u6280\u8d22\u62a5\u5b63\u652f\u6491\uff09\u3002\n\n\u70b9\u8d5e\u662f\u7f8e\u610f\uff0c\u8d5e\u8d4f\u662f\u9f13\u52b1\u3002",
+  "insightTime":"4/27 03:00 \u00b7 \u8fdb\u5ea6\u6761",
+  "shipCountNews":3,
+  "shipChgNews":"-2",
+  "lngStatus":"\u26d4 \u5b9e\u8d28\u5c01\u9501",
+  "lngNote":"\u5c01\u9501\u8fdb\u5165\u7b2c14\u5929\uff5c\u53cc\u822a\u6bcd\uff5c\u8c08\u5224\u4e8c\u5ea6\u6d41\u4ea7",
+  "oilWtiChgRaw":-1.51,
+  "goldChgRaw":0.36,
+  "goldIsRealtime":false,
+  "oilIsRealtime":false,
+  "isWeekend":false,
+  "wtiPrice":94.4,
+  "wtiChange":"-1.51%",
+  "goldChange":"+0.36%",
+  "goldDir":"up",
+  "wti":94.4,
+  "wtiChg":1.69,
+  "gold":4740.9,
+  "lastUpdated":"2026-04-26T15:19:38+08:00",
+  "shipCountYesterday":5,
+  "shipTrend":"down",
+  "updated":"2026-04-26 13:44",
+  "oilChg":"+2.00%",
+  "updatedAt":"2026-04-27T06:20:00Z",
+  "level":"L3"
 }
