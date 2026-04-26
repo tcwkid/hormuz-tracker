@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-27 03:20",
+  "lastUpdate": "2026-04-27 04:20",
   "flashNews": [
-    "🔴 4/27 WTI冲$102后回落至$96",
+    "🔴 4/27 WTI冲$102后回落至$97",
     "🟡 消息：美伊二轮谈判或27日举行",
     "🔴 最高领袖令：海峡不得恢复战前"
   ],
   "shipCount": 3,
   "shipChg": -1,
-  "oilWti": 96.5,
+  "oilWti": 97.95,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4765,
@@ -299,7 +299,7 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.22%",
+  "oilChg": "+3.76%",
   "updatedAt": "2026-04-26 15:19",
   "level": "L3"
 }
