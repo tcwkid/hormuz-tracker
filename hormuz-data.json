@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-26 23:20",
+  "lastUpdate": "2026-04-27 00:20",
   "flashNews": [
-    "🔴 4/26封锁14天｜仅3船通过创新低",
+    "🟡 消息：美伊第二轮谈判或27日举行",
     "🔴 最高领袖令：海峡不得恢复战前",
-    "🟡 WTI收$97｜美伊谈判零进展"
+    "🔴 4/26封锁14天｜仅3船通过创新低"
   ],
   "shipCount": 3,
   "shipChg": -1,
@@ -16,102 +16,6 @@
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
   "barData": [
-    {
-      "date": "3/29",
-      "totalH": 5,
-      "oilH": 2,
-      "latest": false
-    },
-    {
-      "date": "3/30",
-      "totalH": 17,
-      "oilH": 12,
-      "latest": false
-    },
-    {
-      "date": "3/31",
-      "totalH": 6,
-      "oilH": 2,
-      "latest": false
-    },
-    {
-      "date": "4/1",
-      "totalH": 6,
-      "oilH": 0,
-      "latest": false
-    },
-    {
-      "date": "4/2",
-      "totalH": 6,
-      "oilH": 2,
-      "latest": false
-    },
-    {
-      "date": "4/3",
-      "totalH": 5,
-      "oilH": 4,
-      "latest": false
-    },
-    {
-      "date": "4/4",
-      "totalH": 10,
-      "oilH": 2,
-      "latest": false
-    },
-    {
-      "date": "4/5",
-      "totalH": 9,
-      "oilH": 7,
-      "latest": false
-    },
-    {
-      "date": "4/6",
-      "totalH": 11,
-      "oilH": 4,
-      "latest": false
-    },
-    {
-      "date": "4/7",
-      "totalH": 12,
-      "oilH": 5,
-      "latest": false
-    },
-    {
-      "date": "4/8",
-      "totalH": 13,
-      "oilH": 6,
-      "latest": false
-    },
-    {
-      "date": "4/9",
-      "totalH": 14,
-      "oilH": 6,
-      "latest": false
-    },
-    {
-      "date": "4/10",
-      "totalH": 7,
-      "oilH": 2,
-      "latest": false
-    },
-    {
-      "date": "4/11",
-      "totalH": 11,
-      "oilH": 5,
-      "latest": false
-    },
-    {
-      "date": "4/12",
-      "totalH": 21,
-      "oilH": 8,
-      "latest": false
-    },
-    {
-      "date": "4/13",
-      "totalH": 23,
-      "oilH": 9,
-      "latest": false
-    },
     {
       "date": "4/14",
       "totalH": 4,
@@ -197,6 +101,11 @@
       "totalH": 3,
       "oilH": 2,
       "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/27",
+      "count": 0,
       "latest": true
     }
   ],
@@ -324,11 +233,19 @@
   ],
   "events": [
     {
+      "date": "4/27",
+      "title": "消息称美伊第二轮谈判或于27日举行",
+      "detail": "伊朗官员表示美伊可能在未来几天举行第二轮谈判，伊朗外长阿拉格齐已抵达阿曼，计划再次访问巴基斯坦后前往俄罗斯。",
+      "type": "negotiation",
+      "critical": false,
+      "latest": true
+    },
+    {
       "time": "04-26 17:00",
       "title": "🔴 哈梅内伊划线｜海峡永不恢复战前状态",
       "desc": "伊朗伊斯兰议会副议长尼克扎德披露，最高领袖哈梅内伊已明确下令：霍尔木兹海峡不得恢复战前状态。这是迄今为止伊方立场最强硬的官方表态，意味着即便谈判达成，封锁问题也将作为永久筹码留在桌上。（塔斯尼姆通讯社）",
       "type": "military",
-      "latest": true
+      "latest": false
     },
     {
       "time": "04-26 09:00",
@@ -356,13 +273,6 @@
       "title": "🕊️ 特朗普无限期延停火｜伊朗坚持要求撤封锁",
       "desc": "特朗普宣布无限期延长美伊停火期限，伊朗表示若美国结束对其港口的海上封锁，愿意进行谈判。伊朗议长卡利巴夫称在解除封锁和停止全球经济胁迫前，全面停火不可能实现。（新华/VOA/Xinhua）",
       "type": "diplomatic",
-      "latest": false
-    },
-    {
-      "time": "04-23 01:00",
-      "title": "🔴 IRGC扎押两船｜MSC Francesca+Epaminondas",
-      "desc": "路透社报道，伊朗革命卫队（IRGC）在霍尔木兹海峡扎押悬挂巴拿马旗的MSC Francesca及利比里亚旗的Epaminondas两艇货轮。与此同时英国UKMTO通报另两艇货船遇袭，其中一艇集装筱船驾驶台「严重受损」。特朗普虽宣布延长停火，但海上实际局势持续恶化。（路透/UKMTO）",
-      "type": "military",
       "latest": false
     }
   ],
