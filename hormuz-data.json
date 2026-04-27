@@ -1,5 +1,5 @@
 {
-  "lastUpdate":"2026-04-27T12:20:00Z",
+  "lastUpdate":"2026-04-27T13:20:00Z",
   "flashNews":[
     "\ud83d\udd34 \u7f8e\u519b\u4ee438\u8258\u8239\u6539\u9053\uff5c\u5c01\u9501\u6267\u884c\u529b\u5347\u7ea7",
     "\ud83d\udfe1 \u4f0a\u5916\u957f\u8d74\u83ab\u65af\u79d1\u4f1a\u666e\u4eac\uff5c\u534f\u8c03\u5bf9\u7f8e\u7acb\u573a",
@@ -10,8 +10,8 @@
   "oilWti":95.5,
   "oilWtiChg":"-1.51%",
   "oilWtiNote":"down",
-  "goldPrice":4672,
-  "goldChg":"-1.01%",
+  "goldPrice":4670,
+  "goldChg":"-1.06%",
   "goldNote":"up",
   "congestion":5,
   "congestionNote":"\u4f0a\u6717\u6700\u9ad8\u9886\u8896\u4e0b\u4ee4\uff1a\u6d77\u5ce1\u4e0d\u5f97\u6062\u590d\u6218\u524d\u72b6\u6001",
@@ -374,7 +374,7 @@
   "shipTrend":"down",
   "updated":"2026-04-26 13:44",
   "oilChg":"+1.17%",
-  "updatedAt":"2026-04-27T12:20:00Z",
+  "updatedAt":"2026-04-27T13:20:00Z",
   "level":"L3",
   "blockadeDays":15
 }
