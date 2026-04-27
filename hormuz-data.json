@@ -209,124 +209,102 @@
   ],
   "tableRows": [
     {
-      "week": "4/12",
-      "count": 21,
-      "warDir": "up",
-      "warChg": "+10",
-      "pct": "15.6%",
-      "trend": "up"
-    },
-    {
-      "week": "4/13",
-      "count": 23,
-      "warDir": "up",
-      "warChg": "+2",
-      "pct": "17.0%",
-      "trend": "up"
-    },
-    {
-      "week": "4/14",
+      "label": "4/14",
+      "period": "4/14",
+      "ships": 4,
       "count": 4,
-      "warDir": "down",
-      "warChg": "-19",
-      "pct": "3.0%",
-      "trend": "down"
+      "chg": -19
     },
     {
-      "week": "4/15",
+      "label": "4/15",
+      "period": "4/15",
+      "ships": 20,
       "count": 20,
-      "warDir": "up",
-      "warChg": "+16",
-      "pct": "14.8%",
-      "trend": "up"
+      "chg": 16
     },
     {
-      "week": "4/16",
+      "label": "4/16",
+      "period": "4/16",
+      "ships": 8,
       "count": 8,
-      "warDir": "down",
-      "warChg": "-12",
-      "pct": "5.9%",
-      "trend": "down"
+      "chg": -12
     },
     {
-      "week": "4/17",
+      "label": "4/17",
+      "period": "4/17",
+      "ships": 15,
       "count": 15,
-      "warDir": "up",
-      "warChg": "+7",
-      "pct": "11.1%",
-      "trend": "up"
+      "chg": 7
     },
     {
-      "week": "4/18",
+      "label": "4/18",
+      "period": "4/18",
+      "ships": 8,
       "count": 8,
-      "warDir": "down",
-      "warChg": "-7",
-      "pct": "5.9%",
-      "trend": "down"
+      "chg": -7
     },
     {
-      "week": "4/19",
+      "label": "4/19",
+      "period": "4/19",
+      "ships": 5,
       "count": 5,
-      "warDir": "down",
-      "warChg": "-3",
-      "pct": "3.7%",
-      "trend": "down"
+      "chg": -3
     },
     {
-      "week": "4/20",
+      "label": "4/20",
+      "period": "4/20",
+      "ships": 3,
       "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "chg": -2
     },
     {
-      "week": "4/21",
+      "label": "4/21",
+      "period": "4/21",
+      "ships": 3,
       "count": 3,
-      "warDir": "flat",
-      "warChg": "0",
-      "pct": "2.2%",
-      "trend": "flat"
+      "chg": 0
     },
     {
-      "week": "4/22",
+      "label": "4/22",
+      "period": "4/22",
+      "ships": 5,
       "count": 5,
-      "warDir": "up",
-      "warChg": "+2",
-      "pct": "3.7%",
-      "trend": "up"
+      "chg": 2
     },
     {
-      "week": "4/23",
+      "label": "4/23",
+      "period": "4/23",
+      "ships": 3,
       "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "chg": -2
     },
     {
-      "week": "4/24",
+      "label": "4/24",
+      "period": "4/24",
+      "ships": 4,
       "count": 4,
-      "warDir": "up",
-      "warChg": "+1",
-      "pct": "3.0%",
-      "trend": "up"
+      "chg": 1
     },
     {
-      "week": "4/25",
+      "label": "4/25",
+      "period": "4/25",
+      "ships": 5,
       "count": 5,
-      "warDir": "up",
-      "warChg": "+1",
-      "pct": "3.7%",
-      "trend": "up"
+      "chg": 1
     },
     {
-      "week": "● 4/26",
+      "label": "4/26",
+      "period": "4/26",
+      "ships": 3,
       "count": 3,
-      "warDir": "down",
-      "warChg": "-2",
-      "pct": "2.2%",
-      "trend": "down"
+      "chg": -2
+    },
+    {
+      "label": "4/27",
+      "period": "4/27",
+      "ships": 3,
+      "count": 3,
+      "chg": 0
     }
   ],
   "events": [
