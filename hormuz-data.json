@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-28T02:20:43+08:00",
+  "lastUpdate": "2026-04-28T03:20:56+08:00",
   "flashNews": [
-    "🔴 五角大楼：扫雷需6个月｜年底前难通航",
+    "🔴 4/28｜白宫开会讨论伊朗新方案｜鲁比奥拒绝伊控霍峡",
     "🟡 伊新方案：先重开霍峡再谈核｜立场软化",
-    "🔴 美军令38艘船改道｜封锁执行力升级"
+    "🔴 五角大楼：扫雷需6个月｜年底前难通航"
   ],
   "shipCount": 2,
   "shipChg": "-1",
@@ -315,9 +315,21 @@
   "events": [
     {
       "date": "4/28",
-      "text": "伊朗261名议员联署声明｜力挺谈判代表团维护国家权益",
+      "text": "白宫证实｜川子今日与国安团队开会讨论伊朗新方案",
       "category": "negotiation",
       "latest": true
+    },
+    {
+      "date": "4/28",
+      "text": "鲁比奥：美国不能接受伊朗继续控制霍尔木兹海峡",
+      "category": "negotiation",
+      "latest": false
+    },
+    {
+      "date": "4/28",
+      "text": "伊朗261名议员联署声明｜力挺谈判代表团维护国家权益",
+      "category": "negotiation",
+      "latest": false
     },
     {
       "date": "4/28",
@@ -338,20 +350,6 @@
       "type": "negotiation",
       "text": "据报伊朗新方案：先重开霍峡再谈核｜软化立场",
       "critical": true,
-      "latest": false
-    },
-    {
-      "date": "4/27",
-      "type": "negotiation",
-      "text": "阿曼提议沙特加入霍峡安全机制｜若成真格局剧变",
-      "critical": true,
-      "latest": false
-    },
-    {
-      "date": "4/27",
-      "type": "negotiation",
-      "text": "伊朗外长27日赴莫斯科会见普京｜协调对美立场",
-      "critical": false,
       "latest": false
     }
   ],
@@ -378,7 +376,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+1.91%",
-  "updatedAt": "2026-04-28T02:20:43+08:00",
+  "updatedAt": "2026-04-28T03:20:56+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
