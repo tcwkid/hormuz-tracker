@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-27T23:22:23+08:00",
+  "lastUpdate": "2026-04-28T00:20:32+08:00",
   "flashNews": [
     "🔴 五角大楼：扫雷需6个月｜年底前难通航",
     "🟡 伊新方案：先重开霍峡再谈核｜立场软化",
@@ -7,11 +7,11 @@
   ],
   "shipCount": 2,
   "shipChg": "-1",
-  "oilWti": 96.17,
+  "oilWti": 95.9,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4708,
-  "goldChg": "+0.04%",
+  "goldPrice": 4706,
+  "goldChg": "-0.04%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -378,8 +378,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+1.87%",
-  "updatedAt": "2026-04-27T23:22:23+08:00",
+  "oilChg": "+1.52%",
+  "updatedAt": "2026-04-28T00:20:32+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
