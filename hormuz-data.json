@@ -1,5 +1,5 @@
 {
-  "lastUpdate":"2026-04-27T08:20:00Z",
+  "lastUpdate":"2026-04-27T09:20:00Z",
   "flashNews":[
     "\ud83d\udd34 \u7f8e\u519b\u4ee438\u8258\u8239\u6539\u9053\uff5c\u5c01\u9501\u6267\u884c\u529b\u5347\u7ea7",
     "\ud83d\udd34 4/27\u4ec52\u6cb9\u8f6e\u8fc7\u5ce1\uff5c\u521b\u5386\u53f2\u65b0\u4f4e",
@@ -7,11 +7,11 @@
   ],
   "shipCount":2,
   "shipChg":"-1",
-  "oilWti":96.13,
+  "oilWti":96.5,
   "oilWtiChg":"-1.51%",
   "oilWtiNote":"down",
-  "goldPrice":4690,
-  "goldChg":"-0.73%",
+  "goldPrice":4675,
+  "goldChg":"-0.95%",
   "goldNote":"up",
   "congestion":5,
   "congestionNote":"\u4f0a\u6717\u6700\u9ad8\u9886\u8896\u4e0b\u4ee4\uff1a\u6d77\u5ce1\u4e0d\u5f97\u6062\u590d\u6218\u524d\u72b6\u6001",
@@ -373,8 +373,8 @@
   "shipCountYesterday":5,
   "shipTrend":"down",
   "updated":"2026-04-26 13:44",
-  "oilChg":"+1.83%",
-  "updatedAt":"2026-04-27T08:20:00Z",
+  "oilChg":"+2.22%",
+  "updatedAt":"2026-04-27T09:20:00Z",
   "level":"L3",
   "blockadeDays":15
 }
