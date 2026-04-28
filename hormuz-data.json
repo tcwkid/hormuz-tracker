@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-28T10:20:38+08:00",
+  "lastUpdate": "2026-04-28T11:20:45+08:00",
   "flashNews": [
-    "🔴 4/28｜川普3天通牒｜威胁炸伊朗石油设施",
-    "🟡 中国联合国发声｜指美以非法行动阻断霍峡",
+    "🔴 4/28｜川普称不满伊朗方案｜通牒倒计时继续",
+    "🔴 中国联合国发声｜指美以非法行动阻断霍峡",
     "🔴 6艘伊朗油轮被迫返航｜航运几近停滞"
   ],
   "shipCount": 2,
   "shipChg": "-1",
-  "oilWti": 96.53,
+  "oilWti": 96.4,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4688,
-  "goldChg": "-0.46%",
+  "goldPrice": 4704,
+  "goldChg": "+0.23%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -315,9 +315,15 @@
   "events": [
     {
       "date": "4/28",
-      "text": "德国总理：美国无退出策略｜称正遭伊朗领导层羞辱",
+      "text": "川普对伊朗新方案表示不满意｜通牒不会因此撤回",
       "category": "negotiation",
       "latest": true
+    },
+    {
+      "date": "4/28",
+      "text": "德国总理：美国无退出策略｜称正遭伊朗领导层羞辱",
+      "category": "negotiation",
+      "latest": false
     },
     {
       "date": "4/28",
@@ -340,12 +346,6 @@
     {
       "date": "4/28",
       "text": "白宫证实｜川子今日与国安团队开会讨论伊朗新方案",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "鲁比奥：美国不能接受伊朗继续控制霍尔木兹海峡",
       "category": "negotiation",
       "latest": false
     }
@@ -372,8 +372,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.26%",
-  "updatedAt": "2026-04-28T10:20:38+08:00",
+  "oilChg": "+2.15%",
+  "updatedAt": "2026-04-28T11:20:45+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
