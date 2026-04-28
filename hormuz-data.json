@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-29T04:20:38+08:00",
+  "lastUpdate": "2026-04-29T05:20:37+08:00",
   "flashNews": [
-    "🔴 4/29｜高盛：霍峡5月底才重开｜推迟预期",
-    "🔴 伊朗转铁路输油绕道中国｜封锁显实效",
-    "🔴 WTI守$100｜美伊谈判僵局延续"
+    "🔴 4/29｜阿联酋5/1退出OPEC+｜联盟裂缝扩大",
+    "🔴 布伦特$111｜WTI$100｜霍峡封锁第17天",
+    "🟡 伊朗调整版方案待提交｜谈判窗口仍开"
   ],
   "shipCount": 4,
   "shipChg": "-1",
-  "oilWti": 100.32,
+  "oilWti": 99.93,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4598,
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
-      "text": "伊朗因封锁转铁路输油绕道中国｜高盛预测5月底霍峡才重开",
+      "text": "阿联酋宣布5月1日退出OPEC+｜凯投宏观：削弱联盟凝聚力",
       "category": "blockade",
       "latest": true
+    },
+    {
+      "date": "4/29",
+      "text": "伊朗因封锁转铁路输油绕道中国｜高盛预测5月底霍峡才重开",
+      "category": "blockade",
+      "latest": false
     },
     {
       "date": "4/29",
@@ -346,12 +352,6 @@
       "date": "4/29",
       "text": "伊朗外长阿拉格齐赴俄会见普京｜就美伊谈判进展阐明立场",
       "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/29",
-      "text": "布伦特重回$110｜WTI$98+｜黄金跌破$4600至一月低位",
-      "category": "blockade",
       "latest": false
     }
   ],
@@ -377,8 +377,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+6.13%",
-  "updatedAt": "2026-04-29T04:20:38+08:00",
+  "oilChg": "+5.73%",
+  "updatedAt": "2026-04-29T05:20:37+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
