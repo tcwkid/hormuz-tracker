@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-28T20:20:43+08:00",
+  "lastUpdate": "2026-04-28T21:20:50+08:00",
   "flashNews": [
-    "🔴 4/29｜AEI：伊朗今日储油达极限｜减产或不可逆",
-    "🔴 鲁比奥：霍峡是伊朗经济核武器｜可再加大制裁",
-    "🔴 WTI $98.85｜布伦特$104｜通牒第2天"
+    "🔴 4/29｜布伦特重回$110｜WTI涨超4%",
+    "🔴 黄金跌至一月低$4594｜油涨通胀压黄金",
+    "🔴 伊朗全国大游行｜储油今日达极限"
   ],
   "shipCount": 4,
   "shipChg": "-1",
-  "oilWti": 98.85,
+  "oilWti": 98.17,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4627,
-  "goldChg": "-1.58%",
+  "goldPrice": 4594,
+  "goldChg": "-2.84%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
+      "text": "布伦特重回$110｜WTI$98+｜黄金跌破$4600至一月低位",
+      "category": "blockade",
+      "latest": true
+    },
+    {
+      "date": "4/29",
       "text": "鲁比奥称霍峡是伊朗经济核武器｜警告可进一步加大制裁",
       "category": "negotiation",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/29",
@@ -345,12 +351,6 @@
     {
       "date": "4/28",
       "text": "WTI突破$98｜布伦特$104｜川普通牒推动油价美盘急拉",
-      "category": "blockade",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "川普采访称伊朗输油管道3天内将爆炸｜封锁全面升级预警",
       "category": "blockade",
       "latest": false
     }
@@ -377,8 +377,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+4.74%",
-  "updatedAt": "2026-04-28T20:20:43+08:00",
+  "oilChg": "+3.99%",
+  "updatedAt": "2026-04-28T21:20:50+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
