@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-28T19:20:46+08:00",
+  "lastUpdate": "2026-04-28T20:20:43+08:00",
   "flashNews": [
-    "🔴 4/29｜伊朗储油逼极限｜油田恐永久损伤",
-    "🔴 WTI $98.85｜布伦特$104｜通牒倒计时",
-    "🔴 伊朗全国大游行｜谈判僵局下的动员"
+    "🔴 4/29｜AEI：伊朗今日储油达极限｜减产或不可逆",
+    "🔴 鲁比奥：霍峡是伊朗经济核武器｜可再加大制裁",
+    "🔴 WTI $98.85｜布伦特$104｜通牒第2天"
   ],
   "shipCount": 4,
   "shipChg": "-1",
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
+      "text": "鲁比奥称霍峡是伊朗经济核武器｜警告可进一步加大制裁",
+      "category": "negotiation",
+      "latest": true
+    },
+    {
+      "date": "4/29",
       "text": "分析师警告伊朗储油能力近极限｜油田或遭不可逆损害",
       "category": "blockade",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/29",
@@ -346,12 +352,6 @@
       "date": "4/28",
       "text": "川普采访称伊朗输油管道3天内将爆炸｜封锁全面升级预警",
       "category": "blockade",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "川普对伊朗新方案表示不满意｜通牒不会因此撤回",
-      "category": "negotiation",
       "latest": false
     }
   ],
@@ -378,7 +378,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+4.74%",
-  "updatedAt": "2026-04-28T19:20:46+08:00",
+  "updatedAt": "2026-04-28T20:20:43+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
