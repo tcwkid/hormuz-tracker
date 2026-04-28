@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-28T07:20:28+08:00",
+  "lastUpdate": "2026-04-28T08:20:33+08:00",
   "flashNews": [
     "🔴 4/28｜川普3天通牒｜威胁炸伊朗石油设施",
-    "🔴 鲁比奥：不接受伊朗控制霍尔木兹海峡",
-    "🟡 习与沙特王储通话｜称霍峡应正常通行"
+    "🟡 中国联合国发声｜指美以非法行动阻断霍峡",
+    "🔴 6艘伊朗油轮被迫返航｜航运几近停滞"
   ],
   "shipCount": 2,
   "shipChg": "-1",
-  "oilWti": 96.5,
+  "oilWti": 96.68,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4708,
-  "goldChg": "+0.13%",
+  "goldPrice": 4695,
+  "goldChg": "-0.32%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -315,9 +315,15 @@
   "events": [
     {
       "date": "4/28",
+      "text": "中国代表联合国发声｜指霍峡受阻源于美以非法军事行动",
+      "category": "negotiation",
+      "latest": true
+    },
+    {
+      "date": "4/28",
       "text": "川普向伊朗下3天最后通牒｜威胁炸毁伊朗石油基础设施",
       "category": "blockade",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/28",
@@ -341,13 +347,6 @@
       "date": "4/28",
       "text": "伊朗261名议员联署声明｜力挺谈判代表团维护国家权益",
       "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "type": "blockade",
-      "text": "五角大楼：清除海峡水雷需6个月｜年底前无法正常通航",
-      "critical": true,
       "latest": false
     }
   ],
@@ -373,8 +372,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.22%",
-  "updatedAt": "2026-04-28T07:20:28+08:00",
+  "oilChg": "+2.42%",
+  "updatedAt": "2026-04-28T08:20:33+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
