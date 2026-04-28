@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-28T18:20:47+08:00",
+  "lastUpdate": "2026-04-28T19:20:46+08:00",
   "flashNews": [
-    "🔴 4/29｜伊朗全国大游行｜谈判僵局下的动员",
-    "🔴 WTI触$98.85｜布伦特$104｜通牒最后窗口",
-    "🔴 黄金跌破$4630｜油强金弱分化延续"
+    "🔴 4/29｜伊朗储油逼极限｜油田恐永久损伤",
+    "🔴 WTI $98.85｜布伦特$104｜通牒倒计时",
+    "🔴 伊朗全国大游行｜谈判僵局下的动员"
   ],
   "shipCount": 4,
   "shipChg": "-1",
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
+      "text": "分析师警告伊朗储油能力近极限｜油田或遭不可逆损害",
+      "category": "blockade",
+      "latest": true
+    },
+    {
+      "date": "4/29",
       "text": "伊朗宣布4/29全国大游行｜谈判僵局下展示国家力量",
       "category": "negotiation",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/29",
@@ -345,12 +351,6 @@
     {
       "date": "4/28",
       "text": "川普对伊朗新方案表示不满意｜通牒不会因此撤回",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "德国总理：美国无退出策略｜称正遭伊朗领导层羞辱",
       "category": "negotiation",
       "latest": false
     }
@@ -378,7 +378,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+4.74%",
-  "updatedAt": "2026-04-28T18:20:47+08:00",
+  "updatedAt": "2026-04-28T19:20:46+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
