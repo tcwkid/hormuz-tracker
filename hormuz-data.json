@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-28T22:20:54+08:00",
+  "lastUpdate": "2026-04-28T23:20:41+08:00",
   "flashNews": [
-    "🔴 4/29｜布伦特$110｜黄金$4594一月低",
-    "🔴 伊朗外长赴俄会普京｜寻求支持",
-    "🔴 OpenAI增速失速｜CoreWeave跌7%"
+    "🔴 4/29｜川普拒绝伊朗方案｜核问题是死结",
+    "🔴 WTI突破$100｜封锁第17天创新高",
+    "🔴 布伦特$110+｜黄金$4594跌一月低"
   ],
   "shipCount": 4,
   "shipChg": "-1",
-  "oilWti": 98.17,
+  "oilWti": 100.3,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4594,
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
-      "text": "伊朗外长阿拉格齐赴俄会见普京｜就美伊谈判进展阐明立场",
+      "text": "知情人士：川普拒绝伊朗和谈方案｜双方核问题分歧无解",
       "category": "negotiation",
       "latest": true
+    },
+    {
+      "date": "4/29",
+      "text": "伊朗外长阿拉格齐赴俄会见普京｜就美伊谈判进展阐明立场",
+      "category": "negotiation",
+      "latest": false
     },
     {
       "date": "4/29",
@@ -345,12 +351,6 @@
     {
       "date": "4/29",
       "text": "伊朗宣布4/29全国大游行｜谈判僵局下展示国家力量",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/29",
-      "text": "联合国秘书长古特雷斯呼吁开放霍尔默兹｜让全球经济喘口气",
       "category": "negotiation",
       "latest": false
     }
@@ -377,8 +377,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+3.99%",
-  "updatedAt": "2026-04-28T22:20:54+08:00",
+  "oilChg": "+6.11%",
+  "updatedAt": "2026-04-28T23:20:41+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
