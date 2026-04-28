@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-28T15:21:15+08:00",
+  "lastUpdate": "2026-04-28T16:20:42+08:00",
   "flashNews": [
-    "🔴 4/28｜川普称3天内炸伊朗输油管道｜通牒进入最后窗口",
-    "🔴 今日霍峡仅4艘船通过｜封锁第16天最低记录",
-    "🟡 伊朗储油空间将耗尽｜美军再拦截油轮"
+    "🔴 4/28｜WTI飙$98.7，布伦特破$104｜通牒驱动急拉",
+    "🔴 黄金急跌破$4630｜油强金弱极端分化",
+    "🔴 川普称3天内炸伊朗输油管道｜通牒最后窗口"
   ],
   "shipCount": 4,
   "shipChg": "-1",
-  "oilWti": 96.5,
+  "oilWti": 98.7,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4702,
-  "goldChg": "+0.23%",
+  "goldPrice": 4627,
+  "goldChg": "-1.58%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -315,9 +315,15 @@
   "events": [
     {
       "date": "4/28",
-      "text": "川普采访称伊朗输油管道3天内将爆炸｜封锁全面升级预警",
+      "text": "WTI突破$98｜布伦特$104｜川普通牒推动油价美盘急拉",
       "category": "blockade",
       "latest": true
+    },
+    {
+      "date": "4/28",
+      "text": "川普采访称伊朗输油管道3天内将爆炸｜封锁全面升级预警",
+      "category": "blockade",
+      "latest": false
     },
     {
       "date": "4/28",
@@ -341,12 +347,6 @@
       "date": "4/28",
       "text": "川普向伊朗下3天最后通牒｜威胁炸毁伊朗石油基础设施",
       "category": "blockade",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "习与沙特王储通话｜称霍尔木兹应保持正常通行",
-      "category": "negotiation",
       "latest": false
     }
   ],
@@ -372,8 +372,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.22%",
-  "updatedAt": "2026-04-28T15:21:15+08:00",
+  "oilChg": "+4.57%",
+  "updatedAt": "2026-04-28T16:20:42+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
