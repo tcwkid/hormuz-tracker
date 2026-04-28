@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-29T06:20:38+08:00",
+  "lastUpdate": "2026-04-29T07:20:36+08:00",
   "flashNews": [
-    "🔴 4/29｜美OFAC：禁缴霍峡通行费｜违者制裁",
-    "🔴 阿联酋退OPEC+｜短期油价仍霍峡主导",
-    "🔴 布伦特$111｜WTI$100｜封锁第17天"
+    "🔴 4/29｜世行：今年全球能源价格大涨24%",
+    "🔴 美OFAC禁缴通行费｜伊朗收费站被堵",
+    "🔴 革命卫队：已绝对控制霍峡｜封第17天"
   ],
   "shipCount": 4,
   "shipChg": "-1",
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
+      "text": "世界银行预测：受中东战事冲击，今年全球能源价格将大涨24%",
+      "category": "blockade",
+      "latest": true
+    },
+    {
+      "date": "4/29",
       "text": "美OFAC发文：禁止向伊朗缴纳霍峡通行费｜违者面临制裁",
       "category": "negotiation",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/29",
@@ -345,12 +351,6 @@
     {
       "date": "4/29",
       "text": "伊朗将向巴基斯坦提交调整版谈判方案｜原方案被拒后软化",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/29",
-      "text": "知情人士：川普拒绝伊朗和谈方案｜双方核问题分歧无解",
       "category": "negotiation",
       "latest": false
     }
@@ -378,7 +378,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+5.73%",
-  "updatedAt": "2026-04-29T06:20:38+08:00",
+  "updatedAt": "2026-04-29T07:20:36+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
