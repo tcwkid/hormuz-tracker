@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-28T21:20:50+08:00",
+  "lastUpdate": "2026-04-28T22:20:54+08:00",
   "flashNews": [
-    "🔴 4/29｜布伦特重回$110｜WTI涨超4%",
-    "🔴 黄金跌至一月低$4594｜油涨通胀压黄金",
-    "🔴 伊朗全国大游行｜储油今日达极限"
+    "🔴 4/29｜布伦特$110｜黄金$4594一月低",
+    "🔴 伊朗外长赴俄会普京｜寻求支持",
+    "🔴 OpenAI增速失速｜CoreWeave跌7%"
   ],
   "shipCount": 4,
   "shipChg": "-1",
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
+      "text": "伊朗外长阿拉格齐赴俄会见普京｜就美伊谈判进展阐明立场",
+      "category": "negotiation",
+      "latest": true
+    },
+    {
+      "date": "4/29",
       "text": "布伦特重回$110｜WTI$98+｜黄金跌破$4600至一月低位",
       "category": "blockade",
-      "latest": true
+      "latest": false
     },
     {
       "date": "4/29",
@@ -346,12 +352,6 @@
       "date": "4/29",
       "text": "联合国秘书长古特雷斯呼吁开放霍尔默兹｜让全球经济喘口气",
       "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "WTI突破$98｜布伦特$104｜川普通牒推动油价美盘急拉",
-      "category": "blockade",
       "latest": false
     }
   ],
@@ -378,7 +378,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+3.99%",
-  "updatedAt": "2026-04-28T21:20:50+08:00",
+  "updatedAt": "2026-04-28T22:20:54+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
