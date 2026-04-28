@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-28T17:21:36+08:00",
+  "lastUpdate": "2026-04-28T18:20:47+08:00",
   "flashNews": [
-    "🔴 4/28｜WTI飙$98.7，布伦特破$104｜通牒驱动急拉",
-    "🔴 黄金急跌破$4630｜油强金弱极端分化",
-    "🔴 川普称3天内炸伊朗输油管道｜通牒最后窗口"
+    "🔴 4/29｜伊朗全国大游行｜谈判僵局下的动员",
+    "🔴 WTI触$98.85｜布伦特$104｜通牒最后窗口",
+    "🔴 黄金跌破$4630｜油强金弱分化延续"
   ],
   "shipCount": 4,
   "shipChg": "-1",
-  "oilWti": 98.7,
+  "oilWti": 98.85,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4627,
@@ -320,9 +320,15 @@
   "events": [
     {
       "date": "4/29",
-      "text": "联合国秘书长古特雷斯呼吁开放霍尔默兹｜让全球经济喘口气",
+      "text": "伊朗宣布4/29全国大游行｜谈判僵局下展示国家力量",
       "category": "negotiation",
       "latest": true
+    },
+    {
+      "date": "4/29",
+      "text": "联合国秘书长古特雷斯呼吁开放霍尔默兹｜让全球经济喘口气",
+      "category": "negotiation",
+      "latest": false
     },
     {
       "date": "4/28",
@@ -345,12 +351,6 @@
     {
       "date": "4/28",
       "text": "德国总理：美国无退出策略｜称正遭伊朗领导层羞辱",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "中国代表联合国发声｜指霍峡受阻源于美以非法军事行动",
       "category": "negotiation",
       "latest": false
     }
@@ -377,8 +377,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+4.57%",
-  "updatedAt": "2026-04-28T17:21:36+08:00",
+  "oilChg": "+4.74%",
+  "updatedAt": "2026-04-28T18:20:47+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
