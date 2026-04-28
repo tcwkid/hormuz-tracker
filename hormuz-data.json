@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-28T12:20:40+08:00",
+  "lastUpdate": "2026-04-28T13:20:41+08:00",
   "flashNews": [
     "🔴 4/28｜川普称不满伊朗方案｜通牒倒计时继续",
     "🔴 中国联合国发声｜指美以非法行动阻断霍峡",
@@ -7,11 +7,11 @@
   ],
   "shipCount": 2,
   "shipChg": "-1",
-  "oilWti": 96.37,
+  "oilWti": 96.7,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4700,
-  "goldChg": "+0.12%",
+  "goldPrice": 4695,
+  "goldChg": "-0.21%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -372,8 +372,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.09%",
-  "updatedAt": "2026-04-28T12:20:40+08:00",
+  "oilChg": "+2.45%",
+  "updatedAt": "2026-04-28T13:20:41+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
