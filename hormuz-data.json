@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-28T09:20:30+08:00",
+  "lastUpdate": "2026-04-28T10:20:38+08:00",
   "flashNews": [
     "🔴 4/28｜川普3天通牒｜威胁炸伊朗石油设施",
     "🟡 中国联合国发声｜指美以非法行动阻断霍峡",
@@ -7,11 +7,11 @@
   ],
   "shipCount": 2,
   "shipChg": "-1",
-  "oilWti": 96.62,
+  "oilWti": 96.53,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4692,
-  "goldChg": "-0.40%",
+  "goldPrice": 4688,
+  "goldChg": "-0.46%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -315,9 +315,15 @@
   "events": [
     {
       "date": "4/28",
-      "text": "中国代表联合国发声｜指霍峡受阻源于美以非法军事行动",
+      "text": "德国总理：美国无退出策略｜称正遭伊朗领导层羞辱",
       "category": "negotiation",
       "latest": true
+    },
+    {
+      "date": "4/28",
+      "text": "中国代表联合国发声｜指霍峡受阻源于美以非法军事行动",
+      "category": "negotiation",
+      "latest": false
     },
     {
       "date": "4/28",
@@ -340,12 +346,6 @@
     {
       "date": "4/28",
       "text": "鲁比奥：美国不能接受伊朗继续控制霍尔木兹海峡",
-      "category": "negotiation",
-      "latest": false
-    },
-    {
-      "date": "4/28",
-      "text": "伊朗261名议员联署声明｜力挺谈判代表团维护国家权益",
       "category": "negotiation",
       "latest": false
     }
@@ -372,8 +372,8 @@
   "shipCountYesterday": 5,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+2.35%",
-  "updatedAt": "2026-04-28T09:20:30+08:00",
+  "oilChg": "+2.26%",
+  "updatedAt": "2026-04-28T10:20:38+08:00",
   "level": "L3",
   "blockadeDays": 15
 }
