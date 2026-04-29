@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-29T08:20:00Z",
+  "lastUpdate": "2026-04-29T09:20:00Z",
   "flashNews": [
     "🔴 4/29｜川普爆伊朗崩溃｜WSJ：川普愿先撤兵再开峡",
     "🔴 美OFAC禁缴通行费｜中国炼油厂面临制裁风险",
@@ -10,8 +10,8 @@
   "oilWti": 99.93,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4589.48,
-  "goldChg": "-2.39%",
+  "goldPrice": 4591.57,
+  "goldChg": "-2.35%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -403,7 +403,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+2.90%",
-  "updatedAt": "2026-04-29T08:20:00Z",
+  "updatedAt": "2026-04-29T09:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 111.26,
