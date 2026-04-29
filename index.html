@@ -1207,6 +1207,26 @@ document.getElementById('shareMask').addEventListener('click', function(e) {
     line-height:1;
   ">×</button>
 </div>
+
+  <!-- embed 模式：隐藏小程序提示浮窗 -->
+  <script>
+    (function(){
+      var params = new URLSearchParams(window.location.search);
+      if(params.get('embed')==='1'){
+        var tip = document.getElementById('mp-tip');
+        if(tip) tip.style.display='none';
+        // 也防止后续代码再显示它
+        Object.defineProperty(document,'getElementById',{
+          configurable:true,
+          value: function(id){
+            var el = HTMLDocument.prototype.getElementById.call(document,id);
+            if(id==='mp-tip' && el){ el.style.display='none'; }
+            return el;
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
 <!-- deploy 1776217930 -->
