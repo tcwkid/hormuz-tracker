@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-04-30T03:20:00Z",
+  "lastUpdate": "2026-04-30T04:20:00Z",
   "flashNews": [
-    "🔴 4/30｜阿联酋宣布退出OPEC｜因霍峡通行受限",
-    "🔴 WTI $107｜5/1法律大限｜伊朗拟提调整版方案",
-    "🔴 川普：封锁直至核协议｜谷歌+7%微软-12%"
+    "🔴 4/30｜A股今日收盘休市5天｜今晚无夜盘",
+    "🔴 WTI $107｜阿联酋退OPEC｜5/1大限伊朗备案",
+    "🔴 川普：封锁直至核协议｜布伦特$119"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 107.0,
+  "oilWti": 106.7,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4591,
@@ -402,8 +402,8 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+7.08%",
-  "updatedAt": "2026-04-30T03:20:00Z",
+  "oilChg": "+6.78%",
+  "updatedAt": "2026-04-30T04:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
