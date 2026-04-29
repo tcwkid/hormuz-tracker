@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-04-29T09:20:00Z",
+  "lastUpdate": "2026-04-29T10:20:00Z",
   "flashNews": [
-    "🔴 4/29｜川普爆伊朗崩溃｜WSJ：川普愿先撤兵再开峡",
-    "🔴 美OFAC禁缴通行费｜中国炼油厂面临制裁风险",
-    "🔴 革命卫队：已绝对控制霍峡｜封第17天"
+    "🔴 4/29｜伊朗递4条停战底线｜明确排除核问题",
+    "🔴 川普据报令幕僚准备长期封锁方案｜两手准备",
+    "🔴 美OFAC禁缴通行费｜中国炼油厂面临制裁风险"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -343,10 +343,24 @@
   ],
   "events": [
     {
-      "id": "evt-20260429-wsj",
+      "id": "evt-20260429-bottomline",
       "date": "4/29",
       "type": "negotiation",
       "latest": true,
+      "content": "伊朗正式递交四条停战底线：聚焦军事/封锁/主权，明确排除核问题｜塔斯尼姆通讯社"
+    },
+    {
+      "id": "evt-20260429-longblockade",
+      "date": "4/29",
+      "type": "blockade",
+      "latest": false,
+      "content": "据报川普已要幕僚准备长期封锁伊朗方案｜与WSJ“愿先撤兵”并行，两手准备"
+    },
+    {
+      "id": "evt-20260429-wsj",
+      "date": "4/29",
+      "type": "negotiation",
+      "latest": false,
       "content": "《华尔街日报》：川普告幕僚愿意不等霍峡重开先结束军事行动｜川普称伊朗已“崩溃”求开海峡"
     },
     {
@@ -365,18 +379,6 @@
       "date": "4/29",
       "text": "阿联酋宣布5月1日退出OPEC+｜凯投宏观：削弱联盟凝聚力",
       "category": "blockade",
-      "latest": false
-    },
-    {
-      "date": "4/29",
-      "text": "伊朗因封锁转铁路输油绕道中国｜高盛预测5月底霍峡才重开",
-      "category": "blockade",
-      "latest": false
-    },
-    {
-      "date": "4/29",
-      "text": "新华社：伊朗调整版方案三阶段—先停战→开峡→再谈核",
-      "category": "negotiation",
       "latest": false
     }
   ],
@@ -403,7 +405,7 @@
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
   "oilChg": "+2.90%",
-  "updatedAt": "2026-04-29T09:20:00Z",
+  "updatedAt": "2026-04-29T10:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 111.26,
