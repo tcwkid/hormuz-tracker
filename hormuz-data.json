@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T17:20:00Z",
+  "lastUpdate": "2026-05-02T18:20:00Z",
   "flashNews": [
     "🔴 川普：核问题不让步绝不达协议",
-    "🔴 WTI夜盘反弹$108｜谈判新讨论信号",
+    "🔴 WTI回落$104｜无军事行动获利了结",
     "🔴 A股休5天｜五一空窗外盘持续运行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 108.32,
+  "oilWti": 104.13,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+1.35%",
+  "oilChg": "-2.57%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
