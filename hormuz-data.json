@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-04-30T12:20:00Z",
+  "lastUpdate": "2026-04-30T13:20:00Z",
   "flashNews": [
-    "🔴 4/30｜海格塞斯今日国会作证｜战权法大限今日到期",
-    "🔴 WTI $107布伦特$120｜封锁数月｜伊朗不战不和",
+    "🔴 战权法60天到期｜川普默认延续封锁｜国会回避表决",
+    "🔴 WTI $109布伦特$120｜封锁数月｜伊朗不战不和",
     "🔴 A股已收盘休5天｜五一空窗外盘持续运行"
   ],
   "shipCount": 4,
@@ -10,8 +10,8 @@
   "oilWti": 108.98,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4597,
-  "goldChg": "-0.93%",
+  "goldPrice": 4549,
+  "goldChg": "-1.04%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -407,5 +407,5 @@
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 17
+  "blockadeDay": 18
 }
