@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-30T15:20:00Z",
+  "lastUpdate": "2026-05-01T08:20:00Z",
   "flashNews": [
-    "🔴 CENTCOM今日汇报短促猛烈打击伊朗方案",
-    "🔴 WTI破$110日内高｜收$108封锁恐数月",
+    "🔴 普京警告川普｜伊朗崩溃将引严峻后果",
+    "🔴 WTI夜盘$108｜封锁无军事决策公布",
     "🔴 A股休5天｜五一空窗外盘持续运行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 108.34,
+  "oilWti": 108.41,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4579,
-  "goldChg": "+0.79%",
+  "goldPrice": 4590,
+  "goldChg": "+1.03%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -343,10 +343,16 @@
   ],
   "events": [
     {
+      "date": "5/1",
+      "type": "negotiation",
+      "text": "普京致电川普警告：伊朗政权若崩溃将带来'严峻后果'，呼吁给予外交空间｜美方CENTCOM汇报后未宣布军事决定，封锁继续｜伊朗夜盘局势：谈判死锁，川普称伊朗'无法整合内部意见'",
+      "latest": true
+    },
+    {
       "date": "4/30",
       "type": "military",
       "text": "CENTCOM司令库珀今日向川普汇报新军事打击伊朗方案：计划发动'短促猛烈'一轮打击，目标极可能包括伊朗核基础设施及地面控制霍峡方案｜伊朗议长加利巴夫嘲讽美封锁策略称'伊朗军队克制是给外交留空间'",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-04-30",
@@ -370,12 +376,6 @@
       "date": "2026-04-30",
       "type": "market",
       "text": "川普正式拒绝伊朗三阶段提案后，油价暴涨7%：WTI突破$107、布伦特$119｜伊朗称谈判团队“遵最高领袖指示尽最大努力”，内部摩擦信号浮现",
-      "latest": false
-    },
-    {
-      "date": "2026-04-30",
-      "type": "blockade",
-      "text": "川普明确表态：将继续对伊朗实施海上封锁，直至伊方同意达成打消核计划担忧的协议｜拒绝伊朗三阶段方案（先开峡→结束战争→核谈后置）",
       "latest": false
     }
   ],
@@ -401,11 +401,11 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+1.37%",
+  "oilChg": "+1.43%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 18
+  "blockadeDay": 19
 }
