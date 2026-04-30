@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-01T15:20:00Z",
+  "lastUpdate": "2026-05-02T16:20:00Z",
   "flashNews": [
     "🔴 川普：核问题不让步绝不达协议",
-    "🔴 油价四年高位回落｜布伦特转仓技术性",
+    "🔴 WTI夜盘反弹$108｜谈判新讨论信号",
     "🔴 A股休5天｜五一空窗外盘持续运行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.51,
+  "oilWti": 108.32,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -343,10 +343,16 @@
   ],
   "events": [
     {
+      "date": "5/2",
+      "type": "negotiation",
+      "text": "Axios：美伊双方及地区调停方（欧曼/卡塔尔）正讨论分阶段开放霍峡新框架，核问题可能纳入独立谈判轨道｜哈梅内伊发表声明：誓言继续控制霍峡，称美国无权在波斯湾存在",
+      "latest": true
+    },
+    {
       "date": "5/1",
       "type": "negotiation",
       "text": "川普最新表态：'除非伊朗完全放弃核计划，否则绝不会有任何协议（Never a deal）'｜Fox News援引白宫官员：封锁将持续，不接受任何不含核问题的方案",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/1",
@@ -370,12 +376,6 @@
       "date": "2026-04-30",
       "type": "blockade",
       "text": "川普会见能源业高层透露：霍峡封锁恐持续数月｜伊朗议长回击\"储油论\"称\"油价$140再谈\"｜美国国会正式启动《战争权力法》审查，5/1大限今日到期",
-      "latest": false
-    },
-    {
-      "date": "2026-04-30",
-      "type": "blockade",
-      "text": "阿联酋宣布退出OPEC：能源部长称因霍尔木兹海峡通行受限做出该决定，将自主决定产量｜5月1日法律大限临近，伊朗预计提交“调整版谈判方案”",
       "latest": false
     }
   ],
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-1.28%",
+  "oilChg": "+1.35%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
