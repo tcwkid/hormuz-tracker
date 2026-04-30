@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T20:20:00Z",
+  "lastUpdate": "2026-05-02T21:20:00Z",
   "flashNews": [
     "🔴 伊朗威胁美军｜重申霍峡主权不谈",
-    "🔴 WTI $104｜无军事行动持续回落",
+    "🔴 WTI企稳$105｜美油价周涨$0.30/加仑",
     "🔴 A股休5天｜五一空窗外盘持续运行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 104.13,
+  "oilWti": 105.5,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-2.57%",
+  "oilChg": "-1.29%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
