@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T06:20:00Z",
+  "lastUpdate": "2026-05-02T07:20:00Z",
   "flashNews": [
-    "🔴 美宣布敌对行动已终止｜战权法风险出清",
-    "🔴 凯恩参联会：俄罗斯确有介入伊朗战争",
-    "🔴 美释放SPR 9250万桶｜44艘船已折返"
+    "🔴 UAE正式退出OPEC｜5/1生效｜60年会籍终止",
+    "🔴 伊朗里亚尔跌历史新低｜封锁绞杀见效",
+    "🔴 WTI $106.24 反弹｜俄介入+OPEC分裂双重定价"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.84,
+  "oilWti": 106.24,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -343,10 +343,16 @@
   ],
   "events": [
     {
+      "date": "5/1",
+      "type": "economic",
+      "text": "阿联酋正式退出OPEC（5/1生效），59年会籍终止，OPEC产能管控能力被削弱，中东能源格局重构",
+      "latest": true
+    },
+    {
       "date": "5/2",
       "type": "military",
       "text": "参联会主席凯恩参议院作证：确认俄罗斯正积极介入伊朗战争，拒绝透露细节",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/2",
@@ -370,12 +376,6 @@
       "date": "5/2",
       "type": "negotiation",
       "text": "海格塞斯国会作证确认：停火协议期间暂停伊朗战争60天战权法计时，川普无需在5/1截止日寻求国会授权｜伊朗最高领袖誓言保护核能力，谈判核红线正式明牌",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "negotiation",
-      "text": "伊朗最高领袖哈梅内伊发表声明誓言保护核能力：'核计划是国家主权的一部分，不会在任何压力下放弃'｜CBS确认油价触伊朗战争以来四年最高，封锁持续",
       "latest": false
     }
   ],
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.73%",
+  "oilChg": "+1.11%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
