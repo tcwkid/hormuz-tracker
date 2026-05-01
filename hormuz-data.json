@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T13:20:00Z",
+  "lastUpdate": "2026-05-02T14:20:00Z",
   "flashNews": [
-    "🔴 川普：伊朗放行10艘油船作礼物（待核实）",
+    "🔴 伊朗向巴基斯坦调停方递交新谈判方案",
     "🔴 川普已听取对伊最终一击军事方案简报",
-    "🔴 WTI $105｜封锁第19天｜谈判存疑信号"
+    "🔴 WTI $105.45｜外交+军事双线并行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.72,
+  "oilWti": 105.45,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4637,
@@ -345,8 +345,14 @@
     {
       "date": "5/2",
       "type": "negotiation",
-      "text": "川普宣称伊朗允许10艘油船通过霍峡作为'礼物'，伊朗官方未确认，真实性存疑",
+      "text": "France24：伊朗已通过巴基斯坦调停方向美方递交最新谈判方案，内容未披露，外交通道重开",
       "latest": true
+    },
+    {
+      "date": "5/2",
+      "type": "negotiation",
+      "text": "川普宣称伊朗允许10艘油船通过霍峡作为'礼物'，伊朗官方未确认，真实性存疑",
+      "latest": false
     },
     {
       "date": "5/2",
@@ -370,12 +376,6 @@
       "date": "5/2",
       "type": "military",
       "text": "参联会主席凯恩参议院作证：确认俄罗斯正积极介入伊朗战争，拒绝透露细节",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "negotiation",
-      "text": "川普政府宣布：与伊朗敌对行动已'终止'，战权法60天截止日前法律风险出清，封锁仍持续",
       "latest": false
     }
   ],
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.62%",
+  "oilChg": "+0.36%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
