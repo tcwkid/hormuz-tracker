@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T08:20:00Z",
+  "lastUpdate": "2026-05-02T09:20:00Z",
   "flashNews": [
-    "🔴 UAE退出OPEC｜5/1生效｜会籍终止",
-    "🔴 伊朗里亚尔跌历史新低｜封锁见效",
-    "🔴 WTI$106｜俄介入+OPEC分裂定价"
+    "🔴 美军亚洲海域扣押2艘伊朗原油油轮",
+    "🔴 伊朗：美若恢复打击将长期痛苦报复",
+    "🔴 WTI ~$106｜封锁第19天｜双向绞杀"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.36,
+  "oilWti": 105.8,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -343,10 +343,16 @@
   ],
   "events": [
     {
+      "date": "5/2",
+      "type": "military",
+      "text": "美军在亚洲海域扣押至少2艘疑似运载伊朗原油油轮，封锁从霍峡延伸至全球航线",
+      "latest": true
+    },
+    {
       "date": "5/1",
       "type": "economic",
       "text": "阿联酋正式退出OPEC（5/1生效），59年会籍终止，OPEC产能管控能力被削弱，中东能源格局重构",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/2",
@@ -370,12 +376,6 @@
       "date": "5/2",
       "type": "negotiation",
       "text": "美正式拒绝伊朗'核议题后置'分阶段开放霍峡方案，坚持核弃武先行",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "negotiation",
-      "text": "海格塞斯国会作证确认：停火协议期间暂停伊朗战争60天战权法计时，川普无需在5/1截止日寻求国会授权｜伊朗最高领袖誓言保护核能力，谈判核红线正式明牌",
       "latest": false
     }
   ],
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.28%",
+  "oilChg": "+0.69%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
