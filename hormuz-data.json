@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T09:20:00Z",
+  "lastUpdate": "2026-05-02T10:20:00Z",
   "flashNews": [
+    "🔴 川普已听取对伊最终一击军事方案简报",
     "🔴 美军亚洲海域扣押2艘伊朗原油油轮",
-    "🔴 伊朗：美若恢复打击将长期痛苦报复",
-    "🔴 WTI ~$106｜封锁第19天｜双向绞杀"
+    "🔴 WTI $106.24 | 封锁+军事升级双重溢价"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.8,
+  "oilWti": 106.24,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4590,
@@ -345,8 +345,14 @@
     {
       "date": "5/2",
       "type": "military",
-      "text": "美军在亚洲海域扣押至少2艘疑似运载伊朗原油油轮，封锁从霍峡延伸至全球航线",
+      "text": "The Independent：川普已收到CENTCOM'最终一击'对伊军事方案简报，所有选项均在桌上",
       "latest": true
+    },
+    {
+      "date": "5/2",
+      "type": "military",
+      "text": "美军在亚洲海域扣押至少2艘疑似运载伊朗原油油轮，封锁从霍峡延伸至全球航线",
+      "latest": false
     },
     {
       "date": "5/1",
@@ -370,12 +376,6 @@
       "date": "5/2",
       "type": "military",
       "text": "RFI/央视：川普正权衡对伊'短而猛'打击+接管霍峡部分区域方案，可能涉及地面部队",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "negotiation",
-      "text": "美正式拒绝伊朗'核议题后置'分阶段开放霍峡方案，坚持核弃武先行",
       "latest": false
     }
   ],
@@ -401,7 +401,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.69%",
+  "oilChg": "+1.11%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
