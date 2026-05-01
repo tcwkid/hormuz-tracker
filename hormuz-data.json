@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-05-02T12:20:00Z",
+  "lastUpdate": "2026-05-02T13:20:00Z",
   "flashNews": [
+    "🔴 川普：伊朗放行10艘油船作礼物（待核实）",
     "🔴 川普已听取对伊最终一击军事方案简报",
-    "🔴 美军亚洲海域扣押2艘伊朗原油油轮",
-    "🔴 WTI $106｜军事升级+封锁双重溢价"
+    "🔴 WTI $105｜封锁第19天｜谈判存疑信号"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 105.72,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4590,
+  "goldPrice": 4637,
   "goldChg": "+1.03%",
   "goldNote": "up",
   "congestion": 5,
@@ -344,9 +344,15 @@
   "events": [
     {
       "date": "5/2",
+      "type": "negotiation",
+      "text": "川普宣称伊朗允许10艘油船通过霍峡作为'礼物'，伊朗官方未确认，真实性存疑",
+      "latest": true
+    },
+    {
+      "date": "5/2",
       "type": "military",
       "text": "The Independent：川普已收到CENTCOM'最终一击'对伊军事方案简报，所有选项均在桌上",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/2",
@@ -370,12 +376,6 @@
       "date": "5/2",
       "type": "negotiation",
       "text": "川普政府宣布：与伊朗敌对行动已'终止'，战权法60天截止日前法律风险出清，封锁仍持续",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "military",
-      "text": "RFI/央视：川普正权衡对伊'短而猛'打击+接管霍峡部分区域方案，可能涉及地面部队",
       "latest": false
     }
   ],
