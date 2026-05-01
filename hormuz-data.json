@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-02T18:20:00Z",
+  "lastUpdate": "2026-05-02T19:20:00Z",
   "flashNews": [
+    "🔴 伊朗：将考虑关闭曼德海峡扩大封锁",
     "🔴 川普：对伊朗方案不满意｜谈判死局",
-    "🔴 美考虑部署暗鹰高超音速导弹打伊朗",
-    "🔴 伊朗激活防空｜WTI $107 军事溢价"
+    "🔴 WTI $107｜霍峡+红海双封锁定价"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -350,8 +350,14 @@
     {
       "date": "5/3",
       "type": "military",
-      "text": "The Independent：川普表态对伊朗新方案'不满意'；美考虑部署Dark Eagle高超音速导弹打击伊朗",
+      "text": "i24NEWS：伊朗武装部队考虑若美封锁加剧将关闭曼德海峡，封锁战线可能延伸至红海",
       "latest": true
+    },
+    {
+      "date": "5/3",
+      "type": "military",
+      "text": "The Independent：川普表态对伊朗新方案'不满意'；美考虑部署Dark Eagle高超音速导弹打击伊朗",
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/2",
       "type": "negotiation",
       "text": "France24：伊朗已通过巴基斯坦调停方向美方递交最新谈判方案，内容未披露，外交通道重开",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "negotiation",
-      "text": "川普宣称伊朗允许10艘油船通过霍峡作为'礼物'，伊朗官方未确认，真实性存疑",
       "latest": false
     }
   ],
