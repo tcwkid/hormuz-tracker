@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-02T21:20:00Z",
+  "lastUpdate": "2026-05-02T22:20:00Z",
   "flashNews": [
-    "🔴 IRGC+胡塞同意双封锁霍峡+曼德海峡",
-    "🔴 WTI $101.9 回落｜获利回吐后防守",
-    "🔴 非洲成绕行枢纽｜全球贸易路线重构"
+    "🔴 美转向：寻求盟友协助重开霍峡",
+    "🔴 川普：对伊朗方案不满，谈判要的太多",
+    "🔴 黄金$4620跌｜WTI $102｜周末博弈中"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 101.9,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4637,
-  "goldChg": "+1.03%",
+  "goldPrice": 4620,
+  "goldChg": "-0.37%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "negotiation",
+      "text": "NBC：美国在川普孤立盟友后转向，开始寻求国际盟友协助重开霍尔木兹海峡，政策重大转向",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "military",
       "text": "伊朗IRGC与也门胡塞武装已达成协议：若美封锁加剧将联合关闭霍尔木兹海峡与曼德海峡",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "economic",
       "text": "美财政部警告：向伊朗支付霍峡通行费（含慈善名义）的船运商将面临美国制裁",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "negotiation",
-      "text": "美将拒绝伊朗核议题后置10点纲领方案；伊朗强硬派神职人员警告霍峡主权不容谈判",
       "latest": false
     }
   ],
