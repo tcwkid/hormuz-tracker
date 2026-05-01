@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-03T00:20:00Z",
+  "lastUpdate": "2026-05-03T01:20:00Z",
   "flashNews": [
-    "🔴 Axios：川普将听取打破霍峡僵局新方案",
-    "🔴 赫格塞斯：战权法60天时钟已暂停",
-    "🔴 WTI $102｜黄金$4620｜僵局延续周末"
+    "🔴 伊朗让步：新方案移除先解封锁前提",
+    "🔴 川普：仍不满意，伊朗要的太多",
+    "🔴 WTI $102｜金$4612｜谈判窗口重开？"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 101.9,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4620,
-  "goldChg": "-0.37%",
+  "goldPrice": 4612,
+  "goldChg": "-0.22%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "negotiation",
+      "text": "NYT/Times of Israel：伊朗新方案已移除'先解除封锁'前置条件，改为与解封同步谈判；川普仍称'不满意'",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "military",
       "text": "Axios：川普将听取CENTCOM新方案简报，寻求打破霍峡封锁僵局；赫格塞斯同时称战权法时钟已暂停",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "The Independent：川普表态对伊朗新方案'不满意'；美考虑部署Dark Eagle高超音速导弹打击伊朗",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "Reuters：伊朗已激活防空系统，评估美军将发动'短而猛'打击，准备发动广泛反击行动",
       "latest": false
     }
   ],
