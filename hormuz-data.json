@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-02T17:20:00Z",
+  "lastUpdate": "2026-05-02T18:20:00Z",
   "flashNews": [
-    "🔴 伊朗激活防空｜预判美军短猛打击",
-    "🔴 美财政部：付霍峡通行费将遭制裁",
-    "🔴 WTI $107.37 飙升｜军事升级定价"
+    "🔴 川普：对伊朗方案不满意｜谈判死局",
+    "🔴 美考虑部署暗鹰高超音速导弹打伊朗",
+    "🔴 伊朗激活防空｜WTI $107 军事溢价"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -350,8 +350,14 @@
     {
       "date": "5/3",
       "type": "military",
-      "text": "Reuters：伊朗已激活防空系统，评估美军将发动'短而猛'打击，准备发动广泛反击行动",
+      "text": "The Independent：川普表态对伊朗新方案'不满意'；美考虑部署Dark Eagle高超音速导弹打击伊朗",
       "latest": true
+    },
+    {
+      "date": "5/3",
+      "type": "military",
+      "text": "Reuters：伊朗已激活防空系统，评估美军将发动'短而猛'打击，准备发动广泛反击行动",
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/2",
       "type": "negotiation",
       "text": "川普宣称伊朗允许10艘油船通过霍峡作为'礼物'，伊朗官方未确认，真实性存疑",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "military",
-      "text": "The Independent：川普已收到CENTCOM'最终一击'对伊军事方案简报，所有选项均在桌上",
       "latest": false
     }
   ],
