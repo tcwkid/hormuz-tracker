@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-02T15:20:00Z",
+  "lastUpdate": "2026-05-02T16:20:00Z",
   "flashNews": [
-    "🔴 伊朗递新方案｜川普：封锁不动摇",
-    "🔴 WTI $105 连续两周上涨｜和平无望",
-    "🔴 黄金周线走弱｜被油价绞杀创月低"
+    "🔴 美将拒绝伊朗核后置方案｜封锁继续",
+    "🔴 伊朗内部强硬派：霍峡主权不容谈判",
+    "🔴 WTI $105.43 | 封锁第20天｜僵局深化"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.45,
+  "oilWti": 105.43,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4637,
@@ -236,9 +236,14 @@
     {
       "date": "4/29",
       "count": 4,
-      "latest": true,
+      "latest": false,
       "totalH": 4,
       "oilH": 2
+    },
+    {
+      "date": "5/3",
+      "count": 4,
+      "latest": true
     }
   ],
   "tableRows": [
@@ -343,10 +348,16 @@
   ],
   "events": [
     {
+      "date": "5/3",
+      "type": "negotiation",
+      "text": "美将拒绝伊朗核议题后置10点纲领方案；伊朗强硬派神职人员警告霍峡主权不容谈判",
+      "latest": true
+    },
+    {
       "date": "5/2",
       "type": "negotiation",
       "text": "France24：伊朗已通过巴基斯坦调停方向美方递交最新谈判方案，内容未披露，外交通道重开",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/2",
@@ -370,12 +381,6 @@
       "date": "5/1",
       "type": "economic",
       "text": "阿联酋正式退出OPEC（5/1生效），59年会籍终止，OPEC产能管控能力被削弱，中东能源格局重构",
-      "latest": false
-    },
-    {
-      "date": "5/2",
-      "type": "military",
-      "text": "参联会主席凯恩参议院作证：确认俄罗斯正积极介入伊朗战争，拒绝透露细节",
       "latest": false
     }
   ],
@@ -401,11 +406,11 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.36%",
+  "oilChg": "+0.34%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 19
+  "blockadeDay": 20
 }
