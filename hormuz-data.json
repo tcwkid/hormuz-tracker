@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-02T22:20:00Z",
+  "lastUpdate": "2026-05-03T00:20:00Z",
   "flashNews": [
-    "🔴 美转向：寻求盟友协助重开霍峡",
-    "🔴 川普：对伊朗方案不满，谈判要的太多",
-    "🔴 黄金$4620跌｜WTI $102｜周末博弈中"
+    "🔴 Axios：川普将听取打破霍峡僵局新方案",
+    "🔴 赫格塞斯：战权法60天时钟已暂停",
+    "🔴 WTI $102｜黄金$4620｜僵局延续周末"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "military",
+      "text": "Axios：川普将听取CENTCOM新方案简报，寻求打破霍峡封锁僵局；赫格塞斯同时称战权法时钟已暂停",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "negotiation",
       "text": "NBC：美国在川普孤立盟友后转向，开始寻求国际盟友协助重开霍尔木兹海峡，政策重大转向",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "Reuters：伊朗已激活防空系统，评估美军将发动'短而猛'打击，准备发动广泛反击行动",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "economic",
-      "text": "美财政部警告：向伊朗支付霍峡通行费（含慈善名义）的船运商将面临美国制裁",
       "latest": false
     }
   ],
