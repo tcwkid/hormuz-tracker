@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-04T01:20:00Z",
+  "lastUpdate": "2026-05-04T02:20:00Z",
   "flashNews": [
-    "🔴 港股复牌：恒指+1.68%，A古5/6开盘信号",
-    "🔴 Atlantic深度：伊朗在谈判桌上完全沉默",
-    "🔴 WTI $96｜金$4561｜封锁第22天"
+    "🔴 美伊联合国激烈交锋，封锁第22天",
+    "🔴 伊朗外贸战时崩溃，议会261票挺谈判",
+    "🔴 WTI $105↑｜油价逼近$120警戒线"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 96.62,
+  "oilWti": 105.7,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4561,
-  "goldChg": "0.00%",
+  "goldChg": "+0.00%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -354,9 +354,15 @@
   "events": [
     {
       "date": "5/4",
+      "type": "negotiation",
+      "text": "美伊在联合国安理会激烈交锋，互指对方为封锁挑衅方；伊朗议会261票通过声明力挺谈判团队，但7名强硬派拒签——内部裂痕首度公开；伊朗外贸战时数据显示崩溃，封锁经济压力已超出预期",
+      "latest": true
+    },
+    {
+      "date": "5/4",
       "type": "economic",
       "text": "港股五一假期后复牌，恒指+1.68%报26112，科技股领涨；The Atlantic深度：伊朗在伊斯兰堡谈判中对美方诉求完全沉默——伊朗不是在讨价还价，而是在拖延",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/4",
@@ -380,12 +386,6 @@
       "date": "5/3",
       "type": "military",
       "text": "【已核实为4/4旧事】川普48小时警告系4月4日发出，非今日新事；当前最新：伊朗官员称开战已很可能",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "Al Arabiya：伊朗官员在川普拒绝最新方案后表示'与美开战已很可能'；PBS：川普同时审查重启战争的新军事选项",
       "latest": false
     }
   ],
@@ -411,7 +411,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.26%",
+  "oilChg": "+0.60%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
