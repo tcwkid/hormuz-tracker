@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-03T07:20:00Z",
+  "lastUpdate": "2026-05-03T08:20:00Z",
   "flashNews": [
-    "🔴 川普新条件：伊朗须承诺不发展核武",
-    "🔴 Kalshi：WTI周一重回$103+概率高",
-    "🔴 WTI $102｜布伦特$112｜Day20僵"
+    "🔴 川普：谈不成协议美国可能更好",
+    "🔴 美撤德国5000兵，盟友关系再裂",
+    "🔴 黄金$4574跌｜WTI $102｜僵局深"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 101.94,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4612,
-  "goldChg": "-0.22%",
+  "goldPrice": 4574,
+  "goldChg": "-1.04%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "military",
+      "text": "ToI：美因与盟友就伊朗战争产生摩擦，宣布从德国撤军5000人；川普同日称谈不成协议美国或更好",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "negotiation",
       "text": "Guardian：川普明确要求伊朗须承诺不获取核武器，在霍峡谈判上叠加新前提，协议门槛再度抬高",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "economic",
       "text": "Axios独家：五角大楼数据显示美军封锁已使伊朗损失约48亿美元，经济绞杀效果首次量化",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "Al Jazeera：川普公开表示正在考虑对伊朗实施更大规模打击选项，称对伊方案不满意",
       "latest": false
     }
   ],
