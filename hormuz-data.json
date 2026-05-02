@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T09:20:00Z",
+  "lastUpdate": "2026-05-03T10:20:00Z",
   "flashNews": [
-    "🔴 CNN实时：川普不达协议美国或更好",
-    "🔴 伊朗威胁：若美续攻将长痛反击",
-    "🔴 WTI $102｜金$4574｜封锁无限期"
+    "🔴 川普：我们已经赢了，但封锁继续",
+    "🔴 CNN实时：不达协议美国或更好",
+    "🔴 WTI $102｜金$4574｜周末僵局持续"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "negotiation",
+      "text": "The Independent：川普再度宣称'我们已经赢了'，但封锁照常维持——口头胜利+实际封锁并行，施压逻辑不变",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "military",
       "text": "Reuters：伊朗声明若美国恢复攻击将发动'长期且痛苦的'反击，对美军在中东各基地构成威胁",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "ISW战争研究所：伊朗正利用停火窗口秘密重建导弹与无人机产能，为潜在冲突重启预做准备",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "negotiation",
-      "text": "BBC：川普致信国会称对伊敌对行动已'terminated'，声称不需国会授权，在法律层面关闭战争升级通道",
       "latest": false
     }
   ],
