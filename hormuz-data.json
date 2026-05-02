@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T03:20:00Z",
+  "lastUpdate": "2026-05-04T04:20:00Z",
   "flashNews": [
-    "🔴 美财政部禁止支付伊朗过路费",
-    "🔴 CNN：美中东16基地遭伊朗打击受损",
-    "🔴 WTI $105｜伊朗新方案送巴中间人"
+    "🔴 霍峡过境量崩溃90%，全球油流告急",
+    "🔴 川普威胁撤出西班牙驻军扩大裂痕",
+    "🔴 WTI $105｜6成美国人反对对伊动武"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.7,
+  "oilWti": 105.67,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4561,
@@ -354,9 +354,15 @@
   "events": [
     {
       "date": "5/4",
+      "type": "economic",
+      "text": "CNN数据：霍峡过境油流量自冲突以来崩溃90%（20M桶/日→近1M桶/日），全球库存消耗加速，通胀压力将在未来数周集中爆发；WaPo/ABC/Ipsos民调：6成美国人认为对伊动武是错误，与伊越战民调相当；川普威胁若西班牙继续拒绝基地使用权将撤军",
+      "latest": true
+    },
+    {
+      "date": "5/4",
       "type": "military",
       "text": "美财政部OFAC正式警告：向伊朗支付霍峡过路费（含慈善捐款形式）将面临制裁，堵死伊朗收费谈判筹码；CNN独家：美军中东19个基地中至少16个在伊朗报复打击中受损；伊朗已将最新方案交巴基斯坦中间人转递",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/4",
@@ -380,12 +386,6 @@
       "date": "5/4",
       "type": "economic",
       "text": "封锁第21天：港股今日结束假期复牌，北向资金动向是A古5/6开盘最重要的前瞻指标；WTI亚盘升势预期",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "negotiation",
-      "text": "Guardian：德国表示已预料到川普撤军5000人，欧美因伊朗战争立场分歧已演变为外交常态化裂痕",
       "latest": false
     }
   ],
@@ -411,7 +411,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.60%",
+  "oilChg": "+0.57%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
