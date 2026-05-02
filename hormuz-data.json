@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-03T11:20:00Z",
+  "lastUpdate": "2026-05-03T12:20:00Z",
   "flashNews": [
+    "🔴 传：川普向伊朗发48小时警告",
     "🔴 伊朗官员：与美开战已很可能",
-    "🔴 PBS：川普审查重启战争新军事选项",
-    "🔴 WTI $102｜金$4574｜停火脆弱"
+    "🔴 WTI $102｜金$4561续跌｜升级风险"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.94,
+  "oilWti": 102.24,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4574,
-  "goldChg": "-1.04%",
+  "goldPrice": 4561,
+  "goldChg": "-1.49%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -350,8 +350,14 @@
     {
       "date": "5/3",
       "type": "military",
-      "text": "Al Arabiya：伊朗官员在川普拒绝最新方案后表示'与美开战已很可能'；PBS：川普同时审查重启战争的新军事选项",
+      "text": "社交媒体流传：川普向伊朗发出48小时警告，称届时将面临严重后果；待主流媒体确认，周一开盘前最大变量",
       "latest": true
+    },
+    {
+      "date": "5/3",
+      "type": "military",
+      "text": "Al Arabiya：伊朗官员在川普拒绝最新方案后表示'与美开战已很可能'；PBS：川普同时审查重启战争的新军事选项",
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "negotiation",
       "text": "Guardian：川普明确要求伊朗须承诺不获取核武器，在霍峡谈判上叠加新前提，协议门槛再度抬高",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "economic",
-      "text": "CFR分析：伊朗核设施已重创、政权不稳定、无法冲刺核武；NPR/AP：石油收入断流、硬通货枯竭，伊朗官媒发出经济警报",
       "latest": false
     }
   ],
@@ -406,7 +406,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-2.88%",
+  "oilChg": "-2.70%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
