@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T01:20:00Z",
+  "lastUpdate": "2026-05-03T02:20:00Z",
   "flashNews": [
-    "🔴 伊朗让步：新方案移除先解封锁前提",
-    "🔴 川普：仍不满意，伊朗要的太多",
-    "🔴 WTI $102｜金$4612｜谈判窗口重开？"
+    "🔴 川普：考虑对伊「更大规模打击」",
+    "🔴 伊朗让步移除先解封前提，川不满",
+    "🔴 WTI $102｜金$4612｜僵局入周末"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "military",
+      "text": "Al Jazeera：川普公开表示正在考虑对伊朗实施更大规模打击选项，称对伊方案不满意",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "negotiation",
       "text": "NYT/Times of Israel：伊朗新方案已移除'先解除封锁'前置条件，改为与解封同步谈判；川普仍称'不满意'",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "i24NEWS：伊朗武装部队考虑若美封锁加剧将关闭曼德海峡，封锁战线可能延伸至红海",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "The Independent：川普表态对伊朗新方案'不满意'；美考虑部署Dark Eagle高超音速导弹打击伊朗",
       "latest": false
     }
   ],
