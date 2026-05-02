@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T06:20:00Z",
+  "lastUpdate": "2026-05-03T07:20:00Z",
   "flashNews": [
-    "🔴 伊朗官媒发出经济警报，硬通货枯竭",
-    "🔴 CFR：伊朗核设施已重创无力冲刺核武",
-    "🔴 WTI $102｜金$4612｜封锁Day20"
+    "🔴 川普新条件：伊朗须承诺不发展核武",
+    "🔴 Kalshi：WTI周一重回$103+概率高",
+    "🔴 WTI $102｜布伦特$112｜Day20僵"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "negotiation",
+      "text": "Guardian：川普明确要求伊朗须承诺不获取核武器，在霍峡谈判上叠加新前提，协议门槛再度抬高",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "economic",
       "text": "CFR分析：伊朗核设施已重创、政权不稳定、无法冲刺核武；NPR/AP：石油收入断流、硬通货枯竭，伊朗官媒发出经济警报",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "Al Jazeera：川普公开表示正在考虑对伊朗实施更大规模打击选项，称对伊方案不满意",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "negotiation",
-      "text": "NYT/Times of Israel：伊朗新方案已移除'先解除封锁'前置条件，改为与解封同步谈判；川普仍称'不满意'",
       "latest": false
     }
   ],
