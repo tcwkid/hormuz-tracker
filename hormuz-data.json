@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T03:20:00Z",
+  "lastUpdate": "2026-05-03T04:20:00Z",
   "flashNews": [
+    "🔴 川普致函国会：对伊敌对已终止",
     "🔴 五角大楼：封锁已令伊朗损失$48亿",
-    "🔴 川普：考虑对伊更大规模打击选项",
-    "🔴 WTI $102｜金周线-3%｜油压金"
+    "🔴 WTI $102｜布伦特$108｜封锁Day20"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "negotiation",
+      "text": "BBC：川普致信国会称对伊敌对行动已'terminated'，声称不需国会授权，在法律层面关闭战争升级通道",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "economic",
       "text": "Axios独家：五角大楼数据显示美军封锁已使伊朗损失约48亿美元，经济绞杀效果首次量化",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "negotiation",
       "text": "NBC：美国在川普孤立盟友后转向，开始寻求国际盟友协助重开霍尔木兹海峡，政策重大转向",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "伊朗IRGC与也门胡塞武装已达成协议：若美封锁加剧将联合关闭霍尔木兹海峡与曼德海峡",
       "latest": false
     }
   ],
