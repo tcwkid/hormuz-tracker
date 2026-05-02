@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T04:20:00Z",
+  "lastUpdate": "2026-05-03T05:20:00Z",
   "flashNews": [
+    "🔴 ISW：伊朗停火期间秘密重建导弹产能",
     "🔴 川普致函国会：对伊敌对已终止",
-    "🔴 五角大楼：封锁已令伊朗损失$48亿",
-    "🔴 WTI $102｜布伦特$108｜封锁第20天"
+    "🔴 WTI $102｜布伦特$108｜Day20"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "military",
+      "text": "ISW战争研究所：伊朗正利用停火窗口秘密重建导弹与无人机产能，为潜在冲突重启预做准备",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "negotiation",
       "text": "BBC：川普致信国会称对伊敌对行动已'terminated'，声称不需国会授权，在法律层面关闭战争升级通道",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "Axios：川普将听取CENTCOM新方案简报，寻求打破霍峡封锁僵局；赫格塞斯同时称战权法时钟已暂停",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "negotiation",
-      "text": "NBC：美国在川普孤立盟友后转向，开始寻求国际盟友协助重开霍尔木兹海峡，政策重大转向",
       "latest": false
     }
   ],
