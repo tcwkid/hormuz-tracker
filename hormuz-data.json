@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T10:20:00Z",
+  "lastUpdate": "2026-05-03T11:20:00Z",
   "flashNews": [
-    "🔴 川普：我们已经赢了，但封锁继续",
-    "🔴 CNN实时：不达协议美国或更好",
-    "🔴 WTI $102｜金$4574｜周末僵局持续"
+    "🔴 伊朗官员：与美开战已很可能",
+    "🔴 PBS：川普审查重启战争新军事选项",
+    "🔴 WTI $102｜金$4574｜停火脆弱"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "military",
+      "text": "Al Arabiya：伊朗官员在川普拒绝最新方案后表示'与美开战已很可能'；PBS：川普同时审查重启战争的新军事选项",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "negotiation",
       "text": "The Independent：川普再度宣称'我们已经赢了'，但封锁照常维持——口头胜利+实际封锁并行，施压逻辑不变",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "economic",
       "text": "CFR分析：伊朗核设施已重创、政权不稳定、无法冲刺核武；NPR/AP：石油收入断流、硬通货枯竭，伊朗官媒发出经济警报",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "ISW战争研究所：伊朗正利用停火窗口秘密重建导弹与无人机产能，为潜在冲突重启预做准备",
       "latest": false
     }
   ],
