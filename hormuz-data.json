@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T15:20:00Z",
+  "lastUpdate": "2026-05-03T16:20:00Z",
   "flashNews": [
-    "🔴 停火周日夜间维持，暂无军事动作",
-    "🔴 油价上行风险：和谈停滞封锁延续",
-    "🔴 WTI $102｜金$4561｜港股4日复牌"
+    "🔴 Day21：港股今日复牌，北向信号关键",
+    "🔴 Kalshi：WTI周一$103+概率约50%",
+    "🔴 金$4561震荡底，分析称5月或大涨"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -243,6 +243,11 @@
     {
       "date": "5/3",
       "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/4",
+      "count": 4,
       "latest": true
     }
   ],
@@ -348,10 +353,16 @@
   ],
   "events": [
     {
+      "date": "5/4",
+      "type": "economic",
+      "text": "封锁第21天：港股今日结束假期复牌，北向资金动向是A古5/6开盘最重要的前瞻指标；WTI亚盘升势预期",
+      "latest": true
+    },
+    {
       "date": "5/3",
       "type": "negotiation",
       "text": "Guardian：德国表示已预料到川普撤军5000人，欧美因伊朗战争立场分歧已演变为外交常态化裂痕",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +386,6 @@
       "date": "5/3",
       "type": "military",
       "text": "Reuters：伊朗声明若美国恢复攻击将发动'长期且痛苦的'反击，对美军在中东各基地构成威胁",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "ToI：美因与盟友就伊朗战争产生摩擦，宣布从德国撤军5000人；川普同日称谈不成协议美国或更好",
       "latest": false
     }
   ],
@@ -412,5 +417,5 @@
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 20
+  "blockadeDay": 21
 }
