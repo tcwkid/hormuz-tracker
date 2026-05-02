@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-05-03T05:20:00Z",
+  "lastUpdate": "2026-05-03T06:20:00Z",
   "flashNews": [
-    "🔴 ISW：伊朗停火期间秘密重建导弹产能",
-    "🔴 川普致函国会：对伊敌对已终止",
-    "🔴 WTI $102｜布伦特$108｜Day20"
+    "🔴 伊朗官媒发出经济警报，硬通货枯竭",
+    "🔴 CFR：伊朗核设施已重创无力冲刺核武",
+    "🔴 WTI $102｜金$4612｜封锁Day20"
   ],
   "shipCount": 4,
   "shipChg": "0",
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "economic",
+      "text": "CFR分析：伊朗核设施已重创、政权不稳定、无法冲刺核武；NPR/AP：石油收入断流、硬通货枯竭，伊朗官媒发出经济警报",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "military",
       "text": "ISW战争研究所：伊朗正利用停火窗口秘密重建导弹与无人机产能，为潜在冲突重启预做准备",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "negotiation",
       "text": "NYT/Times of Israel：伊朗新方案已移除'先解除封锁'前置条件，改为与解封同步谈判；川普仍称'不满意'",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "Axios：川普将听取CENTCOM新方案简报，寻求打破霍峡封锁僵局；赫格塞斯同时称战权法时钟已暂停",
       "latest": false
     }
   ],
