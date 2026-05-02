@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-03T02:20:00Z",
+  "lastUpdate": "2026-05-03T03:20:00Z",
   "flashNews": [
-    "🔴 川普：考虑对伊「更大规模打击」",
-    "🔴 伊朗让步移除先解封前提，川不满",
-    "🔴 WTI $102｜金$4612｜僵局入周末"
+    "🔴 五角大楼：封锁已令伊朗损失$48亿",
+    "🔴 川普：考虑对伊更大规模打击选项",
+    "🔴 WTI $102｜金周线-3%｜油压金"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.9,
+  "oilWti": 101.94,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4612,
@@ -349,9 +349,15 @@
   "events": [
     {
       "date": "5/3",
+      "type": "economic",
+      "text": "Axios独家：五角大楼数据显示美军封锁已使伊朗损失约48亿美元，经济绞杀效果首次量化",
+      "latest": true
+    },
+    {
+      "date": "5/3",
       "type": "military",
       "text": "Al Jazeera：川普公开表示正在考虑对伊朗实施更大规模打击选项，称对伊方案不满意",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/3",
@@ -375,12 +381,6 @@
       "date": "5/3",
       "type": "military",
       "text": "伊朗IRGC与也门胡塞武装已达成协议：若美封锁加剧将联合关闭霍尔木兹海峡与曼德海峡",
-      "latest": false
-    },
-    {
-      "date": "5/3",
-      "type": "military",
-      "text": "i24NEWS：伊朗武装部队考虑若美封锁加剧将关闭曼德海峡，封锁战线可能延伸至红海",
       "latest": false
     }
   ],
@@ -406,7 +406,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-2.92%",
+  "oilChg": "-2.88%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
