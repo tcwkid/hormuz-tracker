@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-04T15:20:00Z",
+  "lastUpdate": "2026-05-05T05:20:00Z",
   "flashNews": [
-    "🔴 霍峡存伊朗海底地雷！开海技术障",
-    "🔴 川普发文：伊朗尚未付出足够代价",
-    "🔴 IRGC：保持完全战备随时复战"
+    "🔴 赫格塞斯：伊朗战争耗美$250亿",
+    "🔴 FOMC今日议息，沃什首秀结果待",
+    "🔴 WTI $102｜封锁Day23，A古开盘"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 102.5,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4608,
-  "goldChg": "-0.10%",
+  "goldPrice": 4607,
+  "goldChg": "-0.02%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -248,6 +248,11 @@
     {
       "date": "5/4",
       "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/5",
+      "count": 4,
       "latest": true
     }
   ],
@@ -353,10 +358,16 @@
   ],
   "events": [
     {
+      "date": "5/5",
+      "type": "economic",
+      "text": "封锁进入第23天：赫格塞斯披露伊朗战争已令美国耗资$250亿（含军事行动+驻扎+封锁维持）；A股五一后首日开盘，北向资金流向是最重要观察指标；FOMC今日开始第二天议息，沃什主持首次会议，利率决议今晚公布",
+      "latest": true
+    },
+    {
       "date": "5/4",
       "type": "military",
       "text": "Al Jazeera独家披露：霍峡重开面临严重技术障碍——伊朗在海峡布设了海底地雷，复航前必须扫雷，这是从未公开的关键变量；川普Truth Social发文'伊朗尚未付出足够代价，47年的罪行需要清算'；IRGC宣布保持完全战备；伊14点方案含30天完成谈判的时限要求",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/4",
@@ -380,12 +391,6 @@
       "date": "5/4",
       "type": "negotiation",
       "text": "Reuters/ABC News首披露伊朗14点方案核心内容：要求美军撤出伊朗周边区域、解除封锁、停止一切敌对行动；川普回应'不认为能成交'但仍在审阅——这是迄今最清晰的伊朗开价，也是双方谈判底线差距的首次公开量化",
-      "latest": false
-    },
-    {
-      "date": "5/4",
-      "type": "negotiation",
-      "text": "Politico/NPR：伊朗通过巴基斯坦提交14点方案，直接回应美方此前递出的9点方案——双方已进入正式文件来回的谈判状态，是本轮封锁以来最接近外交突破的信号；川普对记者表示'正在审阅，稍后告知'，罕见未立即拒绝，WTI应声测试$102支撑",
       "latest": false
     }
   ],
@@ -411,11 +416,11 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-2.45%",
+  "oilChg": "+0.00%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 22
+  "blockadeDay": 23
 }
