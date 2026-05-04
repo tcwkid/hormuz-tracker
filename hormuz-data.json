@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T00:28:06Z",
+  "lastUpdate": "2026-05-04T01:29:26Z",
   "flashNews": [
-    "🔴 美军今日Project Freedom护航启动",
-    "🔴 伊朗：美军干预即违反停火协议",
-    "🔴 WTI $101亚市企稳等待护航结果"
+    "🔴 美军1.5万兵力启动霍峡护航行动",
+    "🔴 川子正式回绝伊朗终战新方案",
+    "🔴 美警告：付伊朗过路费将遭制裁"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.18,
+  "oilWti": 101.09,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4625,
@@ -365,9 +365,15 @@
   "events": [
     {
       "date": "5/7",
+      "type": "negotiation",
+      "text": "川普正式回绝伊朗终战新方案；美国中央司令部宣布1.5万兵力舰机参与Project Freedom护航行动；美国同步警告全球航运业：向伊朗支付过路费将触发制裁",
+      "latest": true
+    },
+    {
+      "date": "5/7",
       "type": "military",
       "text": "美军Project Freedom护航行动今日正式启动，护送被困商船穿越霍尔木兹海峡；伊朗官员警告干预即违反停火协议，IRGC进入战备；全球航运市场等待护航首日结果",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/6",
@@ -391,12 +397,6 @@
       "date": "5/6",
       "type": "military",
       "text": "CBS News：霍尔木兹海峡附近一艘散货船报告遭袭，为数周来首次水道攻击事件，停火期间水道安全出现新变数；FOX News：川普致国会信件称伊朗战争已'terminated'（终止），但措辞被解读为外交性表述，与拒绝谈判方案并存；伊朗30天谈判期限仍在运行，双方持续博弈",
-      "latest": false
-    },
-    {
-      "date": "5/6",
-      "type": "negotiation",
-      "text": "伊朗向川普发出一个月谈判最后期限（Independent报道）：30天内必须就重开霍峡和结束战争达成协议，否则伊朗将不再受现有停火框架约束；IDF加速战备准备，IRGC同步发最后通牒'选择战争或和平'；WTI本周因伊朗紧张升级一度飙升至$105+，后回落至$102区间，市场定价风险溢价扩大",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.09%",
+  "oilChg": "-0.83%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
