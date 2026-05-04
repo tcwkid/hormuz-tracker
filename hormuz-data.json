@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-04T12:08:04Z",
+  "lastUpdate": "2026-05-04T13:08:44Z",
   "flashNews": [
-    "🔴 伊朗称击中美军舰美方否认未证实",
-    "🔴 布伦特破$112WTI$105.76狂飙",
-    "🔴 IRGC对美舰实弹演习紧张升级"
+    "🔴 WTI$105.94黄金$4562资金轮动",
+    "🔴 伊朗称导弹击舰美方否认信息战",
+    "🔴 美伊军事对峙升级谈判窗口收窄"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.76,
+  "oilWti": 105.94,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4606,
-  "goldChg": "-0.42%",
+  "goldPrice": 4562,
+  "goldChg": "-1.09%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -366,8 +366,14 @@
     {
       "date": "5/7",
       "type": "military",
-      "text": "⚠️ 伊朗法尔斯通讯社声称：两枚导弹击中一艘美国海军护卫舰；美国中央司令部随即否认；Guardian确认报道；IRGC同日对美军舰艇进行实弹演习；布伦特日内区间$105.55-$114.30，WTI$105.76，Dow期货下跌",
+      "text": "彭博/BBC/Al-Monitor多方确认：伊朗称导弹击中美护卫舰为信息战，美国中央司令部正式否认；但WTI不跌反涨至$105.94，黄金大跌至$4,562，资金从避险黄金轮动至原油，市场定价结构由'避险需求'转向'供给冲击预期'",
       "latest": true
+    },
+    {
+      "date": "5/7",
+      "type": "military",
+      "text": "⚠️ 伊朗法尔斯通讯社声称：两枚导弹击中一艘美国海军护卫舰；美国中央司令部随即否认；Guardian确认报道；IRGC同日对美军舰艇进行实弹演习；布伦特日内区间$105.55-$114.30，WTI$105.76，Dow期货下跌",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "卫星图像（Tehran Times/Times of India）确认伊朗在霍尔木兹海峡集结近40艘快速攻击艇，同步IRGC宣布任何试图通过海峡的军舰将遭攻击；WTI回升至$102.55，市场开始重新定价升级风险",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "military",
-      "text": "CNN独家：美国官员澄清Project Freedom'并非护卫舰伴随任务'，而是引导船只自行通过并提供区域安全保障；伊朗媒体大篇幅报道'美国违停'；Sky News：伊朗情绪激烈升温但未采取军事行动；黄金回落至$4,606",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+3.75%",
+  "oilChg": "+3.92%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
