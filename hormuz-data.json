@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T06:37:27Z",
+  "lastUpdate": "2026-05-04T07:46:47Z",
   "flashNews": [
-    "🔴 美官员：护航非护卫舰伴随任务",
-    "🔴 伊朗强烈谴责护航违停火协议",
-    "🔴 黄金回落至$4606避险需求降温"
+    "🔴 卫星图：伊朗霍峡集结40艘快攻艇",
+    "🔴 IRGC警告攻击任何过峡军舰",
+    "🔴 WTI $102.55升级风险重新定价"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.73,
+  "oilWti": 102.55,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4606,
@@ -366,8 +366,14 @@
     {
       "date": "5/7",
       "type": "military",
-      "text": "CNN独家：美国官员澄清Project Freedom'并非护卫舰伴随任务'，而是引导船只自行通过并提供区域安全保障；伊朗媒体大篇幅报道'美国违停'；Sky News：伊朗情绪激烈升温但未采取军事行动；黄金回落至$4,606",
+      "text": "卫星图像（Tehran Times/Times of India）确认伊朗在霍尔木兹海峡集结近40艘快速攻击艇，同步IRGC宣布任何试图通过海峡的军舰将遭攻击；WTI回升至$102.55，市场开始重新定价升级风险",
       "latest": true
+    },
+    {
+      "date": "5/7",
+      "type": "military",
+      "text": "CNN独家：美国官员澄清Project Freedom'并非护卫舰伴随任务'，而是引导船只自行通过并提供区域安全保障；伊朗媒体大篇幅报道'美国违停'；Sky News：伊朗情绪激烈升温但未采取军事行动；黄金回落至$4,606",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "Project Freedom护航行动进入执行阶段，美军舰艇引导商船通过霍峡；截至北京时间11:20，伊朗IRGC尚未武力拦截，WTI维持$101区间未见升级式跳升；市场处于屏息观察模式",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "negotiation",
-      "text": "川普正式回绝伊朗终战新方案；美国中央司令部宣布1.5万兵力舰机参与Project Freedom护航行动；美国同步警告全球航运业：向伊朗支付过路费将触发制裁",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-0.21%",
+  "oilChg": "+0.60%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
