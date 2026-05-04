@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-04T05:33:16Z",
+  "lastUpdate": "2026-05-04T06:37:27Z",
   "flashNews": [
-    "🔴 美军百架飞机驱逐舰护航霍峡",
-    "🔴 谈判进行中护航令美伊会谈复杂化",
-    "🔴 WTI $101黄金回落至$4615"
+    "🔴 美官员：护航非护卫舰伴随任务",
+    "🔴 伊朗强烈谴责护航违停火协议",
+    "🔴 黄金回落至$4606避险需求降温"
   ],
   "shipCount": 4,
   "shipChg": "0",
   "oilWti": 101.73,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4615,
-  "goldChg": "-0.22%",
+  "goldPrice": 4606,
+  "goldChg": "-0.42%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -366,8 +366,14 @@
     {
       "date": "5/7",
       "type": "military",
-      "text": "NYT披露Project Freedom军力细节：导弹驱逐舰+逾100架陆海基飞机+多域支援部队；CNN报道美官员称护航行动有条件限制；维基百科注脚显示护航令美伊重启谈判进一步复杂化；黄金回落至$4615",
+      "text": "CNN独家：美国官员澄清Project Freedom'并非护卫舰伴随任务'，而是引导船只自行通过并提供区域安全保障；伊朗媒体大篇幅报道'美国违停'；Sky News：伊朗情绪激烈升温但未采取军事行动；黄金回落至$4,606",
       "latest": true
+    },
+    {
+      "date": "5/7",
+      "type": "military",
+      "text": "NYT披露Project Freedom军力细节：导弹驱逐舰+逾100架陆海基飞机+多域支援部队；CNN报道美官员称护航行动有条件限制；维基百科注脚显示护航令美伊重启谈判进一步复杂化；黄金回落至$4615",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "negotiation",
       "text": "川普正式回绝伊朗终战新方案；美国中央司令部宣布1.5万兵力舰机参与Project Freedom护航行动；美国同步警告全球航运业：向伊朗支付过路费将触发制裁",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "military",
-      "text": "美军Project Freedom护航行动今日正式启动，护送被困商船穿越霍尔木兹海峡；伊朗官员警告干预即违反停火协议，IRGC进入战备；全球航运市场等待护航首日结果",
       "latest": false
     }
   ],
