@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-03T23:25:17Z",
+  "lastUpdate": "2026-05-04T00:28:06Z",
   "flashNews": [
-    "🔴 伊朗议员：霍峡永不回战前状态",
-    "🔴 美军明起护航过峡伊朗强硬回应",
-    "🔴 WTI $101散货轮遭袭市场承压"
+    "🔴 美军今日Project Freedom护航启动",
+    "🔴 伊朗：美军干预即违反停火协议",
+    "🔴 WTI $101亚市企稳等待护航结果"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.09,
+  "oilWti": 101.18,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4625,
@@ -364,10 +364,16 @@
   ],
   "events": [
     {
+      "date": "5/7",
+      "type": "military",
+      "text": "美军Project Freedom护航行动今日正式启动，护送被困商船穿越霍尔木兹海峡；伊朗官员警告干预即违反停火协议，IRGC进入战备；全球航运市场等待护航首日结果",
+      "latest": true
+    },
+    {
       "date": "5/6",
       "type": "negotiation",
       "text": "Al Jazeera：伊朗议员公开声明'霍尔木兹海峡永不回到战前状态'，直接回应川普宣布美军5/7起护航过峡计划，立场强硬无退让空间；美伊在水道控制权问题上公开对峙，护航计划能否成功取决于伊朗是否动手阻止；WTI回落至$101.09区间，市场对护航能否突破封锁持观望态度",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/6",
@@ -391,12 +397,6 @@
       "date": "5/6",
       "type": "negotiation",
       "text": "伊朗向川普发出一个月谈判最后期限（Independent报道）：30天内必须就重开霍峡和结束战争达成协议，否则伊朗将不再受现有停火框架约束；IDF加速战备准备，IRGC同步发最后通牒'选择战争或和平'；WTI本周因伊朗紧张升级一度飙升至$105+，后回落至$102区间，市场定价风险溢价扩大",
-      "latest": false
-    },
-    {
-      "date": "5/6",
-      "type": "military",
-      "text": "BREAKING：IDF（以色列国防军）正在准备对伊朗新一轮打击，TBN Israel报道战备准备加速；IRGC向川普发出最后通牒：'选择战争或选择和平（CHOOSE WAR OR PEACE）'，要求明确回应；A股节后首日收盘：沪指+0.76%，航天装备、军工电子、稀土板块领涨，成交额超2.6万亿",
       "latest": false
     }
   ],
@@ -422,11 +422,11 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-0.83%",
+  "oilChg": "+0.09%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 24
+  "blockadeDay": 25
 }
