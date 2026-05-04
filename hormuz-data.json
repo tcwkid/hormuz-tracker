@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-04T04:34:47Z",
+  "lastUpdate": "2026-05-04T05:33:16Z",
   "flashNews": [
-    "🔴 伊朗收到美方回应谈判双向信号",
-    "🔴 川子称谈判积极但拒伊朗条款",
-    "🔴 护航首日平稳IRGC未武力拦截"
+    "🔴 美军百架飞机驱逐舰护航霍峡",
+    "🔴 谈判进行中护航令美伊会谈复杂化",
+    "🔴 WTI $101黄金回落至$4615"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.7,
+  "oilWti": 101.73,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
-  "goldPrice": 4625,
-  "goldChg": "+0.28%",
+  "goldPrice": 4615,
+  "goldChg": "-0.22%",
   "goldNote": "up",
   "congestion": 5,
   "congestionNote": "伊朗最高领袖下令：海峡不得恢复战前状态",
@@ -365,9 +365,15 @@
   "events": [
     {
       "date": "5/7",
+      "type": "military",
+      "text": "NYT披露Project Freedom军力细节：导弹驱逐舰+逾100架陆海基飞机+多域支援部队；CNN报道美官员称护航行动有条件限制；维基百科注脚显示护航令美伊重启谈判进一步复杂化；黄金回落至$4615",
+      "latest": true
+    },
+    {
+      "date": "5/7",
       "type": "negotiation",
       "text": "BBC/CNBC确认：伊朗已收到美方对14点终战方案的正式回应，川普形容谈判'非常积极'；但同时表示'伊朗尚未付出足够代价'并拒绝接受14点条款；谈判呈现积极接触+条款分歧并存的双向信号",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "美军Project Freedom护航行动今日正式启动，护送被困商船穿越霍尔木兹海峡；伊朗官员警告干预即违反停火协议，IRGC进入战备；全球航运市场等待护航首日结果",
-      "latest": false
-    },
-    {
-      "date": "5/6",
-      "type": "negotiation",
-      "text": "Al Jazeera：伊朗议员公开声明'霍尔木兹海峡永不回到战前状态'，直接回应川普宣布美军5/7起护航过峡计划，立场强硬无退让空间；美伊在水道控制权问题上公开对峙，护航计划能否成功取决于伊朗是否动手阻止；WTI回落至$101.09区间，市场对护航能否突破封锁持观望态度",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-0.24%",
+  "oilChg": "-0.21%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
