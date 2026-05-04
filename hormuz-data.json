@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T07:46:47Z",
+  "lastUpdate": "2026-05-04T08:55:40Z",
   "flashNews": [
-    "🔴 卫星图：伊朗霍峡集结40艘快攻艇",
-    "🔴 IRGC警告攻击任何过峡军舰",
-    "🔴 WTI $102.55升级风险重新定价"
+    "🔴 UKMTO：8小时内2艘船霍峡遭袭",
+    "🔴 伊朗警告商船停止过峡否则攻击",
+    "🔴 WTI $103.40升级定价突破"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 102.55,
+  "oilWti": 103.4,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4606,
@@ -366,8 +366,14 @@
     {
       "date": "5/7",
       "type": "military",
-      "text": "卫星图像（Tehran Times/Times of India）确认伊朗在霍尔木兹海峡集结近40艘快速攻击艇，同步IRGC宣布任何试图通过海峡的军舰将遭攻击；WTI回升至$102.55，市场开始重新定价升级风险",
+      "text": "UKMTO确认：霍尔木兹海峡8小时内2艘货船遭袭（5/4周日，全员安全）；伊朗军方同步警告所有商船和油轮'停止移动'；WTI突破$103.40（+1.43%），市场全面定价升级风险；40艘IRGC快攻艇卫星图已确认部署",
       "latest": true
+    },
+    {
+      "date": "5/7",
+      "type": "military",
+      "text": "卫星图像（Tehran Times/Times of India）确认伊朗在霍尔木兹海峡集结近40艘快速攻击艇，同步IRGC宣布任何试图通过海峡的军舰将遭攻击；WTI回升至$102.55，市场开始重新定价升级风险",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "Project Freedom护航首日进展平稳：美军舰艇引导商船通过霍峡，截至北京时间12:20无伊朗武力拦截报告；WTI小幅回升至$101.64，市场对和平护航预期升温；伊朗方面维持外交强硬表态但IRGC未采取行动",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "military",
-      "text": "Project Freedom护航行动进入执行阶段，美军舰艇引导商船通过霍峡；截至北京时间11:20，伊朗IRGC尚未武力拦截，WTI维持$101区间未见升级式跳升；市场处于屏息观察模式",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+0.60%",
+  "oilChg": "+1.43%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
