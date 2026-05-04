@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T13:08:44Z",
+  "lastUpdate": "2026-05-04T14:10:13Z",
   "flashNews": [
-    "🔴 WTI$105.94黄金$4562资金轮动",
-    "🔴 伊朗称导弹击舰美方否认信息战",
-    "🔴 美伊军事对峙升级谈判窗口收窄"
+    "🔴 WTI从$106高位回落$102信息战降温",
+    "🔴 川子沮丧谈判僵局催生护航豪赌",
+    "🔴 导弹击舰确认虚假美伊均未升级"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 105.94,
+  "oilWti": 102.24,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4562,
@@ -365,9 +365,15 @@
   "events": [
     {
       "date": "5/7",
+      "type": "negotiation",
+      "text": "Axios深度：川普对伊朗谈判僵局感到沮丧，Project Freedom是压力牌而非军事计划；WTI从日内高点$105.94大幅回落至$102.24，信息战导弹声明被市场定性为虚假后升级恐慌快速消散；美股收盘后情绪趋于平稳",
+      "latest": true
+    },
+    {
+      "date": "5/7",
       "type": "military",
       "text": "彭博/BBC/Al-Monitor多方确认：伊朗称导弹击中美护卫舰为信息战，美国中央司令部正式否认；但WTI不跌反涨至$105.94，黄金大跌至$4,562，资金从避险黄金轮动至原油，市场定价结构由'避险需求'转向'供给冲击预期'",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "UKMTO确认：霍尔木兹海峡8小时内2艘货船遭袭（5/4周日，全员安全）；伊朗军方同步警告所有商船和油轮'停止移动'；WTI突破$103.40（+1.43%），市场全面定价升级风险；40艘IRGC快攻艇卫星图已确认部署",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "military",
-      "text": "卫星图像（Tehran Times/Times of India）确认伊朗在霍尔木兹海峡集结近40艘快速攻击艇，同步IRGC宣布任何试图通过海峡的军舰将遭攻击；WTI回升至$102.55，市场开始重新定价升级风险",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+3.92%",
+  "oilChg": "+0.29%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
