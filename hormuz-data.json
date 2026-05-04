@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-04T16:21:19Z",
+  "lastUpdate": "2026-05-04T18:32:34Z",
   "flashNews": [
     "🔴 美旗商船成功过峡UAE油轮遭袭",
     "🔴 伊朗未阻拦但过峡期间现袭击",
@@ -365,9 +365,15 @@
   "events": [
     {
       "date": "5/8",
+      "type": "economic",
+      "text": "深夜静默期：无新重大事件，市场消化Project Freedom首日成果；美旗商船成功过峡+UAE油轮遭袭双重格局持续；谈判无新进展；WTI守$101.74，黄金$4,538，封锁第26天进入亚市早盘观察窗口",
+      "latest": true
+    },
+    {
+      "date": "5/8",
       "type": "military",
       "text": "CBS News确认：两艘美国旗商船成功通过霍峡（Project Freedom首捷）；但UAE同步报告一艘本国船只在过峡期间遭攻击；伊朗未正式承认但示警效果达成——让你过，但让你付代价；WTI亚市$101.74，封锁进入第26天",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/8",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "military",
       "text": "⚠️ 伊朗法尔斯通讯社声称：两枚导弹击中一艘美国海军护卫舰；美国中央司令部随即否认；Guardian确认报道；IRGC同日对美军舰艇进行实弹演习；布伦特日内区间$105.55-$114.30，WTI$105.76，Dow期货下跌",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "economic",
-      "text": "WTI突破$105.74（+3.72%）、布伦特涨至$109.80，伊朗40艘快攻艇集结+军事威胁驱动油价全面重定价；oilprice.com标题'Iran Tensions Send WTI Surging Above $105'；谈判无新进展，升级风险溢价重回高位",
       "latest": false
     }
   ],
