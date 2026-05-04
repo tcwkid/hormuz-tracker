@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T02:32:10Z",
+  "lastUpdate": "2026-05-04T03:33:05Z",
   "flashNews": [
-    "🔴 Project Freedom首日进行中无冲突",
-    "🔴 伊朗：美军护航即违反停火红线",
+    "🔴 护航首日平稳伊朗未武力拦截",
+    "🔴 WTI $101.64护航预期小幅回升",
     "🔴 美警告付过路费将触发制裁"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.09,
+  "oilWti": 101.64,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4625,
@@ -366,8 +366,14 @@
     {
       "date": "5/7",
       "type": "military",
-      "text": "Project Freedom护航行动进入执行阶段，美军舰艇引导商船通过霍峡；截至北京时间11:20，伊朗IRGC尚未武力拦截，WTI维持$101区间未见升级式跳升；市场处于屏息观察模式",
+      "text": "Project Freedom护航首日进展平稳：美军舰艇引导商船通过霍峡，截至北京时间12:20无伊朗武力拦截报告；WTI小幅回升至$101.64，市场对和平护航预期升温；伊朗方面维持外交强硬表态但IRGC未采取行动",
       "latest": true
+    },
+    {
+      "date": "5/7",
+      "type": "military",
+      "text": "Project Freedom护航行动进入执行阶段，美军舰艇引导商船通过霍峡；截至北京时间11:20，伊朗IRGC尚未武力拦截，WTI维持$101区间未见升级式跳升；市场处于屏息观察模式",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/6",
       "type": "military",
       "text": "战略升级：川普宣布美军将从明天（5/7周一）起引导被困船只通过霍尔木兹海峡，从封锁模式转为主动单边护航，是美国尝试重开水道的最强行动信号；CENTCOM确认过去20小时内已有3艘船只改道；散货轮Sirik遭袭事件同日发生，伊朗仍在审阅美方回应，30天期限持续运行",
-      "latest": false
-    },
-    {
-      "date": "5/6",
-      "type": "military",
-      "text": "UKMTO/AP/NBC/FOX多方确认：一艘散货轮在Sirik（霍峡东侧）海域遭多艘小艇袭击，全员安全撤离；袭击方式与IRGC惯用手法一致，为停火以来水道首次实体攻击事件；伊朗方面未立即认领，但事件发生时间与伊朗30天谈判期限施压节点高度吻合；UKMTO向过往商船发出安全警报",
       "latest": false
     }
   ],
@@ -422,7 +422,7 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "-0.83%",
+  "oilChg": "+0.54%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
