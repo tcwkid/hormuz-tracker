@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-04T15:13:50Z",
+  "lastUpdate": "2026-05-04T16:21:19Z",
   "flashNews": [
-    "🔴 2艘商船安全穿越霍峡首次突破",
-    "🔴 伊朗战争准备中但未武力阻拦",
-    "🔴 黄金跌至$4538避险轮动原油"
+    "🔴 美旗商船成功过峡UAE油轮遭袭",
+    "🔴 伊朗未阻拦但过峡期间现袭击",
+    "🔴 WTI $101.74亚市封锁第26天"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 103.7,
+  "oilWti": 101.74,
   "oilWtiChg": "-1.51%",
   "oilWtiNote": "down",
   "goldPrice": 4538,
@@ -366,8 +366,14 @@
     {
       "date": "5/8",
       "type": "military",
-      "text": "🟢 突破！CBS/AP确认：2艘商船在美军舰协助下安全通过霍尔木兹海峡，Project Freedom宣告阶段性成功；美国中央司令部声明'恢复通航努力取得进展'；伊朗虽称战争准备进行中但未武力阻拦；WTI $103.70，黄金续跌至$4,538",
+      "text": "CBS News确认：两艘美国旗商船成功通过霍峡（Project Freedom首捷）；但UAE同步报告一艘本国船只在过峡期间遭攻击；伊朗未正式承认但示警效果达成——让你过，但让你付代价；WTI亚市$101.74，封锁进入第26天",
       "latest": true
+    },
+    {
+      "date": "5/8",
+      "type": "military",
+      "text": "🟢 突破！CBS/AP确认：2艘商船在美军舰协助下安全通过霍尔木兹海峡，Project Freedom宣告阶段性成功；美国中央司令部声明'恢复通航努力取得进展'；伊朗虽称战争准备进行中但未武力阻拦；WTI $103.70，黄金续跌至$4,538",
+      "latest": false
     },
     {
       "date": "5/7",
@@ -391,12 +397,6 @@
       "date": "5/7",
       "type": "economic",
       "text": "WTI突破$105.74（+3.72%）、布伦特涨至$109.80，伊朗40艘快攻艇集结+军事威胁驱动油价全面重定价；oilprice.com标题'Iran Tensions Send WTI Surging Above $105'；谈判无新进展，升级风险溢价重回高位",
-      "latest": false
-    },
-    {
-      "date": "5/7",
-      "type": "economic",
-      "text": "WTI日内冲高$103.40（+1.43%）后回落至$101.06（-0.88%）收盘，冲高回落结构显示市场升级恐慌已被消化；伊朗40艘快攻艇持续部署、2艘船遭袭等风险悬而未决；BBC持续更新伊朗军事威胁但无新实质行动",
       "latest": false
     }
   ],
@@ -422,11 +422,11 @@
   "shipCountYesterday": 4,
   "shipTrend": "down",
   "updated": "2026-04-26 13:44",
-  "oilChg": "+1.76%",
+  "oilChg": "-0.21%",
   "updatedAt": "2026-04-30T12:20:00Z",
   "level": "L3",
   "blockadeDays": 17,
   "brent": 114.0,
   "brentChg": "+3.00%",
-  "blockadeDay": 25
+  "blockadeDay": 26
 }
