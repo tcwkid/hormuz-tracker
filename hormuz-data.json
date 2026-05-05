@@ -1,1 +1,519 @@
-{"lastUpdate":"2026-05-07T12:00:00Z","flashNews":["\ud83d\udd34 \u7f8e\u519b\u51fb\u6c896\u8258\u5feb\u8247\u00b7\u4e24\u8258\u5546\u8239\u9996\u6b21\u901a\u8fc7","\ud83d\udd34 \u4f0a\u6717\u5f00\u706b\u00b7\u5ddd\u5b50\u5a01\u80c1\u5c06\u88ab\u4ece\u5730\u7403\u62b9\u53bb","\ud83d\udd34 WTI+4.4%\u62a5106\u00b7\u5e03\u4f26\u7279+5.8%\u62a5114"],"shipCount":4,"shipChg":"0","oilWti":106.42,"oilWtiChg":"+4.39%","oilWtiNote":"up","goldPrice":4562,"goldChg":"-0.94%","goldNote":"down","congestion":5,"congestionNote":"\u7f8e\u4f0a\u5f00\u706b\u00b7\u81ea\u7531\u8ba1\u5212\u9996\u6377\u00b7\u4e24\u8258\u5546\u8239\u901a\u8fc7","barData":[{"date":"3/29","totalH":5,"oilH":2,"latest":false,"count":5},{"date":"3/30","totalH":17,"oilH":12,"latest":false,"count":17},{"date":"3/31","totalH":6,"oilH":2,"latest":false,"count":6},{"date":"4/1","totalH":6,"oilH":0,"latest":false,"count":6},{"date":"4/2","totalH":6,"oilH":2,"latest":false,"count":6},{"date":"4/3","totalH":5,"oilH":4,"latest":false,"count":5},{"date":"4/4","totalH":10,"oilH":2,"latest":false,"count":10},{"date":"4/5","totalH":9,"oilH":7,"latest":false,"count":9},{"date":"4/6","totalH":11,"oilH":4,"latest":false,"count":11},{"date":"4/7","totalH":12,"oilH":5,"latest":false,"count":12},{"date":"4/8","totalH":13,"oilH":6,"latest":false,"count":13},{"date":"4/9","totalH":14,"oilH":6,"latest":false,"count":14},{"date":"4/10","totalH":7,"oilH":2,"latest":false,"count":7},{"date":"4/11","totalH":11,"oilH":5,"latest":false,"count":11},{"date":"4/12","totalH":21,"oilH":8,"latest":false,"count":21},{"date":"4/13","totalH":23,"oilH":9,"latest":false,"count":23},{"date":"4/14","totalH":4,"oilH":2,"latest":false,"count":4},{"date":"4/15","totalH":20,"oilH":5,"latest":false,"count":20},{"date":"4/16","totalH":8,"oilH":3,"latest":false,"count":8},{"date":"4/17","totalH":15,"oilH":2,"latest":false,"count":15},{"date":"4/18","totalH":8,"oilH":2,"latest":false,"count":8},{"date":"4/19","totalH":5,"oilH":2,"latest":false,"count":5},{"date":"4/20","totalH":3,"oilH":0,"latest":false,"count":3},{"date":"4/21","oilH":0,"totalH":3,"count":3,"latest":false},{"date":"4/22","oilH":2,"totalH":5,"count":5,"latest":false},{"date":"4/23","totalH":3,"oilH":2,"count":3,"latest":false},{"date":"4/24","totalH":4,"oilH":1,"latest":false,"count":4},{"date":"4/25","totalH":5,"oilH":4,"count":5,"latest":false},{"date":"4/26","totalH":3,"oilH":2,"count":3,"latest":false},{"date":"4/27","totalH":3,"oilH":1,"count":2,"latest":false},{"date":"4/28","count":4,"latest":false,"totalH":4,"oilH":2},{"date":"4/29","count":4,"latest":true,"totalH":4,"oilH":2},{"date":"4/30","count":4,"shipChg":"0"},{"date":"5/1","count":4,"shipChg":"0"},{"date":"5/2","count":4,"shipChg":"0"},{"date":"5/3","count":13,"shipChg":"+9"},{"date":"5/4","count":2,"shipChg":"-11"},{"date":"5/5","count":4,"shipChg":"+2"},{"date":"5/6","count":4,"shipChg":"0"},{"date":"5/7","count":4,"shipChg":"0"}],"tableRows":[{"label":"4/16","period":"4/16","ships":8,"count":8,"chg":-12,"date":"2026-04-16"},{"label":"4/17","period":"4/17","ships":15,"count":15,"chg":7,"date":"2026-04-17"},{"label":"4/18","period":"4/18","ships":8,"count":8,"chg":-7,"date":"2026-04-18"},{"label":"4/19","period":"4/19","ships":5,"count":5,"chg":-3,"date":"2026-04-19"},{"label":"4/20","period":"4/20","ships":3,"count":3,"chg":-2,"date":"2026-04-20"},{"label":"4/21","period":"4/21","ships":3,"count":3,"chg":0,"date":"2026-04-21"},{"label":"4/22","period":"4/22","ships":5,"count":5,"chg":2,"date":"2026-04-22"},{"label":"4/23","period":"4/23","ships":3,"count":3,"chg":-2,"date":"2026-04-23"},{"label":"4/24","period":"4/24","ships":4,"count":4,"chg":1,"date":"2026-04-24"},{"label":"4/25","period":"4/25","ships":5,"count":5,"chg":1,"date":"2026-04-25"},{"label":"4/26","period":"4/26","ships":3,"count":3,"chg":-2,"date":"2026-04-26"},{"label":"4/27","period":"4/27","ships":2,"count":3,"chg":0,"date":"2026-04-27"},{"label":"4/28","period":"4/28","ships":4,"count":4,"chg":1,"date":"2026-04-28"},{"label":"4/29","period":"4/29","ships":4,"count":4,"chg":0,"date":"2026-04-29"},{"label":"4/30","period":"4/30","ships":4,"count":4,"chg":0,"date":"2026-04-30"},{"label":"5/1","period":"5/1","ships":4,"count":4,"chg":0,"date":"2026-05-01"},{"label":"5/2","period":"5/2","ships":4,"count":4,"chg":0,"date":"2026-05-02"},{"label":"5/3","period":"5/3","ships":13,"count":4,"chg":0,"date":"2026-05-03"},{"label":"5/4","period":"5/4","ships":2,"count":4,"chg":0,"date":"2026-05-04"},{"label":"5/5","period":"5/5","ships":4,"count":4,"chg":0,"date":"2026-05-05"},{"label":"5/6","period":"5/6","ships":4,"count":4,"chg":0,"date":"2026-05-06"},{"label":"5/7","period":"5/7","ships":4,"count":4,"chg":0,"date":"2026-05-07"}],"events":[{"date":"2026-04-30","type":"negotiation","text":"\u7f8e\u56fd\u9632\u957f\u6d77\u683c\u585e\u65af\u4eca\u65e5\u9996\u6b21\u5c31\u4f0a\u6717\u6218\u4e89\u5411\u56fd\u4f1a\u4f5c\u8bc1\uff5c\u5171\u548c\u515a\u8ba8\u8bba\u6218\u4e89\u6388\u6743\u5ef6\u671f\uff5c\u7f05\u56e0\u5dde\u53c2\u8bae\u5458\u67ef\u6797\u65af\uff1a\"60\u5929\u662f\u89e6\u53d1\u70b9\uff0c\u987b\u56fd\u4f1a\u6388\u6743\"","latest":true},{"date":"2026-04-30","type":"blockade","text":"\u5ddd\u666e\u4f1a\u89c1\u80fd\u6e90\u4e1a\u9ad8\u5c42\u900f\u9732\uff1a\u970d\u5ce1\u5c01\u9501\u6050\u6301\u7eed\u6570\u6708\uff5c\u4f0a\u6717\u8bae\u957f\u56de\u51fb\"\u50a8\u6cb9\u8bba\"\u79f0\"\u6cb9\u4ef7$140\u518d\u8c08\"\uff5c\u7f8e\u56fd\u56fd\u4f1a\u6b63\u5f0f\u542f\u52a8\u300a\u6218\u4e89\u6743\u529b\u6cd5\u300b\u5ba1\u67e5\uff0c5/1\u5927\u9650\u4eca\u65e5\u5230\u671f","latest":false},{"date":"2026-04-30","type":"blockade","text":"\u963f\u8054\u914b\u5ba3\u5e03\u9000\u51faOPEC\uff1a\u80fd\u6e90\u90e8\u957f\u79f0\u56e0\u970d\u5c14\u6728\u5179\u6d77\u5ce1\u901a\u884c\u53d7\u9650\u505a\u51fa\u8be5\u51b3\u5b9a\uff0c\u5c06\u81ea\u4e3b\u51b3\u5b9a\u4ea7\u91cf\uff5c5\u67081\u65e5\u6cd5\u5f8b\u5927\u9650\u4e34\u8fd1\uff0c\u4f0a\u6717\u9884\u8ba1\u63d0\u4ea4\u201c\u8c03\u6574\u7248\u8c08\u5224\u65b9\u6848\u201d","latest":false},{"date":"2026-04-30","type":"market","text":"\u5ddd\u666e\u6b63\u5f0f\u62d2\u7edd\u4f0a\u6717\u4e09\u9636\u6bb5\u63d0\u6848\u540e\uff0c\u6cb9\u4ef7\u66b4\u6da87%\uff1aWTI\u7a81\u7834$107\u3001\u5e03\u4f26\u7279$119\uff5c\u4f0a\u6717\u79f0\u8c08\u5224\u56e2\u961f\u201c\u9075\u6700\u9ad8\u9886\u8896\u6307\u793a\u5c3d\u6700\u5927\u52aa\u529b\u201d\uff0c\u5185\u90e8\u6469\u64e6\u4fe1\u53f7\u6d6e\u73b0","latest":false},{"date":"2026-04-30","type":"blockade","text":"\u5ddd\u666e\u660e\u786e\u8868\u6001\uff1a\u5c06\u7ee7\u7eed\u5bf9\u4f0a\u6717\u5b9e\u65bd\u6d77\u4e0a\u5c01\u9501\uff0c\u76f4\u81f3\u4f0a\u65b9\u540c\u610f\u8fbe\u6210\u6253\u6d88\u6838\u8ba1\u5212\u62c5\u5fe7\u7684\u534f\u8bae\uff5c\u62d2\u7edd\u4f0a\u6717\u4e09\u9636\u6bb5\u65b9\u6848\uff08\u5148\u5f00\u5ce1\u2192\u7ed3\u675f\u6218\u4e89\u2192\u6838\u8c08\u540e\u7f6e\uff09","latest":false},{"date":"2026-04-30","type":"market","text":"\u56db\u5de8\u5934\u8d22\u62a5\u5206\u5316\uff1a\u8c37\u6b4c\u76d8\u540e\u6da87%\uff08\u4e91\u4e1a\u52a1\u5f3a\u52b2\uff09\u3001Meta\u6da84%\uff1b\u5fae\u8f6f\u8dcc12%\uff08Azure\u4ec538%\u4f4e\u9884\u671f\uff09\uff1b\u767d\u5bab\u79f0\u6b63\u5ba1\u67e5\u4f0a\u6717\u970d\u5ce1\u65b0\u63d0\u6848","latest":false}],"insightText":"\u81ea\u7531\u8ba1\u5212\u8fdb\u5165\u7b2c4\u5929\uff0c5/4\u4ec52\u8258\u7f8e\u65d7\u8239\u5f3a\u884c\u901a\u8fc7\uff1b5/5\u4f0a\u6717\u5f00\u67aa\uff0c\u9a6c\u58eb\u57fa\u7b49\u4e3b\u6d41\u8239\u516c\u53f8\u4ecd\u672a\u590d\u822a\uff1b\u65e5\u901a\u884c\u91cf\u7ef4\u6301\u6781\u4f4e\u6c34\u5e73\u3002","insightTime":"2026-05-07 12:00","shipCountNews":3,"shipChgNews":"0","lngStatus":"\u26ce \u5b9e\u8d28\u5c01\u9501","lngNote":"\u5c01\u9501\u7b2c27\u5929\uff5c\u7f8e\u519b\u51fb\u6c896\u8258\u5feb\u8247\uff5c\u81ea\u7531\u8ba1\u5212\u8fdb\u884c\u4e2d","oilWtiChgRaw":4.39,"goldChgRaw":-0.94,"goldIsRealtime":false,"oilIsRealtime":false,"isWeekend":false,"shipCountYesterday":4,"shipTrend":"down","updatedAt":"2026-05-07T08:00:00+08:00","level":"L3","blockadeDays":27,"brent":114.44,"brentChg":"+5.80%","blockadeDay":28}
+{
+  "lastUpdate": "2026-05-05T09:47:08Z",
+  "flashNews": [
+    "🔴 美军击沉6艘快艇·两艘商船首次通过",
+    "🔴 伊朗开火·川子威胁将被从地球抹去",
+    "🔴 WTI+4.4%报106·布伦特+5.8%报114"
+  ],
+  "shipCount": 4,
+  "shipChg": "0",
+  "oilWti": 106.42,
+  "oilWtiChg": "+4.39%",
+  "oilWtiNote": "up",
+  "goldPrice": 4562,
+  "goldChg": "-0.94%",
+  "goldNote": "down",
+  "congestion": 5,
+  "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
+  "barData": [
+    {
+      "date": "3/29",
+      "totalH": 5,
+      "oilH": 2,
+      "latest": false,
+      "count": 5
+    },
+    {
+      "date": "3/30",
+      "totalH": 17,
+      "oilH": 12,
+      "latest": false,
+      "count": 17
+    },
+    {
+      "date": "3/31",
+      "totalH": 6,
+      "oilH": 2,
+      "latest": false,
+      "count": 6
+    },
+    {
+      "date": "4/1",
+      "totalH": 6,
+      "oilH": 0,
+      "latest": false,
+      "count": 6
+    },
+    {
+      "date": "4/2",
+      "totalH": 6,
+      "oilH": 2,
+      "latest": false,
+      "count": 6
+    },
+    {
+      "date": "4/3",
+      "totalH": 5,
+      "oilH": 4,
+      "latest": false,
+      "count": 5
+    },
+    {
+      "date": "4/4",
+      "totalH": 10,
+      "oilH": 2,
+      "latest": false,
+      "count": 10
+    },
+    {
+      "date": "4/5",
+      "totalH": 9,
+      "oilH": 7,
+      "latest": false,
+      "count": 9
+    },
+    {
+      "date": "4/6",
+      "totalH": 11,
+      "oilH": 4,
+      "latest": false,
+      "count": 11
+    },
+    {
+      "date": "4/7",
+      "totalH": 12,
+      "oilH": 5,
+      "latest": false,
+      "count": 12
+    },
+    {
+      "date": "4/8",
+      "totalH": 13,
+      "oilH": 6,
+      "latest": false,
+      "count": 13
+    },
+    {
+      "date": "4/9",
+      "totalH": 14,
+      "oilH": 6,
+      "latest": false,
+      "count": 14
+    },
+    {
+      "date": "4/10",
+      "totalH": 7,
+      "oilH": 2,
+      "latest": false,
+      "count": 7
+    },
+    {
+      "date": "4/11",
+      "totalH": 11,
+      "oilH": 5,
+      "latest": false,
+      "count": 11
+    },
+    {
+      "date": "4/12",
+      "totalH": 21,
+      "oilH": 8,
+      "latest": false,
+      "count": 21
+    },
+    {
+      "date": "4/13",
+      "totalH": 23,
+      "oilH": 9,
+      "latest": false,
+      "count": 23
+    },
+    {
+      "date": "4/14",
+      "totalH": 4,
+      "oilH": 2,
+      "latest": false,
+      "count": 4
+    },
+    {
+      "date": "4/15",
+      "totalH": 20,
+      "oilH": 5,
+      "latest": false,
+      "count": 20
+    },
+    {
+      "date": "4/16",
+      "totalH": 8,
+      "oilH": 3,
+      "latest": false,
+      "count": 8
+    },
+    {
+      "date": "4/17",
+      "totalH": 15,
+      "oilH": 2,
+      "latest": false,
+      "count": 15
+    },
+    {
+      "date": "4/18",
+      "totalH": 8,
+      "oilH": 2,
+      "latest": false,
+      "count": 8
+    },
+    {
+      "date": "4/19",
+      "totalH": 5,
+      "oilH": 2,
+      "latest": false,
+      "count": 5
+    },
+    {
+      "date": "4/20",
+      "totalH": 3,
+      "oilH": 0,
+      "latest": false,
+      "count": 3
+    },
+    {
+      "date": "4/21",
+      "oilH": 0,
+      "totalH": 3,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/22",
+      "oilH": 2,
+      "totalH": 5,
+      "count": 5,
+      "latest": false
+    },
+    {
+      "date": "4/23",
+      "totalH": 3,
+      "oilH": 2,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/24",
+      "totalH": 4,
+      "oilH": 1,
+      "latest": false,
+      "count": 4
+    },
+    {
+      "date": "4/25",
+      "totalH": 5,
+      "oilH": 4,
+      "count": 5,
+      "latest": false
+    },
+    {
+      "date": "4/26",
+      "totalH": 3,
+      "oilH": 2,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/27",
+      "totalH": 3,
+      "oilH": 1,
+      "count": 2,
+      "latest": false
+    },
+    {
+      "date": "4/28",
+      "count": 4,
+      "latest": false,
+      "totalH": 4,
+      "oilH": 2
+    },
+    {
+      "date": "4/29",
+      "count": 4,
+      "latest": true,
+      "totalH": 4,
+      "oilH": 2
+    },
+    {
+      "date": "4/30",
+      "count": 4,
+      "shipChg": "0"
+    },
+    {
+      "date": "5/1",
+      "count": 4,
+      "shipChg": "0"
+    },
+    {
+      "date": "5/2",
+      "count": 4,
+      "shipChg": "0"
+    },
+    {
+      "date": "5/3",
+      "count": 13,
+      "shipChg": "+9"
+    },
+    {
+      "date": "5/4",
+      "count": 2,
+      "shipChg": "-11"
+    },
+    {
+      "date": "5/5",
+      "count": 4,
+      "shipChg": "+2"
+    },
+    {
+      "date": "5/6",
+      "count": 4,
+      "shipChg": "0"
+    },
+    {
+      "date": "5/7",
+      "count": 4,
+      "shipChg": "0"
+    }
+  ],
+  "tableRows": [
+    {
+      "label": "4/16",
+      "period": "4/16",
+      "ships": 8,
+      "count": 8,
+      "chg": -12,
+      "date": "2026-04-16"
+    },
+    {
+      "label": "4/17",
+      "period": "4/17",
+      "ships": 15,
+      "count": 15,
+      "chg": 7,
+      "date": "2026-04-17"
+    },
+    {
+      "label": "4/18",
+      "period": "4/18",
+      "ships": 8,
+      "count": 8,
+      "chg": -7,
+      "date": "2026-04-18"
+    },
+    {
+      "label": "4/19",
+      "period": "4/19",
+      "ships": 5,
+      "count": 5,
+      "chg": -3,
+      "date": "2026-04-19"
+    },
+    {
+      "label": "4/20",
+      "period": "4/20",
+      "ships": 3,
+      "count": 3,
+      "chg": -2,
+      "date": "2026-04-20"
+    },
+    {
+      "label": "4/21",
+      "period": "4/21",
+      "ships": 3,
+      "count": 3,
+      "chg": 0,
+      "date": "2026-04-21"
+    },
+    {
+      "label": "4/22",
+      "period": "4/22",
+      "ships": 5,
+      "count": 5,
+      "chg": 2,
+      "date": "2026-04-22"
+    },
+    {
+      "label": "4/23",
+      "period": "4/23",
+      "ships": 3,
+      "count": 3,
+      "chg": -2,
+      "date": "2026-04-23"
+    },
+    {
+      "label": "4/24",
+      "period": "4/24",
+      "ships": 4,
+      "count": 4,
+      "chg": 1,
+      "date": "2026-04-24"
+    },
+    {
+      "label": "4/25",
+      "period": "4/25",
+      "ships": 5,
+      "count": 5,
+      "chg": 1,
+      "date": "2026-04-25"
+    },
+    {
+      "label": "4/26",
+      "period": "4/26",
+      "ships": 3,
+      "count": 3,
+      "chg": -2,
+      "date": "2026-04-26"
+    },
+    {
+      "label": "4/27",
+      "period": "4/27",
+      "ships": 2,
+      "count": 3,
+      "chg": 0,
+      "date": "2026-04-27"
+    },
+    {
+      "label": "4/28",
+      "period": "4/28",
+      "ships": 4,
+      "count": 4,
+      "chg": 1,
+      "date": "2026-04-28"
+    },
+    {
+      "label": "4/29",
+      "period": "4/29",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-04-29"
+    },
+    {
+      "label": "4/30",
+      "period": "4/30",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-04-30"
+    },
+    {
+      "label": "5/1",
+      "period": "5/1",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-01"
+    },
+    {
+      "label": "5/2",
+      "period": "5/2",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-02"
+    },
+    {
+      "label": "5/3",
+      "period": "5/3",
+      "ships": 13,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-03"
+    },
+    {
+      "label": "5/4",
+      "period": "5/4",
+      "ships": 2,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-04"
+    },
+    {
+      "label": "5/5",
+      "period": "5/5",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-05"
+    },
+    {
+      "label": "5/6",
+      "period": "5/6",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-06"
+    },
+    {
+      "label": "5/7",
+      "period": "5/7",
+      "ships": 4,
+      "count": 4,
+      "chg": 0,
+      "date": "2026-05-07"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-04-30",
+      "type": "negotiation",
+      "text": "美国防长海格塞斯今日首次就伊朗战争向国会作证｜共和党讨论战争授权延期｜缅因州参议员柯林斯：\"60天是触发点，须国会授权\"",
+      "latest": true
+    },
+    {
+      "date": "2026-04-30",
+      "type": "blockade",
+      "text": "川普会见能源业高层透露：霍峡封锁恐持续数月｜伊朗议长回击\"储油论\"称\"油价$140再谈\"｜美国国会正式启动《战争权力法》审查，5/1大限今日到期",
+      "latest": false
+    },
+    {
+      "date": "2026-04-30",
+      "type": "blockade",
+      "text": "阿联酋宣布退出OPEC：能源部长称因霍尔木兹海峡通行受限做出该决定，将自主决定产量｜5月1日法律大限临近，伊朗预计提交“调整版谈判方案”",
+      "latest": false
+    },
+    {
+      "date": "2026-04-30",
+      "type": "market",
+      "text": "川普正式拒绝伊朗三阶段提案后，油价暴涨7%：WTI突破$107、布伦特$119｜伊朗称谈判团队“遵最高领袖指示尽最大努力”，内部摩擦信号浮现",
+      "latest": false
+    },
+    {
+      "date": "2026-04-30",
+      "type": "blockade",
+      "text": "川普明确表态：将继续对伊朗实施海上封锁，直至伊方同意达成打消核计划担忧的协议｜拒绝伊朗三阶段方案（先开峡→结束战争→核谈后置）",
+      "latest": false
+    },
+    {
+      "date": "2026-04-30",
+      "type": "market",
+      "text": "四巨头财报分化：谷歌盘后涨7%（云业务强劲）、Meta涨4%；微软跌12%（Azure仅38%低预期）；白宫称正审查伊朗霍峡新提案",
+      "latest": false
+    }
+  ],
+  "insightText": "A古今天是等非农的姿态，港股替它爽了一把。\n\n港股午盘恒指+1.10%，恒生科技+1.56%，理想涨7%、小米涨3%、宁德H股涨2.6%，科技板块集体开门红。A古这边相对收敛，沪指4100附近震荡，节后第三天量能没有继续放大，主力在等一个信号——就是今晚21:30那颗非农定价核弹。横着不动不是不想动，是都在等发令枪响。\n\n霍尔木兹今日午间无新突破。川子说美军击沉了伊朗7艘快艇，伊朗说\"没这回事\"，韩国货船挨了一下\"外部冲击\"，无人员伤亡。典型的渣男状态：说打打不起来，说谈谈不拢，两边都在撑面子不想先眨眼。WTI从早盘$104.98小幅回落至$104.74，市场已经把这套操作玩熟了——没有明确升级就不追高，等真实事件再定价。\n\n下午怎么操作？横着看，不加也不减。核心逻辑只有一个：今晚非农。73K是预期，真出来30-40K就是降息交易直接起飞，A古明早喝汤；真出来100K以上就是高位压力，霍尔木兹溢价被压缩，原油回调反而给通胀降温叙事加码。两个剧本都装好，今天下午是白给的等待时间，别在绞肉机里浪费子弹。\n\n港股南向资金今日持续流入，科技+新能源是主线，这个方向没变。\n\n评论区告诉我，你今晚等非农是拿着仓位睡觉还是先减半？",
+  "insightTime": "5/8 15:00 · 进度条",
+  "shipCountNews": 3,
+  "shipChgNews": "0",
+  "lngStatus": "⛎ 实质封锁",
+  "lngNote": "封锁第27天｜美军击沉6艘快艇｜自由计划进行中",
+  "oilWtiChgRaw": 4.39,
+  "goldChgRaw": -0.94,
+  "goldIsRealtime": false,
+  "oilIsRealtime": false,
+  "isWeekend": false,
+  "shipCountYesterday": 4,
+  "shipTrend": "down",
+  "updatedAt": "2026-05-07T08:00:00+08:00",
+  "level": "L3",
+  "blockadeDays": 27,
+  "brent": 114.44,
+  "brentChg": "+5.80%",
+  "blockadeDay": 28
+}
