@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-07T11:20:21Z",
+  "lastUpdate": "2026-05-07T12:20:30Z",
   "flashNews": [
+    "🔴 巴方：协议将sooner rather than later",
     "🔴 川普：伊朗战争将很快结束",
-    "🔴 伊朗提霍峡主权要求锁定条款",
-    "🔴 WTI$95.07·黄金$4677美市开盘"
+    "🔴 WTI$95.50·黄金$4677守稳"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.07,
+  "oilWti": 95.5,
   "oilWtiChg": "+4.39%",
   "oilWtiNote": "up",
   "goldPrice": 4677,
@@ -464,6 +464,12 @@
       "date": "5/10",
       "type": "negotiation",
       "latest": true,
+      "text": "巴基斯坦政府（斡旋方）官方表示预计美伊协议将在sooner rather than later达成，这是第三方中间人首次公开时间预期，较川普自述更具公信力；川普同步表示战争will be over quickly"
+    },
+    {
+      "date": "5/10",
+      "type": "negotiation",
+      "latest": false,
       "text": "川普对CBS表示伊朗战争将很快结束，措辞升级至be over quickly；伊朗同步提出霍峡主权要求作为谈判筹码；黄金$4677美市开盘，WTI$95守稳"
     },
     {
@@ -488,12 +494,6 @@
       "date": "5/9",
       "type": "negotiation",
       "text": "Axios/路透确认：美伊起草一页纸终战MOU，白宫称接近协议；WTI跌破$96(-10%)，布伦特$97.21；港股恒科+1.62%，芯片板块爆发",
-      "latest": false
-    },
-    {
-      "date": "5/9",
-      "type": "economic",
-      "text": "A股09:30开盘窗口：三重利好(美股ATH+WTI跌+护航暂停)；WTI$100.39，跌破百元关键整数位；封锁第27天，谈判信号明确，5月中旬临时协议概率上升",
       "latest": false
     }
   ],
