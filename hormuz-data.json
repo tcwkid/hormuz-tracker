@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-05-07T12:20:30Z",
+  "lastUpdate": "2026-05-07T13:20:43Z",
   "flashNews": [
-    "🔴 巴方：美伊协议比预期更快",
-    "🔴 川普：伊朗战争将很快结束",
-    "🔴 WTI$95.50·黄金$4677守稳"
+    "🔴 川普：谈判进展unbelievably well",
+    "🔴 WSJ：协议含浓缩铀移交+分阶解制裁",
+    "🔴 WTI$93.50夜盘继续下行"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.5,
+  "oilWti": 93.5,
   "oilWtiChg": "+4.39%",
   "oilWtiNote": "up",
-  "goldPrice": 4677,
+  "goldPrice": 4710,
   "goldChg": "-0.63%",
   "goldNote": "down",
   "congestion": 5,
@@ -464,6 +464,12 @@
       "date": "5/10",
       "type": "negotiation",
       "latest": true,
+      "text": "川普对CBS表示谈判going unbelievably well；WSJ评论版披露MOU架构：伊朗移交浓缩铀存量+逐步重开霍峡+美分阶段解除制裁；Bangladesh媒体称on the verge of signing；WTI夜盘跌至$93.50"
+    },
+    {
+      "date": "5/10",
+      "type": "negotiation",
+      "latest": false,
       "text": "巴基斯坦政府（斡旋方）官方表示预计美伊协议将在sooner rather than later达成，这是第三方中间人首次公开时间预期，较川普自述更具公信力；川普同步表示战争will be over quickly"
     },
     {
@@ -488,12 +494,6 @@
       "date": "5/9",
       "type": "negotiation",
       "text": "MOU细节：含伊朗暂停铀浓缩+美解除制裁+冻结资金释放+霍峡逐步重开；川普警告若伊朗拒接受将重启更高烈度空袭；48小时内协议窗口开启",
-      "latest": false
-    },
-    {
-      "date": "5/9",
-      "type": "negotiation",
-      "text": "Axios/路透确认：美伊起草一页纸终战MOU，白宫称接近协议；WTI跌破$96(-10%)，布伦特$97.21；港股恒科+1.62%，芯片板块爆发",
       "latest": false
     }
   ],
