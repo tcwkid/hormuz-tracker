@@ -1,13 +1,13 @@
 {
-  "lastUpdate": "2026-05-07T07:52:28Z",
+  "lastUpdate": "2026-05-07T08:20:18Z",
   "flashNews": [
-    "🔴 伊朗审查MOU·关键条款未解决",
-    "🔴 CMA CGM货轮尝试通峡遭攻击",
-    "🔴 WTI$95.67·谈成也需长时间复航"
+    "🔴 NDTV：美伊或数小时内达成协议",
+    "🔴 伊朗审查MOU·关键分歧仍在磋商",
+    "🔴 WTI$96技术反弹·方向仍向下"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.67,
+  "oilWti": 96.14,
   "oilWtiChg": "+4.39%",
   "oilWtiNote": "up",
   "goldPrice": 4700,
@@ -464,6 +464,12 @@
       "date": "5/10",
       "type": "negotiation",
       "latest": true,
+      "text": "NDTV Profit最新：美伊正朝数小时内达成协议方向推进，措辞从接近升级为coming hours；WTI $96.14日内技术反弹，市场进入最后倒计时状态"
+    },
+    {
+      "date": "5/10",
+      "type": "negotiation",
+      "latest": false,
       "text": "伊朗5/9正式进入MOU审查阶段（Reuters），关键分歧：霍峡重开时间表+铀浓缩监察机制；川普称无最后期限；NBC：即便协议落地，船员安全顾虑使复航需漫长时间；CMA CGM货轮尝试通峡仍遭攻击"
     },
     {
@@ -488,12 +494,6 @@
       "date": "5/9",
       "type": "negotiation",
       "text": "川子宣布暂停Project Freedom，称谈判取得重大进展；WTI跌破$100，市场定价封锁降温；标普+0.81%创历史新高，非农偏弱+护航暂停双重利好",
-      "latest": false
-    },
-    {
-      "date": "5/8",
-      "type": "economic",
-      "text": "标普7259创历史新高(+0.81%)，WTI$102.68夜盘微反弹；非农弱数据落地，降息叙事主导市场；霍尔木兹封锁持续但地缘溢价被宏观压缩",
       "latest": false
     }
   ],
