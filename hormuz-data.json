@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T15:23:47Z",
+  "lastUpdate": "2026-05-08T16:19:52Z",
   "flashNews": [
-    "🔴 5/12 00:20｜封锁D30开启",
-    "🔴 WTI$94.37·协议预期压油价",
-    "🔴 亚市静默·5/14谈判倒计时"
+    "🔴 5/12 01:20｜D30深夜静默",
+    "🔴 WTI$95·亚市前小幅企稳",
+    "🔴 伊朗周五回应川普方案"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 94.37,
-  "oilWtiChg": "-1.90%",
+  "oilWti": 95.0,
+  "oilWtiChg": "+0.67%",
   "oilWtiNote": "up",
-  "goldPrice": 4728,
-  "goldChg": "-0.04%",
+  "goldPrice": 4730,
+  "goldChg": "+0.04%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
