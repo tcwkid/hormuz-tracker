@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T20:19:58Z",
+  "lastUpdate": "2026-05-08T21:20:32Z",
   "flashNews": [
-    "🔴 5/12 05:20｜伊朗称美越过不归点",
-    "🔴 WTI$95.92·地缘溢价持续",
-    "🔴 黄金$4740·避险抬升"
+    "🔴 5/12 06:20｜川普宣停火延至谈判完结",
+    "🔴 伊朗周五回应·分歧仍大",
+    "🔴 WTI$95.18·亚市开盘前"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.92,
-  "oilWtiChg": "+1.65%",
+  "oilWti": 95.18,
+  "oilWtiChg": "+1.37%",
   "oilWtiNote": "up",
-  "goldPrice": 4740,
-  "goldChg": "+0.25%",
+  "goldPrice": 4738,
+  "goldChg": "+0.21%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -463,8 +463,14 @@
     {
       "date": "2026-05-12",
       "type": "diplomatic",
-      "text": "⚠️ CBS：伊朗官员称美方越过不归点（point of no return） — 谴责美军对霍尔木兹海峡港口的打击为战争行为，措辞较前24小时明显升级；但5/14 MOU谈判框架尚未取消，伊朗周五（5/15）仍将正式回应川普和平方案",
+      "text": "🕊️ ABC/Bloomberg：川普宣布停火延长至谈判完全结束 — 川普威胁若伊朗拒绝将用全面空袭回应；Al Jazeera披露伊朗未正式回应但双方分歧巨大；5/14 MOU谈判框架保留，伊朗周五（5/15）正式回应",
       "latest": true
+    },
+    {
+      "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "⚠️ CBS：伊朗官员称美方越过不归点（point of no return） — 谴责美军对霍尔木兹海峡港口的打击为战争行为，措辞较前24小时明显升级；但5/14 MOU谈判框架尚未取消，伊朗周五（5/15）仍将正式回应川普和平方案",
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "5/11",
       "type": "negotiation",
       "text": "美官员确认MOU谈判将于5月14日和15日正式举行（PBS，5/11）；同时CBS确认美军打击目标为班达尔阿巴斯港和格什姆岛两处霍峡核心港口，停火框架边打边谈",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "negotiation",
-      "text": "川普回应交火事件：称美军打击伊朗为love tap，强调停火协议仍in effect，美方不寻求升级；伊朗与美国互相指责对方先动手，双方均声称自卫（BBC/WSJ/CNN，5/11）",
       "latest": false
     }
   ],
