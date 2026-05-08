@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T19:20:28Z",
+  "lastUpdate": "2026-05-08T20:19:58Z",
   "flashNews": [
-    "🔴 5/12 04:20｜美拦截70艘伊油轮",
-    "🔴 CBS确认2艘遭开火·船名Hasna",
-    "🔴 WTI$95.80·地缘溢价回归"
+    "🔴 5/12 05:20｜伊朗称美越过不归点",
+    "🔴 WTI$95.92·地缘溢价持续",
+    "🔴 黄金$4740·避险抬升"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.8,
-  "oilWtiChg": "+1.52%",
+  "oilWti": 95.92,
+  "oilWtiChg": "+1.65%",
   "oilWtiNote": "up",
-  "goldPrice": 4738,
-  "goldChg": "+0.21%",
+  "goldPrice": 4740,
+  "goldChg": "+0.25%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "⚠️ CBS：伊朗官员称美方越过不归点（point of no return） — 谴责美军对霍尔木兹海峡港口的打击为战争行为，措辞较前24小时明显升级；但5/14 MOU谈判框架尚未取消，伊朗周五（5/15）仍将正式回应川普和平方案",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "blockade",
       "text": "🔥 Haaretz+CBS独家：美海军封锁规模曝光 — 美方已阻止70艘油轮进出伊朗港口，其中2艘被开火瘫痪（其中一艘船名Hasna，20mm炮火打坏方向舵）；这是川普边谈边打策略的实锤，5/14 MOU前先用油轮做筹码",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "5/11",
       "type": "negotiation",
       "text": "川普回应交火事件：称美军打击伊朗为love tap，强调停火协议仍in effect，美方不寻求升级；伊朗与美国互相指责对方先动手，双方均声称自卫（BBC/WSJ/CNN，5/11）",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "negotiation",
-      "text": "伊朗外交部正式指控美军违反停火协议，称美军攻击霍峡平民区域和船只；Axios确认美伊双方在霍峡已发生交火；伊朗外交部强调停火、结束战争仍是核心议题，停火框架摇摇欲坠（Guardian/Axios，5/11）",
       "latest": false
     }
   ],
