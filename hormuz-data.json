@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-05-08T13:01:35Z",
+  "lastUpdate": "2026-05-08T13:20:44Z",
   "flashNews": [
-    "🔴 川普：美国赢了·但还没有协议",
-    "🔴 1500船滞留·5/14谈判倒计时3天",
-    "🔴 WTI$94.83·美市收盘全周净跌3%"
+    "🔴 5/14谈判倒计时72h·双方深夜静默",
+    "🔴 WTI$96.20·盘后小幅拉升协议预期撑",
+    "🔴 1500船霍峡候场·封锁D29收盘"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 94.83,
+  "oilWti": 96.2,
   "oilWtiChg": "+4.39%",
   "oilWtiNote": "up",
-  "goldPrice": 4736,
+  "goldPrice": 4730,
   "goldChg": "-0.63%",
   "goldNote": "down",
   "congestion": 5,
