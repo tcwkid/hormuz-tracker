@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T18:20:00Z",
+  "lastUpdate": "2026-05-08T19:20:28Z",
   "flashNews": [
-    "🔴 5/12 03:20｜AP：美军废2艘伊油轮",
-    "🔴 WTI$95.40·突发拉升",
-    "🔴 封锁D30·5/14谈判悬念加剧"
+    "🔴 5/12 04:20｜美拦截70艘伊油轮",
+    "🔴 CBS确认2艘遭开火·船名Hasna",
+    "🔴 WTI$95.80·地缘溢价回归"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.4,
-  "oilWtiChg": "+1.09%",
+  "oilWti": 95.8,
+  "oilWtiChg": "+1.52%",
   "oilWtiNote": "up",
-  "goldPrice": 4735,
-  "goldChg": "+0.14%",
+  "goldPrice": 4738,
+  "goldChg": "+0.21%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "blockade",
+      "text": "🔥 Haaretz+CBS独家：美海军封锁规模曝光 — 美方已阻止70艘油轮进出伊朗港口，其中2艘被开火瘫痪（其中一艘船名Hasna，20mm炮火打坏方向舵）；这是川普边谈边打策略的实锤，5/14 MOU前先用油轮做筹码",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "military",
       "text": "🚨 AP突发：美军disabled 2艘伊朗油轮 — 据五角大楼，两艘试图突破美方对伊朗港口封锁的伊朗油轮被美军瘫痪，这是5/8美驱逐舰遭袭后美方首次对伊方船只采取实质行动，WTI盘中突发拉升至$95.40；5/14 MOU谈判前的军事压力升级",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "5/11",
       "type": "negotiation",
       "text": "伊朗外交部正式指控美军违反停火协议，称美军攻击霍峡平民区域和船只；Axios确认美伊双方在霍峡已发生交火；伊朗外交部强调停火、结束战争仍是核心议题，停火框架摇摇欲坠（Guardian/Axios，5/11）",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "military",
-      "text": "🚨 美军3艘驱逐舰强行穿越霍尔木兹海峡，遭伊朗无端袭击；美军成功拦截并实施自卫反击打击伊朗军事目标，无船只被击中；美官员强调停火仍officially成立（CBS/CENTCOM，5/11）",
       "latest": false
     }
   ],
