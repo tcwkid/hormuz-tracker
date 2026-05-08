@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T17:20:11Z",
+  "lastUpdate": "2026-05-08T18:20:00Z",
   "flashNews": [
-    "🔴 5/12 02:20｜D30静默延续",
-    "🔴 WTI$95.10·亚市前微涨",
-    "🔴 黄金$4732·周末避险持稳"
+    "🔴 5/12 03:20｜AP：美军废2艘伊油轮",
+    "🔴 WTI$95.40·突发拉升",
+    "🔴 封锁D30·5/14谈判悬念加剧"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.1,
-  "oilWtiChg": "+0.77%",
+  "oilWti": 95.4,
+  "oilWtiChg": "+1.09%",
   "oilWtiNote": "up",
-  "goldPrice": 4732,
-  "goldChg": "+0.08%",
+  "goldPrice": 4735,
+  "goldChg": "+0.14%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "military",
+      "text": "🚨 AP突发：美军disabled 2艘伊朗油轮 — 据五角大楼，两艘试图突破美方对伊朗港口封锁的伊朗油轮被美军瘫痪，这是5/8美驱逐舰遭袭后美方首次对伊方船只采取实质行动，WTI盘中突发拉升至$95.40；5/14 MOU谈判前的军事压力升级",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "blockade",
       "text": "封锁进入第30天（D30）·1500艘商船仍在霍峡候场·美伊MOU 5/14-15谈判倒计时正式进入60小时窗口·亚市开盘前深夜静默，周末路透/Axios是否提前泄露细节成关键观察",
-      "latest": true
+      "latest": false
     },
     {
       "date": "5/11",
@@ -488,12 +494,6 @@
       "date": "5/11",
       "type": "military",
       "text": "🚨 美军3艘驱逐舰强行穿越霍尔木兹海峡，遭伊朗无端袭击；美军成功拦截并实施自卫反击打击伊朗军事目标，无船只被击中；美官员强调停火仍officially成立（CBS/CENTCOM，5/11）",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "negotiation",
-      "text": "伊朗正式成立\"霍峡通行管理局\"，拟向过境船只收取过路费；同时继续审查美国MOU提案，以主权换开峡作为核心谈判筹码（PBS，5/11）",
       "latest": false
     }
   ],
