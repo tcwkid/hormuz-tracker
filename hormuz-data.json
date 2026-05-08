@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T21:20:32Z",
+  "lastUpdate": "2026-05-08T22:20:16Z",
   "flashNews": [
-    "🔴 5/12 06:20｜川普宣停火延至谈判完结",
-    "🔴 伊朗周五回应·分歧仍大",
-    "🔴 WTI$95.18·亚市开盘前"
+    "🔴 5/12 07:20｜Fox：F/A-18废油轮",
+    "🔴 WTI$95.40·周末等伊朗回应",
+    "🔴 D30·亚市开盘前观望"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.18,
-  "oilWtiChg": "+1.37%",
+  "oilWti": 95.4,
+  "oilWtiChg": "+1.60%",
   "oilWtiNote": "up",
-  "goldPrice": 4738,
-  "goldChg": "+0.21%",
+  "goldPrice": 4740,
+  "goldChg": "+0.25%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "military",
+      "text": "🛩️ Fox News独家细节：油轮是美军F/A-18 Super Hornet战机攻击 — 而非驱逐舰或小口径武器；这意味美军首次用空中力量直接参与封锁执法，升级层级较Navy Times原报20mm炮火显著抬升；5/14 MOU谈判前筹码战升温",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "diplomatic",
       "text": "🕊️ ABC/Bloomberg：川普宣布停火延长至谈判完全结束 — 川普威胁若伊朗拒绝将用全面空袭回应；Al Jazeera披露伊朗未正式回应但双方分歧巨大；5/14 MOU谈判框架保留，伊朗周五（5/15）正式回应",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "blockade",
       "text": "封锁进入第30天（D30）·1500艘商船仍在霍峡候场·美伊MOU 5/14-15谈判倒计时正式进入60小时窗口·亚市开盘前深夜静默，周末路透/Axios是否提前泄露细节成关键观察",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "negotiation",
-      "text": "美官员确认MOU谈判将于5月14日和15日正式举行（PBS，5/11）；同时CBS确认美军打击目标为班达尔阿巴斯港和格什姆岛两处霍峡核心港口，停火框架边打边谈",
       "latest": false
     }
   ],
