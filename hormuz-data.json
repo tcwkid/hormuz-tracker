@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-05-08T04:20:35Z",
+  "lastUpdate": "2026-05-08T05:20:25Z",
   "flashNews": [
-    "🚨 美打击伊朗两港口·停火仍official",
-    "🔴 美称locked loaded·谈判失败则升级",
-    "🔴 WTI$96.50·高风险溢价持稳"
+    "🔴 MOU谈判锁定5/14-5/15·窗口明确",
+    "🚨 美打击班达尔阿巴斯+格什姆港确认",
+    "🔴 WTI$97.30·谈判预期推升高位"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 96.5,
+  "oilWti": 97.3,
   "oilWtiChg": "+4.39%",
   "oilWtiNote": "up",
-  "goldPrice": 4735,
+  "goldPrice": 4736,
   "goldChg": "-0.63%",
   "goldNote": "down",
   "congestion": 5,
@@ -463,8 +463,14 @@
     {
       "date": "5/11",
       "type": "negotiation",
-      "text": "川普回应交火事件：称美军打击伊朗为love tap，强调停火协议仍in effect，美方不寻求升级；伊朗与美国互相指责对方先动手，双方均声称自卫（BBC/WSJ/CNN，5/11）",
+      "text": "美官员确认MOU谈判将于5月14日和15日正式举行（PBS，5/11）；同时CBS确认美军打击目标为班达尔阿巴斯港和格什姆岛两处霍峡核心港口，停火框架边打边谈",
       "latest": true
+    },
+    {
+      "date": "5/11",
+      "type": "negotiation",
+      "text": "川普回应交火事件：称美军打击伊朗为love tap，强调停火协议仍in effect，美方不寻求升级；伊朗与美国互相指责对方先动手，双方均声称自卫（BBC/WSJ/CNN，5/11）",
+      "latest": false
     },
     {
       "date": "5/11",
@@ -488,12 +494,6 @@
       "date": "5/11",
       "type": "military",
       "text": "川普宣布暂停美军在霍尔木兹海峡的商船护航任务，外界解读为向伊朗释放谈判善意，MOU审查期间维持低烈度状态（Reuters/PBS，5/11）",
-      "latest": false
-    },
-    {
-      "date": "5/11",
-      "type": "intelligence",
-      "text": "CIA机密评估：伊朗可承受封锁数月，保留大量导弹/无人机库存；谈判压力预期重估，MOU时间窗口或延长（AOL援引CIA报告，5/11）",
       "latest": false
     }
   ],
