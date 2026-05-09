@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-09T08:20:30Z",
+  "lastUpdate": "2026-05-09T10:20:09Z",
   "flashNews": [
-    "🔴 5/12 17:20｜PBS：F18袭的是空油轮",
-    "🔴 WTI$95.65·继续上行",
-    "🔴 D30·MOU谈判窗口缩窄"
+    "🔴 5/12 18:20｜川普暂停霍峡军事行动",
+    "🔴 Axios：协议有进展·油价跳水",
+    "🔴 WTI$94.20·从$95.65砸下来"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.65,
-  "oilWtiChg": "+1.86%",
+  "oilWti": 94.2,
+  "oilWtiChg": "+0.30%",
   "oilWtiNote": "up",
-  "goldPrice": 4742,
-  "goldChg": "+0.30%",
+  "goldPrice": 4730,
+  "goldChg": "+0.04%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "🕊️ Axios独家重磅：川普暂停霍峡军事行动 — 白宫宣布因协议谈判取得进展，决定暂停美军在霍峡的攻击性军事行动；这是5/8美驱逐舰遇袭以来最重大的缓和姿态，与下午Rubio强硬警告形成180度反转；WTI从$95.65快速跳水至$94.20；5/14 MOU谈判窗口重新打开",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "military",
       "text": "📺 PBS NewsHour细节披露：F-18袭击的是两艘空油轮 — 战机攻击发生时油轮处于无原油状态，主要是阻止其在伊朗港口装油；这缓解了部分人道危机叙事，但加剧伊朗指控美方无端打击的政治筹码；MOU谈判窗口因此进一步缩窄",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "diplomatic",
       "text": "🌐 Al Jazeera/Iran International：伊朗双线施压 — ① 伊朗Fars新闻社报霍峡美伊海军仍有zero sporadic clashes（零星交火）；② 伊朗常驻UN代表团呼吁UN成员国拒绝美方发起的霍峡安全决议草案；外长Araghchi亲自下场；5/14 MOU前伊朗打法律+外交+海事三线组合拳",
-      "latest": false
-    },
-    {
-      "date": "2026-05-12",
-      "type": "diplomatic",
-      "text": "📜 CNN独家：伊朗强制推行霍峡新通行协议 — 要求所有过峡船只必须遵守新protocol（含申报、缴费、过关流程），不遵守则面临攻击风险；将战时管制常态化；5/14 MOU前伊朗先用法律/海事筹码加码，要求美方承认新秩序",
       "latest": false
     }
   ],
