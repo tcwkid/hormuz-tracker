@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-09T07:20:22Z",
+  "lastUpdate": "2026-05-09T08:20:30Z",
   "flashNews": [
-    "🔴 5/12 16:20｜Rubio警告伊已越红线",
-    "🔴 WTI重回$95.42·溢价回归",
-    "🔴 D30·MOU谈判前最后博弈"
+    "🔴 5/12 17:20｜PBS：F18袭的是空油轮",
+    "🔴 WTI$95.65·继续上行",
+    "🔴 D30·MOU谈判窗口缩窄"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.42,
-  "oilWtiChg": "+1.62%",
+  "oilWti": 95.65,
+  "oilWtiChg": "+1.86%",
   "oilWtiNote": "up",
-  "goldPrice": 4740,
-  "goldChg": "+0.25%",
+  "goldPrice": 4742,
+  "goldChg": "+0.30%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "military",
+      "text": "📺 PBS NewsHour细节披露：F-18袭击的是两艘空油轮 — 战机攻击发生时油轮处于无原油状态，主要是阻止其在伊朗港口装油；这缓解了部分人道危机叙事，但加剧伊朗指控美方无端打击的政治筹码；MOU谈判窗口因此进一步缩窄",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "diplomatic",
       "text": "⚠️ 美国务卿Rubio发出强硬警告：伊朗已越过红线 — 美方已完成攻击性行动；同时确认伊朗持续不停火力的反击；5/14 MOU谈判前最后48小时博弈白热化，Rubio公开施压增加伊朗回应难度",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "diplomatic",
       "text": "📜 CNN独家：伊朗强制推行霍峡新通行协议 — 要求所有过峡船只必须遵守新protocol（含申报、缴费、过关流程），不遵守则面临攻击风险；将战时管制常态化；5/14 MOU前伊朗先用法律/海事筹码加码，要求美方承认新秩序",
-      "latest": false
-    },
-    {
-      "date": "2026-05-12",
-      "type": "military",
-      "text": "🚨 Gulf News独家：伊朗无人机袭击致7名菲律宾海员受伤 — Qeshm岛与Bandar Abbas附近海域，伊朗无人机攻击一艘商船造成平民伤亡；这是封锁以来首起明确的第三国平民船员伤亡事件，国际压力抬升；5/14 MOU谈判增加人道筹码",
       "latest": false
     }
   ],
