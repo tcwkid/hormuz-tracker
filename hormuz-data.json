@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-09T03:20:29Z",
+  "lastUpdate": "2026-05-09T04:20:14Z",
   "flashNews": [
-    "🔴 5/12 12:20｜伊朗划红线·没钱没交易",
-    "🔴 要求美赔偿战损才重开霍峡",
-    "🔴 WTI$94.68·午间回落"
+    "🔴 5/12 13:20｜MoU细节泄露：铀+霍峡+制裁",
+    "🔴 伊朗强硬·赔偿未入14点",
+    "🔴 WTI$94.50·午后继续磨"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 94.68,
-  "oilWtiChg": "+0.83%",
+  "oilWti": 94.5,
+  "oilWtiChg": "+0.64%",
   "oilWtiNote": "up",
-  "goldPrice": 4738,
-  "goldChg": "+0.21%",
+  "goldPrice": 4736,
+  "goldChg": "+0.17%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -463,8 +463,14 @@
     {
       "date": "2026-05-12",
       "type": "diplomatic",
-      "text": "💰 Times of India独家：伊朗划红线 NO CASH NO DEAL — 伊朗拒绝美方重开霍峡提案，除非华府先赔偿伊朗在战争中遭受的损失；这是MOU谈判前最硬的立场公开，把赔偿挤进14点终战方案核心；意味着5/15伊朗正式回应大概率不会全盘接受，谈判要进入讨价还价",
+      "text": "📑 Times of Israel独家：14点MoU完整细节泄露 — ① 伊朗暂停铀浓缩；② 抽取现有铀库存；③ 美方解除全部制裁；④ 霍峡对商船重开；⑤ 两周停火转永久停战；但伊朗坚持赔偿诉求未被纳入，这是5/15回应的核心分歧点",
       "latest": true
+    },
+    {
+      "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "💰 Times of India独家：伊朗划红线 NO CASH NO DEAL — 伊朗拒绝美方重开霍峡提案，除非华府先赔偿伊朗在战争中遭受的损失；这是MOU谈判前最硬的立场公开，把赔偿挤进14点终战方案核心；意味着5/15伊朗正式回应大概率不会全盘接受，谈判要进入讨价还价",
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "military",
       "text": "🛩️ Fox News独家细节：油轮是美军F/A-18 Super Hornet战机攻击 — 而非驱逐舰或小口径武器；这意味美军首次用空中力量直接参与封锁执法，升级层级较Navy Times原报20mm炮火显著抬升；5/14 MOU谈判前筹码战升温",
-      "latest": false
-    },
-    {
-      "date": "2026-05-12",
-      "type": "diplomatic",
-      "text": "🕊️ ABC/Bloomberg：川普宣布停火延长至谈判完全结束 — 川普威胁若伊朗拒绝将用全面空袭回应；Al Jazeera披露伊朗未正式回应但双方分歧巨大；5/14 MOU谈判框架保留，伊朗周五（5/15）正式回应",
       "latest": false
     }
   ],
