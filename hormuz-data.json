@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-09T01:20:09Z",
+  "lastUpdate": "2026-05-09T02:20:07Z",
   "flashNews": [
-    "🔴 5/12 10:20｜伊强推霍峡新协议",
-    "🔴 不遵守就打·筹码战升级",
-    "🔴 WTI$95.50·A古开盘观望"
+    "🔴 5/12 11:20｜Fars：霍峡零星交火",
+    "🔴 伊呼吁UN否决美决议草案",
+    "🔴 WTI$95.65·油价继续走高"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.5,
-  "oilWtiChg": "+1.70%",
+  "oilWti": 95.65,
+  "oilWtiChg": "+1.86%",
   "oilWtiNote": "up",
-  "goldPrice": 4738,
-  "goldChg": "+0.21%",
+  "goldPrice": 4740,
+  "goldChg": "+0.25%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -463,8 +463,14 @@
     {
       "date": "2026-05-12",
       "type": "diplomatic",
-      "text": "📜 CNN独家：伊朗强制推行霍峡新通行协议 — 要求所有过峡船只必须遵守新protocol（含申报、缴费、过关流程），不遵守则面临攻击风险；将战时管制常态化；5/14 MOU前伊朗先用法律/海事筹码加码，要求美方承认新秩序",
+      "text": "🌐 Al Jazeera/Iran International：伊朗双线施压 — ① 伊朗Fars新闻社报霍峡美伊海军仍有zero sporadic clashes（零星交火）；② 伊朗常驻UN代表团呼吁UN成员国拒绝美方发起的霍峡安全决议草案；外长Araghchi亲自下场；5/14 MOU前伊朗打法律+外交+海事三线组合拳",
       "latest": true
+    },
+    {
+      "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "📜 CNN独家：伊朗强制推行霍峡新通行协议 — 要求所有过峡船只必须遵守新protocol（含申报、缴费、过关流程），不遵守则面临攻击风险；将战时管制常态化；5/14 MOU前伊朗先用法律/海事筹码加码，要求美方承认新秩序",
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "diplomatic",
       "text": "⚠️ CBS：伊朗官员称美方越过不归点（point of no return） — 谴责美军对霍尔木兹海峡港口的打击为战争行为，措辞较前24小时明显升级；但5/14 MOU谈判框架尚未取消，伊朗周五（5/15）仍将正式回应川普和平方案",
-      "latest": false
-    },
-    {
-      "date": "2026-05-12",
-      "type": "blockade",
-      "text": "🔥 Haaretz+CBS独家：美海军封锁规模曝光 — 美方已阻止70艘油轮进出伊朗港口，其中2艘被开火瘫痪（其中一艘船名Hasna，20mm炮火打坏方向舵）；这是川普边谈边打策略的实锤，5/14 MOU前先用油轮做筹码",
       "latest": false
     }
   ],
