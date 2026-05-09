@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-09T00:20:00Z",
+  "lastUpdate": "2026-05-09T01:20:09Z",
   "flashNews": [
-    "🔴 5/12 09:20｜A古盘前·关注4180",
-    "🔴 WTI$95.60·地缘溢价持续",
-    "🔴 未证实：伊货船遇袭近12伤4亡"
+    "🔴 5/12 10:20｜伊强推霍峡新协议",
+    "🔴 不遵守就打·筹码战升级",
+    "🔴 WTI$95.50·A古开盘观望"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 95.6,
-  "oilWtiChg": "+1.81%",
+  "oilWti": 95.5,
+  "oilWtiChg": "+1.70%",
   "oilWtiNote": "up",
-  "goldPrice": 4740,
-  "goldChg": "+0.25%",
+  "goldPrice": 4738,
+  "goldChg": "+0.21%",
   "goldNote": "down",
   "congestion": 5,
   "congestionNote": "美伊开火·自由计划首捷·两艘商船通过",
@@ -462,9 +462,15 @@
   "events": [
     {
       "date": "2026-05-12",
+      "type": "diplomatic",
+      "text": "📜 CNN独家：伊朗强制推行霍峡新通行协议 — 要求所有过峡船只必须遵守新protocol（含申报、缴费、过关流程），不遵守则面临攻击风险；将战时管制常态化；5/14 MOU前伊朗先用法律/海事筹码加码，要求美方承认新秩序",
+      "latest": true
+    },
+    {
+      "date": "2026-05-12",
       "type": "military",
       "text": "🚨 Gulf News独家：伊朗无人机袭击致7名菲律宾海员受伤 — Qeshm岛与Bandar Abbas附近海域，伊朗无人机攻击一艘商船造成平民伤亡；这是封锁以来首起明确的第三国平民船员伤亡事件，国际压力抬升；5/14 MOU谈判增加人道筹码",
-      "latest": true
+      "latest": false
     },
     {
       "date": "2026-05-12",
@@ -488,12 +494,6 @@
       "date": "2026-05-12",
       "type": "blockade",
       "text": "🔥 Haaretz+CBS独家：美海军封锁规模曝光 — 美方已阻止70艘油轮进出伊朗港口，其中2艘被开火瘫痪（其中一艘船名Hasna，20mm炮火打坏方向舵）；这是川普边谈边打策略的实锤，5/14 MOU前先用油轮做筹码",
-      "latest": false
-    },
-    {
-      "date": "2026-05-12",
-      "type": "military",
-      "text": "🚨 AP突发：美军disabled 2艘伊朗油轮 — 据五角大楼，两艘试图突破美方对伊朗港口封锁的伊朗油轮被美军瘫痪，这是5/8美驱逐舰遭袭后美方首次对伊方船只采取实质行动，WTI盘中突发拉升至$95.40；5/14 MOU谈判前的军事压力升级",
       "latest": false
     }
   ],
