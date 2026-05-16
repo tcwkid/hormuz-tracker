@@ -1,13 +1,13 @@
 {
   "lastUpdate": "2026-05-16 23:19",
   "flashNews": [
-    "🔴 5/17 00:25｜Bloomberg：AIS信号成战场牺牲品",
-    "🔴 12船显时速100节GPS欺骗已常态化",
-    "🔴 伊俄推进合作普京5/19访华前铺垫"
+    "🔴 5/16更新｜五角大楼泄露下周或重启对伊朗打击",
+    "🔴 法国戴高乐号航母抗达阿拉伯海护航就位",
+    "🔴 普京5/19-20升级国事访华，中美俄弹局开弘"
   ],
   "shipCount": 4,
   "shipChg": "0",
-  "oilWti": 101.02,
+  "oilWti": 105.42,
   "oilWtiChg": "+4.23%",
   "oilWtiNote": "up",
   "goldPrice": 4561.9,
@@ -392,7 +392,7 @@
   "shipTrend": "flat",
   "updatedAt": "2026-05-16 23:19",
   "level": "L3",
-  "blockadeDays": 34,
+  "blockadeDays": 77,
   "brent": 114.44,
   "brentChg": "+5.80%",
   "blockadeDay": 34,
@@ -405,5 +405,5 @@
   "goldChange": "-2.63%",
   "goldDir": "down",
   "gold": 4561.9,
-  "lastUpdated": "2026-05-16T23:19:34+08:00"
+  "lastUpdated": "2026-05-17T00:05:57+08:00"
 }
