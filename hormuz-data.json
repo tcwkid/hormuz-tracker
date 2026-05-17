@@ -1,1 +1,396 @@
-{"lastUpdate":"2026-05-17 18:19","flashNews":["🟡 5/14 08:30｜卡塔尔LNG战后首过霍峡","🔴 川普拒伊朗回函·称完全不可接受","🔵 川普今日访华·推动伊朗停火谈判"],"shipCount":4,"shipChg":"0","oilWti":101.02,"oilWtiChg":"+4.23%","oilWtiNote":"up","goldPrice":4561.9,"goldChg":"-2.63%","goldNote":"down","congestion":5,"congestionNote":"卡塔尔LNG船战后首次通过霍峡｜伊朗选择性放行","barData":[{"date":"4/19","totalH":5,"oilH":2,"latest":false,"count":5},{"date":"4/20","totalH":3,"oilH":0,"latest":false,"count":3},{"date":"4/21","oilH":0,"totalH":3,"count":3,"latest":false},{"date":"4/22","oilH":2,"totalH":5,"count":5,"latest":false},{"date":"4/23","totalH":3,"oilH":2,"count":3,"latest":false},{"date":"4/24","totalH":4,"oilH":1,"latest":false,"count":4},{"date":"4/25","totalH":5,"oilH":4,"count":5,"latest":false},{"date":"4/26","totalH":3,"oilH":2,"count":3,"latest":false},{"date":"4/27","totalH":3,"oilH":1,"count":2,"latest":false},{"date":"4/28","count":4,"latest":false,"totalH":4,"oilH":2},{"date":"4/29","count":4,"latest":false,"totalH":4,"oilH":2},{"date":"4/30","count":4,"shipChg":"0","latest":false},{"date":"5/1","count":4,"shipChg":"0","latest":false},{"date":"5/2","count":4,"shipChg":"0","latest":false},{"date":"5/3","count":13,"shipChg":"+9","latest":false},{"date":"5/4","count":2,"shipChg":"-11","latest":false},{"date":"5/5","count":4,"shipChg":"+2","latest":false},{"date":"5/6","count":4,"shipChg":"0","latest":false},{"date":"5/7","count":4,"shipChg":"0","latest":false},{"date":"5/9","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/10","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/11","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/14","count":4,"shipChg":"0","latest":false},{"date":"5/11","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/12","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/13","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/14","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/15","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/16","totalH":4,"oilH":3,"count":4,"latest":false},{"date":"5/17","totalH":4,"oilH":3,"count":4,"latest":true}],"tableRows":[{"week":"5/4","count":2,"warDir":"down","warChg":"-11","pct":"1.5%","trend":"down"},{"week":"5/5","count":4,"warDir":"up","warChg":"+2","pct":"3.0%","trend":"up"},{"week":"5/6","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/7","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/9","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/10","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/11","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/14","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/11","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/12","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/13","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/14","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/15","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"5/16","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"},{"week":"● 5/17","count":4,"warDir":"flat","warChg":"0","pct":"3.0%","trend":"flat"}],"events":[{"date":"5/14","type":"negotiation","latest":true,"text":"卡塔尔LNG运输船成功通过霍尔木兹海峡，系战争爆发以来首艘过峡LNG船；巴拿马散货船同日获放行。伊朗实施选择性通行审批，要求船只遵守新通行规则。川普5/14抵北京访华，推动中国斡旋伊朗停火；WTI回落至$95.42，黄金$4715稳定。"},{"date":"5/14","type":"negotiation","latest":false,"text":"BBC/NYT/CNBC：川普公开拒绝伊朗回函，称\"完全不可接受、我不喜欢\"，5/14窗口实质破裂；WTI跳涨至$98.27（+2.99%）；CBS：将持续封锁伊核+霍峡通行直到伊朗让步；同时仍允许两艘油轮过峡（边打边谈）"},{"date":"5/11","type":"negotiation","latest":false,"text":"伊朗新设政府机构负责霍峡通行审批+收取过路费（PBS 1小时前），表明伊朗意图主权管控而非无条件开放；伊朗官方重申不到最终和平条约签署不重开霍峡；Reuters确认三阶段框架谈判仍在进行未签署；WTI $91.00，封锁第29天"},{"date":"5/11","type":"negotiation","latest":false,"text":"川普与伊朗外长共同宣布霍尔木兹海峡对所有商船completely open，封锁正式进入解除阶段；标普/纳指收历史新高；WTI $91.52，较$117高点跌22%，市场快速定价复航溢价消除"},{"date":"5/11","type":"economic","latest":false,"text":"Time Magazine报道美伊发出混合信号：川普说unbelievably well但伊朗关键条款仍存分歧；WTI夜盘跌破$92报$91.35，较$117高点累跌22%+，市场提前定价复航；黄金$4,710守稳"},{"date":"5/10","type":"negotiation","latest":false,"text":"川普对CBS表示谈判going unbelievably well；WSJ评论版披露MOU架构：伊朗移交浓缩铀存量+逐步重开霍峡+美分阶段解除制裁；Bangladesh媒体称on the verge of signing；WTI夜盘跌至$93.50"},{"date":"5/10","type":"negotiation","latest":false,"text":"巴基斯坦政府（斡旋方）官方表示预计美伊协议将在sooner rather than later达成，这是第三方中间人首次公开时间预期，较川普自述更具公信力；川普同步表示战争will be over quickly"}],"insightText":"**战后第一艘LNG船过峡了——这是最大的信号。**  5月10日，一艘卡塔尔液化天然气运输船成功穿越霍尔木兹海峡，这是自战争爆发以来首艘通过的LNG船。巴拿马散货船同日放行。伊朗不是全线解封，是在搞选择性审批——谁遵守伊朗新规，谁才能过。  嘴上谈不拢，手上在松闸。这个动作比任何谈判声明都值钱。  同日，川子飞进北京，今天见习近平。议程核心：让中国压伊朗让步，推动霍尔木兹正式解封。美国人自己承认了，锁钥匙在北京不在伊朗。  WTI回落至$95.42，黄金$4715横盘。市场已经开始定价解封预期，但时间线不明确之前，不会一步到位。  封锁第34天，shipCount=4不变。LNG松动是第一块砖。  供参考。","insightTime":"5/14 08:30 · 进度条","shipCountNews":3,"shipChgNews":"0","lngStatus":"🟡 部分松动","lngNote":"封锁第34天｜卡塔尔LNG船+巴拿马货船首次过峡｜伊朗选择性放行","oilWtiChgRaw":4.23,"goldChgRaw":-2.63,"goldIsRealtime":false,"oilIsRealtime":false,"isWeekend":false,"shipCountYesterday":4,"shipTrend":"flat","updatedAt":"2026-05-17 18:19","level":"L3","blockadeDays":34,"brent":114.44,"brentChg":"+5.80%","blockadeDay":34,"oilChg":"-9.98%","date":"2026-05-14","updated":"2026-05-07T21:19:54Z","wtiPrice":101.02,"wtiChange":"+4.23%","wti":101.02,"goldChange":"-2.63%","goldDir":"down","gold":4561.9,"lastUpdated":"2026-05-17T18:19:54+08:00"}
+{
+  "lastUpdate": "2026-05-17 18:25",
+  "flashNews": [
+    "🔴 5/17 18:25｜Telegraph:五角大楼准备短促有力打击破霍峡控制｜新华网5/15外交部双轨发言｜Araghchi:中伊关系良好欢迎中国努力"
+  ],
+  "shipCount": 4,
+  "shipChg": "0",
+  "oilWti": 101.02,
+  "oilWtiChg": "+4.23%",
+  "oilWtiNote": "up",
+  "goldPrice": 4561.9,
+  "goldChg": "-2.63%",
+  "goldNote": "down",
+  "congestion": 5,
+  "congestionNote": "卡塔尔LNG船战后首次通过霍峡｜伊朗选择性放行",
+  "barData": [
+    {
+      "date": "4/19",
+      "totalH": 5,
+      "oilH": 2,
+      "latest": false,
+      "count": 5
+    },
+    {
+      "date": "4/20",
+      "totalH": 3,
+      "oilH": 0,
+      "latest": false,
+      "count": 3
+    },
+    {
+      "date": "4/21",
+      "oilH": 0,
+      "totalH": 3,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/22",
+      "oilH": 2,
+      "totalH": 5,
+      "count": 5,
+      "latest": false
+    },
+    {
+      "date": "4/23",
+      "totalH": 3,
+      "oilH": 2,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/24",
+      "totalH": 4,
+      "oilH": 1,
+      "latest": false,
+      "count": 4
+    },
+    {
+      "date": "4/25",
+      "totalH": 5,
+      "oilH": 4,
+      "count": 5,
+      "latest": false
+    },
+    {
+      "date": "4/26",
+      "totalH": 3,
+      "oilH": 2,
+      "count": 3,
+      "latest": false
+    },
+    {
+      "date": "4/27",
+      "totalH": 3,
+      "oilH": 1,
+      "count": 2,
+      "latest": false
+    },
+    {
+      "date": "4/28",
+      "count": 4,
+      "latest": false,
+      "totalH": 4,
+      "oilH": 2
+    },
+    {
+      "date": "4/29",
+      "count": 4,
+      "latest": false,
+      "totalH": 4,
+      "oilH": 2
+    },
+    {
+      "date": "4/30",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/1",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/2",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/3",
+      "count": 13,
+      "shipChg": "+9",
+      "latest": false
+    },
+    {
+      "date": "5/4",
+      "count": 2,
+      "shipChg": "-11",
+      "latest": false
+    },
+    {
+      "date": "5/5",
+      "count": 4,
+      "shipChg": "+2",
+      "latest": false
+    },
+    {
+      "date": "5/6",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/7",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/9",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/10",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/11",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/14",
+      "count": 4,
+      "shipChg": "0",
+      "latest": false
+    },
+    {
+      "date": "5/11",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/12",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/13",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/14",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/15",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/16",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": false
+    },
+    {
+      "date": "5/17",
+      "totalH": 4,
+      "oilH": 3,
+      "count": 4,
+      "latest": true
+    }
+  ],
+  "tableRows": [
+    {
+      "week": "5/4",
+      "count": 2,
+      "warDir": "down",
+      "warChg": "-11",
+      "pct": "1.5%",
+      "trend": "down"
+    },
+    {
+      "week": "5/5",
+      "count": 4,
+      "warDir": "up",
+      "warChg": "+2",
+      "pct": "3.0%",
+      "trend": "up"
+    },
+    {
+      "week": "5/6",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/7",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/9",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/10",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/11",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/14",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/11",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/12",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/13",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/14",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/15",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "5/16",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    },
+    {
+      "week": "● 5/17",
+      "count": 4,
+      "warDir": "flat",
+      "warChg": "0",
+      "pct": "3.0%",
+      "trend": "flat"
+    }
+  ],
+  "events": [
+    {
+      "date": "5/17",
+      "title": "Telegraph:五角大楼preparing short and powerful strikes破霍峡控制"
+    },
+    {
+      "date": "5/17",
+      "title": "新华网5/15:外交部双轨同步发言-伊朗局势+川普访华"
+    },
+    {
+      "date": "5/17",
+      "title": "Araghchi(对中):中伊关系良好,欢迎中国为外交解决所做努力"
+    },
+    {
+      "date": "5/17",
+      "title": "Sky News:川普发AI图warning'calm before the storm',美以最强重启准备"
+    },
+    {
+      "date": "5/17",
+      "title": "每日电讯报:川顾问向UAE施压战争立场"
+    },
+    {
+      "date": "5/17",
+      "title": "CBS Evening News:Trump回应Iran官方回复,美伊外交stalls停滞"
+    }
+  ],
+  "insightText": "5/17周日午报·周末静默就是定时炸弹,A古休市倒计时15小时,WTI期货已经把答案放桌面上了。\n\n现在的盘面就一个字:稳。但稳得像绞肉机准备启动前那种稳。WTI现货池$101.02死锁第29小时——Yahoo休市报价池整29小时静默破纪录,但CME期货5/15直接 +4.37% 收$101.16(盘中冲到$103-105),Coinbase 5月Futures已经标到 $107.54;场外专业分析师Nina-FX已发布周一 'Uptrend, BUY 103.000 TP 108.000'——周末没人交易,但能交易的池子全在向上偷跑。\n\n18:25整点新增三大爆点:①Telegraph(每日电讯报)4/29王牌长文新挖出:'Pentagon preparing short and powerful strikes to break Iran chokehold on the Strait of Hormuz'(五角大楼准备短促有力打击破霍峡控制)——英国王牌右翼大报国家战略级定性 ②新华网5/15实锤:外交部双轨同步发言-就伊朗局势+就川普访华,这是5/15川Xi共识后中国官方就伊朗局势的最高级别表态 ③伊朗外长Araghchi对中国柔:'中伊关系良好,欢迎中国为外交解决伊朗局势所做的努力'——跟16:25硬怼UAE形成强烈对比,北京定价锚位置进一步巩固。整夜剧本明朗:川子+UAE+以色列已经在做'重启打击'最后准备,五角大楼方案已经备好'short and powerful'打击,伊朗外长公开把UAE定性'战争同阵线方'但对中国保持外交礼遇——美伊外交通道关闭,但中伊外交通道反而打开。\n\n地缘端三层证据全到位:Guardian独家'伊朗危机致全亚洲煤气飙涨';凤凰卫视确认普京5/19-20国事访华(规格升级);法广RFI'普京紧追川子,中俄关系更深厚+首表接近止战'三轨同步。Iran Watch王牌智库实锤伊朗'首次发射中程弹道导弹'核武级威慑信号被独立智库证伪。进度条今早算上51击合计19源同步背书:十六源 + Telegraph五角大楼方案 + 新华网外交部双轨发言 + Araghchi中伊礼遇。\n\n盘外端两根桩:离岸人民币USDCNH 6.7940 +0.32%(美元强,人民币周末走弱),恒指期货25808 -2.01% 低水155、夜期25733低水230——港股5/19周一大概率低开200+点;Russell 2000 +0.67% 逆势 = 资金切换信号已经埋好,周一A古中证1000-2000有得看。\n\n下午到晚报操作判断:横着看 + 守阵地。①海南橡胶601118盯紧 ②黄金股ETF守StoneX $4540 ③创业板4030守住才能冲4060 ④油气链跳空$105+概率99% ⑤注意港股低开200点对A古的情绪传染但不要预设——周日19时新闻联播主档定调中俄伊三角才是关键变量。周末静默不是岁月静好,是绞肉机模式准备启动前的最后一根桩。\n\n评论区告诉我,周一9:30沪指4080-4100你守不守?\n\n点赞是美意,赞赏是鼓励。",
+  "insightTime": "5/17 15:00 · 进度条",
+  "shipCountNews": 3,
+  "shipChgNews": "0",
+  "lngStatus": "🟡 部分松动",
+  "lngNote": "封锁第34天｜卡塔尔LNG船+巴拿马货船首次过峡｜伊朗选择性放行",
+  "oilWtiChgRaw": 4.23,
+  "goldChgRaw": -2.63,
+  "goldIsRealtime": false,
+  "oilIsRealtime": false,
+  "isWeekend": false,
+  "shipCountYesterday": 4,
+  "shipTrend": "flat",
+  "updatedAt": "2026-05-17 18:19",
+  "level": "L3",
+  "blockadeDays": 34,
+  "brent": 114.44,
+  "brentChg": "+5.80%",
+  "blockadeDay": 34,
+  "oilChg": "-9.98%",
+  "date": "2026-05-14",
+  "updated": "2026-05-07T21:19:54Z",
+  "wtiPrice": 101.02,
+  "wtiChange": "+4.23%",
+  "wti": 101.02,
+  "goldChange": "-2.63%",
+  "goldDir": "down",
+  "gold": 4561.9,
+  "lastUpdated": "2026-05-17T18:19:54+08:00"
+}
